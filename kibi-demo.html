@@ -8,7 +8,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js" crossorigin></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.2/babel.min.js"></script>
   <style>
-    html, body { margin:0; padding:0; background:#060F0B; }
+    html, body { margin:0; padding:0; background:#060F0B; min-width:660px; overflow-x:auto; }
+    #root { display:flex; align-items:center; justify-content:center; min-height:100vh; padding:20px; box-sizing:border-box; }
     @keyframes slideModal { from{opacity:0;transform:translateY(30px)} to{opacity:1;transform:translateY(0)} }
   </style>
 </head>
@@ -1216,7 +1217,7 @@ function KibiApp(){
   return(
     <>
       <style>{css}</style>
-      <div style={{display:"flex",alignItems:"center",justifyContent:"center",minHeight:"100vh",background:DARK2,padding:"20px 0",fontFamily:"-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif"}}>
+      <div style={{display:"flex",alignItems:"center",justifyContent:"center",minHeight:"100vh",background:DARK2,fontFamily:"-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif"}}>
         {/* Phone shell */}
         <div style={{width:390,height:844,borderRadius:52,background:DARK2,overflow:"hidden",position:"relative",flexShrink:0,boxShadow:"0 40px 100px rgba(0,0,0,.95),0 0 0 1px rgba(46,189,122,.1),inset 0 0 0 2px rgba(255,255,255,.03)"}}>
           <StatusBar/>
