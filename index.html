@@ -678,16 +678,33 @@
       box-shadow: 0 40px 100px rgba(0,0,0,.9), 0 0 0 1px rgba(62,204,138,0.12), inset 0 0 0 2px rgba(255,255,255,.04);
       position: relative; flex-shrink: 0;
     }
+    /* Scale phone to fit viewport on smaller screens */
     @media(max-width:960px) {
-      .demo-phone-wrap { transform: scale(0.75); transform-origin: top center; margin-bottom: -212px; }
-      .demo-section { padding: 72px 20px !important; }
+      .demo-phone-wrap {
+        --scale: 0.72;
+        transform: scale(var(--scale));
+        transform-origin: top center;
+        margin-bottom: calc((844px * var(--scale)) - 844px);
+      }
+      .demo-section { padding: 72px 20px 40px !important; }
+      .demo-guide { display: none; } /* hide guide panel, phone is full focus */
     }
     @media(max-width:600px) {
-      .demo-phone-wrap { transform: scale(0.6); transform-origin: top center; margin-bottom: -338px; }
-      .demo-section { padding: 60px 16px !important; }
+      .demo-phone-wrap {
+        --scale: 0.52;
+        transform: scale(var(--scale));
+        transform-origin: top center;
+        margin-bottom: calc((844px * var(--scale)) - 844px);
+      }
+      .demo-section { padding: 60px 16px 32px !important; }
     }
     @media(max-width:390px) {
-      .demo-phone-wrap { transform: scale(0.5); transform-origin: top center; margin-bottom: -422px; }
+      .demo-phone-wrap {
+        --scale: 0.42;
+        transform: scale(var(--scale));
+        transform-origin: top center;
+        margin-bottom: calc((844px * var(--scale)) - 844px);
+      }
     }
 
     /* ── FOOTER ── */
@@ -714,8 +731,12 @@
       .nav-links { display: none; }
       .nav-drawer { display: flex; }
 
-      .hero { grid-template-columns: 1fr; padding: 100px 20px 60px; gap: 48px; }
-      .hero-right { justify-content: flex-start; }
+      .hero { grid-template-columns: 1fr; padding: 100px 20px 60px; gap: 40px; }
+      .hero-right { justify-content: center; }
+      .hero-left { text-align: center; }
+      .hero-badge { margin-left: auto; margin-right: auto; }
+      .hero-sub { margin-left: auto; margin-right: auto; }
+      .hero-stats { justify-content: center; gap: 24px; }
       .phone-chips { display: none; }
 
       .steps { grid-template-columns: 1fr 1fr; }
@@ -1273,13 +1294,13 @@
   </div>
   <div class="reveal" style="display:flex;justify-content:center;align-items:center;gap:64px;flex-wrap:wrap;">
     <!-- Phone iframe -->
-    <div style="position:relative;flex-shrink:0;">
+    <div style="position:relative;flex-shrink:0;display:flex;justify-content:center;width:100%;max-width:390px;">
       <div class="demo-phone-wrap">
         <iframe src="kibi-demo.html" style="border:none;display:block;width:430px;height:900px;position:absolute;top:0;left:50%;transform:translateX(-50%) scale(0.907);transform-origin:top center;" scrolling="no" title="Kibi App Demo"></iframe>
       </div>
     </div>
     <!-- Walkthrough guide -->
-    <div style="max-width:240px;">
+    <div class="demo-guide" style="max-width:240px;">
       <div style="color:rgba(255,255,255,.22);font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;margin-bottom:20px;">How to explore</div>
       <div style="display:flex;flex-direction:column;gap:0;">
         <div style="display:flex;align-items:flex-start;gap:14px;padding:13px 0;border-bottom:1px solid rgba(62,204,138,0.07);">
