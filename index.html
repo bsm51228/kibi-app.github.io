@@ -1389,8 +1389,8 @@
 </footer>
 
 <script>
-  // ── Waitlist (Mailchimp — hidden iframe method) ──
-  function submitWaitlist(e) {
+  // ── Waitlist (Mailchimp no-cors fetch) ──
+  async function submitWaitlist(e) {
     e.preventDefault();
     const email   = document.getElementById('wl-email').value.trim();
     const btn     = document.getElementById('wlBtn');
@@ -1400,8 +1400,8 @@
 
     errorEl.classList.remove('visible');
 
-    if (!email) {
-      errorEl.textContent = 'Please enter your email address.';
+    if (!email || !email.includes('@')) {
+      errorEl.textContent = 'Please enter a valid email address.';
       errorEl.classList.add('visible');
       return;
     }
@@ -1409,48 +1409,28 @@
     btn.disabled = true;
     btn.classList.add('loading');
 
-    // Create a hidden iframe to receive the Mailchimp response
-    const iframeName = 'mc_iframe_' + Date.now();
-    const iframe = document.createElement('iframe');
-    iframe.name   = iframeName;
-    iframe.style.cssText = 'display:none;position:absolute;width:0;height:0;border:none;';
-    document.body.appendChild(iframe);
+    try {
+      const formData = new FormData();
+      formData.append('EMAIL', email);
+      // Mailchimp bot honeypot — must stay empty
+      formData.append('b_3e6637c900f59a36ba1e0d5a9_e568c467be', '');
 
-    // Create a hidden form targeting the iframe
-    const hiddenForm = document.createElement('form');
-    hiddenForm.method = 'POST';
-    hiddenForm.action = 'https://github.us3.list-manage.com/subscribe/post?u=3e6637c900f59a36ba1e0d5a9&id=e568c467be&f_id=002fcae0f0';
-    hiddenForm.target = iframeName;
-    hiddenForm.style.display = 'none';
+      // mode: 'no-cors' sends the POST without needing to read the response
+      // The data reaches Mailchimp — we just can't read the reply (that's fine)
+      await fetch(
+        'https://github.us3.list-manage.com/subscribe/post?u=3e6637c900f59a36ba1e0d5a9&id=e568c467be&f_id=002fcae0f0',
+        { method: 'POST', mode: 'no-cors', body: formData }
+      );
 
-    const emailInput = document.createElement('input');
-    emailInput.type  = 'email';
-    emailInput.name  = 'EMAIL';
-    emailInput.value = email;
-    hiddenForm.appendChild(emailInput);
-
-    // Mailchimp bot protection field (must be empty)
-    const botField = document.createElement('input');
-    botField.type  = 'text';
-    botField.name  = 'b_3e6637c900f59a36ba1e0d5a9_e568c467be';
-    botField.value = '';
-    hiddenForm.appendChild(botField);
-
-    document.body.appendChild(hiddenForm);
-    hiddenForm.submit();
-
-    // After ~1.5s assume success — Mailchimp doesn't send a readable
-    // cross-origin response, but the subscription goes through
-    setTimeout(() => {
-      btn.disabled = false;
-      btn.classList.remove('loading');
-      form.style.display  = 'none';
+      form.style.display = 'none';
       success.classList.add('visible');
 
-      // Cleanup
-      iframe.remove();
-      hiddenForm.remove();
-    }, 1500);
+    } catch {
+      errorEl.textContent = 'Something went wrong — please try again or email us at kibitzerai@gmail.com';
+      errorEl.classList.add('visible');
+      btn.disabled = false;
+      btn.classList.remove('loading');
+    }
   }
 
   // ── Road Trip Calculator ──
