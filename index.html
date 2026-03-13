@@ -185,6 +185,7 @@
       background: linear-gradient(160deg, #0f1f17 0%, #0b1610 100%);
       padding: 48px 18px 20px;
       display: flex; flex-direction: column; gap: 9px;
+      overflow: hidden;
     }
     .ps-row { display: flex; justify-content: space-between; align-items: center; }
     .ps-label { font-size: .53rem; color: rgba(255,255,255,.35); text-transform: uppercase; letter-spacing: .1em; }
@@ -669,6 +670,25 @@
       font-size: .75rem; color: rgba(255,255,255,.25);
     }
     .waitlist-proof-dot { width: 4px; height: 4px; border-radius: 50%; background: var(--green); opacity: .5; }
+
+    /* ── DEMO ── */
+    .demo-phone-wrap {
+      width: 390px; height: 844px;
+      border-radius: 52px; overflow: hidden;
+      box-shadow: 0 40px 100px rgba(0,0,0,.9), 0 0 0 1px rgba(62,204,138,0.12), inset 0 0 0 2px rgba(255,255,255,.04);
+      position: relative; flex-shrink: 0;
+    }
+    @media(max-width:960px) {
+      .demo-phone-wrap { transform: scale(0.75); transform-origin: top center; margin-bottom: -212px; }
+      .demo-section { padding: 72px 20px !important; }
+    }
+    @media(max-width:600px) {
+      .demo-phone-wrap { transform: scale(0.6); transform-origin: top center; margin-bottom: -338px; }
+      .demo-section { padding: 60px 16px !important; }
+    }
+    @media(max-width:390px) {
+      .demo-phone-wrap { transform: scale(0.5); transform-origin: top center; margin-bottom: -422px; }
+    }
 
     /* ── FOOTER ── */
     footer {
@@ -1244,7 +1264,7 @@
 </section>
 
 <!-- DEMO -->
-<section id="demo" style="padding: 110px 56px; background: #111412; overflow: hidden; position: relative;">
+<section id="demo" class="demo-section" style="padding: 110px 56px; background: #111412; overflow: hidden; position: relative;">
   <div style="position:absolute;top:-200px;left:50%;transform:translateX(-50%);width:900px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(62,204,138,.06) 0%,transparent 70%);pointer-events:none;"></div>
   <div class="reveal" style="text-align:center;margin-bottom:64px;">
     <div class="section-tag" style="justify-content:center;color:#3ECC8A;">Try the App</div>
@@ -1254,8 +1274,8 @@
   <div class="reveal" style="display:flex;justify-content:center;align-items:center;gap:64px;flex-wrap:wrap;">
     <!-- Phone iframe -->
     <div style="position:relative;flex-shrink:0;">
-      <div style="width:390px;height:844px;border-radius:52px;overflow:hidden;box-shadow:0 40px 100px rgba(0,0,0,.9),0 0 0 1px rgba(62,204,138,0.12),inset 0 0 0 2px rgba(255,255,255,.04);">
-        <iframe src="kibi-demo.html" width="390" height="844" style="border:none;display:block;width:390px;height:844px;" scrolling="no" title="Kibi App Demo"></iframe>
+      <div class="demo-phone-wrap">
+        <iframe src="kibi-demo.html" style="border:none;display:block;width:430px;height:900px;position:absolute;top:0;left:50%;transform:translateX(-50%) scale(0.907);transform-origin:top center;" scrolling="no" title="Kibi App Demo"></iframe>
       </div>
     </div>
     <!-- Walkthrough guide -->
