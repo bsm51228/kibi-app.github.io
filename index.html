@@ -1389,18 +1389,18 @@
 </footer>
 
 <script>
-  // ── Waitlist (Mailchimp no-cors fetch) ──
-  async function submitWaitlist(e) {
+  // ── Waitlist (Mailchimp direct form submit) ──
+  function submitWaitlist(e) {
     e.preventDefault();
     const email   = document.getElementById('wl-email').value.trim();
-    const btn     = document.getElementById('wlBtn');
     const errorEl = document.getElementById('wlError');
     const form    = document.getElementById('waitlistForm');
     const success = document.getElementById('wlSuccess');
+    const btn     = document.getElementById('wlBtn');
 
     errorEl.classList.remove('visible');
 
-    if (!email || !email.includes('@')) {
+    if (!email || !email.includes('@') || !email.includes('.')) {
       errorEl.textContent = 'Please enter a valid email address.';
       errorEl.classList.add('visible');
       return;
@@ -1409,28 +1409,34 @@
     btn.disabled = true;
     btn.classList.add('loading');
 
-    try {
-      const formData = new FormData();
-      formData.append('EMAIL', email);
-      // Mailchimp bot honeypot — must stay empty
-      formData.append('b_3e6637c900f59a36ba1e0d5a9_e568c467be', '');
+    // Build a real hidden form and submit directly to Mailchimp
+    // target="_blank" opens their response page in a background tab invisibly
+    const f = document.createElement('form');
+    f.method  = 'POST';
+    f.action  = 'https://github.us3.list-manage.com/subscribe/post?u=3e6637c900f59a36ba1e0d5a9&id=e568c467be&f_id=002fcae0f0';
+    f.target  = '_blank';
+    f.style.cssText = 'display:none;visibility:hidden;position:absolute;';
 
-      // mode: 'no-cors' sends the POST without needing to read the response
-      // The data reaches Mailchimp — we just can't read the reply (that's fine)
-      await fetch(
-        'https://github.us3.list-manage.com/subscribe/post?u=3e6637c900f59a36ba1e0d5a9&id=e568c467be&f_id=002fcae0f0',
-        { method: 'POST', mode: 'no-cors', body: formData }
-      );
+    const addField = (name, value) => {
+      const input = document.createElement('input');
+      input.type  = 'hidden';
+      input.name  = name;
+      input.value = value;
+      f.appendChild(input);
+    };
 
+    addField('EMAIL', email);
+    addField('b_3e6637c900f59a36ba1e0d5a9_e568c467be', ''); // honeypot
+
+    document.body.appendChild(f);
+    f.submit();
+    document.body.removeChild(f);
+
+    // Show success on our page
+    setTimeout(() => {
       form.style.display = 'none';
       success.classList.add('visible');
-
-    } catch {
-      errorEl.textContent = 'Something went wrong — please try again or email us at kibitzerai@gmail.com';
-      errorEl.classList.add('visible');
-      btn.disabled = false;
-      btn.classList.remove('loading');
-    }
+    }, 400);
   }
 
   // ── Road Trip Calculator ──
