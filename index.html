@@ -1093,7 +1093,7 @@
       <h2 class="section-title">Built on a lonely highway,<br/>somewhere in Kentucky</h2>
       <p class="about-lede">Kibi didn't start in a boardroom. It started on I-65, somewhere between Atlanta and Chicago, in the middle of a pandemic — with a full bladder and an empty stomach.</p>
       <div class="about-signature">
-        <div class="about-sig-name">The Founder</div>
+        <div class="about-sig-name">Brett Moran</div>
         <div class="about-sig-title">Kibitzer, Inc.</div>
       </div>
     </div>
@@ -1229,12 +1229,12 @@
   }
 
   async function runCalculator() {
-    const origin = document.getElementById('calc-origin').value.trim();
-    const dest   = document.getElementById('calc-dest').value.trim();
-    const mpgRaw = document.getElementById('calc-mpg').value;
-    const gasRaw = document.getElementById('calc-gas').value;
+    const origin  = document.getElementById('calc-origin').value.trim();
+    const dest    = document.getElementById('calc-dest').value.trim();
+    const mpgRaw  = document.getElementById('calc-mpg').value;
+    const gasRaw  = document.getElementById('calc-gas').value;
     const errorEl = document.getElementById('calcError');
-    const btn = document.getElementById('calcBtn');
+    const btn     = document.getElementById('calcBtn');
 
     errorEl.classList.remove('visible');
 
@@ -1244,78 +1244,76 @@
       return;
     }
 
-    const mpg     = mpgRaw  ? parseFloat(mpgRaw)  : 28;
+    const mpg      = mpgRaw ? parseFloat(mpgRaw)  : 28;
     const gasPrice = gasRaw ? parseFloat(gasRaw)  : 3.50;
 
     btn.disabled = true;
     btn.classList.add('loading');
 
     try {
-      const prompt = `You are a road trip data assistant. Given an origin and destination in the US, return ONLY a valid JSON object — no markdown, no explanation.
-
-Origin: "${origin}"
-Destination: "${dest}"
-
-Return this exact JSON shape:
-{
-  "origin_display": "City, ST",
-  "dest_display": "City, ST",
-  "distance_miles": number,
-  "drive_time_hours": number,
-  "valid": true
-}
-
-Rules:
-- distance_miles: realistic highway driving distance in miles (integer)
-- drive_time_hours: estimated drive time in hours at ~65 mph average including normal traffic (one decimal)
-- origin_display / dest_display: clean "City, ST" format
-- If you cannot estimate a reasonable distance (e.g. invalid cities), set "valid": false and distance_miles to 0
-- Return ONLY the JSON, nothing else`;
-
-      const res = await fetch('https://api.anthropic.com/v1/messages', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          model: 'claude-sonnet-4-20250514',
-          max_tokens: 300,
-          messages: [{ role: 'user', content: prompt }]
-        })
-      });
-
-      const data = await res.json();
-      const raw  = data.content.filter(b => b.type === 'text').map(b => b.text).join('');
-      const json = JSON.parse(raw.replace(/```json|```/g, '').trim());
-
-      if (!json.valid || json.distance_miles < 10) {
-        throw new Error("Couldn't estimate that route. Try using City, State format (e.g. \"Atlanta, GA\").");
+      // ── Geocode both cities via Nominatim (free, no key, CORS-friendly) ──
+      async function geocode(query) {
+        const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(query)}&format=json&limit=1&addressdetails=1`;
+        const r   = await fetch(url, { headers: { 'Accept-Language': 'en' } });
+        const arr = await r.json();
+        if (!arr.length) throw new Error(`Couldn't find "${query}". Try "City, State" format (e.g. "Atlanta, GA").`);
+        const place = arr[0];
+        const addr  = place.address || {};
+        const city  = addr.city || addr.town || addr.village || addr.county || place.display_name.split(',')[0];
+        const state = addr.state_code || addr.state || '';
+        return {
+          lat: parseFloat(place.lat),
+          lng: parseFloat(place.lon),
+          display: state ? `${city}, ${state}` : city
+        };
       }
 
-      const miles    = json.distance_miles;
-      const hours    = json.drive_time_hours;
-      const gallons  = miles / mpg;
-      const gasCost  = gallons * gasPrice;
-      const co2Kg    = gallons * 8.89;           // EPA: 8.89 kg CO₂ per gallon of gasoline
-      const stops    = Math.max(1, Math.floor(hours / 3));
-      const trees    = Math.ceil(co2Kg / 21);    // avg tree absorbs ~21 kg CO₂/yr
-      const flightKg = (miles * 1.609) * 0.255;  // ~0.255 kg CO₂/km/passenger short-haul
-      const burgers  = Math.round(co2Kg / 2.5);
-      const homePct  = Math.round((co2Kg / 17.5) * 100); // avg US home ~17.5 kg CO₂/day
-      const hrsInt   = Math.floor(hours);
-      const minInt   = Math.round((hours - hrsInt) * 60);
-      const score    = Math.min(9.9, (7.5 + Math.random() * 1.8)).toFixed(1);
+      const [A, B] = await Promise.all([geocode(origin), geocode(dest)]);
+
+      // ── Haversine straight-line distance ──
+      function haversine(lat1, lon1, lat2, lon2) {
+        const R  = 3958.8; // Earth radius in miles
+        const dL = (lat2 - lat1) * Math.PI / 180;
+        const dG = (lon2 - lon1) * Math.PI / 180;
+        const a  = Math.sin(dL/2)**2 + Math.cos(lat1*Math.PI/180) * Math.cos(lat2*Math.PI/180) * Math.sin(dG/2)**2;
+        return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+      }
+
+      const straightMiles = haversine(A.lat, A.lng, B.lat, B.lng);
+
+      // Road factor: highways are ~1.25–1.35x straight-line for US routes
+      const roadFactor = straightMiles < 100 ? 1.35 : straightMiles < 400 ? 1.28 : 1.22;
+      const miles      = Math.round(straightMiles * roadFactor);
+
+      if (miles < 10) throw new Error('Those locations appear to be the same place or too close. Try two different cities.');
+
+      // ── All downstream calculations ──
+      const avgSpeed  = 65;
+      const hours     = parseFloat((miles / avgSpeed).toFixed(1));
+      const gallons   = miles / mpg;
+      const gasCost   = gallons * gasPrice;
+      const co2Kg     = gallons * 8.89;           // EPA: 8.89 kg CO₂/gallon gasoline
+      const stops     = Math.max(1, Math.floor(hours / 3));
+      const trees     = Math.ceil(co2Kg / 21);    // 1 tree absorbs ~21 kg CO₂/yr
+      const flightKg  = (miles * 1.609) * 0.255;  // ~0.255 kg CO₂/km/passenger short-haul
+      const burgers   = Math.round(co2Kg / 2.5);  // avg burger ~2.5 kg CO₂
+      const homePct   = Math.round((co2Kg / 17.5) * 100); // US home ~17.5 kg CO₂/day
+      const hrsInt    = Math.floor(hours);
+      const minInt    = Math.round((hours - hrsInt) * 60);
+      const score     = (7.5 + Math.random() * 1.8).toFixed(1);
 
       const flightDiff = flightKg > co2Kg
         ? `${Math.round(((flightKg - co2Kg) / flightKg) * 100)}% less CO₂ than flying`
         : `${Math.round(((co2Kg - flightKg) / co2Kg) * 100)}% more CO₂ than flying`;
 
-      // Populate boarding pass
-      document.getElementById('bp-origin-code').textContent = cityCode(json.origin_display);
-      document.getElementById('bp-dest-code').textContent   = cityCode(json.dest_display);
-      document.getElementById('bp-origin-name').textContent = json.origin_display;
-      document.getElementById('bp-dest-name').textContent   = json.dest_display;
+      // ── Populate boarding pass ──
+      document.getElementById('bp-origin-code').textContent = cityCode(A.display);
+      document.getElementById('bp-dest-code').textContent   = cityCode(B.display);
+      document.getElementById('bp-origin-name').textContent = A.display;
+      document.getElementById('bp-dest-name').textContent   = B.display;
       document.getElementById('bp-miles').textContent       = miles.toLocaleString() + ' mi';
       document.getElementById('bp-time').innerHTML          = `${hrsInt}h ${minInt}m`;
-      document.getElementById('bp-stops').innerHTML         = `${stops} <span>stop${stops > 1 ? 's' : ''}</span>`;
+      document.getElementById('bp-stops').innerHTML         = `${stops} <span>stop${stops !== 1 ? 's' : ''}</span>`;
       document.getElementById('bp-gas').innerHTML           = `$${gasCost.toFixed(0)} <span>est.</span>`;
       document.getElementById('bp-co2').innerHTML           = `${co2Kg.toFixed(1)} <span>kg</span>`;
       document.getElementById('bp-gallons').innerHTML       = `${gallons.toFixed(1)} <span>gal</span>`;
@@ -1327,7 +1325,6 @@ Rules:
 
       generateBarcode();
 
-      // Reveal boarding pass
       const pass = document.getElementById('boardingPass');
       pass.classList.add('visible');
       pass.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
