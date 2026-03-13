@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>kibi — Highway Exit Coverage Map</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<style>
+  :root {
+    --green:        #2EBD7A;
+    --green-dim:    rgba(46,189,122,0.10);
+    --green-border: rgba(46,189,122,0.22);
+    --bg:           #060F0B;
+    --surface:      #0A1A12;
+    --surface2:     #0D1F17;
+    --border:       #1A3329;
+    --text:         #E8F5EF;
+    --muted:        rgba(232,245,239,0.48);
+    --warning:      #F59E0B;
+    --error:        #EF4444;
+    --lime:         #96B93D;
+    --blue:         #3E6BB4;
+    --panel-w:      296px;
+  }
+  *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+  html, body { height:100%; font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text); overflow:hidden; }
+
+  /* MAP */
+  #map { position:absolute; inset:0; z-index:1; }
+  .leaflet-container { background:#040c08; }
+  .leaflet-top.leaflet-left { top:64px; left:calc(var(--panel-w) + 28px); }
+  .leaflet-control-zoom a {
+    background:var(--surface) !important;
+    color:var(--text) !important;
+    border-color:var(--border) !important;
+    font-size:16px !important;
+  }
+  .leaflet-control-zoom a:hover { background:var(--surface2) !important; }
+  .leaflet-control-attribution { font-size:10px; opacity:0.35; }
+
+  /* NAV */
+  #nav {
+    position:absolute; top:0; left:0; right:0; height:52px;
+    background:rgba(6,15,11,0.96); backdrop-filter:blur(20px) saturate(1.4);
+    border-bottom:1px solid var(--border);
+    z-index:1000;
+    display:flex; align-items:center; padding:0 20px; gap:14px;
+  }
+  .nav-logo { display:flex; align-items:center; gap:9px; text-decoration:none; }
+  .nav-logo-mark {
+    width:26px; height:26px; border-radius:7px;
+    background:var(--green);
+    display:flex; align-items:center; justify-content:center;
+    font-size:15px; flex-shrink:0;
+  }
+  .nav-wordmark {
+    font-family:'Space Mono',monospace;
+    font-size:17px; font-weight:700; color:var(--text); letter-spacing:-0.3px;
+  }
+  .nav-sep { width:1px; height:22px; background:var(--border); }
+  .nav-subtitle { font-size:13px; color:var(--muted); }
+  .nav-spacer { flex:1; }
+  .nav-pill {
+    font-family:'Space Mono',monospace; font-size:11px;
+    color:var(--green); background:var(--green-dim);
+    border:1px solid var(--green-border);
+    padding:4px 11px; border-radius:100px; white-space:nowrap;
+  }
+
+  /* PANEL */
+  #panel {
+    position:absolute; top:64px; left:12px; bottom:12px;
+    width:var(--panel-w); z-index:999;
+    display:flex; flex-direction:column; gap:10px;
+    overflow-y:auto; overflow-x:hidden;
+    scrollbar-width:none; -webkit-overflow-scrolling:touch;
+  }
+  #panel::-webkit-scrollbar { display:none; }
+
+  .card {
+    background:rgba(10,26,18,0.93); backdrop-filter:blur(18px);
+    border:1px solid var(--border); border-radius:11px;
+    padding:15px; flex-shrink:0;
+    animation:slideUp 0.35s ease both;
+  }
+  .card:nth-child(1){animation-delay:.05s}
+  .card:nth-child(2){animation-delay:.12s}
+  .card:nth-child(3){animation-delay:.19s}
+  .card:nth-child(4){animation-delay:.26s}
+  .card:nth-child(5){animation-delay:.33s}
+  @keyframes slideUp {
+    from{opacity:0;transform:translateY(10px)}
+    to  {opacity:1;transform:translateY(0)}
+  }
+
+  .sec-label {
+    font-family:'Space Mono',monospace; font-size:9.5px; font-weight:700;
+    color:var(--muted); letter-spacing:.12em; text-transform:uppercase;
+    margin-bottom:12px;
+  }
+
+  /* stats */
+  .stats-grid { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+  .stat {
+    background:var(--surface2); border:1px solid var(--border);
+    border-radius:8px; padding:11px 12px;
+  }
+  .stat-val {
+    font-family:'Space Mono',monospace; font-size:19px; font-weight:700;
+    color:var(--green); line-height:1;
+  }
+  .stat-val.blue { color:var(--blue); }
+  .stat-val.lime { color:var(--lime); }
+  .stat-lbl { font-size:11px; color:var(--muted); margin-top:3px; }
+
+  /* layers */
+  .layers { display:flex; flex-direction:column; gap:7px; }
+  .layer-btn {
+    display:flex; align-items:center; gap:10px;
+    padding:9px 11px; border-radius:8px;
+    border:1px solid var(--border); background:transparent;
+    color:var(--muted); font-family:'DM Sans',sans-serif;
+    font-size:13px; cursor:pointer; transition:all .15s ease;
+    text-align:left; width:100%;
+  }
+  .layer-btn:hover { border-color:var(--green-border); color:var(--text); }
+  .layer-btn.active { border-color:var(--green-border); background:var(--green-dim); color:var(--text); }
+  .l-dot { width:9px; height:9px; border-radius:50%; flex-shrink:0; }
+  .l-density { background:conic-gradient(from 180deg,#2EBD7A,#F59E0B,#EF4444); }
+  .l-gaps    { background:#EF4444; }
+  .l-good    { background:#3E6BB4; }
+  .l-name    { font-weight:500; }
+  .l-desc    { font-size:11px; color:var(--muted); margin-top:2px; }
+
+  /* legend */
+  .legend-track { height:7px; border-radius:4px; margin:8px 0 5px; }
+  .legend-labels {
+    display:flex; justify-content:space-between;
+    font-family:'Space Mono',monospace; font-size:10px; color:var(--muted);
+  }
+  .legend-note { font-size:11px; color:var(--muted); line-height:1.5; margin-top:8px; }
+
+  /* pain points */
+  .pain-rows { display:flex; flex-direction:column; gap:6px; }
+  .pain-row {
+    display:flex; align-items:center; gap:9px;
+    padding:8px 10px; border-radius:7px;
+    background:rgba(239,68,68,0.07); border:1px solid rgba(239,68,68,0.18);
+  }
+  .pain-emoji { font-size:15px; }
+  .pain-state { font-family:'Space Mono',monospace; font-size:11px; font-weight:700; color:var(--error); }
+  .pain-detail { font-size:11px; color:var(--muted); margin-top:1px; }
+
+  /* state bars */
+  .state-rows { display:flex; flex-direction:column; gap:7px; }
+  .state-row  { display:flex; align-items:center; gap:8px; }
+  .s-code {
+    font-family:'Space Mono',monospace; font-weight:700;
+    font-size:11px; color:var(--green); width:26px; flex-shrink:0;
+  }
+  .s-track { flex:1; height:4px; background:var(--border); border-radius:2px; overflow:hidden; }
+  .s-bar   { height:100%; border-radius:2px; background:var(--green); transition:width .6s ease; }
+  .s-num   {
+    font-family:'Space Mono',monospace; font-size:10px;
+    color:var(--muted); width:40px; text-align:right; flex-shrink:0;
+  }
+
+  /* hint */
+  #hint {
+    position:absolute; bottom:20px; right:16px; z-index:999;
+    background:rgba(10,26,18,0.92); backdrop-filter:blur(16px);
+    border:1px solid var(--border); border-radius:10px;
+    padding:11px 14px; font-size:12px; color:var(--muted);
+    max-width:240px; line-height:1.55;
+    animation:slideUp .4s ease .6s both;
+  }
+  #hint strong { color:var(--green); font-family:'Space Mono',monospace; font-size:11px; }
+
+  /* loader */
+  #loader {
+    position:absolute; inset:0; z-index:2000;
+    background:var(--bg);
+    display:flex; flex-direction:column;
+    align-items:center; justify-content:center; gap:18px;
+    transition:opacity .5s ease;
+  }
+  #loader.fade { opacity:0; pointer-events:none; }
+  .ld-logo { font-family:'Space Mono',monospace; font-size:30px; font-weight:700; color:var(--green); }
+  .ld-sub  { font-size:13px; color:var(--muted); text-align:center; max-width:260px; line-height:1.5; }
+  .ld-track{ width:180px; height:2px; background:var(--border); border-radius:1px; overflow:hidden; }
+  .ld-bar  {
+    height:100%; background:var(--green); border-radius:1px;
+    animation:ldprog 2.8s cubic-bezier(.4,0,.2,1) forwards;
+  }
+  @keyframes ldprog {
+    0%  { width:0%  }
+    40% { width:55% }
+    80% { width:82% }
+    100%{ width:100%}
+  }
+
+  @media (max-width:520px) {
+    #panel { display:none; }
+    .leaflet-top.leaflet-left { left:12px; }
+    #hint { display:none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Loader -->
+<div id="loader">
+  <div class="ld-logo">kibi</div>
+  <div class="ld-sub" id="ld-msg">Loading highway exit data…</div>
+  <div class="ld-track"><div class="ld-bar"></div></div>
+</div>
+
+<!-- Nav -->
+<nav id="nav">
+  <a class="nav-logo" href="#">
+    <div class="nav-logo-mark">🐦</div>
+    <span class="nav-wordmark">kibi</span>
+  </a>
+  <div class="nav-sep"></div>
+  <span class="nav-subtitle">Highway Exit Coverage Map</span>
+  <div class="nav-spacer"></div>
+  <span class="nav-pill" id="pill">loading…</span>
+</nav>
+
+<!-- Map -->
+<div id="map"></div>
+
+<!-- Side Panel -->
+<div id="panel">
+
+  <div class="card">
+    <div class="sec-label">Coverage Overview</div>
+    <div class="stats-grid">
+      <div class="stat"><div class="stat-val" id="s-total">—</div><div class="stat-lbl">Total Exits</div></div>
+      <div class="stat"><div class="stat-val" id="s-states">—</div><div class="stat-lbl">States</div></div>
+      <div class="stat"><div class="stat-val blue" id="s-rest">—</div><div class="stat-lbl">Rest Areas</div></div>
+      <div class="stat"><div class="stat-val lime" id="s-plaza">—</div><div class="stat-lbl">Service Plazas</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="sec-label">Map Layers</div>
+    <div class="layers">
+      <button class="layer-btn active" id="btn-density" onclick="setLayer('density')">
+        <div class="l-dot l-density"></div>
+        <div><div class="l-name">Exit Density</div><div class="l-desc">All 79k exits as heatmap</div></div>
+      </button>
+      <button class="layer-btn" id="btn-gaps" onclick="setLayer('gaps')">
+        <div class="l-dot l-gaps"></div>
+        <div><div class="l-name">Pain Point Zones</div><div class="l-desc">Where exits are scarce</div></div>
+      </button>
+      <button class="layer-btn" id="btn-good" onclick="setLayer('good')">
+        <div class="l-dot l-good"></div>
+        <div><div class="l-name">Quality Stops</div><div class="l-desc">Rest areas &amp; service plazas</div></div>
+      </button>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="sec-label">Legend</div>
+    <div class="legend-track" id="legend-bar"></div>
+    <div class="legend-labels" id="legend-labels"></div>
+    <div class="legend-note" id="legend-note"></div>
+  </div>
+
+  <div class="card">
+    <div class="sec-label">⚠ Lowest Exit Density</div>
+    <div class="pain-rows">
+      <div class="pain-row">
+        <div class="pain-emoji">🏔</div>
+        <div><div class="pain-state">MT · WY · ID</div><div class="pain-detail">~4–5 exits per 1,000 sq mi</div></div>
+      </div>
+      <div class="pain-row">
+        <div class="pain-emoji">🌵</div>
+        <div><div class="pain-state">NM · NV · AZ</div><div class="pain-detail">~5–8 exits per 1,000 sq mi</div></div>
+      </div>
+      <div class="pain-row">
+        <div class="pain-emoji">🌾</div>
+        <div><div class="pain-state">ND · SD · NE</div><div class="pain-detail">~5–6 exits per 1,000 sq mi</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="sec-label">Top States by Exit Count</div>
+    <div class="state-rows" id="state-rows"></div>
+  </div>
+
+</div>
+
+<!-- Hint -->
+<div id="hint">
+  <strong>TIP</strong><br>
+  Zoom any highway corridor to reveal exactly where drivers face long stretches with no quality stop option.
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+<script>
+// ── CONFIG ─────────────────────────────────────────────────────────────────
+// Update this path to wherever kibi_exits_data.json is served from.
+// Same-origin: './kibi_exits_data.json'
+// CDN / absolute: 'https://yourdomain.com/data/kibi_exits_data.json'
+const DATA_URL = './kibi_exits_data.json';
+
+// ── MAP INIT ───────────────────────────────────────────────────────────────
+const map = L.map('map', {
+  center: [38.8, -97.5], zoom: 5,
+  zoomControl: true, preferCanvas: true
+});
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>',
+  subdomains: 'abcd', maxZoom: 19
+}).addTo(map);
+
+// ── LAYER CONFIGS ──────────────────────────────────────────────────────────
+const LAYER_CFG = {
+  density: {
+    heat: { radius:18, blur:22, maxZoom:11, minOpacity:0.3,
+      gradient:{0:'rgba(0,40,20,0)',0.1:'rgba(15,70,40,0.5)',
+                0.3:'rgba(46,189,122,0.75)',0.55:'rgba(150,185,61,0.9)',
+                0.75:'rgba(245,158,11,1)',0.9:'rgba(239,68,68,1)',1:'rgba(255,80,40,1)'} },
+    legend:{
+      bar:'linear-gradient(to right,rgba(0,40,20,0.7),rgba(46,189,122,0.9),rgba(150,185,61,1),rgba(245,158,11,1),rgba(239,68,68,1))',
+      labels:['Few exits','Moderate','High density'],
+      note:'Cold/dark = low coverage. Red clusters = interstate corridors with dense exits.'
+    }
+  },
+  gaps: {
+    heat: { radius:32, blur:38, maxZoom:8, minOpacity:0.45,
+      gradient:{0:'rgba(239,68,68,0)',0.3:'rgba(239,68,68,0.4)',
+                0.6:'rgba(239,68,68,0.75)',0.85:'rgba(239,68,68,0.95)',1:'rgba(255,60,40,1)'} },
+    legend:{
+      bar:'linear-gradient(to right,rgba(6,15,11,1),rgba(239,68,68,0.4),rgba(239,68,68,0.75),rgba(239,68,68,1))',
+      labels:['Has exits','Sparse','Dead zone'],
+      note:'Red = 0.5° grid cells with zero exits. These are the geographic dead zones kibi was built to solve.'
+    }
+  },
+  good: {
+    heat: { radius:16, blur:18, maxZoom:13, minOpacity:0.4,
+      gradient:{0:'rgba(62,107,180,0)',0.25:'rgba(62,107,180,0.45)',
+                0.6:'rgba(62,107,180,0.8)',0.85:'rgba(100,160,240,0.9)',1:'rgba(160,210,255,1)'} },
+    legend:{
+      bar:'linear-gradient(to right,rgba(6,15,11,1),rgba(62,107,180,0.4),rgba(62,107,180,0.85),rgba(160,210,255,1))',
+      labels:['No quality stops','Some','Many'],
+      note:'Blue = rest areas & service plazas only. Dark gaps = long stretches with no reliable stopping point.'
+    }
+  }
+};
+
+// ── STATE ──────────────────────────────────────────────────────────────────
+let heatLayers   = {};
+let allExits     = [];
+let currentLayer = 'density';
+
+// ── GAP POINT BUILDER ──────────────────────────────────────────────────────
+function buildGapPoints(pts) {
+  const G = 0.5;
+  const covered = new Set();
+  for (const p of pts) covered.add(`${Math.floor(p[0]/G)},${Math.floor(p[1]/G)}`);
+  const gaps = [];
+  for (let lat = 25; lat < 49; lat += G) {
+    for (let lng = -124; lng < -67; lng += G) {
+      if (!covered.has(`${Math.floor(lat/G)},${Math.floor(lng/G)}`))
+        gaps.push([lat + G/2, lng + G/2, 1.0]);
+    }
+  }
+  return gaps;
+}
+
+// ── LEGEND UPDATE ──────────────────────────────────────────────────────────
+function updateLegend(key) {
+  const cfg = LAYER_CFG[key].legend;
+  document.getElementById('legend-bar').style.background = cfg.bar;
+  document.getElementById('legend-labels').innerHTML =
+    cfg.labels.map(l => `<span>${l}</span>`).join('');
+  document.getElementById('legend-note').textContent = cfg.note;
+}
+
+// ── LAYER SWITCHER ─────────────────────────────────────────────────────────
+function setLayer(key) {
+  Object.values(heatLayers).forEach(l => map.hasLayer(l) && map.removeLayer(l));
+  ['density','gaps','good'].forEach(k =>
+    document.getElementById(`btn-${k}`).classList.toggle('active', k === key));
+  if (heatLayers[key]) heatLayers[key].addTo(map);
+  updateLegend(key);
+  currentLayer = key;
+}
+
+// ── PILL: visible count ────────────────────────────────────────────────────
+function updatePill() {
+  if (!allExits.length) return;
+  const b = map.getBounds();
+  let n = 0;
+  for (const p of allExits) {
+    if (p[0] >= b.getSouth() && p[0] <= b.getNorth() &&
+        p[1] >= b.getWest()  && p[1] <= b.getEast()) n++;
+  }
+  const label = n >= 1000 ? `${(n/1000).toFixed(1)}k` : n.toString();
+  document.getElementById('pill').textContent = `${label} exits visible`;
+}
+map.on('zoomend moveend', updatePill);
+
+// ── STATE BARS ─────────────────────────────────────────────────────────────
+function populateStates(stats) {
+  const maxE = stats[0].exits;
+  const cont = document.getElementById('state-rows');
+  stats.slice(0, 12).forEach(s => {
+    const pct = Math.round(s.exits / maxE * 100);
+    const row = document.createElement('div');
+    row.className = 'state-row';
+    row.innerHTML = `
+      <span class="s-code">${s.state}</span>
+      <div class="s-track"><div class="s-bar" style="width:${pct}%"></div></div>
+      <span class="s-num">${s.exits.toLocaleString()}</span>`;
+    cont.appendChild(row);
+  });
+}
+
+// ── LOADER HELPERS ─────────────────────────────────────────────────────────
+const setMsg = txt => document.getElementById('ld-msg').textContent = txt;
+function hideLoader() {
+  const el = document.getElementById('loader');
+  el.classList.add('fade');
+  setTimeout(() => el.remove(), 600);
+}
+
+// ── BOOT ───────────────────────────────────────────────────────────────────
+async function boot() {
+  try {
+    setMsg('Fetching exit data…');
+    const res = await fetch(DATA_URL);
+    if (!res.ok) throw new Error(`HTTP ${res.status} — check DATA_URL`);
+
+    setMsg('Parsing 79,428 exits…');
+    const data = await res.json();
+    allExits = data.all_exits;
+
+    // Fill stats
+    const m = data.meta;
+    document.getElementById('s-total').textContent  = m.total.toLocaleString();
+    document.getElementById('s-states').textContent = m.states;
+    document.getElementById('s-rest').textContent   = m.rest_areas.toLocaleString();
+    document.getElementById('s-plaza').textContent  = m.service_plazas.toLocaleString();
+
+    setMsg('Building heatmap layers…');
+    await new Promise(r => setTimeout(r, 40)); // yield to paint
+
+    heatLayers.density = L.heatLayer(allExits,                    LAYER_CFG.density.heat);
+    heatLayers.gaps    = L.heatLayer(buildGapPoints(allExits),     LAYER_CFG.gaps.heat);
+    heatLayers.good    = L.heatLayer(data.good_stops,              LAYER_CFG.good.heat);
+
+    populateStates(data.state_stats);
+    updateLegend('density');
+    setLayer('density');
+    updatePill();
+
+    setMsg('Done.');
+    setTimeout(hideLoader, 250);
+
+  } catch (err) {
+    console.error('[kibi heatmap]', err);
+    setMsg(`Could not load exit data: ${err.message}`);
+    document.getElementById('ld-msg').insertAdjacentHTML('afterend',
+      `<button onclick="location.reload()"
+        style="margin-top:14px;padding:8px 22px;border-radius:100px;
+               background:var(--green);color:#060F0B;border:none;
+               font-family:'Space Mono',monospace;font-size:11px;font-weight:700;
+               letter-spacing:.05em;cursor:pointer">RETRY</button>`);
+  }
+}
+
+boot();
+</script>
+</body>
+</html>
