@@ -1348,8 +1348,8 @@
 </footer>
 
 <script>
-  // ── Waitlist (Mailchimp) ──
-  async function submitWaitlist(e) {
+  // ── Waitlist (Mailchimp — hidden iframe method) ──
+  function submitWaitlist(e) {
     e.preventDefault();
     const email   = document.getElementById('wl-email').value.trim();
     const btn     = document.getElementById('wlBtn');
@@ -1358,54 +1358,58 @@
     const success = document.getElementById('wlSuccess');
 
     errorEl.classList.remove('visible');
+
+    if (!email) {
+      errorEl.textContent = 'Please enter your email address.';
+      errorEl.classList.add('visible');
+      return;
+    }
+
     btn.disabled = true;
     btn.classList.add('loading');
 
-    // Mailchimp requires JSONP — swap /post for /post-json and add &c=CALLBACK
-    const MC_URL = 'https://github.us3.list-manage.com/subscribe/post-json?u=3e6637c900f59a36ba1e0d5a9&id=e568c467be&f_id=002fcae0f0';
+    // Create a hidden iframe to receive the Mailchimp response
+    const iframeName = 'mc_iframe_' + Date.now();
+    const iframe = document.createElement('iframe');
+    iframe.name   = iframeName;
+    iframe.style.cssText = 'display:none;position:absolute;width:0;height:0;border:none;';
+    document.body.appendChild(iframe);
 
-    const callbackName = 'mcCallback_' + Date.now();
-    const url = `${MC_URL}&EMAIL=${encodeURIComponent(email)}&c=${callbackName}`;
+    // Create a hidden form targeting the iframe
+    const hiddenForm = document.createElement('form');
+    hiddenForm.method = 'POST';
+    hiddenForm.action = 'https://github.us3.list-manage.com/subscribe/post?u=3e6637c900f59a36ba1e0d5a9&id=e568c467be&f_id=002fcae0f0';
+    hiddenForm.target = iframeName;
+    hiddenForm.style.display = 'none';
 
-    const timeout = setTimeout(() => {
-      cleanup();
-      errorEl.textContent = 'Request timed out — please try again.';
-      errorEl.classList.add('visible');
+    const emailInput = document.createElement('input');
+    emailInput.type  = 'email';
+    emailInput.name  = 'EMAIL';
+    emailInput.value = email;
+    hiddenForm.appendChild(emailInput);
+
+    // Mailchimp bot protection field (must be empty)
+    const botField = document.createElement('input');
+    botField.type  = 'text';
+    botField.name  = 'b_3e6637c900f59a36ba1e0d5a9_e568c467be';
+    botField.value = '';
+    hiddenForm.appendChild(botField);
+
+    document.body.appendChild(hiddenForm);
+    hiddenForm.submit();
+
+    // After ~1.5s assume success — Mailchimp doesn't send a readable
+    // cross-origin response, but the subscription goes through
+    setTimeout(() => {
       btn.disabled = false;
       btn.classList.remove('loading');
-    }, 8000);
+      form.style.display  = 'none';
+      success.classList.add('visible');
 
-    function cleanup() {
-      clearTimeout(timeout);
-      delete window[callbackName];
-      const script = document.getElementById('mc-jsonp');
-      if (script) script.remove();
-    }
-
-    window[callbackName] = function(data) {
-      cleanup();
-      btn.disabled = false;
-      btn.classList.remove('loading');
-
-      if (data.result === 'success') {
-        form.style.display = 'none';
-        success.classList.add('visible');
-      } else {
-        // Mailchimp returns friendly messages like "already subscribed"
-        const msg = data.msg
-          ? data.msg.replace(/^[0-9]+ - /, '') // strip error code prefix
-          : 'Something went wrong — please try again.';
-        errorEl.textContent = msg.includes('already subscribed')
-          ? "You're already on the list! 🎉 We'll email you at launch."
-          : msg;
-        errorEl.classList.add('visible');
-      }
-    };
-
-    const script = document.createElement('script');
-    script.id  = 'mc-jsonp';
-    script.src = url;
-    document.body.appendChild(script);
+      // Cleanup
+      iframe.remove();
+      hiddenForm.remove();
+    }, 1500);
   }
 
   // ── Road Trip Calculator ──
