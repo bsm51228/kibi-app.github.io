@@ -1389,7 +1389,7 @@
 </footer>
 
 <script>
-  // ── Waitlist (Mailchimp — iframe target, no popup) ──
+  // ── Waitlist (Mailchimp — auto-closing popup) ──
   function submitWaitlist(e) {
     e.preventDefault();
     const email   = document.getElementById('wl-email').value.trim();
@@ -1409,16 +1409,13 @@
     btn.disabled = true;
     btn.classList.add('loading');
 
-    // Hidden iframe absorbs Mailchimp's confirmation page — user never sees it
-    const iframe = document.createElement('iframe');
-    iframe.name  = 'mc_hidden';
-    iframe.style.cssText = 'display:none;width:0;height:0;border:none;position:absolute;';
-    document.body.appendChild(iframe);
+    // Open a 1x1 invisible popup — posts form into it, then closes before user sees anything
+    const popup = window.open('', 'mc_popup', 'width=1,height=1,left=-9999,top=-9999');
 
     const f = document.createElement('form');
-    f.method  = 'POST';
-    f.action  = 'https://github.us3.list-manage.com/subscribe/post?u=3e6637c900f59a36ba1e0d5a9&id=e568c467be&f_id=002fcae0f0';
-    f.target  = 'mc_hidden'; // posts INTO the hidden iframe, not a new tab
+    f.method = 'POST';
+    f.action = 'https://github.us3.list-manage.com/subscribe/post?u=3e6637c900f59a36ba1e0d5a9&id=e568c467be&f_id=002fcae0f0';
+    f.target = 'mc_popup';
     f.style.cssText = 'display:none;position:absolute;';
 
     const addField = (name, value) => {
@@ -1434,14 +1431,14 @@
 
     document.body.appendChild(f);
     f.submit();
+    document.body.removeChild(f);
 
-    // Show success, clean up after iframe loads
+    // Close the popup and show success after Mailchimp receives the POST
     setTimeout(() => {
+      if (popup && !popup.closed) popup.close();
       form.style.display = 'none';
       success.classList.add('visible');
-      document.body.removeChild(f);
-      document.body.removeChild(iframe);
-    }, 1000);
+    }, 800);
   }
 
   // ── Road Trip Calculator ──
