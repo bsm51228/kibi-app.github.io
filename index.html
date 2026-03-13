@@ -25,6 +25,7 @@
     html { scroll-behavior: smooth; }
     body { font-family: "DM Sans", sans-serif; background: var(--white); color: var(--ink); overflow-x: hidden; }
 
+    <style>
     /* ── NAV ── */
     nav {
       position: fixed; top: 0; left: 0; right: 0; z-index: 100;
@@ -38,7 +39,11 @@
     nav.scrolled { box-shadow: 0 2px 20px rgba(0,0,0,.07); }
     .nav-logo img { height: 32px; display: block; }
     .nav-links { display: flex; gap: 32px; align-items: center; }
-    .nav-links a { font-size: .84rem; font-weight: 500; color: var(--gray); text-decoration: none; transition: color .2s; }
+    .nav-links a {
+      font-size: .84rem; font-weight: 500; color: var(--gray);
+      text-decoration: none; transition: color .2s;
+      min-height: 44px; display: inline-flex; align-items: center; /* touch target */
+    }
     .nav-links a:hover { color: var(--ink); }
     .nav-pill {
       background: var(--green) !important; color: var(--ink) !important;
@@ -49,9 +54,56 @@
     }
     .nav-pill:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(62,204,138,.4) !important; }
 
+    /* ── HAMBURGER ── */
+    .nav-hamburger {
+      display: none;
+      flex-direction: column; justify-content: center; gap: 5px;
+      width: 44px; height: 44px; cursor: pointer;
+      background: none; border: none; padding: 8px;
+      border-radius: 8px; transition: background .2s;
+    }
+    .nav-hamburger:hover { background: var(--gray-light); }
+    .nav-hamburger span {
+      display: block; width: 22px; height: 2px;
+      background: var(--ink); border-radius: 2px;
+      transition: transform .3s, opacity .3s;
+      transform-origin: center;
+    }
+    /* animated X state */
+    .nav-hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-hamburger.open span:nth-child(2) { opacity: 0; }
+    .nav-hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    /* mobile nav drawer */
+    .nav-drawer {
+      display: none;
+      position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(250,250,248,0.98);
+      backdrop-filter: blur(20px);
+      z-index: 99;
+      flex-direction: column; align-items: center; justify-content: center;
+      gap: 8px;
+      padding: 80px 32px 40px;
+      opacity: 0; transition: opacity .25s;
+    }
+    .nav-drawer.open { opacity: 1; }
+    .nav-drawer a {
+      font-size: 1.3rem; font-weight: 600; color: var(--ink);
+      text-decoration: none; padding: 14px 28px;
+      border-radius: 12px; width: 100%; text-align: center;
+      transition: background .2s, color .2s;
+    }
+    .nav-drawer a:hover { background: var(--green-light); color: var(--green-dark); }
+    .nav-drawer .nav-pill {
+      font-size: 1rem !important; padding: 14px 28px !important;
+      width: 100%; text-align: center; border-radius: 12px !important;
+      margin-top: 12px;
+    }
+
     /* ── HERO ── */
     .hero {
       min-height: 100vh;
+      min-height: 100dvh;
       background: var(--white);
       display: grid; grid-template-columns: 1fr 1fr;
       align-items: center;
@@ -86,14 +138,14 @@
     @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.4;transform:scale(1.5)} }
     .hero h1 {
       font-family: "Fraunces", serif;
-      font-size: clamp(2.8rem, 5vw, 4.8rem);
+      font-size: clamp(2.4rem, 5vw, 4.8rem);
       font-weight: 900; line-height: 1.0; letter-spacing: -.03em;
       color: var(--ink); margin-bottom: 24px;
       opacity: 0; animation: fadeUp .7s .2s forwards;
     }
     .hero h1 em { font-style: italic; color: var(--green); }
     .hero-sub {
-      font-size: 1.05rem; color: var(--gray); line-height: 1.78;
+      font-size: clamp(.9rem, 2.5vw, 1.05rem); color: var(--gray); line-height: 1.78;
       font-weight: 300; max-width: 460px; margin-bottom: 48px;
       opacity: 0; animation: fadeUp .7s .35s forwards;
     }
@@ -215,11 +267,11 @@
     .section-tag::before { content:""; width:20px; height:2px; background:var(--green); display:inline-block; }
     h2.section-title {
       font-family: "Fraunces", serif;
-      font-size: clamp(2rem, 3.5vw, 3.1rem);
+      font-size: clamp(1.8rem, 3.5vw, 3.1rem);
       font-weight: 900; line-height: 1.05; letter-spacing: -.03em;
       color: var(--ink); margin-bottom: 16px;
     }
-    .section-sub { font-size: .97rem; color: var(--gray); line-height: 1.78; font-weight: 300; }
+    .section-sub { font-size: clamp(.88rem, 2vw, .97rem); color: var(--gray); line-height: 1.78; font-weight: 300; }
 
     /* ── HOW IT WORKS ── */
     .how { background: var(--gray-light); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
@@ -319,6 +371,31 @@
     .market-label { font-size:.95rem; font-weight:600; color:var(--ink); margin-bottom:8px; }
     .market-desc { font-size:.82rem; color:var(--gray); line-height:1.68; }
 
+    /* ── COVERAGE MAP ── */
+    #coverage-map {
+      width: 100%;
+      height: 100vh;
+      height: 100dvh;
+      position: relative;
+      overflow: hidden;
+    }
+    /* Two-finger pan hint — shows on mobile only */
+    #coverage-map::before {
+      content: "✌️  Use two fingers to pan the map";
+      display: none;
+      position: absolute; top: 16px; left: 50%; transform: translateX(-50%);
+      z-index: 10;
+      background: rgba(0,0,0,.62);
+      color: #fff; font-size: .74rem; font-weight: 500;
+      padding: 7px 16px; border-radius: 100px;
+      white-space: nowrap; pointer-events: none;
+      animation: fadeOut 3.5s 1.5s forwards;
+    }
+    @keyframes fadeOut { 0%{opacity:1} 80%{opacity:1} 100%{opacity:0} }
+    #coverage-map iframe {
+      width: 100%; height: 100%; border: none; display: block;
+    }
+
     /* ── FOOTER ── */
     footer {
       background: var(--white); border-top:1px solid var(--border);
@@ -336,24 +413,60 @@
     .reveal { opacity:0; transform:translateY(26px); transition:opacity .7s ease, transform .7s ease; }
     .reveal.visible { opacity:1; transform:translateY(0); }
 
-    /* ── RESPONSIVE ── */
+    /* ── RESPONSIVE: TABLET (≤960px) ── */
     @media(max-width:960px) {
-      nav { padding:14px 20px; }
-      .nav-links { display:none; }
-      .hero { grid-template-columns:1fr; padding:100px 20px 60px; }
-      .phone-chips { display:none; }
-      .steps { grid-template-columns:1fr 1fr; }
-      .pillars-layout { grid-template-columns:1fr; gap:36px; }
-      .pillars-intro { position:static; }
-      .eco-layout { grid-template-columns:1fr; gap:44px; }
-      .market-layout { grid-template-columns:1fr; gap:36px; }
-      .eco-story-grid { grid-template-columns:1fr; }
-      section { padding:72px 20px; }
-      footer { padding:36px 20px; flex-direction:column; align-items:flex-start; }
+      nav { padding: 14px 20px; }
+
+      /* show hamburger, hide desktop links */
+      .nav-hamburger { display: flex; }
+      .nav-links { display: none; }
+
+      /* show drawer when open */
+      .nav-drawer { display: flex; }
+      .nav-drawer:not(.open) { pointer-events: none; }
+
+      .hero { grid-template-columns: 1fr; padding: 100px 20px 60px; gap: 48px; }
+      .hero-right { justify-content: flex-start; }
+      .phone-chips { display: none; }
+
+      .steps { grid-template-columns: 1fr 1fr; }
+      .pillars-layout { grid-template-columns: 1fr; gap: 36px; }
+      .pillars-intro { position: static; }
+      .eco-layout { grid-template-columns: 1fr; gap: 44px; }
+      .market-layout { grid-template-columns: 1fr; gap: 36px; }
+      .eco-story-grid { grid-template-columns: 1fr 1fr; }
+
+      section { padding: 72px 20px; }
+      footer { padding: 36px 20px; flex-direction: column; align-items: flex-start; }
+
+      /* coverage map: shorter on tablet so users can scroll past */
+      #coverage-map { height: 70vh; height: 70dvh; }
     }
+
+    /* ── RESPONSIVE: MOBILE (≤600px) ── */
     @media(max-width:600px) {
-      .steps { grid-template-columns:1fr; }
-      .hero-stats { gap:20px; }
+      .steps { grid-template-columns: 1fr; }
+      .eco-story-grid { grid-template-columns: 1fr; }
+      .hero-stats { gap: 20px; }
+      .hero { padding: 88px 16px 52px; }
+      section { padding: 60px 16px; }
+
+      /* phone mockup: scale down on small screens */
+      .phone { width: 220px; height: 448px; }
+
+      /* coverage map: comfortable height on phones, show pan hint */
+      #coverage-map { height: 60vh; height: 60dvh; }
+      #coverage-map::before { display: block; }
+
+      footer { padding: 28px 16px; gap: 12px; }
+      footer p { font-size: .72rem; }
+    }
+
+    /* ── RESPONSIVE: SMALL PHONES (≤390px) ── */
+    @media(max-width:390px) {
+      #coverage-map { height: 55vh; height: 55dvh; }
+      .hero h1 { font-size: 2.2rem; }
+      .phone { width: 190px; height: 386px; }
     }
   </style>
 </head>
