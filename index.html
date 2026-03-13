@@ -570,6 +570,106 @@
     }
     .calc-error.visible { display: block; }
 
+    /* ── WAITLIST ── */
+    .waitlist {
+      background: var(--ink);
+      position: relative; overflow: hidden;
+    }
+    .waitlist::before {
+      content: '';
+      position: absolute; top: -200px; left: 50%; transform: translateX(-50%);
+      width: 800px; height: 600px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(62,204,138,.07) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .waitlist-inner {
+      position: relative; z-index: 1;
+      max-width: 600px; margin: 0 auto; text-align: center;
+    }
+    .waitlist-icon {
+      width: 56px; height: 56px; border-radius: 16px;
+      background: rgba(62,204,138,.1); border: 1px solid rgba(62,204,138,.2);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.5rem; margin: 0 auto 28px;
+    }
+    .waitlist h2 {
+      font-family: "Fraunces", serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 900; line-height: 1.05; letter-spacing: -.03em;
+      color: #fff; margin-bottom: 16px;
+    }
+    .waitlist h2 em { font-style: italic; color: var(--green); }
+    .waitlist-sub {
+      font-size: clamp(.88rem, 2vw, 1rem);
+      color: rgba(255,255,255,.42); line-height: 1.75;
+      font-weight: 300; margin-bottom: 40px;
+    }
+
+    /* form */
+    .waitlist-form {
+      display: flex; gap: 10px;
+      background: rgba(255,255,255,.05);
+      border: 1px solid rgba(255,255,255,.1);
+      border-radius: 16px; padding: 8px;
+    }
+    .waitlist-form input {
+      flex: 1; height: 48px; padding: 0 18px;
+      background: transparent; border: none; outline: none;
+      font-family: "DM Sans", sans-serif;
+      font-size: .9rem; color: #fff;
+    }
+    .waitlist-form input::placeholder { color: rgba(255,255,255,.25); }
+    .waitlist-form button {
+      height: 48px; padding: 0 26px;
+      background: var(--green); color: var(--ink);
+      border: none; border-radius: 10px;
+      font-family: "DM Sans", sans-serif;
+      font-size: .88rem; font-weight: 600;
+      cursor: pointer; white-space: nowrap;
+      transition: transform .2s, box-shadow .2s;
+      box-shadow: 0 4px 16px rgba(62,204,138,.3);
+      display: flex; align-items: center; gap: 8px;
+      flex-shrink: 0;
+    }
+    .waitlist-form button:hover { transform: translateY(-1px); box-shadow: 0 8px 24px rgba(62,204,138,.4); }
+    .waitlist-form button:disabled { opacity: .6; cursor: not-allowed; transform: none; }
+    .waitlist-spinner {
+      width: 16px; height: 16px;
+      border: 2px solid rgba(26,31,28,.2);
+      border-top-color: var(--ink); border-radius: 50%;
+      animation: spin .7s linear infinite; display: none;
+    }
+    .waitlist-form button.loading .waitlist-spinner { display: block; }
+    .waitlist-form button.loading .wl-btn-text { display: none; }
+
+    /* states */
+    .waitlist-success {
+      display: none;
+      background: rgba(62,204,138,.08); border: 1px solid rgba(62,204,138,.2);
+      border-radius: 16px; padding: 24px 28px;
+      text-align: center;
+    }
+    .waitlist-success.visible { display: block; }
+    .waitlist-success-icon { font-size: 2rem; margin-bottom: 10px; }
+    .waitlist-success h3 { font-size: 1.05rem; font-weight: 600; color: #fff; margin-bottom: 6px; }
+    .waitlist-success p { font-size: .82rem; color: rgba(255,255,255,.4); line-height: 1.6; }
+    .waitlist-error {
+      margin-top: 10px; font-size: .8rem;
+      color: #ff7070; display: none; text-align: left; padding: 0 4px;
+    }
+    .waitlist-error.visible { display: block; }
+
+    /* social proof strip */
+    .waitlist-proof {
+      display: flex; align-items: center; justify-content: center;
+      gap: 20px; margin-top: 28px; flex-wrap: wrap;
+    }
+    .waitlist-proof-item {
+      display: flex; align-items: center; gap: 7px;
+      font-size: .75rem; color: rgba(255,255,255,.25);
+    }
+    .waitlist-proof-dot { width: 4px; height: 4px; border-radius: 50%; background: var(--green); opacity: .5; }
+
     /* ── FOOTER ── */
     footer {
       background: var(--white); border-top:1px solid var(--border);
@@ -628,6 +728,10 @@
       .bp-body { padding: 18px 20px 22px; }
       .bp-footer { padding: 14px 20px; }
       .bp-city-code { font-size: 1.7rem; }
+      .waitlist-form { flex-direction: column; }
+      .waitlist-form input { height: 52px; }
+      .waitlist-form button { height: 52px; width: 100%; justify-content: center; }
+      .waitlist-proof { gap: 12px; }
       footer { padding: 28px 16px; gap: 12px; }
       footer p { font-size: .72rem; }
     }
@@ -655,6 +759,7 @@
     <a href="#about">Our Story</a>
     <a href="./kibi_exit_heatmap.html" target="_blank" rel="noopener">Exit Coverage</a>
     <a href="#demo" class="nav-pill">Try the Demo</a>
+    <a href="#waitlist" class="nav-pill" style="background:transparent !important; border: 1.5px solid var(--green) !important; color: var(--ink) !important; box-shadow:none !important;">Join Waitlist</a>
   </div>
   <!-- Hamburger button (mobile only) -->
   <button class="nav-hamburger" id="hamburger" aria-label="Open menu">
@@ -671,7 +776,8 @@
   <a href="#market"      onclick="closeDrawer()">The Opportunity</a>
   <a href="#about"       onclick="closeDrawer()">Our Story</a>
   <a href="./kibi_exit_heatmap.html" target="_blank" rel="noopener" onclick="closeDrawer()">Exit Coverage</a>
-  <a href="#demo"        onclick="closeDrawer()" class="nav-pill">Try the Demo</a>
+  <a href="#demo"      onclick="closeDrawer()" class="nav-pill">Try the Demo</a>
+  <a href="#waitlist"  onclick="closeDrawer()" class="nav-pill" style="background:transparent !important; border: 1.5px solid var(--green) !important; margin-top:0;">Join Waitlist</a>
 </div>
 
 <!-- HERO -->
@@ -1193,6 +1299,46 @@
   </div>
 </section>
 
+<!-- WAITLIST -->
+<section class="waitlist" id="waitlist">
+  <div class="waitlist-inner reveal">
+    <div class="waitlist-icon">🚗</div>
+    <h2>Be first on the<br/><em>open road.</em></h2>
+    <p class="waitlist-sub">Kibi is coming soon to iOS. Join the waitlist and you'll be the first to know when it drops — no spam, just one email when it's ready.</p>
+
+    <!-- Form (swap YOUR_LOOPS_FORM_ID with your actual Loops endpoint) -->
+    <form class="waitlist-form" id="waitlistForm" onsubmit="submitWaitlist(event)">
+      <input
+        type="email"
+        id="wl-email"
+        placeholder="your@email.com"
+        required
+        autocomplete="email"
+      />
+      <button type="submit" id="wlBtn">
+        <div class="waitlist-spinner"></div>
+        <span class="wl-btn-text">Join the Waitlist →</span>
+      </button>
+    </form>
+    <div class="waitlist-error" id="wlError"></div>
+
+    <!-- Success state -->
+    <div class="waitlist-success" id="wlSuccess">
+      <div class="waitlist-success-icon">🎉</div>
+      <h3>You're on the list!</h3>
+      <p>We'll email you the moment Kibi hits the App Store.<br/>In the meantime, try the interactive demo above.</p>
+    </div>
+
+    <!-- Social proof -->
+    <div class="waitlist-proof">
+      <div class="waitlist-proof-item"><div class="waitlist-proof-dot"></div>Free forever in v1</div>
+      <div class="waitlist-proof-item"><div class="waitlist-proof-dot"></div>iOS first</div>
+      <div class="waitlist-proof-item"><div class="waitlist-proof-dot"></div>No spam, ever</div>
+      <div class="waitlist-proof-item"><div class="waitlist-proof-dot"></div>One email at launch</div>
+    </div>
+  </div>
+</section>
+
 <!-- FOOTER -->
 <footer>
   <div class="footer-logo">
@@ -1202,6 +1348,66 @@
 </footer>
 
 <script>
+  // ── Waitlist (Mailchimp) ──
+  async function submitWaitlist(e) {
+    e.preventDefault();
+    const email   = document.getElementById('wl-email').value.trim();
+    const btn     = document.getElementById('wlBtn');
+    const errorEl = document.getElementById('wlError');
+    const form    = document.getElementById('waitlistForm');
+    const success = document.getElementById('wlSuccess');
+
+    errorEl.classList.remove('visible');
+    btn.disabled = true;
+    btn.classList.add('loading');
+
+    // Mailchimp requires JSONP — swap /post for /post-json and add &c=CALLBACK
+    const MC_URL = 'https://github.us3.list-manage.com/subscribe/post-json?u=3e6637c900f59a36ba1e0d5a9&id=e568c467be&f_id=002fcae0f0';
+
+    const callbackName = 'mcCallback_' + Date.now();
+    const url = `${MC_URL}&EMAIL=${encodeURIComponent(email)}&c=${callbackName}`;
+
+    const timeout = setTimeout(() => {
+      cleanup();
+      errorEl.textContent = 'Request timed out — please try again.';
+      errorEl.classList.add('visible');
+      btn.disabled = false;
+      btn.classList.remove('loading');
+    }, 8000);
+
+    function cleanup() {
+      clearTimeout(timeout);
+      delete window[callbackName];
+      const script = document.getElementById('mc-jsonp');
+      if (script) script.remove();
+    }
+
+    window[callbackName] = function(data) {
+      cleanup();
+      btn.disabled = false;
+      btn.classList.remove('loading');
+
+      if (data.result === 'success') {
+        form.style.display = 'none';
+        success.classList.add('visible');
+      } else {
+        // Mailchimp returns friendly messages like "already subscribed"
+        const msg = data.msg
+          ? data.msg.replace(/^[0-9]+ - /, '') // strip error code prefix
+          : 'Something went wrong — please try again.';
+        errorEl.textContent = msg.includes('already subscribed')
+          ? "You're already on the list! 🎉 We'll email you at launch."
+          : msg;
+        errorEl.classList.add('visible');
+      }
+    };
+
+    const script = document.createElement('script');
+    script.id  = 'mc-jsonp';
+    script.src = url;
+    document.body.appendChild(script);
+  }
+
   // ── Road Trip Calculator ──
   function toggleOptional() {
     const toggle = document.getElementById('optToggle');
