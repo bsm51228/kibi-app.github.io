@@ -16,7 +16,7 @@
 ## PHASE 0 — SETUP (manual steps, no prompting)
 ## ═══════════════════════════════════════════
 
-### STEP 0.1 [MANUAL] — Repo & file prep
+### STEP 0.1 [MANUAL] — Repo & file prep (COMPLETED)
 ```
 1. Open your kibi GitHub repo (the one currently hosting index.html)
 2. Rename your current index.html → index_OLD.html (backup)
@@ -28,7 +28,7 @@
 5. Note your GitHub Pages URL (e.g. https://[username].github.io/[repo]/)
 ```
 
-### STEP 0.2 [MANUAL] — Formspree account
+### STEP 0.2 [MANUAL] — Formspree account (COMPLETED)
 ```
 1. Go to https://formspree.io
 2. Sign up with your email
@@ -37,14 +37,14 @@
 5. Save it — you'll paste it into a prompt later
 ```
 
-### STEP 0.3 [MANUAL] — Get App Store badge
+### STEP 0.3 [MANUAL] — Get App Store badge (COMPLETED)
 ```
 1. Go to https://developer.apple.com/app-store/marketing/guidelines/
 2. Download "Download on the App Store" badge (black version, SVG or PNG)
 3. Save as: appstore-badge.svg (or .png) in your repo root
 ```
 
-### STEP 0.4 [MANUAL] — Take app screenshots
+### STEP 0.4 [MANUAL] — Take app screenshots (COMPLETED)
 ```
 Take 1-2 screenshots from your React prototype or Xcode simulator showing:
   (a) The vehicle setup screen (Year/Make/Model dropdowns)
@@ -651,7 +651,7 @@ Polish pass — apply these refinements:
    https://empty-hedgehog-c4d.notion.site/Kibi-Privacy-Policy-31b455aa909e804ea731c062e28eaa2d)
    · Early Access
    · GitHub (link to your public repo)
-   · © 2025 Kibi
+   · © 2026 Kibi
 ```
 
 ### STEP 9.2 [PROMPT → CLAUDE CODE]
