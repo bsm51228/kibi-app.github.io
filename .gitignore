@@ -1,0 +1,10 @@
+# Mac system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Internal planning docs
+*.md
+README.md
