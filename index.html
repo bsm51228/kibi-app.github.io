@@ -25,9 +25,10 @@
   <meta property="og:site_name" content="Kibi" />
   <meta property="og:title" content="Kibi — Find the Best Highway Exit Every Time" />
   <meta property="og:description" content="Stop settling for bad exits. Kibi scores 79,000+ US highway exits and finds the one stop that has gas, food, and a clean bathroom — before you even leave home. Free on iOS." />
-  <meta property="og:image" content="https://drivekibi.com/screenshot-trip.PNG" />
+  <meta property="og:image" content="https://drivekibi.com/og-image.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
+  <meta property="og:image:type" content="image/png" />
   <meta property="og:image:alt" content="Kibi road trip pitstop planner app showing recommended highway exits" />
   <meta property="og:locale" content="en_US" />
 
@@ -37,7 +38,7 @@
   <meta name="twitter:creator" content="@drivekibi" />
   <meta name="twitter:title" content="Kibi — Find the Best Highway Exit Every Time" />
   <meta name="twitter:description" content="Stop settling for bad exits. Kibi scores 79,000+ US highway exits and finds the one stop for gas, food, and a bathroom — before you leave. Free on iOS." />
-  <meta name="twitter:image" content="https://drivekibi.com/screenshot-trip.PNG" />
+  <meta name="twitter:image" content="https://drivekibi.com/og-image.png" />
   <meta name="twitter:image:alt" content="Kibi app showing highway pitstop recommendations" />
 
   <!-- ── APPLE APP STORE SMART BANNER ── -->
@@ -346,6 +347,18 @@
       letter-spacing: -0.02em;
       max-width: 560px;
       animation: fadeUp 0.6s 0.3s both;
+    }
+
+    .hero-keyword-sub {
+      font-size: clamp(.78rem, 2vw, .88rem);
+      color: var(--gray);
+      font-weight: 300;
+      margin-top: -16px;
+      margin-bottom: 20px;
+      max-width: 460px;
+      line-height: 1.6;
+      opacity: 0;
+      animation: fadeUp .7s .28s forwards;
     }
 
     .hero-sub {
@@ -1119,6 +1132,7 @@
       .hero-left { flex: none; max-width: 100%; }
       .hero-headline { font-size: 38px; max-width: 100%; }
       .hero-sub { max-width: 100%; font-size: 16px; }
+      .hero-keyword-sub { margin-left: auto; margin-right: auto; text-align: center; }
       .hero-badge { display: inline-flex; }
       .hero-cta-row {
         justify-content: center;
@@ -1198,7 +1212,7 @@
           "price": "0",
           "priceCurrency": "USD"
         },
-        "installUrl": "https://apps.apple.com/app/kibi/id6760270037",
+        "downloadUrl": "https://apps.apple.com/app/kibi/id6760270037",
         "screenshot": "https://drivekibi.com/screenshot-trip.PNG",
         "featureList": [
           "79,000+ scored US highway exits",
@@ -1346,6 +1360,8 @@
         </span>
 
         <h1 class="hero-headline">Your Smart Co-Pilot for Every Drive</h1>
+
+        <p class="hero-keyword-sub">Your Smart Co-Pilot pitstop planner for iPhone — find the best highway exit for gas, food, and a bathroom in one stop.</p>
 
         <p class="hero-sub">
           Kibi plans your perfect pitstop: gas, food, and a clean bathroom at
