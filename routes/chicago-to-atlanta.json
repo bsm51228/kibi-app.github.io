@@ -13,7 +13,124 @@
       "state": "IN",
       "lat": 41.145513,
       "lng": -87.260619,
-      "stop_type": "service_plaza"
+      "stop_type": "service_plaza",
+      "places": [
+        {
+          "name": "Love's Travel Stop",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 4.1,
+          "review_count": 969,
+          "address": "11207 IN-10, De Motte, IN 46310, USA",
+          "phone": "(219) 987-2202",
+          "open_now": true
+        },
+        {
+          "name": "TA Travel Center",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.7,
+          "review_count": 896,
+          "address": "11166 IN-10, De Motte, IN 46310, USA",
+          "phone": "(219) 507-7013",
+          "open_now": true
+        },
+        {
+          "name": "Dunkin'",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.1,
+          "review_count": 343,
+          "address": "11781 IN-10, De Motte, IN 46310, USA",
+          "phone": "(219) 246-2300",
+          "open_now": true
+        },
+        {
+          "name": "Roadhouse Grill",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 493,
+          "address": "11747 IN-10, De Motte, IN 46310, USA",
+          "phone": "(219) 209-5258",
+          "open_now": true
+        },
+        {
+          "name": "POUR HOUSE BAR & GRILL",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 495,
+          "address": "9031 N 1200 W, De Motte, IN 46310, USA",
+          "phone": "(219) 345-7687",
+          "open_now": true
+        },
+        {
+          "name": "J&J's Pizza",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 727,
+          "address": "11920 IN-10, De Motte, IN 46310, USA",
+          "phone": "(219) 345-5511",
+          "open_now": true
+        },
+        {
+          "name": "Arby's",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 786,
+          "address": "11207 W. Street Road #10, De Motte, IN 46310, USA",
+          "phone": "(219) 987-2346",
+          "open_now": true
+        },
+        {
+          "name": "bp",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.1,
+          "review_count": 14,
+          "address": "11166 IN-10, De Motte, IN 46310, USA",
+          "phone": "(219) 987-7520",
+          "open_now": true
+        },
+        {
+          "name": "Family Express",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 4,
+          "review_count": 55,
+          "address": "11880 IN-10, De Motte, IN 46310, USA",
+          "phone": "(219) 345-4100",
+          "open_now": true
+        },
+        {
+          "name": "DEMOTTE CITGO",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.6,
+          "review_count": 120,
+          "address": "11750 IN-10, De Motte, IN 46310, USA",
+          "phone": "(219) 251-0175",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_n_37977263",
@@ -22,7 +139,89 @@
       "state": "IN",
       "lat": 40.380831,
       "lng": -86.786074,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Circle K",
+          "types": [
+            "convenience"
+          ],
+          "rating": 2.8,
+          "review_count": 123,
+          "address": "6533 State Rte 38, Dayton, IN 47905, USA",
+          "phone": "(765) 446-9259",
+          "open_now": true
+        },
+        {
+          "name": "bp",
+          "types": [
+            "gas"
+          ],
+          "rating": 3,
+          "review_count": 54,
+          "address": "291 Yost Dr, Lafayette, IN 47905, USA",
+          "phone": "(765) 296-5028",
+          "open_now": true
+        },
+        {
+          "name": "Trish's Red Bird Cafe",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 861,
+          "address": "696 Walnut St, Dayton, IN 47941, USA",
+          "phone": "(765) 296-6964",
+          "open_now": false
+        },
+        {
+          "name": "Subway",
+          "types": [
+            "food"
+          ],
+          "rating": 3.7,
+          "review_count": 137,
+          "address": "291 Yost Dr, Dayton, IN 47941, USA",
+          "phone": "(765) 296-5028",
+          "open_now": true
+        },
+        {
+          "name": "Dollar General",
+          "types": [
+            "convenience"
+          ],
+          "rating": 4.4,
+          "review_count": 158,
+          "address": "301 Yost Dr, Dayton, IN 47941, USA",
+          "phone": "(765) 441-2947",
+          "open_now": true
+        },
+        {
+          "name": "Friendly Market",
+          "types": [
+            "gas",
+            "food",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 5,
+          "review_count": 3,
+          "address": "291 Yost Dr, Dayton, IN 47941, USA",
+          "phone": "(765) 296-5028",
+          "open_now": true
+        },
+        {
+          "name": "Circle K | Gas Station",
+          "types": [
+            "gas"
+          ],
+          "rating": null,
+          "review_count": null,
+          "address": "6533 State Rte 38, Lafayette, IN 47905, USA",
+          "phone": "(765) 446-9259",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_n_794568711",
@@ -31,7 +230,119 @@
       "state": "IN",
       "lat": 39.763927,
       "lng": -86.14294,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "St. Elmo Steak House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 6747,
+          "address": "127 S Illinois St, Indianapolis, IN 46225, USA",
+          "phone": "(317) 635-0636",
+          "open_now": true
+        },
+        {
+          "name": "Yard House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 4636,
+          "address": "15 W Maryland St, Indianapolis, IN 46204, USA",
+          "phone": "(317) 917-4408",
+          "open_now": true
+        },
+        {
+          "name": "Harry & Izzy's",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 4391,
+          "address": "153 S Illinois St, Indianapolis, IN 46225, USA",
+          "phone": "(317) 635-9594",
+          "open_now": true
+        },
+        {
+          "name": "Fogo de Ch\u00e3o Brazilian Steakhouse",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 14625,
+          "address": "117 E Washington St, Indianapolis, IN 46204, USA",
+          "phone": "(317) 638-4000",
+          "open_now": true
+        },
+        {
+          "name": "Irsay Family YMCA at CityWay",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4.4,
+          "review_count": 528,
+          "address": "430 S Alabama St, Indianapolis, IN 46225, USA",
+          "phone": "(317) 955-9622",
+          "open_now": true
+        },
+        {
+          "name": "The Eagle Mass Ave",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 4971,
+          "address": "310 Massachusetts Ave, Indianapolis, IN 46204, USA",
+          "phone": "(317) 929-1799",
+          "open_now": true
+        },
+        {
+          "name": "Slippery Noodle Inn",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 3815,
+          "address": "372 S Meridian St, Indianapolis, IN 46225, USA",
+          "phone": "(317) 631-6974",
+          "open_now": true
+        },
+        {
+          "name": "Kilroy's Bar N' Grill",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 4247,
+          "address": "201 S Meridian St, Indianapolis, IN 46225, USA",
+          "phone": "(317) 638-9464",
+          "open_now": true
+        },
+        {
+          "name": "The Rathskeller",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 4129,
+          "address": "401 E Michigan St, Indianapolis, IN 46204, USA",
+          "phone": "(317) 636-0396",
+          "open_now": true
+        },
+        {
+          "name": "Chick-fil-A",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 474,
+          "address": "10 E Washington St Suite 100, Indianapolis, IN 46204, USA",
+          "phone": "(463) 224-6777",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_w_229558278",
@@ -40,7 +351,124 @@
       "state": "IN",
       "lat": 38.956874,
       "lng": -85.836294,
-      "stop_type": "service_plaza"
+      "stop_type": "service_plaza",
+      "places": [
+        {
+          "name": "TA Travel Center",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.7,
+          "review_count": 1353,
+          "address": "2636 E Tipton St, Seymour, IN 47274, USA",
+          "phone": "(812) 522-6622",
+          "open_now": true
+        },
+        {
+          "name": "Starbucks",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.1,
+          "review_count": 1115,
+          "address": "2103 E Tipton St, Seymour, IN 47274, USA",
+          "phone": "(812) 528-6792",
+          "open_now": true
+        },
+        {
+          "name": "Cracker Barrel Old Country Store",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 3365,
+          "address": "211 N Sandy Creek Dr, Seymour, IN 47274, USA",
+          "phone": "(812) 522-3122",
+          "open_now": true
+        },
+        {
+          "name": "Culver\u2019s",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 829,
+          "address": "203 N Sandy Creek Dr, Seymour, IN 47274, USA",
+          "phone": "(812) 405-2497",
+          "open_now": true
+        },
+        {
+          "name": "Sunshine Caf\u00e9",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 1690,
+          "address": "2609 E Tipton St, Seymour, IN 47274, USA",
+          "phone": "(812) 522-9500",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.3,
+          "review_count": 2329,
+          "address": "427 Steven's Way, Seymour, IN 47274, USA",
+          "phone": "(812) 523-3866",
+          "open_now": true
+        },
+        {
+          "name": "Chili's Grill & Bar",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 1374,
+          "address": "2085 E Tipton St, Seymour, IN 47274, USA",
+          "phone": "(812) 524-4547",
+          "open_now": true
+        },
+        {
+          "name": "Circle K",
+          "types": [
+            "gas",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 3.6,
+          "review_count": 66,
+          "address": "2119 E Tipton St, Seymour, IN 47274, USA",
+          "phone": "(812) 672-4690",
+          "open_now": true
+        },
+        {
+          "name": "bp",
+          "types": [
+            "gas"
+          ],
+          "rating": 3.4,
+          "review_count": 21,
+          "address": "2636 E Tipton St, Seymour, IN 47274, USA",
+          "phone": "(812) 522-6622",
+          "open_now": true
+        },
+        {
+          "name": "Azul Tequila Authentic Mexican Cuisine Seymour IN",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 842,
+          "address": "2045 E Tipton St, Seymour, IN 47274, USA",
+          "phone": "(812) 519-8509",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_n_60652718",
@@ -49,7 +477,120 @@
       "state": "KY",
       "lat": 38.258812,
       "lng": -85.760949,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Doc Crow's Southern Smokehouse and Raw Bar",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 5073,
+          "address": "127 W Main St, Louisville, KY 40202, USA",
+          "phone": "(502) 587-1626",
+          "open_now": true
+        },
+        {
+          "name": "Fourth Street Live!",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 11544,
+          "address": "411 S 4th St, Louisville, KY 40202, USA",
+          "phone": "(502) 584-7170",
+          "open_now": true
+        },
+        {
+          "name": "Porch Kitchen & Bar",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 3823,
+          "address": "280 W Jefferson St, Louisville, KY 40202, USA",
+          "phone": "(502) 671-4246",
+          "open_now": true
+        },
+        {
+          "name": "Troll Pub Under the Bridge",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 3035,
+          "address": "150 W Washington St, Louisville, KY 40202, USA",
+          "phone": "(502) 618-4829",
+          "open_now": true
+        },
+        {
+          "name": "Mussel & Burger Bar",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 4180,
+          "address": "113 S 7th St, Louisville, KY 40202, USA",
+          "phone": "(502) 749-6451",
+          "open_now": true
+        },
+        {
+          "name": "Repeal Oak Fired Steakhouse",
+          "types": [
+            "food"
+          ],
+          "rating": 4.8,
+          "review_count": 3511,
+          "address": "101 W Main St #101, Louisville, KY 40202, USA",
+          "phone": "(502) 716-7372",
+          "open_now": true
+        },
+        {
+          "name": "The Old Spaghetti Factory",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 4680,
+          "address": "235 W Market St, Louisville, KY 40202, USA",
+          "phone": "(502) 581-1070",
+          "open_now": true
+        },
+        {
+          "name": "Jeff Ruby's Steakhouse, Louisville",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 2837,
+          "address": "325 W Main St, Louisville, KY 40202, USA",
+          "phone": "(502) 584-0102",
+          "open_now": true
+        },
+        {
+          "name": "Wild Eggs",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 3433,
+          "address": "121 S Floyd St, Louisville, KY 40202, USA",
+          "phone": "(502) 690-5925",
+          "open_now": false
+        },
+        {
+          "name": "Shell",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 2.9,
+          "review_count": 211,
+          "address": "300 S 1st St, Louisville, KY 40202, USA",
+          "phone": "(502) 584-8412",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_n_164119558",
@@ -58,7 +599,65 @@
       "state": "KY",
       "lat": 37.568873,
       "lng": -86.043759,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "bp",
+          "types": [
+            "gas"
+          ],
+          "rating": 3.8,
+          "review_count": 36,
+          "address": "13420 Leitchfield Rd, Eastview, KY 42732, USA",
+          "phone": "(270) 862-0060",
+          "open_now": true
+        },
+        {
+          "name": "Dollar General",
+          "types": [
+            "convenience"
+          ],
+          "rating": 4.2,
+          "review_count": 115,
+          "address": "13511 Leitchfield Rd, Eastview, KY 42732, USA",
+          "phone": "(502) 792-9085",
+          "open_now": true
+        },
+        {
+          "name": "Eastview Food Mart",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.4,
+          "review_count": 19,
+          "address": "13420 Leitchfield Rd, Eastview, KY 42732, USA",
+          "phone": "(270) 862-0060",
+          "open_now": true
+        },
+        {
+          "name": "Hunt Brothers Pizza",
+          "types": [
+            "food"
+          ],
+          "rating": null,
+          "review_count": null,
+          "address": "13420 Leitchfield Rd, Eastview, KY 42732, USA",
+          "phone": "(270) 862-0060",
+          "open_now": false
+        },
+        {
+          "name": "Krispy Krunchy Chicken",
+          "types": [
+            "food"
+          ],
+          "rating": null,
+          "review_count": null,
+          "address": "13420 Leitchfield Rd, Eastview, KY 42732, USA",
+          "phone": "(270) 862-0060",
+          "open_now": false
+        }
+      ]
     },
     {
       "exit_id": "osm_n_1485863948",
@@ -67,7 +666,54 @@
       "state": "KY",
       "lat": 36.901962,
       "lng": -86.436506,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Red Rock Market",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.7,
+          "review_count": 60,
+          "address": "1362 Plano Rd, Bowling Green, KY 42104, USA",
+          "phone": "(270) 599-0839",
+          "open_now": true
+        },
+        {
+          "name": "Only Fries BG",
+          "types": [
+            "food"
+          ],
+          "rating": 4.8,
+          "review_count": 20,
+          "address": "593 Montrose Dr, Bowling Green, KY 42104, USA",
+          "phone": "(270) 847-9185",
+          "open_now": false
+        },
+        {
+          "name": "Marathon",
+          "types": [
+            "gas"
+          ],
+          "rating": null,
+          "review_count": null,
+          "address": "1362 Plano Rd, Bowling Green, KY 42104, USA",
+          "phone": "(270) 599-0839",
+          "open_now": true
+        },
+        {
+          "name": "Red Rock Market",
+          "types": [
+            "food",
+            "convenience"
+          ],
+          "rating": 4.8,
+          "review_count": 36,
+          "address": "1362 Plano Rd, Bowling Green, KY 42104, USA",
+          "phone": "(270) 599-0839",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_n_202282260",
@@ -76,7 +722,119 @@
       "state": "TN",
       "lat": 36.159187,
       "lng": -86.792099,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Assembly Food Hall",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 6462,
+          "address": "5055 Broadway, Nashville, TN 37203, USA",
+          "phone": "(615) 800-5395",
+          "open_now": true
+        },
+        {
+          "name": "Hattie B's Hot Chicken - Nashville - Lower Broadway",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 4519,
+          "address": "5069 Broadway Suite A-103, Nashville, TN 37203, USA",
+          "phone": "(615) 576-8700",
+          "open_now": true
+        },
+        {
+          "name": "Morgan Wallen's This Bar & Tennessee Kitchen",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 1676,
+          "address": "107 4th Ave N, Nashville, TN 37219, USA",
+          "phone": "(615) 257-4717",
+          "open_now": true
+        },
+        {
+          "name": "Hattie B's Hot Chicken - Nashville - Midtown",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 13135,
+          "address": "112 19th Ave S, Nashville, TN 37203, USA",
+          "phone": "(615) 802-5700",
+          "open_now": true
+        },
+        {
+          "name": "Milk & Honey Gulch",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.4,
+          "review_count": 3661,
+          "address": "214 11th Ave S, Nashville, TN 37203, USA",
+          "phone": "(615) 712-7466",
+          "open_now": false
+        },
+        {
+          "name": "The Finch",
+          "types": [
+            "food"
+          ],
+          "rating": 4.8,
+          "review_count": 4264,
+          "address": "111 10th Ave S #310, Nashville, TN 37203, USA",
+          "phone": "(615) 703-8020",
+          "open_now": true
+        },
+        {
+          "name": "Tootsies Orchid Lounge",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 7103,
+          "address": "422 Broadway, Nashville, TN 37203, USA",
+          "open_now": true
+        },
+        {
+          "name": "Kid Rock's Big Ass Honky Tonk Rock N' Roll Steakhouse",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 5951,
+          "address": "221 Broadway, Nashville, TN 37201, USA",
+          "phone": "(615) 248-2706",
+          "open_now": true
+        },
+        {
+          "name": "The Twelve Thirty Club",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 2674,
+          "address": "550 Broadway, Nashville, TN 37203, USA",
+          "phone": "(629) 236-0001",
+          "open_now": true
+        },
+        {
+          "name": "Walgreens",
+          "types": [
+            "convenience"
+          ],
+          "rating": 3,
+          "review_count": 106,
+          "address": "226 Rep. John Lewis Way N, Nashville, TN 37219, USA",
+          "phone": "(615) 256-4600",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_n_497400127",
@@ -85,7 +843,120 @@
       "state": "TN",
       "lat": 35.501075,
       "lng": -86.089817,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Cracker Barrel Old Country Store",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 4936,
+          "address": "103 Paradise St, Manchester, TN 37355, USA",
+          "phone": "(931) 723-1358",
+          "open_now": true
+        },
+        {
+          "name": "Common John Brewing Co",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.9,
+          "review_count": 449,
+          "address": "210 Woodbury Hwy, Manchester, TN 37355, USA",
+          "phone": "(931) 954-5387",
+          "open_now": false
+        },
+        {
+          "name": "Emma's Family Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 2486,
+          "address": "82 Paradise St, Manchester, TN 37355, USA",
+          "phone": "(931) 723-4701",
+          "open_now": true
+        },
+        {
+          "name": "Waffle House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 1008,
+          "address": "629 Woodbury Hwy, Manchester, TN 37355, USA",
+          "phone": "(931) 723-0490",
+          "open_now": true
+        },
+        {
+          "name": "Granddad's",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 95,
+          "address": "620 Woodbury Hwy, Manchester, TN 37355, USA",
+          "phone": "(931) 954-5377"
+        },
+        {
+          "name": "Las Fajitas Mexican Restaurant & Bar",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 1090,
+          "address": "1165 Woodbury Hwy, Manchester, TN 37355, USA",
+          "phone": "(931) 728-5000",
+          "open_now": true
+        },
+        {
+          "name": "Stone Fort Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 376,
+          "address": "1500 Murfreesboro Hwy, Manchester, TN 37355, USA",
+          "phone": "(931) 728-9212",
+          "open_now": false
+        },
+        {
+          "name": "Shell",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.3,
+          "review_count": 83,
+          "address": "617 Woodbury Hwy, Manchester, TN 37355, USA",
+          "phone": "(931) 728-0240",
+          "open_now": true
+        },
+        {
+          "name": "Los 3 Amigos",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 1062,
+          "address": "425 Woodbury Hwy, Manchester, TN 37355, USA",
+          "phone": "(931) 728-7332",
+          "open_now": true
+        },
+        {
+          "name": "Medleys Diner at the Oaks",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 88,
+          "address": "947 Interstate Dr, Manchester, TN 37355, USA",
+          "phone": "(931) 728-5777",
+          "open_now": false
+        }
+      ]
     },
     {
       "exit_id": "osm_n_202581505",
@@ -94,7 +965,121 @@
       "state": "TN",
       "lat": 35.046957,
       "lng": -85.314292,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Feed Table and Tavern",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 4458,
+          "address": "201 W Main St, Chattanooga, TN 37402, USA",
+          "phone": "(423) 708-8500",
+          "open_now": true
+        },
+        {
+          "name": "Attack of the Tatsu",
+          "types": [
+            "food"
+          ],
+          "rating": 4.8,
+          "review_count": 2562,
+          "address": "818 Georgia Ave UNIT 118, Chattanooga, TN 37402, USA",
+          "phone": "(423) 531-4208",
+          "open_now": true
+        },
+        {
+          "name": "City Cafe Diner",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.4,
+          "review_count": 7433,
+          "address": "511 Broad St, Chattanooga, TN 37402, USA",
+          "phone": "(423) 634-9191",
+          "open_now": true
+        },
+        {
+          "name": "Tony's Pasta Shop & Trattoria",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 4386,
+          "address": "212 High St, Chattanooga, TN 37403, USA",
+          "phone": "(423) 321-0235 ext. 1",
+          "open_now": true
+        },
+        {
+          "name": "STIR",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 4067,
+          "address": "1444 Market St, Chattanooga, TN 37402, USA",
+          "phone": "(423) 531-7847",
+          "open_now": true
+        },
+        {
+          "name": "Scotties on The River",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 3242,
+          "address": "491 Riverfront Pkwy, Chattanooga, TN 37402, USA",
+          "phone": "(423) 269-7487",
+          "open_now": true
+        },
+        {
+          "name": "Niedlov's Cafe & Bakery",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.8,
+          "review_count": 1747,
+          "address": "215 E Main St, Chattanooga, TN 37408, USA",
+          "phone": "(423) 756-0303",
+          "open_now": false
+        },
+        {
+          "name": "Rembrandt's Coffee House",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4.5,
+          "review_count": 2402,
+          "address": "204 High St, Chattanooga, TN 37403, USA",
+          "phone": "(423) 321-0235 ext. 1",
+          "open_now": true
+        },
+        {
+          "name": "Honey Seed",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 1369,
+          "address": "1705 Market St Suite 105, Chattanooga, TN 37408, USA",
+          "phone": "(423) 521-7333",
+          "open_now": true
+        },
+        {
+          "name": "Tupelo Honey Southern Kitchen & Bar",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 3409,
+          "address": "1110 Market St, Chattanooga, TN 37402, USA",
+          "phone": "(423) 779-0400",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_w_1365814265",
@@ -103,7 +1088,126 @@
       "state": "GA",
       "lat": 34.379597,
       "lng": -84.907611,
-      "stop_type": "service_plaza"
+      "stop_type": "service_plaza",
+      "places": [
+        {
+          "name": "QuikTrip",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 4,
+          "review_count": 198,
+          "address": "961 Hwy 140 NW, Adairsville, GA 30103, USA",
+          "phone": "(770) 877-5678",
+          "open_now": true
+        },
+        {
+          "name": "Cracker Barrel Old Country Store",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 3282,
+          "address": "941 Hwy 140 NW, Adairsville, GA 30103, USA",
+          "phone": "(770) 773-1782",
+          "open_now": true
+        },
+        {
+          "name": "Harvest Moon RV Park",
+          "types": [
+            "convenience"
+          ],
+          "rating": 4.1,
+          "review_count": 108,
+          "address": "1001 Poplar Springs Rd, Adairsville, GA 30103, USA",
+          "phone": "(770) 773-7320",
+          "open_now": false
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.3,
+          "review_count": 2741,
+          "address": "100 Princeton Blvd, Adairsville, GA 30103, USA",
+          "phone": "(770) 877-5188",
+          "open_now": true
+        },
+        {
+          "name": "Pattys Truck Stop",
+          "types": [
+            "gas",
+            "food"
+          ],
+          "rating": 3.7,
+          "review_count": 1000,
+          "address": "940 Hwy 140 NW, Adairsville, GA 30103, USA",
+          "phone": "(470) 398-5951",
+          "open_now": true
+        },
+        {
+          "name": "RaceTrac",
+          "types": [
+            "gas",
+            "food",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 3.7,
+          "review_count": 142,
+          "address": "7812 Adairsville Hwy, Adairsville, GA 30103, USA",
+          "phone": "(470) 323-5847",
+          "open_now": true
+        },
+        {
+          "name": "Zaxbys Chicken Fingers & Buffalo Wings",
+          "types": [
+            "food"
+          ],
+          "rating": 3.5,
+          "review_count": 1032,
+          "address": "7869, Adairsville Hwy, Adairsville, GA 30103, USA",
+          "phone": "(770) 877-9557",
+          "open_now": true
+        },
+        {
+          "name": "Vickos Tacos & Tequila",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 190,
+          "address": "940 Hwy 140 NW suite B, Adairsville, GA 30103, USA",
+          "phone": "(770) 769-4106",
+          "open_now": true
+        },
+        {
+          "name": "Waffle House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 1092,
+          "address": "7855 ADAIRSVILLE HWY, Adairsville, GA 30103, USA",
+          "phone": "(770) 773-9002",
+          "open_now": true
+        },
+        {
+          "name": "Taco Bell",
+          "types": [
+            "food"
+          ],
+          "rating": 3.6,
+          "review_count": 1078,
+          "address": "7867 Adairsville Hwy, Adairsville, GA 30103, USA",
+          "phone": "(770) 773-3897",
+          "open_now": true
+        }
+      ]
     }
   ]
 }

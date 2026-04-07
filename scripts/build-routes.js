@@ -32,18 +32,41 @@ function formatStopType(stopType) {
   }
 }
 
+function poiIcon(types) {
+  if (types.includes('gas')) return '\u26FD';
+  if (types.includes('coffee')) return '\u2615';
+  if (types.includes('food')) return '\uD83C\uDF54';
+  if (types.includes('convenience')) return '\uD83C\uDFEA';
+  return '\uD83D\uDCCD';
+}
+
+function buildPoiChips(places) {
+  if (!places || places.length === 0) return '<span style="color:var(--text-muted);font-size:.75rem;">\u2014</span>';
+
+  // Show top 4 POIs to keep the column manageable
+  const chips = places.slice(0, 4).map(p => {
+    const icon = poiIcon(p.types || []);
+    const rating = p.rating ? `<span class="poi-rating">${p.rating.toFixed(1)}\u2605</span>` : '';
+    return `<span class="poi-chip"><span class="poi-icon">${icon}</span>${escapeHtml(p.name)}${rating ? ' ' + rating : ''}</span>`;
+  });
+
+  return `<div class="poi-list">${chips.join('')}</div>`;
+}
+
 function buildExitRow(exit) {
   const num = exit.exit_number || '\u2014';
   const name = escapeHtml(exit.exit_name || 'Highway Exit');
   const state = escapeHtml(exit.state || '');
   const type = formatStopType(exit.stop_type);
   const coords = `${exit.lat.toFixed(4)}, ${exit.lng.toFixed(4)}`;
+  const pois = buildPoiChips(exit.places);
 
   return `        <tr>
           <td class="exit-num">${escapeHtml(num)}</td>
           <td class="exit-name">${name}</td>
           <td class="exit-state">${state}</td>
           <td><span class="${type.cssClass}">${type.label}</span></td>
+          <td>${pois}</td>
           <td class="exit-coords">${coords}</td>
         </tr>`;
 }

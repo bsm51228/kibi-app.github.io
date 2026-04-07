@@ -13,7 +13,123 @@
       "state": "GA",
       "lat": 34.7582,
       "lng": -85.00203,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Chick-fil-A",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 3542,
+          "address": "1429 W Walnut Ave, Dalton, GA 30720, USA",
+          "phone": "(706) 275-0355",
+          "open_now": true
+        },
+        {
+          "name": "Chili's Grill & Bar",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 2470,
+          "address": "881 Holiday Inn Drive, Dalton, GA 30720, USA",
+          "phone": "(706) 226-1011",
+          "open_now": true
+        },
+        {
+          "name": "Olive Garden Italian Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 636,
+          "address": "1430 W Walnut Ave, Dalton, GA 30720, USA",
+          "phone": "(706) 459-3304",
+          "open_now": true
+        },
+        {
+          "name": "Starbucks Coffee Company",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.8,
+          "review_count": 197,
+          "address": "1302 W Walnut Ave, Dalton, GA 30720, USA",
+          "phone": "(762) 344-3329",
+          "open_now": true
+        },
+        {
+          "name": "Outback Steakhouse",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 1613,
+          "address": "955 Market St, Dalton, GA 30720, USA",
+          "phone": "(706) 277-9600",
+          "open_now": true
+        },
+        {
+          "name": "Krispy Kreme",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.2,
+          "review_count": 1220,
+          "address": "1500 W Walnut Ave, Dalton, GA 30720, USA",
+          "phone": "(706) 226-0110",
+          "open_now": true
+        },
+        {
+          "name": "LongHorn Steakhouse",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 1434,
+          "address": "1315 W Walnut Ave, Dalton, GA 30720, USA",
+          "phone": "(706) 281-1568",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.5,
+          "review_count": 2751,
+          "address": "1523 Walnut Ave, Dalton, GA 30720, USA",
+          "phone": "(706) 226-4825",
+          "open_now": true
+        },
+        {
+          "name": "Panera Bread",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.1,
+          "review_count": 789,
+          "address": "1303 W Walnut Ave #1, Dalton, GA 30720, USA",
+          "phone": "(706) 260-2624",
+          "open_now": true
+        },
+        {
+          "name": "Steak 'n Shake",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 2943,
+          "address": "1250 W Walnut Ave, Dalton, GA 30720, USA",
+          "phone": "(706) 272-3300",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_n_202581505",
@@ -22,7 +138,121 @@
       "state": "TN",
       "lat": 35.046957,
       "lng": -85.314292,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Feed Table and Tavern",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 4458,
+          "address": "201 W Main St, Chattanooga, TN 37402, USA",
+          "phone": "(423) 708-8500",
+          "open_now": true
+        },
+        {
+          "name": "Attack of the Tatsu",
+          "types": [
+            "food"
+          ],
+          "rating": 4.8,
+          "review_count": 2562,
+          "address": "818 Georgia Ave UNIT 118, Chattanooga, TN 37402, USA",
+          "phone": "(423) 531-4208",
+          "open_now": true
+        },
+        {
+          "name": "City Cafe Diner",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.4,
+          "review_count": 7433,
+          "address": "511 Broad St, Chattanooga, TN 37402, USA",
+          "phone": "(423) 634-9191",
+          "open_now": true
+        },
+        {
+          "name": "Tony's Pasta Shop & Trattoria",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 4386,
+          "address": "212 High St, Chattanooga, TN 37403, USA",
+          "phone": "(423) 321-0235 ext. 1",
+          "open_now": true
+        },
+        {
+          "name": "STIR",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 4067,
+          "address": "1444 Market St, Chattanooga, TN 37402, USA",
+          "phone": "(423) 531-7847",
+          "open_now": true
+        },
+        {
+          "name": "Scotties on The River",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 3242,
+          "address": "491 Riverfront Pkwy, Chattanooga, TN 37402, USA",
+          "phone": "(423) 269-7487",
+          "open_now": true
+        },
+        {
+          "name": "Niedlov's Cafe & Bakery",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.8,
+          "review_count": 1747,
+          "address": "215 E Main St, Chattanooga, TN 37408, USA",
+          "phone": "(423) 756-0303",
+          "open_now": false
+        },
+        {
+          "name": "Rembrandt's Coffee House",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4.5,
+          "review_count": 2402,
+          "address": "204 High St, Chattanooga, TN 37403, USA",
+          "phone": "(423) 321-0235 ext. 1",
+          "open_now": true
+        },
+        {
+          "name": "Honey Seed",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 1369,
+          "address": "1705 Market St Suite 105, Chattanooga, TN 37408, USA",
+          "phone": "(423) 521-7333",
+          "open_now": true
+        },
+        {
+          "name": "Tupelo Honey Southern Kitchen & Bar",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 3409,
+          "address": "1110 Market St, Chattanooga, TN 37402, USA",
+          "phone": "(423) 779-0400",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_n_497400127",
@@ -31,7 +261,120 @@
       "state": "TN",
       "lat": 35.501075,
       "lng": -86.089817,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Cracker Barrel Old Country Store",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 4936,
+          "address": "103 Paradise St, Manchester, TN 37355, USA",
+          "phone": "(931) 723-1358",
+          "open_now": true
+        },
+        {
+          "name": "Common John Brewing Co",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.9,
+          "review_count": 449,
+          "address": "210 Woodbury Hwy, Manchester, TN 37355, USA",
+          "phone": "(931) 954-5387",
+          "open_now": false
+        },
+        {
+          "name": "Emma's Family Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 2486,
+          "address": "82 Paradise St, Manchester, TN 37355, USA",
+          "phone": "(931) 723-4701",
+          "open_now": true
+        },
+        {
+          "name": "Waffle House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 1008,
+          "address": "629 Woodbury Hwy, Manchester, TN 37355, USA",
+          "phone": "(931) 723-0490",
+          "open_now": true
+        },
+        {
+          "name": "Granddad's",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 95,
+          "address": "620 Woodbury Hwy, Manchester, TN 37355, USA",
+          "phone": "(931) 954-5377"
+        },
+        {
+          "name": "Las Fajitas Mexican Restaurant & Bar",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 1090,
+          "address": "1165 Woodbury Hwy, Manchester, TN 37355, USA",
+          "phone": "(931) 728-5000",
+          "open_now": true
+        },
+        {
+          "name": "Stone Fort Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 376,
+          "address": "1500 Murfreesboro Hwy, Manchester, TN 37355, USA",
+          "phone": "(931) 728-9212",
+          "open_now": false
+        },
+        {
+          "name": "Shell",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.3,
+          "review_count": 83,
+          "address": "617 Woodbury Hwy, Manchester, TN 37355, USA",
+          "phone": "(931) 728-0240",
+          "open_now": true
+        },
+        {
+          "name": "Los 3 Amigos",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 1062,
+          "address": "425 Woodbury Hwy, Manchester, TN 37355, USA",
+          "phone": "(931) 728-7332",
+          "open_now": true
+        },
+        {
+          "name": "Medleys Diner at the Oaks",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 88,
+          "address": "947 Interstate Dr, Manchester, TN 37355, USA",
+          "phone": "(931) 728-5777",
+          "open_now": false
+        }
+      ]
     }
   ]
 }

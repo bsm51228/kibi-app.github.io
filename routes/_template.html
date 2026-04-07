@@ -255,6 +255,22 @@
       white-space: nowrap;
     }
 
+    /* -- POI CHIPS -- */
+    .poi-list { display: flex; flex-wrap: wrap; gap: 6px; max-width: 320px; }
+    .poi-chip {
+      display: inline-flex; align-items: center; gap: 4px;
+      background: var(--surface-mid);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px; padding: 4px 10px;
+      font-size: .72rem; color: var(--text-secondary);
+      white-space: nowrap;
+    }
+    .poi-icon { font-size: .68rem; }
+    .poi-rating {
+      color: #FBBF24; font-weight: 600;
+      font-size: .68rem;
+    }
+
     /* -- CTA -- */
     .route-cta {
       background: var(--surface);
@@ -393,6 +409,7 @@
             <th>Location</th>
             <th>State</th>
             <th>Type</th>
+            <th>What's Here</th>
             <th>Coordinates</th>
           </tr>
         </thead>

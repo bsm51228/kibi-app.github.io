@@ -13,7 +13,8 @@
       "state": "CA",
       "lat": 34.710953,
       "lng": -118.797591,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": []
     },
     {
       "exit_id": "osm_w_226879591",
@@ -22,7 +23,124 @@
       "state": "CA",
       "lat": 35.401227,
       "lng": -119.396126,
-      "stop_type": "service_plaza"
+      "stop_type": "service_plaza",
+      "places": [
+        {
+          "name": "TA Travel Center",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 4,
+          "review_count": 1317,
+          "address": "27769 Lagoon Dr, Buttonwillow, CA 93206, USA",
+          "phone": "(661) 764-5266",
+          "open_now": true
+        },
+        {
+          "name": "Starbucks Coffee Company",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.1,
+          "review_count": 1364,
+          "address": "20673 Tracy Ave, Buttonwillow, CA 93206, USA",
+          "phone": "(661) 764-6774",
+          "open_now": true
+        },
+        {
+          "name": "Taste of India",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 2047,
+          "address": "20687 Tracy Ave, Buttonwillow, CA 93206, USA",
+          "phone": "(559) 860-9243",
+          "open_now": true
+        },
+        {
+          "name": "ARCO",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.2,
+          "review_count": 464,
+          "address": "20650 Tracy Ave, Buttonwillow, CA 93206, USA",
+          "phone": "(661) 764-6036",
+          "open_now": true
+        },
+        {
+          "name": "Willow Ranch",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.4,
+          "review_count": 2047,
+          "address": "27770 Lagoon Dr, Buttonwillow, CA 93206, USA",
+          "phone": "(661) 764-6605",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.8,
+          "review_count": 2131,
+          "address": "20700 Tracy Ave, Buttonwillow, CA 93206, USA",
+          "phone": "(661) 764-6488",
+          "open_now": true
+        },
+        {
+          "name": "Mobil",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.2,
+          "review_count": 287,
+          "address": "27769 Lagoon Dr, Buttonwillow, CA 93206, USA",
+          "phone": "(661) 764-5266",
+          "open_now": true
+        },
+        {
+          "name": "Tita's Pupuser\u00eda Lonchera",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 871,
+          "address": "20645 Tracy Ave, Buttonwillow, CA 93206, USA",
+          "phone": "(661) 378-5644",
+          "open_now": true
+        },
+        {
+          "name": "Chevron",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 2.8,
+          "review_count": 26,
+          "address": "20656 Tracy Ave, Buttonwillow, CA 93206, USA",
+          "phone": "(661) 764-6695",
+          "open_now": true
+        },
+        {
+          "name": "Popeyes Louisiana Kitchen",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 342,
+          "address": "27769 Lagoon Dr, Buttonwillow, CA 93206, USA",
+          "phone": "(661) 764-5266",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_n_309028979",
@@ -31,7 +149,53 @@
       "state": "CA",
       "lat": 36.07896,
       "lng": -120.105181,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "EZ Trip Travel Center",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.9,
+          "review_count": 300,
+          "address": "44779 Lassen Ave, Huron, CA 93204, USA",
+          "phone": "(559) 384-0023",
+          "open_now": true
+        },
+        {
+          "name": "Subway",
+          "types": [
+            "food"
+          ],
+          "rating": 3.6,
+          "review_count": 213,
+          "address": "44779 Lassen Ave, Avenal, CA 93204, USA",
+          "phone": "(559) 386-9344",
+          "open_now": true
+        },
+        {
+          "name": "El Sabroso Mexican grill & seafood(OPEN)",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 163,
+          "address": "44779 Lassen Ave, Huron, CA 93234, USA",
+          "phone": "(559) 386-9744",
+          "open_now": true
+        },
+        {
+          "name": "Best Tejuino",
+          "types": [
+            "food"
+          ],
+          "rating": 3.7,
+          "review_count": 3,
+          "address": "3VFX+24, Avenal, CA, USA",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_n_89760612",
@@ -40,7 +204,125 @@
       "state": "CA",
       "lat": 36.414679,
       "lng": -121.320831,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Dutch Bros Coffee",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4,
+          "review_count": 115,
+          "address": "526 Nestles Rd, Soledad, CA 93960, USA",
+          "phone": "(877) 899-2767",
+          "open_now": true
+        },
+        {
+          "name": "Starbucks Coffee Company",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.1,
+          "review_count": 840,
+          "address": "Mission Shopping Center, 3070 H Dela Rosa Sr St, Soledad, CA 93960, USA",
+          "phone": "(831) 678-0199",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.7,
+          "review_count": 1473,
+          "address": "1215 Front St, Soledad, CA 93960, USA",
+          "phone": "(831) 678-1453",
+          "open_now": true
+        },
+        {
+          "name": "The Windmill Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 606,
+          "address": "1167 Front St, Soledad, CA 93960, USA",
+          "phone": "(831) 678-1775",
+          "open_now": true
+        },
+        {
+          "name": "Cocuyos Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 356,
+          "address": "185 Kidder St, Soledad, CA 93960, USA",
+          "phone": "(831) 237-5004",
+          "open_now": true
+        },
+        {
+          "name": "ARCO",
+          "types": [
+            "gas",
+            "food",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 4.1,
+          "review_count": 163,
+          "address": "2080 Hector De La Rosa, Soledad, CA 93960, USA",
+          "phone": "(831) 678-1825",
+          "open_now": true
+        },
+        {
+          "name": "Panda Express",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 53,
+          "address": "600 Nestles Rd, Soledad, CA 93960, USA",
+          "phone": "(831) 292-3138",
+          "open_now": true
+        },
+        {
+          "name": "CVS",
+          "types": [
+            "convenience"
+          ],
+          "rating": 3.2,
+          "review_count": 112,
+          "address": "2293 H Dela Rosa Sr St, Soledad, CA 93960, USA",
+          "phone": "(831) 678-5110",
+          "open_now": true
+        },
+        {
+          "name": "Shell",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.7,
+          "review_count": 146,
+          "address": "1305 Front St, Soledad, CA 93960, USA",
+          "phone": "(831) 678-2225",
+          "open_now": true
+        },
+        {
+          "name": "Denny's Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 789,
+          "address": "3064 H De La Rosa Sr. Street, Soledad, CA 93960, USA",
+          "phone": "(831) 678-1468",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_n_370626851",
@@ -49,7 +331,20 @@
       "state": "CA",
       "lat": 37.188065,
       "lng": -121.689087,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Coyote Creek Golf Club",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 753,
+          "address": "1 Coyote Creek Golf Dr, Morgan Hill, CA 95037, USA",
+          "phone": "(408) 463-1400",
+          "open_now": true
+        }
+      ]
     }
   ]
 }

@@ -13,7 +13,117 @@
       "state": "CO",
       "lat": 39.511347,
       "lng": -106.144499,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Conoco",
+          "types": [
+            "gas"
+          ],
+          "rating": 3.7,
+          "review_count": 493,
+          "address": "50 CO-91, Frisco, CO 80443, USA"
+        },
+        {
+          "name": "JJ's Rocky Mountain Tavern",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 442,
+          "address": "102 Wheeler Cir, Frisco, CO 80443, USA",
+          "phone": "(970) 968-3062",
+          "open_now": false
+        },
+        {
+          "name": "Ten Mile Tavern",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 461,
+          "address": "209 Ten Mile Cir, Frisco, CO 80443, USA",
+          "phone": "(970) 968-3070",
+          "open_now": false
+        },
+        {
+          "name": "Nowhere Pizza & Pub \u2022 Copper",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 109,
+          "address": "760 Copper Rd, Copper Mountain, CO 80443, USA",
+          "phone": "(970) 475-4373",
+          "open_now": true
+        },
+        {
+          "name": "Eagle BBQ",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 363,
+          "address": "214 Ten Mile Cir, Frisco, CO 80443, USA",
+          "phone": "(970) 368-3392",
+          "open_now": true
+        },
+        {
+          "name": "Sauce on Copper",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 140,
+          "address": "910 Copper Rd, Frisco, CO 80443, USA",
+          "phone": "(970) 368-2292",
+          "open_now": true
+        },
+        {
+          "name": "Sawmill Pizza & Taphouse",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 222,
+          "address": "176 Copper Cir, Frisco, CO 80443, USA",
+          "phone": "(970) 968-3085",
+          "open_now": true
+        },
+        {
+          "name": "Sweet Soy",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 93,
+          "address": "239 Ten Mile Cir, Frisco, CO 80443, USA",
+          "phone": "(970) 258-3063",
+          "open_now": true
+        },
+        {
+          "name": "Mulligans Irish Pub",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 190,
+          "address": "231 Ten Mile Cir, Frisco, CO 80443, USA",
+          "phone": "(970) 968-2084",
+          "open_now": true
+        },
+        {
+          "name": "El Zacatecano Mexican Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 3.8,
+          "review_count": 260,
+          "address": "189 Ten Mile Cir, Copper Mountain, CO 80443, USA",
+          "phone": "(970) 368-2963",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_n_177057133",
@@ -22,7 +132,122 @@
       "state": "CO",
       "lat": 39.548901,
       "lng": -107.325319,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Iron Mountain Hot Springs",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4.6,
+          "review_count": 7570,
+          "address": "281 Centennial St, Glenwood Springs, CO 81601, USA",
+          "phone": "(970) 945-4766",
+          "open_now": true
+        },
+        {
+          "name": "Hotel Colorado",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.2,
+          "review_count": 3649,
+          "address": "526 Pine St, Glenwood Springs, CO 81601, USA",
+          "phone": "(970) 945-6511",
+          "open_now": true
+        },
+        {
+          "name": "Slope & Hatch",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 2591,
+          "address": "208 7th St, Glenwood Springs, CO 81601, USA",
+          "phone": "(970) 230-9652",
+          "open_now": true
+        },
+        {
+          "name": "Glenwood Canyon Brewpub",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 3564,
+          "address": "402 7th St, Glenwood Springs, CO 81601, USA",
+          "phone": "(970) 464-3420",
+          "open_now": true
+        },
+        {
+          "name": "Maverik",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 2.5,
+          "review_count": 108,
+          "address": "105 6th St, Glenwood Springs, CO 81601, USA",
+          "phone": "(970) 945-7628",
+          "open_now": true
+        },
+        {
+          "name": "Wild Coffee in Glenwood",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4.7,
+          "review_count": 197,
+          "address": "402 7th St # 120, Glenwood Springs, CO 81601, USA",
+          "phone": "(970) 230-9632",
+          "open_now": false
+        },
+        {
+          "name": "Daily Bread",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 1511,
+          "address": "729 Grand Ave, Glenwood Springs, CO 81601, USA",
+          "phone": "(970) 945-6253",
+          "open_now": false
+        },
+        {
+          "name": "Rocky Mountain Pizza Co.",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 1767,
+          "address": "205 8th St, Glenwood Springs, CO 81601, USA",
+          "phone": "(970) 230-9695",
+          "open_now": true
+        },
+        {
+          "name": "Co. Ranch House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 1650,
+          "address": "704 Grand Ave, Glenwood Springs, CO 81601, USA",
+          "phone": "(970) 945-9059",
+          "open_now": false
+        },
+        {
+          "name": "The Pullman",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 2056,
+          "address": "330 7th St, Glenwood Springs, CO 81601, USA",
+          "phone": "(970) 230-9234",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_n_176134722",
@@ -31,7 +256,121 @@
       "state": "CO",
       "lat": 39.108484,
       "lng": -108.537196,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Grand Vista Hotel",
+          "types": [
+            "food"
+          ],
+          "rating": 3.8,
+          "review_count": 3154,
+          "address": "2790 Crossroads Blvd, Grand Junction, CO 81506, USA",
+          "phone": "(970) 241-8411",
+          "open_now": true
+        },
+        {
+          "name": "Applebee's Grill + Bar",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 2560,
+          "address": "711 Horizon Dr, Grand Junction, CO 81506, USA",
+          "phone": "(970) 256-0022",
+          "open_now": true
+        },
+        {
+          "name": "Starbucks Coffee Company",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.1,
+          "review_count": 97,
+          "address": "702 Horizon Dr, Grand Junction, CO 81506, USA",
+          "phone": "(970) 783-9940",
+          "open_now": true
+        },
+        {
+          "name": "Denny's Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 2553,
+          "address": "710 Horizon Dr, Grand Junction, CO 81506, USA",
+          "phone": "(970) 243-5030",
+          "open_now": true
+        },
+        {
+          "name": "Shell",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 2.9,
+          "review_count": 111,
+          "address": "745 Horizon Dr, Grand Junction, CO 81506, USA",
+          "phone": "(970) 325-6436",
+          "open_now": true
+        },
+        {
+          "name": "Taste of Chang'An Chinese Hot pot & BBQ Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 468,
+          "address": "757 Horizon Dr, Grand Junction, CO 81506, USA",
+          "phone": "(970) 985-4015",
+          "open_now": true
+        },
+        {
+          "name": "Enzo's Ristorante Italiano",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 1445,
+          "address": "707 Horizon Dr, Grand Junction, CO 81506, USA",
+          "phone": "(970) 255-8500",
+          "open_now": true
+        },
+        {
+          "name": "Freddy's Frozen Custard & Steakburgers",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 2007,
+          "address": "737 Horizon Dr, Grand Junction, CO 81506, USA",
+          "phone": "(970) 433-7112",
+          "open_now": true
+        },
+        {
+          "name": "The Cutting Board",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 216,
+          "address": "759 Horizon Dr STE A, Grand Junction, CO 81506, USA",
+          "phone": "(970) 433-7544",
+          "open_now": false
+        },
+        {
+          "name": "Tepanyaki Japanese Steakhouse & Sushi Bar",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 1090,
+          "address": "8709, 752 1/2 Horizon Dr, Grand Junction, CO 81506, USA",
+          "phone": "(970) 242-7772",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_w_206347757",
@@ -40,7 +379,8 @@
       "state": "UT",
       "lat": 38.393862,
       "lng": -109.452289,
-      "stop_type": "rest_area"
+      "stop_type": "rest_area",
+      "places": []
     },
     {
       "exit_id": "osm_n_356261591",
@@ -49,7 +389,8 @@
       "state": "UT",
       "lat": 38.878106,
       "lng": -110.662838,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": []
     },
     {
       "exit_id": "osm_n_83795000",
@@ -58,7 +399,121 @@
       "state": "UT",
       "lat": 38.932866,
       "lng": -111.846846,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Love's Travel Stop",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 4.3,
+          "review_count": 332,
+          "address": "1915 S State St, Salina, UT 84654, USA",
+          "phone": "(435) 287-0460",
+          "open_now": true
+        },
+        {
+          "name": "Maverik",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.5,
+          "review_count": 538,
+          "address": "260 E Industrial Pk Dr, Salina, UT 84654, USA",
+          "phone": "(385) 401-4810",
+          "open_now": true
+        },
+        {
+          "name": "Phillips 66",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.1,
+          "review_count": 643,
+          "address": "1645 S State St, Salina, UT 84654, USA",
+          "phone": "(435) 529-3781",
+          "open_now": true
+        },
+        {
+          "name": "Denny's Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 4750,
+          "address": "1602 S State St, Salina, UT 84654, USA",
+          "phone": "(435) 529-2150",
+          "open_now": true
+        },
+        {
+          "name": "El Mexicano Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 1476,
+          "address": "1535 S State St, Salina, UT 84654, USA",
+          "phone": "(435) 529-2132",
+          "open_now": true
+        },
+        {
+          "name": "Terrible's",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.4,
+          "review_count": 68,
+          "address": "2055 S State St, Salina, UT 84654, USA",
+          "phone": "(435) 287-0546",
+          "open_now": true
+        },
+        {
+          "name": "Carl's Jr.",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 696,
+          "address": "1659 S State St, Salina, UT 84654, USA",
+          "phone": "(435) 529-2048",
+          "open_now": true
+        },
+        {
+          "name": "Playa Azul Taco Shop",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 226,
+          "address": "1225 S State St, Salina, UT 84654, USA",
+          "phone": "(435) 529-9816"
+        },
+        {
+          "name": "Butch Cassidy RV Park & Campground",
+          "types": [
+            "convenience"
+          ],
+          "rating": 4.1,
+          "review_count": 78,
+          "address": "1050 S State St, Salina, UT 84654, USA",
+          "phone": "(435) 529-7400",
+          "open_now": true
+        },
+        {
+          "name": "Arby's",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 815,
+          "address": "1895 S State St, Salina, UT 84654, USA",
+          "phone": "(435) 287-0464",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_n_419636725",
@@ -67,7 +522,31 @@
       "state": "UT",
       "lat": 38.611252,
       "lng": -112.609229,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Cove Fort Chevron",
+          "types": [
+            "gas"
+          ],
+          "rating": 3.6,
+          "review_count": 152,
+          "address": "17030 UT-161, Beaver, UT 84713, USA",
+          "phone": "(435) 438-5749",
+          "open_now": true
+        },
+        {
+          "name": "Pahvant Travel Plaza",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.5,
+          "review_count": 182,
+          "address": "10950 Black Rock Rd, Beaver, UT 84713, USA",
+          "phone": "(385) 222-7766",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_w_225054739",
@@ -76,7 +555,124 @@
       "state": "UT",
       "lat": 37.725713,
       "lng": -113.052054,
-      "stop_type": "service_plaza"
+      "stop_type": "service_plaza",
+      "places": [
+        {
+          "name": "Love's Travel Stop",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 4.1,
+          "review_count": 794,
+          "address": "2645 Canyon Ranch Dr, Cedar City, UT 84721, USA",
+          "phone": "(435) 867-9888",
+          "open_now": true
+        },
+        {
+          "name": "Maverik",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 4,
+          "review_count": 123,
+          "address": "444 N Old Hwy 91, Cedar City, UT 84721, USA",
+          "phone": "(435) 867-1187",
+          "open_now": true
+        },
+        {
+          "name": "Namaste America Indian Cuisine",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 1872,
+          "address": "2107 N Main St, Cedar City, UT 84721, USA",
+          "phone": "(435) 523-9920",
+          "open_now": true
+        },
+        {
+          "name": "JR's Truck Stop",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 4.4,
+          "review_count": 87,
+          "address": "2635 Freeway Dr, Cedar City, UT 84721, USA",
+          "phone": "(435) 586-0498",
+          "open_now": true
+        },
+        {
+          "name": "Second East - (2nd East)",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 509,
+          "address": "686 Canyon Ranch Dr, Cedar City, UT 84721, USA",
+          "phone": "(435) 708-0233",
+          "open_now": true
+        },
+        {
+          "name": "Carl's Jr.",
+          "types": [
+            "food"
+          ],
+          "rating": 3.8,
+          "review_count": 864,
+          "address": "2645 Canyon Ranch Dr, Cedar City, UT 84721, USA",
+          "phone": "(435) 865-7407",
+          "open_now": true
+        },
+        {
+          "name": "The Hub Pizza Co.",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 681,
+          "address": "2002 N Main St #5, Cedar City, UT 84721, USA",
+          "phone": "(435) 263-0120",
+          "open_now": true
+        },
+        {
+          "name": "Alfredo\u2019s Mexican food",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 1112,
+          "address": "1970 N Main St, Cedar City, UT 84721, USA",
+          "phone": "(435) 865-5949",
+          "open_now": true
+        },
+        {
+          "name": "Love's",
+          "types": [
+            "gas"
+          ],
+          "rating": 3.4,
+          "review_count": 13,
+          "address": "2645 Canyon Ranch Dr, Cedar City, UT 84721, USA",
+          "phone": "(435) 867-9888",
+          "open_now": true
+        },
+        {
+          "name": "Johnny Mac's Bar and Grill Cedar City",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 287,
+          "address": "2605 N Main St, Cedar City, UT 84721, USA",
+          "phone": "(435) 708-0220",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_n_84310248",
@@ -85,7 +681,122 @@
       "state": "UT",
       "lat": 37.084772,
       "lng": -113.582317,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Fiesta Fun Family Fun Center",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 3365,
+          "address": "171 E 1160 S, St. George, UT 84770, USA",
+          "phone": "(435) 628-1818",
+          "open_now": true
+        },
+        {
+          "name": "Cracker Barrel Old Country Store",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 5172,
+          "address": "1736 S Convention Center Dr, St. George, UT 84790, USA",
+          "phone": "(435) 688-1200",
+          "open_now": true
+        },
+        {
+          "name": "Chick-fil-A",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 911,
+          "address": "1333 S Auto Mall Dr Bldg 200, St. George, UT 84770, USA",
+          "phone": "(435) 922-0777",
+          "open_now": true
+        },
+        {
+          "name": "Culver\u2019s",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 3482,
+          "address": "1586 S 270 E, St. George, UT 84790, USA",
+          "phone": "(435) 656-5300",
+          "open_now": true
+        },
+        {
+          "name": "Black Bear Diner St. George",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 6412,
+          "address": "1245 S Main St, St. George, UT 84770, USA",
+          "phone": "(435) 656-2327",
+          "open_now": true
+        },
+        {
+          "name": "LongHorn Steakhouse",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 1216,
+          "address": "1333 S Auto Mall Dr Building 400, St. George, UT 84770, USA",
+          "phone": "(435) 705-7617",
+          "open_now": true
+        },
+        {
+          "name": "Los Tapatios Mexican Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 606,
+          "address": "987 S Bluff St, St. George, UT 84770, USA",
+          "phone": "(435) 652-1693",
+          "open_now": true
+        },
+        {
+          "name": "Maverik",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 3.9,
+          "review_count": 110,
+          "address": "1216 S Bluff St, St. George, UT 84770, USA",
+          "phone": "(435) 628-1078",
+          "open_now": true
+        },
+        {
+          "name": "FeelLove Coffee",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.5,
+          "review_count": 1010,
+          "address": "558 E Riverside Dr #208, St. George, UT 84790, USA",
+          "phone": "(435) 922-1717",
+          "open_now": true
+        },
+        {
+          "name": "Utah's Rib & Chop House - St. George",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 3238,
+          "address": "1676 S Convention Center Dr, St. George, UT 84790, USA",
+          "phone": "(435) 674-1900",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_n_137641457",
@@ -94,7 +805,8 @@
       "state": "NV",
       "lat": 36.675349,
       "lng": -114.515622,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": []
     }
   ]
 }

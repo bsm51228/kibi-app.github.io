@@ -255,6 +255,22 @@
       white-space: nowrap;
     }
 
+    /* -- POI CHIPS -- */
+    .poi-list { display: flex; flex-wrap: wrap; gap: 6px; max-width: 320px; }
+    .poi-chip {
+      display: inline-flex; align-items: center; gap: 4px;
+      background: var(--surface-mid);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px; padding: 4px 10px;
+      font-size: .72rem; color: var(--text-secondary);
+      white-space: nowrap;
+    }
+    .poi-icon { font-size: .68rem; }
+    .poi-rating {
+      color: #FBBF24; font-weight: 600;
+      font-size: .68rem;
+    }
+
     /* -- CTA -- */
     .route-cta {
       background: var(--surface);
@@ -393,6 +409,7 @@
             <th>Location</th>
             <th>State</th>
             <th>Type</th>
+            <th>What's Here</th>
             <th>Coordinates</th>
           </tr>
         </thead>
@@ -402,6 +419,7 @@
           <td class="exit-name">Exit 344</td>
           <td class="exit-state">PA</td>
           <td><span class="type-badge">Exit</span></td>
+          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">🍔</span>The Dandelion <span class="poi-rating">4.6★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Parc <span class="poi-rating">4.6★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Kimpton Hotel Palomar Philadelphia <span class="poi-rating">4.4★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Shay’s Steaks <span class="poi-rating">4.8★</span></span></div></td>
           <td class="exit-coords">39.9564, -75.1805</td>
         </tr>
         <tr>
@@ -409,6 +427,7 @@
           <td class="exit-name">Exit 85</td>
           <td class="exit-state">MD</td>
           <td><span class="type-badge">Exit</span></td>
+          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">🍔</span>Chick-fil-A <span class="poi-rating">4.5★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Chaps Pit Beef Aberdeen <span class="poi-rating">4.4★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>The Olive Tree <span class="poi-rating">4.3★</span></span><span class="poi-chip"><span class="poi-icon">☕</span>McDonald's <span class="poi-rating">3.5★</span></span></div></td>
           <td class="exit-coords">39.5194, -76.1999</td>
         </tr>
         <tr>
@@ -416,6 +435,7 @@
           <td class="exit-name">Exit 75</td>
           <td class="exit-state">VA</td>
           <td><span class="type-badge">Exit</span></td>
+          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">🍔</span>The Watergate Hotel <span class="poi-rating">4.3★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Filomena Ristorante <span class="poi-rating">4.6★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Founding Farmers Fishers &amp; Bakers <span class="poi-rating">4.3★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Pho 75 <span class="poi-rating">4.5★</span></span></div></td>
           <td class="exit-coords">38.8944, -77.0678</td>
         </tr>
         <tr>
@@ -423,6 +443,7 @@
           <td class="exit-name">Highway Exit</td>
           <td class="exit-state">VA</td>
           <td><span class="type-badge">Exit</span></td>
+          <td><span style="color:var(--text-muted);font-size:.75rem;">—</span></td>
           <td class="exit-coords">38.2373, -77.3967</td>
         </tr>
         <tr>
@@ -430,6 +451,7 @@
           <td class="exit-name">Exit 74B</td>
           <td class="exit-state">VA</td>
           <td><span class="type-badge">Exit</span></td>
+          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">🍔</span>Perly's <span class="poi-rating">4.7★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Fall Line Kitchen &amp; Bar <span class="poi-rating">4.8★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Casa Del Barco - Canal Walk <span class="poi-rating">4.5★</span></span><span class="poi-chip"><span class="poi-icon">☕</span>Ironclad Coffee Roasters &amp; Baking Co. <span class="poi-rating">4.5★</span></span></div></td>
           <td class="exit-coords">37.5370, -77.4290</td>
         </tr>
         <tr>
@@ -437,6 +459,7 @@
           <td class="exit-name">Exit 12A</td>
           <td class="exit-state">VA</td>
           <td><span class="type-badge">Exit</span></td>
+          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">🍔</span>Cracker Barrel Old Country Store <span class="poi-rating">3.9★</span></span><span class="poi-chip"><span class="poi-icon">☕</span>Starbucks Coffee Company <span class="poi-rating">3.9★</span></span><span class="poi-chip"><span class="poi-icon">⛽</span>Pilot Dealer <span class="poi-rating">3.4★</span></span><span class="poi-chip"><span class="poi-icon">☕</span>McDonald's <span class="poi-rating">3.5★</span></span></div></td>
           <td class="exit-coords">36.7092, -78.1150</td>
         </tr>
         <tr>
@@ -444,6 +467,7 @@
           <td class="exit-name">Highway Exit</td>
           <td class="exit-state">NC</td>
           <td><span class="type-badge">Exit</span></td>
+          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">🍔</span>Morgan Street Food Hall <span class="poi-rating">4.5★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Brewery Bhavana - Downtown <span class="poi-rating">4.7★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Barcelona Wine Bar <span class="poi-rating">4.6★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Raleigh Beer Garden <span class="poi-rating">4.4★</span></span></div></td>
           <td class="exit-coords">35.7860, -78.6427</td>
         </tr>
         <tr>
@@ -451,6 +475,7 @@
           <td class="exit-name">Highway Exit</td>
           <td class="exit-state">NC</td>
           <td><span class="type-badge">Exit</span></td>
+          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">⛽</span>BJ's Wholesale Club <span class="poi-rating">4.0★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Lowes Foods of Southern Pines <span class="poi-rating">4.6★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Red's Corner <span class="poi-rating">4.8★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Betsy's Crepes <span class="poi-rating">4.7★</span></span></div></td>
           <td class="exit-coords">35.1732, -79.4044</td>
         </tr>
         <tr>
@@ -458,6 +483,7 @@
           <td class="exit-name">Love's Travel Stop</td>
           <td class="exit-state">SC</td>
           <td><span class="type-badge type-badge--plaza">Service Plaza</span></td>
+          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">⛽</span>Love's Travel Stop <span class="poi-rating">4.2★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Hardee's <span class="poi-rating">3.0★</span></span><span class="poi-chip"><span class="poi-icon">⛽</span>Carolina Convenience Store and Grill <span class="poi-rating">4.7★</span></span><span class="poi-chip"><span class="poi-icon">⛽</span>Mikes <span class="poi-rating">4.1★</span></span></div></td>
           <td class="exit-coords">34.7986, -80.4053</td>
         </tr>
         <tr>
@@ -465,6 +491,7 @@
           <td class="exit-name">Highway Exit</td>
           <td class="exit-state">SC</td>
           <td><span class="type-badge">Exit</span></td>
+          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">🍔</span>Halls Chophouse Columbia <span class="poi-rating">4.6★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>LongHorn Steakhouse <span class="poi-rating">4.1★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Twin Peaks <span class="poi-rating">4.5★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Blue Marlin <span class="poi-rating">4.4★</span></span></div></td>
           <td class="exit-coords">34.0082, -81.0495</td>
         </tr>
         <tr>
@@ -472,6 +499,7 @@
           <td class="exit-name">Exit 167A</td>
           <td class="exit-state">GA</td>
           <td><span class="type-badge">Exit</span></td>
+          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">🍔</span>The Olde Pink House <span class="poi-rating">4.6★</span></span><span class="poi-chip"><span class="poi-icon">☕</span>Leopold's Ice Cream <span class="poi-rating">4.7★</span></span><span class="poi-chip"><span class="poi-icon">☕</span>The Collins Quarter <span class="poi-rating">4.7★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Vic's On the River <span class="poi-rating">4.4★</span></span></div></td>
           <td class="exit-coords">32.0718, -81.1028</td>
         </tr>
         <tr>
@@ -479,6 +507,7 @@
           <td class="exit-name">Exit 38</td>
           <td class="exit-state">GA</td>
           <td><span class="type-badge">Exit</span></td>
+          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">🍔</span>Cheddar's Scratch Kitchen <span class="poi-rating">4.1★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Toucan's Ale House <span class="poi-rating">4.1★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>The Golden Isles Strike Zone <span class="poi-rating">4.4★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Five Guys <span class="poi-rating">4.3★</span></span></div></td>
           <td class="exit-coords">31.2484, -81.4996</td>
         </tr>
         <tr>
@@ -486,6 +515,7 @@
           <td class="exit-name">Exit 353C</td>
           <td class="exit-state">FL</td>
           <td><span class="type-badge">Exit</span></td>
+          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">🍔</span>Uptown Kitchen &amp; Bar <span class="poi-rating">4.3★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Sweet Pete's Candy <span class="poi-rating">4.7★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Chipotle Mexican Grill <span class="poi-rating">3.0★</span></span><span class="poi-chip"><span class="poi-icon">☕</span>7-Eleven <span class="poi-rating">3.4★</span></span></div></td>
           <td class="exit-coords">30.3345, -81.6700</td>
         </tr>
         <tr>
@@ -493,6 +523,7 @@
           <td class="exit-name">Exit 1-B-A</td>
           <td class="exit-state">FL</td>
           <td><span class="type-badge">Exit</span></td>
+          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">🍔</span>The Stubborn Mule <span class="poi-rating">4.4★</span></span><span class="poi-chip"><span class="poi-icon">☕</span>The Monroe <span class="poi-rating">4.5★</span></span><span class="poi-chip"><span class="poi-icon">☕</span>Craft &amp; Common <span class="poi-rating">4.7★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Kres Chophouse <span class="poi-rating">4.7★</span></span></div></td>
           <td class="exit-coords">28.5385, -81.3812</td>
         </tr>
         <tr>
@@ -500,6 +531,7 @@
           <td class="exit-name">Exit 193</td>
           <td class="exit-state">FL</td>
           <td><span class="type-badge">Exit</span></td>
+          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">⛽</span>Pilot Travel Center <span class="poi-rating">4.1★</span></span><span class="poi-chip"><span class="poi-icon">⛽</span>Racetrac <span class="poi-rating">4.3★</span></span><span class="poi-chip"><span class="poi-icon">⛽</span>bp <span class="poi-rating">3.5★</span></span><span class="poi-chip"><span class="poi-icon">☕</span>Dunkin' <span class="poi-rating">3.7★</span></span></div></td>
           <td class="exit-coords">27.6970, -80.8950</td>
         </tr>
         <tr>
@@ -507,6 +539,7 @@
           <td class="exit-name">Exit 70</td>
           <td class="exit-state">FL</td>
           <td><span class="type-badge">Exit</span></td>
+          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">🍔</span>The Cheesecake Factory <span class="poi-rating">4.1★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Drive Shack <span class="poi-rating">4.7★</span></span><span class="poi-chip"><span class="poi-icon">⛽</span>Wawa <span class="poi-rating">3.8★</span></span><span class="poi-chip"><span class="poi-icon">☕</span>The Pumphouse Pouratorium <span class="poi-rating">4.9★</span></span></div></td>
           <td class="exit-coords">26.7023, -80.0728</td>
         </tr>
         </tbody>

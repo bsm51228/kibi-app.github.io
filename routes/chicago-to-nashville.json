@@ -13,7 +13,124 @@
       "state": "IN",
       "lat": 41.143636,
       "lng": -87.261572,
-      "stop_type": "service_plaza"
+      "stop_type": "service_plaza",
+      "places": [
+        {
+          "name": "Love's Travel Stop",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 4.1,
+          "review_count": 969,
+          "address": "11207 IN-10, De Motte, IN 46310, USA",
+          "phone": "(219) 987-2202",
+          "open_now": true
+        },
+        {
+          "name": "TA Travel Center",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.7,
+          "review_count": 896,
+          "address": "11166 IN-10, De Motte, IN 46310, USA",
+          "phone": "(219) 507-7013",
+          "open_now": true
+        },
+        {
+          "name": "Dunkin'",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.1,
+          "review_count": 343,
+          "address": "11781 IN-10, De Motte, IN 46310, USA",
+          "phone": "(219) 246-2300",
+          "open_now": true
+        },
+        {
+          "name": "Roadhouse Grill",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 493,
+          "address": "11747 IN-10, De Motte, IN 46310, USA",
+          "phone": "(219) 209-5258",
+          "open_now": true
+        },
+        {
+          "name": "POUR HOUSE BAR & GRILL",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 495,
+          "address": "9031 N 1200 W, De Motte, IN 46310, USA",
+          "phone": "(219) 345-7687",
+          "open_now": true
+        },
+        {
+          "name": "J&J's Pizza",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 727,
+          "address": "11920 IN-10, De Motte, IN 46310, USA",
+          "phone": "(219) 345-5511",
+          "open_now": true
+        },
+        {
+          "name": "Arby's",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 786,
+          "address": "11207 W. Street Road #10, De Motte, IN 46310, USA",
+          "phone": "(219) 987-2346",
+          "open_now": true
+        },
+        {
+          "name": "bp",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.1,
+          "review_count": 14,
+          "address": "11166 IN-10, De Motte, IN 46310, USA",
+          "phone": "(219) 987-7520",
+          "open_now": true
+        },
+        {
+          "name": "Family Express",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 4,
+          "review_count": 55,
+          "address": "11880 IN-10, De Motte, IN 46310, USA",
+          "phone": "(219) 345-4100",
+          "open_now": true
+        },
+        {
+          "name": "DEMOTTE CITGO",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.6,
+          "review_count": 120,
+          "address": "11750 IN-10, De Motte, IN 46310, USA",
+          "phone": "(219) 251-0175",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_n_389349762",
@@ -22,7 +139,43 @@
       "state": "IN",
       "lat": 40.122012,
       "lng": -87.3879,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Overpass Pizza",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 519,
+          "address": "147 S Stringtown Rd, Covington, IN 47932, USA",
+          "phone": "(765) 793-4377",
+          "open_now": true
+        },
+        {
+          "name": "Covington Marathon",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 2.5,
+          "review_count": 42,
+          "address": "188 S Stringtown Rd, Covington, IN 47932, USA",
+          "phone": "(765) 793-2799",
+          "open_now": true
+        },
+        {
+          "name": "Covington Food Center",
+          "types": [
+            "convenience"
+          ],
+          "rating": null,
+          "review_count": null,
+          "address": "188 S Stringtown Rd, Covington, IN 47932, USA",
+          "phone": "(765) 793-2799",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_n_630638469",
@@ -31,7 +184,124 @@
       "state": "IN",
       "lat": 39.430764,
       "lng": -87.319809,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "ONE9 Travel Center",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 4.1,
+          "review_count": 1125,
+          "address": "5555 E Margaret Ave, Terre Haute, IN 47803, USA",
+          "phone": "(812) 877-9977",
+          "open_now": true
+        },
+        {
+          "name": "Chipotle Mexican Grill",
+          "types": [
+            "food"
+          ],
+          "rating": 3.1,
+          "review_count": 144,
+          "address": "2499 IN-46, Terre Haute, IN 47803, USA",
+          "phone": "(812) 990-4024",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.4,
+          "review_count": 1714,
+          "address": "2633 IN-46, Terre Haute, IN 47803, USA",
+          "phone": "(812) 877-6440",
+          "open_now": true
+        },
+        {
+          "name": "Sonic Drive-In",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 1479,
+          "address": "2149 IN-46, Terre Haute, IN 47803, USA",
+          "phone": "(812) 877-2200",
+          "open_now": true
+        },
+        {
+          "name": "Thorntons",
+          "types": [
+            "gas",
+            "food",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 3.8,
+          "review_count": 53,
+          "address": "2665 IN-46, Terre Haute, IN 47803, USA",
+          "phone": "(812) 877-6260",
+          "open_now": true
+        },
+        {
+          "name": "Taco Bell",
+          "types": [
+            "food"
+          ],
+          "rating": 3.8,
+          "review_count": 926,
+          "address": "2319 IN-46, Terre Haute, IN 47803, USA",
+          "phone": "(812) 234-6386",
+          "open_now": true
+        },
+        {
+          "name": "Arby's",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 967,
+          "address": "2345 IN-46, Terre Haute, IN 47803, USA",
+          "phone": "(812) 814-3392",
+          "open_now": true
+        },
+        {
+          "name": "Burger King",
+          "types": [
+            "food"
+          ],
+          "rating": 3.8,
+          "review_count": 689,
+          "address": "2575 IN-46, Terre Haute, IN 47803, USA",
+          "phone": "(812) 877-6619",
+          "open_now": true
+        },
+        {
+          "name": "Subway",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 192,
+          "address": "5555 E Margaret Dr, Terre Haute, IN 47803, USA",
+          "phone": "(812) 877-1879",
+          "open_now": true
+        },
+        {
+          "name": "Azzip Pizza",
+          "types": [
+            "food"
+          ],
+          "rating": 5,
+          "review_count": 103,
+          "address": "2499 IN-46, Terre Haute, IN 47803, USA",
+          "phone": "(812) 460-7856",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_n_809997671",
@@ -40,7 +310,42 @@
       "state": "IN",
       "lat": 38.650798,
       "lng": -87.120228,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Hucks",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.2,
+          "review_count": 592,
+          "address": "MV28+PH, 1 Gateway Dr, Washington, IN 47501, USA",
+          "phone": "(812) 610-2306",
+          "open_now": true
+        },
+        {
+          "name": "Huck's Market",
+          "types": [
+            "convenience"
+          ],
+          "rating": 3,
+          "review_count": 4,
+          "address": "MV28+PH, Washington, IN 47501, USA",
+          "phone": "(812) 610-2306",
+          "open_now": true
+        },
+        {
+          "name": "Godfather's Pizza Express",
+          "types": [
+            "food"
+          ],
+          "rating": null,
+          "review_count": null,
+          "address": "1 Gateway Dr, Washington, IN 47501, USA",
+          "phone": "(812) 610-2306",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_n_1801536675",
@@ -49,7 +354,21 @@
       "state": "KY",
       "lat": 37.792856,
       "lng": -87.047874,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Fischers Key Stop",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 4.5,
+          "review_count": 18,
+          "address": "4010 E 4th St, Owensboro, KY 42303, USA",
+          "phone": "(270) 684-0262",
+          "open_now": false
+        }
+      ]
     }
   ]
 }

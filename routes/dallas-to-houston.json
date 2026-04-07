@@ -13,7 +13,122 @@
       "state": "TX",
       "lat": 32.075694,
       "lng": -96.447633,
-      "stop_type": "service_plaza"
+      "stop_type": "service_plaza",
+      "places": [
+        {
+          "name": "QuikTrip",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 3.8,
+          "review_count": 124,
+          "address": "2000 US-287, Corsicana, TX 75110, USA",
+          "phone": "(903) 602-7832",
+          "open_now": true
+        },
+        {
+          "name": "Chick-fil-A",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 1259,
+          "address": "1903 US-287, Corsicana, TX 75110, USA",
+          "phone": "(430) 222-3171",
+          "open_now": true
+        },
+        {
+          "name": "Collin Street Bakery - I-45 Corsicana",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4.5,
+          "review_count": 2243,
+          "address": "2035 I-45, Corsicana, TX 75109, USA",
+          "phone": "(903) 872-2157",
+          "open_now": true
+        },
+        {
+          "name": "Starbucks",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.1,
+          "review_count": 671,
+          "address": "2004 US-287, Corsicana, TX 75110, USA",
+          "phone": "(430) 236-6074",
+          "open_now": true
+        },
+        {
+          "name": "Schulman's Movie Bowl Grille - Corsicana",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 1479,
+          "address": "3501 Corsicana Crossing Blvd, Corsicana, TX 75109, USA",
+          "phone": "(903) 641-0049",
+          "open_now": true
+        },
+        {
+          "name": "Chili's Grill & Bar",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 1631,
+          "address": "2201 I-45, Corsicana, TX 75110, USA",
+          "phone": "(903) 641-0552",
+          "open_now": true
+        },
+        {
+          "name": "Whataburger",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 1930,
+          "address": "2001 S INTERSTATE HIGHWAY 45, Corsicana, TX 75109, USA",
+          "phone": "(903) 874-6403",
+          "open_now": true
+        },
+        {
+          "name": "Waffle House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 669,
+          "address": "2951 US-287, Corsicana, TX 75109, USA",
+          "phone": "(430) 775-9672",
+          "open_now": true
+        },
+        {
+          "name": "Panda Express",
+          "types": [
+            "food"
+          ],
+          "rating": 3.5,
+          "review_count": 621,
+          "address": "2015 So Dr #45, Corsicana, TX 75110, USA",
+          "phone": "(903) 641-0369",
+          "open_now": true
+        },
+        {
+          "name": "Denny's Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 1677,
+          "address": "2801 US-287, Corsicana, TX 75110, USA",
+          "phone": "(903) 874-8920",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_n_469470404",
@@ -22,7 +137,126 @@
       "state": "TX",
       "lat": 31.262079,
       "lng": -95.987729,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Woody's Smokehouse Northbound",
+          "types": [
+            "food",
+            "convenience"
+          ],
+          "rating": 4.4,
+          "review_count": 3127,
+          "address": "947 W St Marys St, Centerville, TX 75833, USA",
+          "phone": "(903) 536-9663",
+          "open_now": true
+        },
+        {
+          "name": "Woody's Smokehouse Southbound",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 4.5,
+          "review_count": 779,
+          "address": "1021 W St Marys St, Centerville, TX 75833, USA",
+          "phone": "(903) 536-2434",
+          "open_now": true
+        },
+        {
+          "name": "Exxon",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.2,
+          "review_count": 413,
+          "address": "1008 W St Marys St, Centerville, TX 75833, USA",
+          "phone": "(903) 536-2205",
+          "open_now": true
+        },
+        {
+          "name": "Shell",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 4.2,
+          "review_count": 56,
+          "address": "1021 W St Marys St, Centerville, TX 75833, USA",
+          "phone": "(903) 536-2434",
+          "open_now": true
+        },
+        {
+          "name": "Shell",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 3.9,
+          "review_count": 56,
+          "address": "947 W St Marys St, Centerville, TX 75833, USA",
+          "phone": "(903) 536-9663",
+          "open_now": true
+        },
+        {
+          "name": "TX Burger Centerville",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 915,
+          "address": "921 W St Marys St, Centerville, TX 75833, USA",
+          "phone": "(903) 322-7160",
+          "open_now": true
+        },
+        {
+          "name": "Dairy Queen",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 811,
+          "address": "1120 W St Marys St, Centerville, TX 75833, USA",
+          "phone": "(903) 536-2861",
+          "open_now": true
+        },
+        {
+          "name": "Country Cousins Barbeque",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 590,
+          "address": "930 W St Marys St, Centerville, TX 75833, USA",
+          "phone": "(903) 536-3271",
+          "open_now": false
+        },
+        {
+          "name": "Checkers",
+          "types": [
+            "food"
+          ],
+          "rating": 2.8,
+          "review_count": 135,
+          "address": "Mary's St, 950 W St Marys St, Centerville, TX 75833, USA",
+          "phone": "(903) 536-1170",
+          "open_now": true
+        },
+        {
+          "name": "Chevron",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.3,
+          "review_count": 51,
+          "address": "950 W St Marys St, Centerville, TX 75833, USA",
+          "phone": "(903) 536-8075",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_n_35039562",
@@ -31,7 +265,43 @@
       "state": "TX",
       "lat": 30.553022,
       "lng": -95.499201,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Chevron",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 2.3,
+          "review_count": 63,
+          "address": "6505 FM1374, New Waverly, TX 77358, USA",
+          "phone": "(936) 344-6119",
+          "open_now": true
+        },
+        {
+          "name": "Burger King",
+          "types": [
+            "food"
+          ],
+          "rating": 3.5,
+          "review_count": 417,
+          "address": "6505D FM1374, New Waverly, TX 77358, USA",
+          "phone": "(346) 299-9338",
+          "open_now": true
+        },
+        {
+          "name": "Star Stop 95",
+          "types": [
+            "convenience"
+          ],
+          "rating": 3.1,
+          "review_count": 31,
+          "address": "6505 FM1374, New Waverly, TX 77358, USA",
+          "phone": "(936) 344-6119",
+          "open_now": true
+        }
+      ]
     }
   ]
 }

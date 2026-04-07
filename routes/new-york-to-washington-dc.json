@@ -13,7 +13,124 @@
       "state": "PA",
       "lat": 40.102814,
       "lng": -75.004882,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Topgolf Philadelphia",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 741,
+          "address": "2140 Byberry Rd, Philadelphia, PA 19116, USA",
+          "phone": "(267) 787-4599",
+          "open_now": true
+        },
+        {
+          "name": "Wawa",
+          "types": [
+            "gas",
+            "food",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 4.3,
+          "review_count": 868,
+          "address": "12004 Roosevelt Blvd, Philadelphia, PA 19116, USA",
+          "phone": "(484) 320-3720",
+          "open_now": true
+        },
+        {
+          "name": "Chickie's & Pete's",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 3688,
+          "address": "11000 Roosevelt Blvd, Philadelphia, PA 19116, USA",
+          "phone": "(215) 856-9890",
+          "open_now": true
+        },
+        {
+          "name": "Asia Mix Restaurant (Uzbek Food)",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 597,
+          "address": "11000 Roosevelt Blvd Ste 154, Philadelphia, PA 19116, USA",
+          "phone": "(267) 686-8087",
+          "open_now": true
+        },
+        {
+          "name": "Chick-fil-A",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 765,
+          "address": "12000 Roosevelt Blvd, Philadelphia, PA 19116, USA",
+          "phone": "(215) 279-8040",
+          "open_now": true
+        },
+        {
+          "name": "Steve's Prince of Steaks",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 2541,
+          "address": "2711 Comly Rd, Philadelphia, PA 19154, USA",
+          "phone": "(215) 677-8020",
+          "open_now": true
+        },
+        {
+          "name": "Panera Bread",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4,
+          "review_count": 608,
+          "address": "9898 E Roosevelt Blvd Suite 101, Philadelphia, PA 19115, USA",
+          "phone": "(215) 677-1571",
+          "open_now": true
+        },
+        {
+          "name": "IHOP",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 2221,
+          "address": "10740 Roosevelt Blvd, Philadelphia, PA 19116, USA",
+          "phone": "(215) 969-5170",
+          "open_now": true
+        },
+        {
+          "name": "Oh Brother Philly",
+          "types": [
+            "food"
+          ],
+          "rating": 4.8,
+          "review_count": 1075,
+          "address": "10000 Roosevelt Blvd, Philadelphia, PA 19116, USA",
+          "phone": "(215) 552-5645",
+          "open_now": true
+        },
+        {
+          "name": "Starbucks Coffee Company",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4,
+          "review_count": 882,
+          "address": "10000 Roosevelt Blvd, Philadelphia, PA 19116, USA",
+          "phone": "(215) 552-9737",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_n_182463685",
@@ -22,7 +139,121 @@
       "state": "MD",
       "lat": 39.592418,
       "lng": -76.067279,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Great Wolf Lodge | Perryville",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 4472,
+          "address": "1240 Chesapeake Overlook Pkwy, Perryville, MD 21903, USA",
+          "phone": "(888) 983-9653"
+        },
+        {
+          "name": "Wawa",
+          "types": [
+            "gas",
+            "food",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 3,
+          "review_count": 92,
+          "address": "400 Chesapeake Overlook Pkwy, Perryville, MD 21903, USA",
+          "phone": "(443) 947-5260",
+          "open_now": true
+        },
+        {
+          "name": "Denny's Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 1453,
+          "address": "41 Heather Ln, Perryville, MD 21903, USA",
+          "phone": "(410) 642-6701",
+          "open_now": true
+        },
+        {
+          "name": "Royal Farms",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 3.4,
+          "review_count": 111,
+          "address": "1825 Perryville Rd #2, Perryville, MD 21903, USA",
+          "phone": "(410) 642-5740",
+          "open_now": true
+        },
+        {
+          "name": "Exxon",
+          "types": [
+            "gas"
+          ],
+          "rating": 4,
+          "review_count": 449,
+          "address": "31 Heather Ln, Perryville, MD 21903, USA",
+          "phone": "(410) 642-2883",
+          "open_now": true
+        },
+        {
+          "name": "Dunkin'",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 2.2,
+          "review_count": 56,
+          "address": "1240 Chesapeake Overlook Pkwy, Port Deposit, MD 21904, USA",
+          "phone": "(443) 571-2264",
+          "open_now": true
+        },
+        {
+          "name": "Barnwood Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 3.3,
+          "review_count": 22,
+          "address": "1240 Chesapeake Overlook Pkwy, Port Deposit, MD 21904, USA",
+          "open_now": true
+        },
+        {
+          "name": "Guapos Tacos",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 9,
+          "address": "9 Blythedale Rd, Perryville, MD 21903, USA",
+          "phone": "(443) 966-1275",
+          "open_now": false
+        },
+        {
+          "name": "Timbers",
+          "types": [
+            "food"
+          ],
+          "rating": 1.7,
+          "review_count": 46,
+          "address": "1240 Chesapeake Overlook Pkwy, Port Deposit, MD 21904, USA",
+          "open_now": true
+        },
+        {
+          "name": "Campfire Kitchen",
+          "types": [
+            "food"
+          ],
+          "rating": 3.2,
+          "review_count": 13,
+          "address": "1240 Chesapeake Overlook Pkwy, Port Deposit, MD 21904, USA",
+          "open_now": true
+        }
+      ]
     }
   ]
 }

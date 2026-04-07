@@ -13,7 +13,32 @@
       "state": "GA",
       "lat": 33.109369,
       "lng": -84.002247,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Marathon Gas",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.4,
+          "review_count": 47,
+          "address": "2980 Johnstonville Rd, Forsyth, GA 31029, USA",
+          "phone": "(478) 994-3597",
+          "open_now": true
+        },
+        {
+          "name": "Hunt Brothers Pizza",
+          "types": [
+            "food"
+          ],
+          "rating": null,
+          "review_count": null,
+          "address": "2980 Johnstonville Rd, Forsyth, GA 31029, USA",
+          "phone": "(478) 994-3597",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_n_70420472",
@@ -22,7 +47,121 @@
       "state": "GA",
       "lat": 32.475151,
       "lng": -83.74303,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Chick-fil-A",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 972,
+          "address": "1600 Sam Nunn Blvd, Perry, GA 31069, USA",
+          "phone": "(478) 988-8188",
+          "open_now": true
+        },
+        {
+          "name": "LongHorn Steakhouse",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 2384,
+          "address": "100 Hampton Ct, Perry, GA 31069, USA",
+          "phone": "(478) 988-1500",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.5,
+          "review_count": 1887,
+          "address": "1413 Sam Nunn Blvd, Perry, GA 31069, USA",
+          "phone": "(478) 987-9587",
+          "open_now": true
+        },
+        {
+          "name": "Sonny's BBQ",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 2437,
+          "address": "1001 St Patricks Dr, Perry, GA 31069, USA",
+          "phone": "(478) 218-2100",
+          "open_now": true
+        },
+        {
+          "name": "Dunkin'",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.4,
+          "review_count": 269,
+          "address": "1506 Sam Nunn Blvd, Perry, GA 31069, USA",
+          "phone": "(478) 313-5227",
+          "open_now": true
+        },
+        {
+          "name": "Cook Out",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 247,
+          "address": "1340 Sam Nunn Blvd, Perry, GA 31069, USA",
+          "phone": "(866) 547-0011",
+          "open_now": true
+        },
+        {
+          "name": "Zaxbys Chicken Fingers & Buffalo Wings",
+          "types": [
+            "food"
+          ],
+          "rating": 3.8,
+          "review_count": 868,
+          "address": "101 Hampton Ct, Perry, GA 31069, USA",
+          "phone": "(478) 987-1020",
+          "open_now": true
+        },
+        {
+          "name": "Red Lobster",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 2146,
+          "address": "1359 Sam Nunn Blvd, Perry, GA 31069, USA",
+          "phone": "(478) 988-8612",
+          "open_now": true
+        },
+        {
+          "name": "Taco Bell",
+          "types": [
+            "food"
+          ],
+          "rating": 3.4,
+          "review_count": 927,
+          "address": "1500 Sam Nunn Blvd, Perry, GA 31069, USA",
+          "phone": "(478) 987-7365",
+          "open_now": true
+        },
+        {
+          "name": "IHOP",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 682,
+          "address": "1406 Sam Nunn Blvd, Perry, GA 31069, USA",
+          "phone": "(478) 224-0356",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_n_4341645761",
@@ -31,7 +170,41 @@
       "state": "GA",
       "lat": 31.50562,
       "lng": -83.515372,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Chevron",
+          "types": [
+            "gas"
+          ],
+          "rating": 3,
+          "review_count": 2,
+          "address": "4310 GA-125, Tifton, GA 31794, USA",
+          "open_now": true
+        },
+        {
+          "name": "Hunt Brothers Pizza",
+          "types": [
+            "food"
+          ],
+          "rating": null,
+          "review_count": null,
+          "address": "4310 GA-125, Tifton, GA 31794, USA",
+          "phone": "(229) 396-4508",
+          "open_now": true
+        },
+        {
+          "name": "Blue Devils Corner # 2 (Chevron Gas Station)",
+          "types": [
+            "convenience"
+          ],
+          "rating": 5,
+          "review_count": 68,
+          "address": "4310 GA-125, Tifton, GA 31794, USA",
+          "phone": "(229) 396-4508",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_n_97559335",
@@ -40,7 +213,123 @@
       "state": "FL",
       "lat": 30.448421,
       "lng": -82.932741,
-      "stop_type": "exit_ramp"
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Love's Travel Stop",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 4.1,
+          "review_count": 1470,
+          "address": "11459 SW 61st Ave, Jasper, FL 32052, USA",
+          "phone": "(386) 792-3095",
+          "open_now": true
+        },
+        {
+          "name": "Wendy's",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 1354,
+          "address": "6723 US-129, Jasper, FL 32052, USA",
+          "phone": "(386) 792-1080",
+          "open_now": true
+        },
+        {
+          "name": "Arby's",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 2571,
+          "address": "11459 SW 61st Wy, Jasper, FL 32052, USA",
+          "phone": "(386) 792-3095",
+          "open_now": true
+        },
+        {
+          "name": "Shell",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.8,
+          "review_count": 31,
+          "address": "6723 US-129, Jasper, FL 32052, USA",
+          "phone": "(386) 792-1898",
+          "open_now": true
+        },
+        {
+          "name": "Mobil",
+          "types": [
+            "gas"
+          ],
+          "rating": 4,
+          "review_count": 240,
+          "address": "6580 US-129, Jasper, FL 32052, USA",
+          "phone": "(386) 792-2182",
+          "open_now": true
+        },
+        {
+          "name": "ONE9 Dealer",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 2.8,
+          "review_count": 5,
+          "address": "6723 US-129, Jasper, FL 32052, USA",
+          "phone": "(386) 792-1898",
+          "open_now": true
+        },
+        {
+          "name": "Dairy Queen Grill & Chill",
+          "types": [
+            "food"
+          ],
+          "rating": 3.3,
+          "review_count": 342,
+          "address": "6580 US Highway 129 S I-75 & US 129 (Exit 85, Jasper, FL 32052, USA",
+          "phone": "(386) 792-2679",
+          "open_now": true
+        },
+        {
+          "name": "One9",
+          "types": [
+            "gas"
+          ],
+          "rating": 2.8,
+          "review_count": 4,
+          "address": "6723 US-129, Jasper, FL 32052, USA",
+          "phone": "(386) 792-1898"
+        },
+        {
+          "name": "SunStop Store #349",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.4,
+          "review_count": 19,
+          "address": "6723 US-129, Jasper, FL 32052, USA",
+          "phone": "(386) 792-1898",
+          "open_now": true
+        },
+        {
+          "name": "Subway",
+          "types": [
+            "food"
+          ],
+          "rating": 3.2,
+          "review_count": 103,
+          "address": "I-75 &, US-129, Jasper, FL 32052, USA",
+          "phone": "(386) 792-2679",
+          "open_now": true
+        }
+      ]
     },
     {
       "exit_id": "osm_w_696478391",
@@ -49,7 +338,8 @@
       "state": "FL",
       "lat": 29.5904,
       "lng": -82.36208,
-      "stop_type": "rest_area"
+      "stop_type": "rest_area",
+      "places": []
     }
   ]
 }

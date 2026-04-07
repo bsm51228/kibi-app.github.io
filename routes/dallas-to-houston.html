@@ -255,6 +255,22 @@
       white-space: nowrap;
     }
 
+    /* -- POI CHIPS -- */
+    .poi-list { display: flex; flex-wrap: wrap; gap: 6px; max-width: 320px; }
+    .poi-chip {
+      display: inline-flex; align-items: center; gap: 4px;
+      background: var(--surface-mid);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px; padding: 4px 10px;
+      font-size: .72rem; color: var(--text-secondary);
+      white-space: nowrap;
+    }
+    .poi-icon { font-size: .68rem; }
+    .poi-rating {
+      color: #FBBF24; font-weight: 600;
+      font-size: .68rem;
+    }
+
     /* -- CTA -- */
     .route-cta {
       background: var(--surface);
@@ -393,6 +409,7 @@
             <th>Location</th>
             <th>State</th>
             <th>Type</th>
+            <th>What's Here</th>
             <th>Coordinates</th>
           </tr>
         </thead>
@@ -402,6 +419,7 @@
           <td class="exit-name">QuikTrip</td>
           <td class="exit-state">TX</td>
           <td><span class="type-badge type-badge--plaza">Service Plaza</span></td>
+          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">⛽</span>QuikTrip <span class="poi-rating">3.8★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Chick-fil-A <span class="poi-rating">4.6★</span></span><span class="poi-chip"><span class="poi-icon">☕</span>Collin Street Bakery - I-45 Corsicana <span class="poi-rating">4.5★</span></span><span class="poi-chip"><span class="poi-icon">☕</span>Starbucks <span class="poi-rating">4.1★</span></span></div></td>
           <td class="exit-coords">32.0757, -96.4476</td>
         </tr>
         <tr>
@@ -409,6 +427,7 @@
           <td class="exit-name">Exit 164</td>
           <td class="exit-state">TX</td>
           <td><span class="type-badge">Exit</span></td>
+          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">🍔</span>Woody's Smokehouse Northbound <span class="poi-rating">4.4★</span></span><span class="poi-chip"><span class="poi-icon">⛽</span>Woody's Smokehouse Southbound <span class="poi-rating">4.5★</span></span><span class="poi-chip"><span class="poi-icon">⛽</span>Exxon <span class="poi-rating">4.2★</span></span><span class="poi-chip"><span class="poi-icon">⛽</span>Shell <span class="poi-rating">4.2★</span></span></div></td>
           <td class="exit-coords">31.2621, -95.9877</td>
         </tr>
         <tr>
@@ -416,6 +435,7 @@
           <td class="exit-name">Exit 103</td>
           <td class="exit-state">TX</td>
           <td><span class="type-badge">Exit</span></td>
+          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">⛽</span>Chevron <span class="poi-rating">2.3★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Burger King <span class="poi-rating">3.5★</span></span><span class="poi-chip"><span class="poi-icon">🏪</span>Star Stop 95 <span class="poi-rating">3.1★</span></span></div></td>
           <td class="exit-coords">30.5530, -95.4992</td>
         </tr>
         </tbody>
