@@ -3,10 +3,43 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>kibi — Highway Exit Coverage Map</title>
+<title>US Highway Exit Map — 79,000+ Exits Scored | Kibi</title>
+<meta name="description" content="Interactive map of 79,000+ US highway exits scored by Kibi. See exit density, coverage gaps, and the best-served corridors — all from OpenStreetMap data." />
+<link rel="canonical" href="https://drivekibi.com/kibi_exit_heatmap.html" />
+<meta name="robots" content="index, follow" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://drivekibi.com/kibi_exit_heatmap.html" />
+<meta property="og:title" content="US Highway Exit Map — 79,000+ Exits Scored | Kibi" />
+<meta property="og:description" content="Interactive map of 79,000+ US highway exits. See density heatmaps, coverage gaps, and the best-served corridors." />
+<meta property="og:image" content="https://drivekibi.com/og-image.png" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="US Highway Exit Map — 79,000+ Exits Scored | Kibi" />
+<meta name="twitter:description" content="Interactive map of 79,000+ US highway exits. See density heatmaps, coverage gaps, and the best-served corridors." />
+<meta name="twitter:image" content="https://drivekibi.com/og-image.png" />
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="Kibi_Logo_Icon_White.png" />
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Kibi Highway Exit Coverage Map",
+  "description": "Interactive map of 79,000+ US highway exits scored by Kibi. Visualize exit density, coverage gaps, and the best-served highway corridors.",
+  "url": "https://drivekibi.com/kibi_exit_heatmap.html",
+  "applicationCategory": "TravelApplication",
+  "operatingSystem": "Web browser (desktop recommended)",
+  "author": {"@type": "Organization", "name": "Kibitzer, Inc."}
+}
+</script>
 <style>
   :root {
     --green:        #2EBD7A;
@@ -205,6 +238,34 @@
     #panel { display:none; }
     .leaflet-top.leaflet-left { left:12px; }
     #hint { display:none; }
+  }
+
+  /* MOBILE DISCLAIMER */
+  .mobile-banner {
+    display:none;
+    position:fixed; bottom:0; left:0; right:0;
+    z-index:3000;
+    background:rgba(10,26,18,0.96);
+    backdrop-filter:blur(16px);
+    border-top:1px solid var(--border);
+    padding:16px 20px;
+    text-align:center;
+    animation:slideUp .4s ease .8s both;
+  }
+  .mobile-banner p {
+    font-size:13px; color:var(--muted); line-height:1.5;
+    margin-bottom:10px;
+  }
+  .mobile-banner strong { color:var(--text); }
+  .mobile-banner a {
+    display:inline-block;
+    background:var(--green); color:#060F0B;
+    font-weight:700; font-size:13px;
+    padding:8px 20px; border-radius:99px;
+    text-decoration:none;
+  }
+  @media (max-width:768px) {
+    .mobile-banner { display:block; }
   }
 </style>
 </head>
@@ -479,5 +540,12 @@ async function boot() {
 
 boot();
 </script>
+
+<!-- Mobile disclaimer -->
+<div class="mobile-banner">
+  <p><strong>This map is best on desktop.</strong><br>Zoom, pan, and toggle layers for the full experience.</p>
+  <a href="routes/index.html">Browse Route Guides Instead</a>
+</div>
+
 </body>
 </html>
