@@ -15,6 +15,12 @@
   <meta property="og:description" content="Planning a drive from Dallas, TX to Houston, TX on I-45? Kibi scored 20 highway exits along this route. Find the best stop for gas, food, and a bathroom — before you leave home." />
   <meta property="og:image" content="https://drivekibi.com/og-image.png" />
 
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Best Stops: Dallas, TX to Houston, TX | Kibi" />
+  <meta name="twitter:description" content="Planning a drive from Dallas, TX to Houston, TX on I-45? Kibi scored 20 highway exits along this route. Find the best stop for gas, food, and a bathroom — before you leave home." />
+  <meta name="twitter:image" content="https://drivekibi.com/og-image.png" />
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,18 +32,30 @@
   <script type="application/ld+json">
 {
     "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "Best Highway Stops: Dallas, TX to Houston, TX",
-    "description": "Planning a drive from Dallas, TX to Houston, TX on I-45? Kibi scored 20 highway exits along this route. Find the best stop for gas, food, and a bathroom \u2014 before you leave home.",
-    "author": {
-        "@type": "Organization",
-        "name": "Kibitzer, Inc."
-    },
-    "publisher": {
-        "@type": "Organization",
-        "name": "Kibitzer, Inc."
-    },
-    "mainEntityOfPage": "https://drivekibi.com/routes/dallas-to-houston.html"
+    "@graph": [
+        {
+            "@type": "Article",
+            "headline": "Best Highway Stops: Dallas, TX to Houston, TX",
+            "description": "Planning a drive from Dallas, TX to Houston, TX on I-45? Kibi scored 20 highway exits along this route. Find the best stop for gas, food, and a bathroom \u2014 before you leave home.",
+            "author": {
+                "@type": "Organization",
+                "name": "Kibitzer, Inc."
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Kibitzer, Inc."
+            },
+            "mainEntityOfPage": "https://drivekibi.com/routes/dallas-to-houston.html"
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Kibi", "item": "https://drivekibi.com/"},
+                {"@type": "ListItem", "position": 2, "name": "Route Guides", "item": "https://drivekibi.com/routes/index.html"},
+                {"@type": "ListItem", "position": 3, "name": "Dallas, TX to Houston, TX"}
+            ]
+        }
+    ]
 }
   </script>
 

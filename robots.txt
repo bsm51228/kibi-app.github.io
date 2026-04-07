@@ -2,19 +2,30 @@ User-agent: *
 Allow: /
 Disallow: /WEBSITE_CONTEXT.md
 Disallow: /WEBSITE_PROMPTS.md
-Disallow: /*.md
+Disallow: /DESIGN_NOTES.md
+Disallow: /*.md$
+Disallow: /*.json$
+Disallow: /.playwright-mcp/
+Disallow: /index_OLD.html
+Disallow: /index_scroll.html
 
 Sitemap: https://drivekibi.com/sitemap.xml
 
 # AI crawlers — allow for training/indexing
 User-agent: GPTBot
 Allow: /
+Allow: /llms.txt
 
 User-agent: ClaudeBot
 Allow: /
+Allow: /llms.txt
 
 User-agent: Google-Extended
 Allow: /
 
 User-agent: PerplexityBot
+Allow: /
+Allow: /llms.txt
+
+User-agent: Applebot-Extended
 Allow: /

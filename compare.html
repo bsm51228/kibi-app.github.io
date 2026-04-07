@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kibi vs iExit, Roadtrippers, GasBuddy, Waze &amp; More | Best Road Trip Pitstop App</title>
+  <meta name="description" content="See how Kibi compares to iExit, NexIT, Roadtrippers, GasBuddy, Google Maps, Apple Maps, and Waze for planning road trip pitstops. Kibi finds the best highway exit for gas, food, and a bathroom — in one stop." />
+  <meta name="keywords" content="Kibi vs iExit, Kibi vs Roadtrippers, Kibi vs GasBuddy, Kibi vs Waze, Kibi vs Google Maps, Kibi vs Apple Maps, Kibi vs NexIT, best road trip app, highway exit finder, pitstop planner comparison, iExit alternative, NexIT alternative, Roadtrippers alternative, best highway exit app" />
+  <link rel="canonical" href="https://drivekibi.com/compare.html" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://drivekibi.com/compare.html" />
+  <meta property="og:title" content="Kibi vs iExit, Roadtrippers, GasBuddy & More" />
+  <meta property="og:description" content="See how Kibi compares to other road trip apps. Kibi finds the best highway exit for gas, food, and a bathroom — in one stop." />
+  <meta property="og:image" content="https://drivekibi.com/og-image.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Kibi vs iExit, Roadtrippers, GasBuddy & More" />
+  <meta name="twitter:description" content="See how Kibi compares to other road trip apps. Kibi finds the best highway exit for gas, food, and a bathroom — in one stop." />
+  <meta name="twitter:image" content="https://drivekibi.com/og-image.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/Kibi_Logo_Icon_White.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&display=swap" rel="stylesheet" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "name": "Kibi vs Other Road Trip Apps",
+        "description": "Compare Kibi to iExit, NexIT, Roadtrippers, GasBuddy, Google Maps, Apple Maps, and Waze for planning road trip pitstops.",
+        "url": "https://drivekibi.com/compare.html",
+        "mainEntity": {
+          "@type": "MobileApplication",
+          "@id": "https://drivekibi.com/#app"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Kibi", "item": "https://drivekibi.com/"},
+          {"@type": "ListItem", "position": 2, "name": "Compare"}
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    :root {
+      --green:          #2EBD7A;
+      --bg:             #060F0B;
+      --surface:        #0A1A12;
+      --surface-mid:    #0D1F17;
+      --border-subtle:  rgba(46,189,122,0.08);
+      --border-active:  rgba(46,189,122,0.25);
+      --text-primary:   #E8F0EC;
+      --text-secondary: #C8DDD4;
+      --text-muted:     rgba(255,255,255,0.45);
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg); color: var(--text-primary); min-width: 320px;
+    }
+    h1, h2, h3 { font-family: 'Lora', Georgia, serif; }
+
+    /* NAV */
+    nav#main-nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(6,15,11,0.95);
+      -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border-subtle);
+      height: 64px; padding: 0 56px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .nav-logo { display: inline-flex; align-items: center; text-decoration: none; }
+    .nav-right { display: flex; align-items: center; gap: 8px; }
+    .nav-how { font-size: 14px; color: var(--text-muted); text-decoration: none; margin-right: 20px; transition: color 0.2s; }
+    .nav-how:hover { color: var(--text-primary); }
+    .nav-cta {
+      background: var(--green); color: #060F0B; font-weight: 700; font-size: 14px;
+      padding: 10px 22px; border-radius: 99px; text-decoration: none; display: inline-block;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .nav-cta:hover { transform: translateY(-1px); box-shadow: 0 8px 24px rgba(46,189,122,0.35); }
+    .hamburger { display: none; flex-direction: column; justify-content: center; gap: 5px; width: 44px; height: 44px; background: none; border: none; cursor: pointer; padding: 8px; }
+    .hamburger span { display: block; width: 22px; height: 2px; background: var(--text-primary); border-radius: 2px; transition: transform 0.3s, opacity 0.3s; transform-origin: center; }
+    .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger.open span:nth-child(2) { opacity: 0; }
+    .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    .nav-drawer { display: none; position: fixed; inset: 0; z-index: 99; background: rgba(6,15,11,0.97); -webkit-backdrop-filter: blur(20px); backdrop-filter: blur(20px); flex-direction: column; align-items: center; justify-content: center; gap: 20px; opacity: 0; pointer-events: none; transition: opacity 0.25s; }
+    .nav-drawer.open { opacity: 1; pointer-events: all; }
+    .nav-drawer a { font-family: 'Lora', serif; font-size: 24px; font-weight: 700; color: var(--text-primary); text-decoration: none; text-align: center; transition: color 0.2s; }
+    .nav-drawer a:hover { color: var(--green); }
+    .nav-drawer .nav-cta-drawer { background: var(--green); color: #060F0B; padding: 14px 36px; border-radius: 14px; font-size: 18px; }
+
+    /* HERO */
+    .page-hero {
+      background: var(--surface); border-bottom: 1px solid var(--border-subtle);
+      padding: 80px 80px 64px; text-align: center;
+    }
+    .page-hero h1 { font-size: clamp(1.8rem, 3.5vw, 2.8rem); font-weight: 700; color: var(--text-primary); line-height: 1.15; margin-bottom: 20px; }
+    .page-hero p { font-size: 1rem; font-weight: 300; color: var(--text-secondary); line-height: 1.7; max-width: 680px; margin: 0 auto; }
+    .breadcrumb { font-size: .72rem; color: var(--text-muted); letter-spacing: .08em; margin-bottom: 24px; }
+    .breadcrumb a { color: var(--text-muted); text-decoration: none; }
+    .breadcrumb a:hover { color: var(--green); }
+    .section-label { font-family: system-ui, sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 2px; color: var(--green); text-transform: uppercase; margin-bottom: 16px; }
+
+    /* COMPARISON TABLE */
+    .table-section { padding: 64px 80px; overflow-x: auto; }
+    .table-section h2 { font-size: 1.6rem; font-weight: 700; color: var(--text-primary); margin-bottom: 32px; text-align: center; }
+    .compare-table { width: 100%; border-collapse: collapse; font-size: .88rem; min-width: 700px; }
+    .compare-table thead tr { background: var(--surface); border-bottom: 1px solid var(--border-subtle); }
+    .compare-table thead th { padding: 14px 16px; text-align: left; font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--text-muted); white-space: nowrap; }
+    .compare-table thead th:first-child { min-width: 200px; }
+    .compare-table thead th.kibi-col { color: var(--green); }
+    .compare-table tbody tr:nth-child(odd) { background: var(--bg); }
+    .compare-table tbody tr:nth-child(even) { background: var(--surface-mid); }
+    .compare-table tbody tr { border-bottom: 1px solid var(--border-subtle); }
+    .compare-table tbody td { padding: 14px 16px; vertical-align: middle; }
+    .compare-table tbody td:first-child { font-weight: 600; color: var(--text-primary); }
+    .check { color: var(--green); font-weight: 700; }
+    .cross { color: var(--text-muted); }
+    .partial { color: #F59E0B; }
+
+    /* COMPARISON CARDS */
+    .compare-cards { padding: 32px 80px 64px; }
+    .compare-card {
+      background: rgba(13,31,23,0.6); border: 1px solid rgba(46,189,122,0.08);
+      border-radius: 16px; padding: 36px 32px; margin-bottom: 24px;
+    }
+    .compare-card h3 { font-size: 1.2rem; font-weight: 700; color: var(--text-primary); margin-bottom: 12px; }
+    .compare-card p { font-size: .95rem; color: var(--text-secondary); line-height: 1.7; margin-bottom: 8px; }
+    .compare-card strong { color: var(--green); }
+
+    /* CTA */
+    .page-cta {
+      background: var(--surface); border-top: 1px solid var(--border-subtle);
+      text-align: center; padding: 80px 56px;
+    }
+    .page-cta h2 { font-size: 2rem; font-style: italic; color: var(--text-primary); margin-bottom: 16px; }
+    .page-cta p { font-size: 1rem; font-weight: 300; color: var(--text-secondary); line-height: 1.7; max-width: 520px; margin: 0 auto 32px; }
+    .btn-primary {
+      background: var(--green); color: #060F0B; font-weight: 700; font-size: 16px;
+      padding: 16px 32px; border-radius: 14px; border: none; cursor: pointer; text-decoration: none;
+      display: inline-block; box-shadow: 0 8px 28px rgba(46,189,122,0.35); transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 36px rgba(46,189,122,0.45); }
+
+    /* FOOTER */
+    footer {
+      background: #060F0B; border-top: 1px solid rgba(46,189,122,0.08);
+      padding: 48px 80px; display: flex; justify-content: space-between;
+      align-items: center; flex-wrap: wrap; gap: 16px;
+    }
+    .footer-left { display: flex; flex-direction: column; gap: 0; }
+    .footer-brand { display: flex; align-items: center; gap: 8px; }
+    .footer-tagline { font-size: 13px; color: rgba(255,255,255,0.2); display: block; margin-top: 5px; }
+    .footer-privacy { font-size: 13px; color: rgba(255,255,255,0.2); margin-top: 4px; text-decoration: none; display: block; }
+    .footer-privacy:hover { color: rgba(255,255,255,0.5); }
+    .footer-links { display: flex; gap: 28px; flex-wrap: wrap; justify-content: center; }
+    .footer-links a { font-size: 13px; color: var(--text-muted); text-decoration: none; transition: color 0.2s; }
+    .footer-links a:hover { color: var(--text-secondary); }
+    .footer-copy { font-size: 12px; color: var(--text-muted); flex-shrink: 0; }
+
+    @media (max-width: 768px) {
+      nav#main-nav { padding: 0 24px; }
+      .nav-right .nav-how { display: none; }
+      .nav-right .nav-cta { display: none; }
+      .hamburger { display: flex; }
+      .nav-drawer { display: flex; }
+      .page-hero { padding: 48px 24px 40px; }
+      .table-section { padding: 40px 24px; }
+      .compare-cards { padding: 24px 24px 48px; }
+      .page-cta { padding: 56px 24px; }
+      footer { padding: 40px 24px; flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="main-nav">
+    <a href="/" class="nav-logo">
+      <img src="Kibi_Logo_Horizontal_White.png" alt="Kibi" style="height:28px;display:block;" />
+    </a>
+    <div class="nav-right">
+      <a href="/#how-it-works" class="nav-how">How It Works</a>
+      <a href="routes/index.html" class="nav-how">Route Guide</a>
+      <a href="/#waitlist" class="nav-cta">Join the Waitlist</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div id="nav-drawer" class="nav-drawer" aria-hidden="true">
+    <a href="/#how-it-works">How It Works</a>
+    <a href="routes/index.html">Route Guide</a>
+    <a href="faq.html">FAQ</a>
+    <a href="/#waitlist" class="nav-cta-drawer">Join the Waitlist</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="page-hero">
+    <p class="breadcrumb">
+      <a href="/">Kibi</a> &rsaquo; Compare
+    </p>
+    <p class="section-label">How Kibi Compares</p>
+    <h1>Kibi vs. iExit, Roadtrippers, GasBuddy, Waze &amp; More</h1>
+    <p>Navigation apps route you A to B. Exit finders list what's nearby. Gas apps find cheap fuel. Kibi is the only app that scores every exit on your route and finds the single best stop for gas, food, and a bathroom — calculated around your vehicle's fuel range.</p>
+  </section>
+
+  <!-- COMPARISON TABLE -->
+  <section class="table-section">
+    <h2>Feature Comparison</h2>
+    <div style="overflow-x: auto;">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th class="kibi-col">Kibi</th>
+            <th>iExit / NexIT</th>
+            <th>Roadtrippers</th>
+            <th>GasBuddy</th>
+            <th>Google Maps / Waze / Apple Maps</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Scores &amp; ranks highway exits</td>
+            <td class="check">Yes</td>
+            <td class="partial">Lists exits</td>
+            <td class="cross">No</td>
+            <td class="cross">No</td>
+            <td class="cross">No</td>
+          </tr>
+          <tr>
+            <td>Finds gas + food + bathroom at one exit</td>
+            <td class="check">Yes</td>
+            <td class="cross">No</td>
+            <td class="cross">No</td>
+            <td class="cross">No</td>
+            <td class="cross">No</td>
+          </tr>
+          <tr>
+            <td>Vehicle-specific fuel range planning</td>
+            <td class="check">Yes (49k+ EPA vehicles)</td>
+            <td class="cross">No</td>
+            <td class="cross">No</td>
+            <td class="cross">No</td>
+            <td class="cross">No</td>
+          </tr>
+          <tr>
+            <td>Pre-trip pitstop planning</td>
+            <td class="check">Yes</td>
+            <td class="cross">Real-time only</td>
+            <td class="partial">Itinerary focused</td>
+            <td class="cross">Gas only</td>
+            <td class="cross">No</td>
+          </tr>
+          <tr>
+            <td>Deep-links to nav apps</td>
+            <td class="check">Google Maps, Apple Maps, Waze</td>
+            <td class="cross">No</td>
+            <td class="cross">No</td>
+            <td class="partial">Limited</td>
+            <td>N/A (is the nav app)</td>
+          </tr>
+          <tr>
+            <td>CO2 emissions tracking</td>
+            <td class="check">Yes</td>
+            <td class="cross">No</td>
+            <td class="cross">No</td>
+            <td class="cross">No</td>
+            <td class="cross">No</td>
+          </tr>
+          <tr>
+            <td>US highway exits covered</td>
+            <td class="check">79,000+</td>
+            <td class="check">Good coverage</td>
+            <td class="cross">Attractions, not exits</td>
+            <td class="partial">Gas stations only</td>
+            <td class="partial">POIs, not exit-specific</td>
+          </tr>
+          <tr>
+            <td>Stop preferences (family, pet, accessible)</td>
+            <td class="check">Yes</td>
+            <td class="partial">Filters available</td>
+            <td class="cross">No</td>
+            <td class="cross">No</td>
+            <td class="cross">No</td>
+          </tr>
+          <tr>
+            <td>Free, no ads</td>
+            <td class="check">Yes</td>
+            <td class="partial">Has ads / premium</td>
+            <td class="partial">Freemium</td>
+            <td class="partial">Has ads</td>
+            <td class="check">Free</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- DETAILED COMPARISONS -->
+  <section class="compare-cards">
+
+    <div class="compare-card" id="vs-iexit">
+      <h3>Kibi vs. iExit &amp; NexIT</h3>
+      <p>iExit and NexIT are highway exit guides — they tell you what's at upcoming exits while you're already on the road. They're useful for quick lookups, but they don't plan your trip ahead of time.</p>
+      <p><strong>What Kibi does differently:</strong> Kibi analyzes your entire route <em>before you leave</em>, scores every exit using Google Places data, and recommends the single best stop that combines gas, food, and a bathroom — timed to when your vehicle actually needs to refuel. No scrolling, no guessing. One recommendation, every time.</p>
+    </div>
+
+    <div class="compare-card" id="vs-roadtrippers">
+      <h3>Kibi vs. Roadtrippers</h3>
+      <p>Roadtrippers excels at road trip discovery — finding quirky attractions, scenic routes, and multi-day itineraries. It's built for the journey, not the logistics.</p>
+      <p><strong>What Kibi does differently:</strong> Kibi is built for highway efficiency. When you're driving 4+ hours on the interstate and just need one great stop for gas, food, and a bathroom, Kibi finds it. It calculates when you need to stop based on your vehicle's fuel range and picks the exit that has everything in one place.</p>
+    </div>
+
+    <div class="compare-card" id="vs-gasbuddy">
+      <h3>Kibi vs. GasBuddy</h3>
+      <p>GasBuddy is the go-to for finding cheap gas prices. It's great at one thing: saving money on fuel.</p>
+      <p><strong>What Kibi does differently:</strong> Kibi isn't just about gas — it finds highway exits where you can get gas, food, AND a bathroom together, scored by quality and convenience. It plans your stops around your vehicle's range so you never pull off at a bad exit out of desperation. Gas is part of the equation, but Kibi optimizes the whole pitstop.</p>
+    </div>
+
+    <div class="compare-card" id="vs-google-maps">
+      <h3>Kibi vs. Google Maps</h3>
+      <p>Google Maps is the world's most popular navigation app. It routes you from A to B with incredible accuracy — but it doesn't help you find the best place to stop along the way.</p>
+      <p><strong>What Kibi does differently:</strong> Kibi is a pitstop planning layer that works WITH Google Maps. It analyzes your route, finds the best exit for gas, food, and a bathroom, and then deep-links directly into Google Maps with all your waypoints pre-loaded. Kibi handles the planning; Google Maps handles the navigation.</p>
+    </div>
+
+    <div class="compare-card" id="vs-waze">
+      <h3>Kibi vs. Waze</h3>
+      <p>Waze is great for real-time traffic and community-reported road conditions. Like Google Maps, it's a navigation app — not a pitstop planner.</p>
+      <p><strong>What Kibi does differently:</strong> Kibi plans your pitstops before you start driving and deep-links into Waze with all waypoints pre-loaded. Waze gets you there; Kibi tells you where to stop.</p>
+    </div>
+
+    <div class="compare-card" id="vs-apple-maps">
+      <h3>Kibi vs. Apple Maps</h3>
+      <p>Apple Maps provides smooth, privacy-focused navigation integrated into the Apple ecosystem. It gives turn-by-turn directions but doesn't plan your road trip pitstops.</p>
+      <p><strong>What Kibi does differently:</strong> Kibi analyzes your vehicle's fuel range, scores every highway exit on your route, and finds the one stop where you can get gas, food, and a bathroom. It then launches Apple Maps with all your waypoints ready to go. Apple Maps navigates; Kibi plans the stops.</p>
+    </div>
+
+  </section>
+
+  <!-- CTA -->
+  <section class="page-cta">
+    <h2>Stop settling for bad exits.</h2>
+    <p>Kibi finds the perfect pitstop — gas, food, and a bathroom at one exit. Free on iOS. No ads.</p>
+    <a href="/#waitlist" class="btn-primary">Join the Waitlist</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-left">
+      <div class="footer-brand">
+        <img src="Kibi_Logo_Horizontal_White.png" alt="Kibi" style="height:28px;display:block;" />
+      </div>
+      <span class="footer-tagline">drivekibi.com</span>
+      <a href="https://www.instagram.com/drivekibi" target="_blank" rel="noopener noreferrer"
+         aria-label="Kibi on Instagram"
+         style="color:var(--text-muted);font-size:.76rem;text-decoration:none;">
+        Instagram
+      </a>
+      <a href="privacy.html" class="footer-privacy">Privacy Policy</a>
+    </div>
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="/#how-it-works">How It Works</a>
+      <a href="routes/index.html">Route Guides</a>
+      <a href="faq.html">FAQ</a>
+      <a href="/#waitlist">Join Waitlist</a>
+    </nav>
+    <p class="footer-copy">&copy; 2026 Kibi. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const drawer = document.getElementById('nav-drawer');
+    if (hamburger && drawer) {
+      hamburger.addEventListener('click', () => {
+        const isOpen = drawer.classList.toggle('open');
+        hamburger.classList.toggle('open', isOpen);
+        hamburger.setAttribute('aria-expanded', isOpen);
+        drawer.setAttribute('aria-hidden', !isOpen);
+        document.body.style.overflow = isOpen ? 'hidden' : '';
+      });
+      drawer.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          drawer.classList.remove('open');
+          hamburger.classList.remove('open');
+          hamburger.setAttribute('aria-expanded', 'false');
+          drawer.setAttribute('aria-hidden', 'true');
+          document.body.style.overflow = '';
+        });
+      });
+    }
+  </script>
+</body>
+</html>
