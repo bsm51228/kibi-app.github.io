@@ -1,0 +1,190 @@
+{
+  "route_slug": "chicago-to-nashville",
+  "origin": "Chicago, IL",
+  "destination": "Nashville, TN",
+  "highway": "I-65",
+  "filter_method": "bbox+state (fallback \u2014 highway col sparse)",
+  "exit_count": 20,
+  "exits": [
+    {
+      "exit_id": "osm_n_202198360",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TN",
+      "lat": 36.101956,
+      "lng": -86.763931,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_202176341",
+      "exit_number": "79",
+      "exit_name": "Exit 79",
+      "state": "TN",
+      "lat": 36.104706,
+      "lng": -86.76702,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_204205150",
+      "exit_number": "70",
+      "exit_name": "Exit 70",
+      "state": "TN",
+      "lat": 36.10714,
+      "lng": -86.410146,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_202206660",
+      "exit_number": "54",
+      "exit_name": "Exit 54",
+      "state": "TN",
+      "lat": 36.10721,
+      "lng": -86.719591,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_1478455446",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TN",
+      "lat": 36.107585,
+      "lng": -85.501628,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_202214041",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TN",
+      "lat": 36.108103,
+      "lng": -86.772991,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_37074982",
+      "exit_number": "199",
+      "exit_name": "Exit 199",
+      "state": "TN",
+      "lat": 36.108532,
+      "lng": -86.926357,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_304155371",
+      "exit_number": "3A",
+      "exit_name": "Exit 3A",
+      "state": "TN",
+      "lat": 36.108898,
+      "lng": -86.724335,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_1241354781",
+      "exit_number": "3A",
+      "exit_name": "Exit 3A",
+      "state": "TN",
+      "lat": 36.109539,
+      "lng": -86.722323,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_304155387",
+      "exit_number": "3B",
+      "exit_name": "Exit 3B",
+      "state": "TN",
+      "lat": 36.10977,
+      "lng": -86.721144,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_7622278070",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TN",
+      "lat": 36.109916,
+      "lng": -86.773312,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_304154782",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TN",
+      "lat": 36.110118,
+      "lng": -86.77534,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_202199393",
+      "exit_number": "80",
+      "exit_name": "Exit 80",
+      "state": "TN",
+      "lat": 36.110174,
+      "lng": -86.77038,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_304156742",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TN",
+      "lat": 36.110472,
+      "lng": -86.716516,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_304157002",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TN",
+      "lat": 36.110808,
+      "lng": -86.71573,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_304157478",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TN",
+      "lat": 36.11088,
+      "lng": -86.717022,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_632232118",
+      "exit_number": "276",
+      "exit_name": "Exit 276",
+      "state": "TN",
+      "lat": 36.110895,
+      "lng": -85.688274,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_304154312",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TN",
+      "lat": 36.110963,
+      "lng": -86.771373,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_304156999",
+      "exit_number": "3B",
+      "exit_name": "Exit 3B",
+      "state": "TN",
+      "lat": 36.111133,
+      "lng": -86.713038,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_202199355",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TN",
+      "lat": 36.113455,
+      "lng": -86.771897,
+      "stop_type": "exit_ramp"
+    }
+  ]
+}

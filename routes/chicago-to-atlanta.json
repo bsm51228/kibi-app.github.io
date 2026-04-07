@@ -1,0 +1,190 @@
+{
+  "route_slug": "chicago-to-atlanta",
+  "origin": "Chicago, IL",
+  "destination": "Atlanta, GA",
+  "highway": "I-65",
+  "filter_method": "bbox+state (fallback \u2014 highway col sparse)",
+  "exit_count": 20,
+  "exits": [
+    {
+      "exit_id": "osm_n_56245430",
+      "exit_number": "259A",
+      "exit_name": "Exit 259A",
+      "state": "AL",
+      "lat": 33.501586,
+      "lng": -86.814631,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_56463625",
+      "exit_number": "259B",
+      "exit_name": "Exit 259B",
+      "state": "AL",
+      "lat": 33.504237,
+      "lng": -86.816302,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_56301447",
+      "exit_number": "120",
+      "exit_name": "Exit 120",
+      "state": "AL",
+      "lat": 33.504531,
+      "lng": -86.889584,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_4460387285",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "AL",
+      "lat": 33.508159,
+      "lng": -86.790593,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_967052389",
+      "exit_number": "260B",
+      "exit_name": "Exit 260B",
+      "state": "AL",
+      "lat": 33.508211,
+      "lng": -86.818687,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_56270237",
+      "exit_number": "120",
+      "exit_name": "Exit 120",
+      "state": "AL",
+      "lat": 33.509558,
+      "lng": -86.879881,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_967052415",
+      "exit_number": "261A",
+      "exit_name": "Exit 261A",
+      "state": "AL",
+      "lat": 33.510286,
+      "lng": -86.820121,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_4460391673",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "AL",
+      "lat": 33.5114,
+      "lng": -86.792806,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_56245040",
+      "exit_number": "121",
+      "exit_name": "Exit 121",
+      "state": "AL",
+      "lat": 33.512497,
+      "lng": -86.874757,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_4460572238",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "AL",
+      "lat": 33.512522,
+      "lng": -86.793365,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_4460578842",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "AL",
+      "lat": 33.514459,
+      "lng": -86.794877,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_618260722",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "AL",
+      "lat": 33.516548,
+      "lng": -86.796246,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_342004791",
+      "exit_number": "261B",
+      "exit_name": "Exit 261B",
+      "state": "AL",
+      "lat": 33.518389,
+      "lng": -86.825138,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_466959466",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "AL",
+      "lat": 33.519018,
+      "lng": -86.798233,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_56463585",
+      "exit_number": "261C",
+      "exit_name": "Exit 261C",
+      "state": "AL",
+      "lat": 33.519521,
+      "lng": -86.825913,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_56247665",
+      "exit_number": "124B",
+      "exit_name": "Exit 124B",
+      "state": "AL",
+      "lat": 33.519823,
+      "lng": -86.831212,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_56257855",
+      "exit_number": "123",
+      "exit_name": "Exit 123",
+      "state": "AL",
+      "lat": 33.520183,
+      "lng": -86.855162,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_6001896267",
+      "exit_number": "124C",
+      "exit_name": "Exit 124C",
+      "state": "AL",
+      "lat": 33.520388,
+      "lng": -86.819404,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_6001896221",
+      "exit_number": "124A",
+      "exit_name": "Exit 124A",
+      "state": "AL",
+      "lat": 33.52044,
+      "lng": -86.83594,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_1775970100",
+      "exit_number": "124C",
+      "exit_name": "Exit 124C",
+      "state": "AL",
+      "lat": 33.520993,
+      "lng": -86.828787,
+      "stop_type": "exit_ramp"
+    }
+  ]
+}

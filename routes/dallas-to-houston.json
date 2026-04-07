@@ -1,0 +1,190 @@
+{
+  "route_slug": "dallas-to-houston",
+  "origin": "Dallas, TX",
+  "destination": "Houston, TX",
+  "highway": "I-45",
+  "filter_method": "bbox+state (fallback \u2014 highway col sparse)",
+  "exit_count": 20,
+  "exits": [
+    {
+      "exit_id": "osm_n_2349522649",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TX",
+      "lat": 29.700552,
+      "lng": -95.777094,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_152548507",
+      "exit_number": "6",
+      "exit_name": "Exit 6",
+      "state": "TX",
+      "lat": 29.700718,
+      "lng": -95.459035,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_588154487",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TX",
+      "lat": 29.701494,
+      "lng": -95.762231,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_606153489",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TX",
+      "lat": 29.702209,
+      "lng": -95.753339,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_1209398215",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TX",
+      "lat": 29.702499,
+      "lng": -95.354908,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_606153491",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TX",
+      "lat": 29.702526,
+      "lng": -95.748082,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_223455400",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TX",
+      "lat": 29.702741,
+      "lng": -96.576415,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_1209398240",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TX",
+      "lat": 29.703708,
+      "lng": -95.349847,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_606153495",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TX",
+      "lat": 29.703936,
+      "lng": -95.732202,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_1210065460",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TX",
+      "lat": 29.704204,
+      "lng": -95.402811,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_153108698",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TX",
+      "lat": 29.704503,
+      "lng": -95.375241,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_3232451598",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TX",
+      "lat": 29.704562,
+      "lng": -95.406336,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_3682751412",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TX",
+      "lat": 29.705275,
+      "lng": -95.776052,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_606153497",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TX",
+      "lat": 29.705493,
+      "lng": -95.713247,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_1114545431",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TX",
+      "lat": 29.706292,
+      "lng": -95.776251,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_13040339862",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TX",
+      "lat": 29.706356,
+      "lng": -95.643933,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_152033630",
+      "exit_number": "121A",
+      "exit_name": "Exit 121A",
+      "state": "TX",
+      "lat": 29.706373,
+      "lng": -95.510693,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_606153524",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TX",
+      "lat": 29.706482,
+      "lng": -95.700891,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_151377504",
+      "exit_number": "41B",
+      "exit_name": "Exit 41B",
+      "state": "TX",
+      "lat": 29.706536,
+      "lng": -95.302291,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_223413609",
+      "exit_number": "698",
+      "exit_name": "Exit 698",
+      "state": "TX",
+      "lat": 29.707253,
+      "lng": -96.507994,
+      "stop_type": "exit_ramp"
+    }
+  ]
+}

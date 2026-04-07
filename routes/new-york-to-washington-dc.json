@@ -1,0 +1,190 @@
+{
+  "route_slug": "new-york-to-washington-dc",
+  "origin": "New York, NY",
+  "destination": "Washington, DC",
+  "highway": "I-95",
+  "filter_method": "bbox+state (fallback \u2014 highway col sparse)",
+  "exit_count": 20,
+  "exits": [
+    {
+      "exit_id": "osm_n_644274449",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "MD",
+      "lat": 38.800172,
+      "lng": -76.999305,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_644242856",
+      "exit_number": "1C",
+      "exit_name": "Exit 1C",
+      "state": "MD",
+      "lat": 38.80048,
+      "lng": -77.020801,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_50533477",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "MD",
+      "lat": 38.802062,
+      "lng": -76.998568,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_644302859",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "MD",
+      "lat": 38.802433,
+      "lng": -76.996401,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_50587332",
+      "exit_number": "3B",
+      "exit_name": "Exit 3B",
+      "state": "MD",
+      "lat": 38.803295,
+      "lng": -76.998035,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_633035325",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "MD",
+      "lat": 38.803406,
+      "lng": -76.689561,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_50190764",
+      "exit_number": "",
+      "exit_name": "Allentown Road West",
+      "state": "MD",
+      "lat": 38.804113,
+      "lng": -76.904998,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_644327209",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "MD",
+      "lat": 38.804203,
+      "lng": -76.997892,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_50190799",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "MD",
+      "lat": 38.805125,
+      "lng": -76.906629,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_644327168",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "MD",
+      "lat": 38.805205,
+      "lng": -76.998649,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_644286729",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "MD",
+      "lat": 38.805263,
+      "lng": -76.994234,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_329646927",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "MD",
+      "lat": 38.805734,
+      "lng": -76.998882,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_633035294",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "MD",
+      "lat": 38.805757,
+      "lng": -76.693005,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_2015946019",
+      "exit_number": "3",
+      "exit_name": "Exit 3",
+      "state": "MD",
+      "lat": 38.805868,
+      "lng": -76.993981,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_2015946026",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "MD",
+      "lat": 38.805932,
+      "lng": -76.991412,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_50187397",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "MD",
+      "lat": 38.806807,
+      "lng": -76.97209,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_50190815",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "MD",
+      "lat": 38.806903,
+      "lng": -76.907786,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_644286980",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "MD",
+      "lat": 38.806949,
+      "lng": -76.983945,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_2362600961",
+      "exit_number": "4A",
+      "exit_name": "Exit 4A",
+      "state": "MD",
+      "lat": 38.807098,
+      "lng": -76.979604,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_102557389",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "MD",
+      "lat": 38.807571,
+      "lng": -76.696593,
+      "stop_type": "exit_ramp"
+    }
+  ]
+}

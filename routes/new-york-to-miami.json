@@ -1,0 +1,190 @@
+{
+  "route_slug": "new-york-to-miami",
+  "origin": "New York, NY",
+  "destination": "Miami, FL",
+  "highway": "I-95",
+  "filter_method": "bbox+state (fallback \u2014 highway col sparse)",
+  "exit_count": 20,
+  "exits": [
+    {
+      "exit_id": "osm_n_458798252",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "FL",
+      "lat": 25.706125,
+      "lng": -80.317707,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_458803134",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "FL",
+      "lat": 25.712139,
+      "lng": -80.317818,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_98993433",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "FL",
+      "lat": 25.715719,
+      "lng": -80.318114,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_458351644",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "FL",
+      "lat": 25.719916,
+      "lng": -80.321308,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_6564982094",
+      "exit_number": "23",
+      "exit_name": "Exit 23",
+      "state": "FL",
+      "lat": 25.720453,
+      "lng": -80.383707,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_2007627702",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "FL",
+      "lat": 25.720766,
+      "lng": -80.319004,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_2007627763",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "FL",
+      "lat": 25.723365,
+      "lng": -80.317974,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_2007627855",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "FL",
+      "lat": 25.726492,
+      "lng": -80.318805,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_2007627861",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "FL",
+      "lat": 25.727885,
+      "lng": -80.318503,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_99052811",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "FL",
+      "lat": 25.731589,
+      "lng": -80.318572,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_3067407223",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "FL",
+      "lat": 25.739145,
+      "lng": -80.319743,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_9292465003",
+      "exit_number": "23",
+      "exit_name": "Exit 23",
+      "state": "FL",
+      "lat": 25.7393,
+      "lng": -80.384685,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_99014344",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "FL",
+      "lat": 25.745323,
+      "lng": -80.319726,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_532168662",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "FL",
+      "lat": 25.749165,
+      "lng": -80.212319,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_461928047",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "FL",
+      "lat": 25.751006,
+      "lng": -80.204017,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_543673944",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "FL",
+      "lat": 25.752064,
+      "lng": -80.320114,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_99207225",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "FL",
+      "lat": 25.755032,
+      "lng": -80.201923,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_457066942",
+      "exit_number": "25",
+      "exit_name": "Exit 25",
+      "state": "FL",
+      "lat": 25.755518,
+      "lng": -80.38496,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_99213835",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "FL",
+      "lat": 25.756458,
+      "lng": -80.320311,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_11498840915",
+      "exit_number": "25B",
+      "exit_name": "Exit 25B",
+      "state": "FL",
+      "lat": 25.761101,
+      "lng": -80.385533,
+      "stop_type": "exit_ramp"
+    }
+  ]
+}
