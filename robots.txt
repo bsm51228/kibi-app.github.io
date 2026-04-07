@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+Disallow: /WEBSITE_CONTEXT.md
+Disallow: /WEBSITE_PROMPTS.md
+Disallow: /*.md
+
+Sitemap: https://drivekibi.com/sitemap.xml
+
+# AI crawlers — allow for training/indexing
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /

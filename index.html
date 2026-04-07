@@ -1,20 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- ── PRIMARY META ── -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kibi: Your Smart Co-Pilot for Every Drive</title>
-  <meta name="description" content="Kibi plans your perfect pitstop: gas, food, and a clean bathroom at one exit. Coming soon to iOS." />
-  <meta property="og:title" content="Kibi" />
-  <meta property="og:description" content="Your Smart Co-Pilot for Every Drive. Coming soon to iOS." />
-  <meta property="og:url" content="https://drivekibi.com" />
-  <link rel="canonical" href="https://drivekibi.com" />
-  <link rel="icon" type="image/png" href="favicon.png" />
-  <link rel="apple-touch-icon" href="favicon.png" />
-  <meta name="theme-color" content="#060F0B" />
+  <title>Kibi — Road Trip Pitstop Planner | Best Highway Exits App</title>
+  <meta name="description" content="Kibi finds the best highway exit for gas, food, and a clean bathroom — all in one stop. Plan smarter road trips with 79,000+ scored US highway exits." />
+  <meta name="keywords" content="road trip pitstop planner, highway exit finder, iOS road trip app, best stops on road trip, gas station finder iOS, best places to stop on road trip, pitstop planning app, find gas and food on highway, road trip co-pilot app, Buc-ee's locations highway, best exits between cities" />
+  <meta name="author" content="Kibitzer, Inc." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://drivekibi.com/" />
+
+  <!-- ── GEO TARGETING ── -->
+  <meta name="geo.region" content="US" />
+  <meta name="geo.placename" content="United States" />
+  <meta name="language" content="en-US" />
+  <meta name="target" content="all" />
+  <meta name="audience" content="all" />
+  <meta name="coverage" content="United States" />
+
+  <!-- ── OPEN GRAPH (Facebook, LinkedIn, iMessage previews) ── -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://drivekibi.com/" />
+  <meta property="og:site_name" content="Kibi" />
+  <meta property="og:title" content="Kibi — Find the Best Highway Exit Every Time" />
+  <meta property="og:description" content="Stop settling for bad exits. Kibi scores 79,000+ US highway exits and finds the one stop that has gas, food, and a clean bathroom — before you even leave home. Free on iOS." />
+  <meta property="og:image" content="https://drivekibi.com/screenshot-trip.PNG" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Kibi road trip pitstop planner app showing recommended highway exits" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- ── TWITTER / X CARD ── -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@drivekibi" />
+  <meta name="twitter:creator" content="@drivekibi" />
+  <meta name="twitter:title" content="Kibi — Find the Best Highway Exit Every Time" />
+  <meta name="twitter:description" content="Stop settling for bad exits. Kibi scores 79,000+ US highway exits and finds the one stop for gas, food, and a bathroom — before you leave. Free on iOS." />
+  <meta name="twitter:image" content="https://drivekibi.com/screenshot-trip.PNG" />
+  <meta name="twitter:image:alt" content="Kibi app showing highway pitstop recommendations" />
+
+  <!-- ── APPLE APP STORE SMART BANNER ── -->
+  <meta name="apple-itunes-app" content="app-id=6760270037" />
+
+  <!-- ── MOBILE / PWA ── -->
+  <meta name="theme-color" content="#111412" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Kibi" />
+  <link rel="apple-touch-icon" href="/Kibi_Logo_Icon_White.png" />
+
+  <!-- ── FAVICON ── -->
+  <link rel="icon" type="image/png" href="/Kibi_Logo_Icon_White.png" />
+
+  <!-- ── FONTS ── -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&display=swap" rel="stylesheet" />
+
+  <!-- ── IMAGE PRELOADS ── -->
   <link rel="preload" as="image" href="Images/scene-01-city.webp">
   <link rel="preload" as="image" href="Images/scene-02-ramp.webp">
   <link rel="preload" as="image" href="Images/scene-03-highway.webp">
@@ -1133,6 +1178,139 @@
       .footer-links { flex-wrap: wrap; justify-content: center; }
     }
   </style>
+  <!-- ── STRUCTURED DATA (JSON-LD) ── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "MobileApplication",
+        "@id": "https://drivekibi.com/#app",
+        "name": "Kibi: Road Trip Co-Pilot",
+        "alternateName": "Kibi",
+        "description": "Kibi is a smart road trip co-pilot that finds the best highway exit for gas, food, and a clean bathroom — all in one stop. It calculates pitstops based on your vehicle's range, scores 79,000+ US highway exits, and deep-links into Google Maps, Apple Maps, or Waze with all waypoints pre-loaded. Real-time CO2 tracking included. Free on iOS.",
+        "url": "https://drivekibi.com",
+        "applicationCategory": "TravelApplication",
+        "applicationSubCategory": "Road Trip Planner",
+        "operatingSystem": "iOS 16.0+",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "installUrl": "https://apps.apple.com/app/kibi/id6760270037",
+        "screenshot": "https://drivekibi.com/screenshot-trip.PNG",
+        "featureList": [
+          "79,000+ scored US highway exits",
+          "49,000+ EPA-verified vehicle database",
+          "Automatic pitstop interval calculation",
+          "Gas, food, and bathroom at one exit",
+          "Real-time CO2 emissions tracking",
+          "Works with Google Maps, Apple Maps, and Waze",
+          "Family-friendly and pet-friendly stop preferences",
+          "No ads in v1",
+          "Free to download"
+        ],
+        "keywords": "road trip, pitstop planner, highway exit finder, gas station finder, road trip app, co-pilot app",
+        "inLanguage": "en-US",
+        "countriesSupported": "US",
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://drivekibi.com/#organization"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://drivekibi.com/#organization",
+        "name": "Kibitzer, Inc.",
+        "alternateName": "Kibi",
+        "url": "https://drivekibi.com",
+        "logo": "https://drivekibi.com/Kibi_Logo_Primary_White.png",
+        "email": "kibitzerai@gmail.com",
+        "sameAs": [
+          "https://www.instagram.com/drivekibi",
+          "https://apps.apple.com/app/kibi/id6760270037"
+        ],
+        "foundingLocation": {
+          "@type": "Place",
+          "name": "United States"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://drivekibi.com/#website",
+        "url": "https://drivekibi.com",
+        "name": "Kibi — Road Trip Pitstop Planner",
+        "description": "Find the best highway exit for gas, food, and a bathroom on your next road trip. 79,000+ scored US highway exits. Free iOS app.",
+        "publisher": {
+          "@id": "https://drivekibi.com/#organization"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://drivekibi.com/?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Kibi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kibi is a free iOS app that acts as a smart co-pilot for road trips. It finds the best single highway exit for gas, food, and a clean bathroom — so you don't have to make three separate stops. Kibi calculates pitstop intervals based on your vehicle's fuel range, scores 79,000+ US highway exits, and sends all your waypoints directly to Google Maps, Apple Maps, or Waze."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does Kibi find the best highway exits?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kibi scores every highway exit along your route using a combination of Google Places ratings, the number of nearby amenities, accessibility, and your personal preferences. It surfaces the single exit that has gas, food, and a bathroom together — not three separate stops miles apart."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Kibi free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Kibi is completely free to download and use. There are no ads, no subscriptions, and no paywalls in version 1."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Kibi replace Google Maps or Apple Maps?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Kibi wraps around your existing navigation app. It plans the best pitstops for your trip, then hands off to Google Maps, Apple Maps, or Waze with all waypoints pre-loaded. You navigate with the app you already trust — Kibi just makes the stops smarter."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What vehicles does Kibi support?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kibi supports 49,000+ vehicles from the EPA fuel economy database, covering model years 1984 through 2026. Select your make, model, and year and Kibi auto-fills your MPG, fuel type, and estimated highway range."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many highway exits does Kibi cover?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kibi covers 79,000+ US highway exits, scored and ranked by amenity quality, ratings, and accessibility."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -1596,6 +1774,13 @@
         <img src="Kibi_Logo_Horizontal_White.png" alt="Kibi" style="height: 28px; display: block;" />
       </div>
       <span class="footer-tagline">drivekibi.com</span>
+      <a href="https://www.instagram.com/drivekibi"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="Kibi on Instagram"
+         style="color:var(--gray);font-size:.76rem;text-decoration:none;">
+        Instagram
+      </a>
       <a href="privacy.html" class="footer-privacy">Privacy Policy</a>
     </div>
 
