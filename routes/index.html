@@ -302,6 +302,56 @@
     }
 
 
+    /* -- UPSELL BANNER -- */
+    .upsell-banner {
+      background: var(--bg);
+      border-bottom: 1px solid var(--border-subtle);
+      padding: 56px 80px;
+    }
+    .upsell-inner {
+      max-width: 720px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .upsell-inner h2 {
+      font-size: clamp(1.4rem, 3vw, 1.8rem);
+      font-weight: 700; font-style: italic;
+      color: var(--text-primary);
+      line-height: 1.2; margin-bottom: 16px;
+    }
+    .upsell-body {
+      font-size: .95rem; font-weight: 300;
+      color: var(--text-secondary); line-height: 1.7;
+      margin-bottom: 24px;
+    }
+    .upsell-body em {
+      color: var(--green); font-style: normal; font-weight: 600;
+    }
+    .upsell-features {
+      display: flex; flex-wrap: wrap; gap: 10px;
+      justify-content: center; margin-bottom: 28px;
+    }
+    .upsell-feat {
+      background: rgba(46,189,122,0.08);
+      border: 1px solid rgba(46,189,122,0.18);
+      color: var(--text-secondary); border-radius: 100px;
+      padding: 6px 16px; font-size: .78rem; font-weight: 500;
+    }
+    .upsell-cta {
+      background: var(--green); color: #060F0B;
+      font-weight: 700; font-size: 15px;
+      padding: 14px 32px; border-radius: 99px;
+      text-decoration: none; display: inline-block;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .upsell-cta:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 8px 24px rgba(46,189,122,0.35);
+    }
+    @media (max-width: 768px) {
+      .upsell-banner { padding: 40px 24px; }
+    }
+
     .routes-hero {
       background: var(--surface);
       border-bottom: 1px solid var(--border-subtle);
@@ -431,6 +481,27 @@
       Kibi scored 79,000+ US highway exits. Browse top stops for gas,
       food, and a bathroom by route &mdash; before you leave home.
     </p>
+  </section>
+
+  <!-- APP UPSELL -->
+  <section class="upsell-banner">
+    <div class="upsell-inner">
+      <p class="section-label" style="margin-bottom:12px;">Get smarter stops</p>
+      <h2>These guides are just the start.</h2>
+      <p class="upsell-body">
+        The Kibi app picks the single best exit for <em>your</em> vehicle, <em>your</em> tank range,
+        and <em>your</em> preferences &mdash; whether you want fast food or sit-down,
+        coffee or pet-friendly, 24-hour or wheelchair-accessible.
+        No two trips are the same.
+      </p>
+      <div class="upsell-features">
+        <span class="upsell-feat">Your vehicle&rsquo;s actual range</span>
+        <span class="upsell-feat">Food &amp; trip preferences</span>
+        <span class="upsell-feat">Real-time open/closed status</span>
+        <span class="upsell-feat">One-tap nav handoff</span>
+      </div>
+      <a href="../#waitlist" class="upsell-cta">Join the Waitlist &rarr;</a>
+    </div>
   </section>
 
   <!-- ROUTE CARDS -->
