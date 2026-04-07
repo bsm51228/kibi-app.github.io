@@ -2,188 +2,53 @@
   "route_slug": "los-angeles-to-san-francisco",
   "origin": "Los Angeles, CA",
   "destination": "San Francisco, CA",
-  "highway": "US-101",
-  "filter_method": "bbox+state (fallback \u2014 highway col sparse)",
-  "exit_count": 20,
+  "highway": "US-101, I-5",
+  "miles": 382,
+  "exit_count": 5,
   "exits": [
     {
-      "exit_id": "osm_n_1613525083",
-      "exit_number": "19",
-      "exit_name": "Exit 19",
+      "exit_id": "osm_n_367137752",
+      "exit_number": "195",
+      "exit_name": "Exit 195",
       "state": "CA",
-      "lat": 34.000639,
-      "lng": -118.280862,
+      "lat": 34.710953,
+      "lng": -118.797591,
       "stop_type": "exit_ramp"
     },
     {
-      "exit_id": "osm_n_1613580482",
-      "exit_number": "51",
-      "exit_name": "Exit 51",
+      "exit_id": "osm_w_226879591",
+      "exit_number": "0160",
+      "exit_name": "TA",
       "state": "CA",
-      "lat": 34.00617,
-      "lng": -118.41388,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_1613487052",
-      "exit_number": "19B",
-      "exit_name": "Vernon Avenue",
-      "state": "CA",
-      "lat": 34.006717,
-      "lng": -118.281241,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_348123576",
-      "exit_number": "20A",
-      "exit_name": "Exit 20A",
-      "state": "CA",
-      "lat": 34.007933,
-      "lng": -118.28088,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_625976977",
-      "exit_number": "52",
-      "exit_name": "Exit 52",
-      "state": "CA",
-      "lat": 34.008935,
-      "lng": -118.415671,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_1347103247",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
-      "state": "CA",
-      "lat": 34.010485,
-      "lng": -118.280959,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_267990449",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
-      "state": "CA",
-      "lat": 34.010787,
-      "lng": -118.372989,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_338393769",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
-      "state": "CA",
-      "lat": 34.010793,
-      "lng": -118.495106,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_1613580483",
-      "exit_number": "52",
-      "exit_name": "Exit 52",
-      "state": "CA",
-      "lat": 34.011707,
-      "lng": -118.41827,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_247963291",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
-      "state": "CA",
-      "lat": 34.011948,
-      "lng": -118.496928,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_338162665",
-      "exit_number": "1A",
-      "exit_name": "Exit 1A",
-      "state": "CA",
-      "lat": 34.012491,
-      "lng": -118.490417,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_338393117",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
-      "state": "CA",
-      "lat": 34.01253,
-      "lng": -118.497523,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_269633667",
-      "exit_number": "20A",
-      "exit_name": "Exit 20A",
-      "state": "CA",
-      "lat": 34.013738,
-      "lng": -118.281277,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_200379626",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
-      "state": "CA",
-      "lat": 34.01427,
-      "lng": -118.374205,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_243654575",
-      "exit_number": "1A",
-      "exit_name": "Exit 1A",
-      "state": "CA",
-      "lat": 34.014454,
-      "lng": -118.486624,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_1713509572",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
-      "state": "CA",
-      "lat": 34.016732,
-      "lng": -118.373731,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_333172720",
-      "exit_number": "1B",
-      "exit_name": "Exit 1B",
-      "state": "CA",
-      "lat": 34.017482,
-      "lng": -118.482091,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_w_458028476",
-      "exit_number": "",
-      "exit_name": "Service Plaza",
-      "state": "CA",
-      "lat": 34.018035,
-      "lng": -118.280577,
+      "lat": 35.401227,
+      "lng": -119.396126,
       "stop_type": "service_plaza"
     },
     {
-      "exit_id": "osm_n_269633662",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
+      "exit_id": "osm_n_309028979",
+      "exit_number": "319",
+      "exit_name": "Exit 319",
       "state": "CA",
-      "lat": 34.018072,
-      "lng": -118.280273,
+      "lat": 36.07896,
+      "lng": -120.105181,
       "stop_type": "exit_ramp"
     },
     {
-      "exit_id": "osm_n_122441204",
-      "exit_number": "1B",
-      "exit_name": "Exit 1B",
+      "exit_id": "osm_n_89760612",
+      "exit_number": "302",
+      "exit_name": "Exit 302",
       "state": "CA",
-      "lat": 34.020536,
-      "lng": -118.478052,
+      "lat": 36.414679,
+      "lng": -121.320831,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_370626851",
+      "exit_number": "371",
+      "exit_name": "Exit 371",
+      "state": "CA",
+      "lat": 37.188065,
+      "lng": -121.689087,
       "stop_type": "exit_ramp"
     }
   ]

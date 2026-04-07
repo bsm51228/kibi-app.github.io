@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Best Stops: Chicago, IL to Atlanta, GA | Kibi</title>
-  <meta name="description" content="Planning a drive from Chicago, IL to Atlanta, GA on I-65? Kibi scored 20 highway exits along this route. Find the best stop for gas, food, and a bathroom — before you leave home." />
+  <meta name="description" content="Planning a drive from Chicago, IL to Atlanta, GA on I-65, I-24, I-75? Kibi scored 11 highway exits along this 716-mile route. Find the best stop for gas, food, and a bathroom — before you leave home." />
   <link rel="canonical" href="https://drivekibi.com/routes/chicago-to-atlanta.html" />
   <meta name="robots" content="index, follow" />
 
@@ -12,13 +12,13 @@
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://drivekibi.com/routes/chicago-to-atlanta.html" />
   <meta property="og:title" content="Best Stops: Chicago, IL to Atlanta, GA | Kibi" />
-  <meta property="og:description" content="Planning a drive from Chicago, IL to Atlanta, GA on I-65? Kibi scored 20 highway exits along this route. Find the best stop for gas, food, and a bathroom — before you leave home." />
+  <meta property="og:description" content="Planning a drive from Chicago, IL to Atlanta, GA on I-65, I-24, I-75? Kibi scored 11 highway exits along this 716-mile route. Find the best stop for gas, food, and a bathroom — before you leave home." />
   <meta property="og:image" content="https://drivekibi.com/og-image.png" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Best Stops: Chicago, IL to Atlanta, GA | Kibi" />
-  <meta name="twitter:description" content="Planning a drive from Chicago, IL to Atlanta, GA on I-65? Kibi scored 20 highway exits along this route. Find the best stop for gas, food, and a bathroom — before you leave home." />
+  <meta name="twitter:description" content="Planning a drive from Chicago, IL to Atlanta, GA on I-65, I-24, I-75? Kibi scored 11 highway exits along this 716-mile route. Find the best stop for gas, food, and a bathroom — before you leave home." />
   <meta name="twitter:image" content="https://drivekibi.com/og-image.png" />
 
   <!-- Fonts -->
@@ -36,7 +36,7 @@
         {
             "@type": "Article",
             "headline": "Best Highway Stops: Chicago, IL to Atlanta, GA",
-            "description": "Planning a drive from Chicago, IL to Atlanta, GA on I-65? Kibi scored 20 highway exits along this route. Find the best stop for gas, food, and a bathroom \u2014 before you leave home.",
+            "description": "Planning a drive from Chicago, IL to Atlanta, GA on I-65, I-24, I-75? Kibi scored 11 highway exits along this 716-mile route. Find the best stop for gas, food, and a bathroom \u2014 before you leave home.",
             "author": {
                 "@type": "Organization",
                 "name": "Kibitzer, Inc."
@@ -85,7 +85,7 @@
 
     h1, h2, h3 { font-family: 'Lora', Georgia, serif; }
 
-    /* ── NAV ── */
+    /* -- NAV -- */
     nav#main-nav {
       position: sticky;
       top: 0;
@@ -157,7 +157,7 @@
       padding: 14px 36px; border-radius: 14px; font-size: 18px;
     }
 
-    /* ── HERO ── */
+    /* -- HERO -- */
     .route-hero {
       background: var(--surface);
       border-bottom: 1px solid var(--border-subtle);
@@ -188,7 +188,7 @@
       padding: 6px 16px; font-size: .78rem; font-weight: 600;
     }
 
-    /* ── EXIT TABLE ── */
+    /* -- EXIT TABLE -- */
     .exit-section {
       background: var(--bg);
       padding: 64px 80px;
@@ -241,13 +241,21 @@
       padding: 2px 10px; font-size: .68rem; font-weight: 600;
       white-space: nowrap;
     }
+    .type-badge--rest {
+      background: rgba(139,92,246,0.12);
+      color: #A78BFA;
+    }
+    .type-badge--plaza {
+      background: rgba(251,191,36,0.12);
+      color: #FBBF24;
+    }
     .exit-coords {
       color: var(--text-muted); font-size: .78rem;
       font-family: 'SF Mono', 'Fira Code', monospace;
       white-space: nowrap;
     }
 
-    /* ── CTA ── */
+    /* -- CTA -- */
     .route-cta {
       background: var(--surface);
       border-top: 1px solid var(--border-subtle);
@@ -274,7 +282,7 @@
       font-size: .78rem; color: var(--text-muted);
     }
 
-    /* ── BACK LINK ── */
+    /* -- BACK LINK -- */
     .back-link {
       text-align: center; padding: 32px;
       border-top: 1px solid var(--border-subtle);
@@ -285,7 +293,7 @@
     }
     .back-link a:hover { color: var(--text-secondary); }
 
-    /* ── FOOTER ── */
+    /* -- FOOTER -- */
     footer {
       background: #060F0B;
       border-top: 1px solid rgba(46,189,122,0.08);
@@ -311,7 +319,7 @@
     .footer-osm { font-size: .7rem; color: var(--text-muted); opacity: .5; margin-top: 8px; }
     .footer-osm a { color: inherit; }
 
-    /* ── RESPONSIVE ── */
+    /* -- RESPONSIVE -- */
     @media (max-width: 960px) {
       .route-hero { padding: 64px 40px 48px; }
       .exit-section { padding: 48px 40px; }
@@ -343,7 +351,7 @@
     <div class="nav-right">
       <a href="../#how-it-works" class="nav-how">How It Works</a>
       <a href="index.html" class="nav-how">Route Guide</a>
-      <a href="../#waitlist" class="nav-cta">Join the Waitlist →</a>
+      <a href="../#waitlist" class="nav-cta">Join the Waitlist &rarr;</a>
       <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
@@ -352,7 +360,7 @@
   <div id="nav-drawer" class="nav-drawer" aria-hidden="true">
     <a href="../#how-it-works">How It Works</a>
     <a href="index.html">Route Guide</a>
-    <a href="../#waitlist" class="nav-cta-drawer">Join the Waitlist →</a>
+    <a href="../#waitlist" class="nav-cta-drawer">Join the Waitlist &rarr;</a>
   </div>
 
   <!-- HERO -->
@@ -362,20 +370,21 @@
     </p>
     <h1>Best Stops: Chicago, IL to Atlanta, GA</h1>
     <p class="route-subhead">
-      20 highway exits scored along I-65 &middot;
+      11 highway exits scored along I-65, I-24, I-75 &middot;
       Kibi finds the best stop for gas, food, and a bathroom &mdash;
       so you never settle for a bad exit.
     </p>
     <div class="stat-pills">
-      <span class="stat-pill">20 Exits Scored</span>
-      <span class="stat-pill">I-65</span>
+      <span class="stat-pill">11 Exits Scored</span>
+      <span class="stat-pill">I-65, I-24, I-75</span>
+      <span class="stat-pill">~716 mi</span>
     </div>
   </section>
 
   <!-- EXIT TABLE -->
   <section class="exit-section">
-    <p class="section-label">Highway Exits</p>
-    <h2>Exits Along This Route</h2>
+    <p class="section-label">Recommended Stops</p>
+    <h2>Stops Along This Route</h2>
     <div class="exit-table-wrap">
       <table>
         <thead>
@@ -389,144 +398,81 @@
         </thead>
         <tbody>
         <tr>
-          <td class="exit-num">259A</td>
-          <td class="exit-name">Exit 259A</td>
-          <td class="exit-state">AL</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">33.5016, -86.8146</td>
+          <td class="exit-num">0241</td>
+          <td class="exit-name">TA</td>
+          <td class="exit-state">IN</td>
+          <td><span class="type-badge type-badge--plaza">Service Plaza</span></td>
+          <td class="exit-coords">41.1455, -87.2606</td>
         </tr>
         <tr>
-          <td class="exit-num">259B</td>
-          <td class="exit-name">Exit 259B</td>
-          <td class="exit-state">AL</td>
+          <td class="exit-num">168</td>
+          <td class="exit-name">Exit 168</td>
+          <td class="exit-state">IN</td>
           <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">33.5042, -86.8163</td>
+          <td class="exit-coords">40.3808, -86.7861</td>
         </tr>
         <tr>
-          <td class="exit-num">120</td>
-          <td class="exit-name">Exit 120</td>
-          <td class="exit-state">AL</td>
+          <td class="exit-num">111</td>
+          <td class="exit-name">Exit 111</td>
+          <td class="exit-state">IN</td>
           <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">33.5045, -86.8896</td>
+          <td class="exit-coords">39.7639, -86.1429</td>
         </tr>
         <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">AL</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">33.5082, -86.7906</td>
+          <td class="exit-num">0065</td>
+          <td class="exit-name">TA</td>
+          <td class="exit-state">IN</td>
+          <td><span class="type-badge type-badge--plaza">Service Plaza</span></td>
+          <td class="exit-coords">38.9569, -85.8363</td>
         </tr>
         <tr>
-          <td class="exit-num">260B</td>
-          <td class="exit-name">Exit 260B</td>
-          <td class="exit-state">AL</td>
+          <td class="exit-num">4</td>
+          <td class="exit-name">Exit 4</td>
+          <td class="exit-state">KY</td>
           <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">33.5082, -86.8187</td>
+          <td class="exit-coords">38.2588, -85.7609</td>
         </tr>
         <tr>
-          <td class="exit-num">120</td>
-          <td class="exit-name">Exit 120</td>
-          <td class="exit-state">AL</td>
+          <td class="exit-num">124</td>
+          <td class="exit-name">Exit 124</td>
+          <td class="exit-state">KY</td>
           <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">33.5096, -86.8799</td>
+          <td class="exit-coords">37.5689, -86.0438</td>
         </tr>
         <tr>
-          <td class="exit-num">261A</td>
-          <td class="exit-name">Exit 261A</td>
-          <td class="exit-state">AL</td>
+          <td class="exit-num">20A-B</td>
+          <td class="exit-name">Exit 20A-B</td>
+          <td class="exit-state">KY</td>
           <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">33.5103, -86.8201</td>
+          <td class="exit-coords">36.9020, -86.4365</td>
         </tr>
         <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">AL</td>
+          <td class="exit-num">209B</td>
+          <td class="exit-name">Exit 209B</td>
+          <td class="exit-state">TN</td>
           <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">33.5114, -86.7928</td>
+          <td class="exit-coords">36.1592, -86.7921</td>
         </tr>
         <tr>
-          <td class="exit-num">121</td>
-          <td class="exit-name">Exit 121</td>
-          <td class="exit-state">AL</td>
+          <td class="exit-num">110</td>
+          <td class="exit-name">Exit 110</td>
+          <td class="exit-state">TN</td>
           <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">33.5125, -86.8748</td>
+          <td class="exit-coords">35.5011, -86.0898</td>
         </tr>
         <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">AL</td>
+          <td class="exit-num">1B</td>
+          <td class="exit-name">Exit 1B</td>
+          <td class="exit-state">TN</td>
           <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">33.5125, -86.7934</td>
+          <td class="exit-coords">35.0470, -85.3143</td>
         </tr>
         <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">AL</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">33.5145, -86.7949</td>
-        </tr>
-        <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">AL</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">33.5165, -86.7962</td>
-        </tr>
-        <tr>
-          <td class="exit-num">261B</td>
-          <td class="exit-name">Exit 261B</td>
-          <td class="exit-state">AL</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">33.5184, -86.8251</td>
-        </tr>
-        <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">AL</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">33.5190, -86.7982</td>
-        </tr>
-        <tr>
-          <td class="exit-num">261C</td>
-          <td class="exit-name">Exit 261C</td>
-          <td class="exit-state">AL</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">33.5195, -86.8259</td>
-        </tr>
-        <tr>
-          <td class="exit-num">124B</td>
-          <td class="exit-name">Exit 124B</td>
-          <td class="exit-state">AL</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">33.5198, -86.8312</td>
-        </tr>
-        <tr>
-          <td class="exit-num">123</td>
-          <td class="exit-name">Exit 123</td>
-          <td class="exit-state">AL</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">33.5202, -86.8552</td>
-        </tr>
-        <tr>
-          <td class="exit-num">124C</td>
-          <td class="exit-name">Exit 124C</td>
-          <td class="exit-state">AL</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">33.5204, -86.8194</td>
-        </tr>
-        <tr>
-          <td class="exit-num">124A</td>
-          <td class="exit-name">Exit 124A</td>
-          <td class="exit-state">AL</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">33.5204, -86.8359</td>
-        </tr>
-        <tr>
-          <td class="exit-num">124C</td>
-          <td class="exit-name">Exit 124C</td>
-          <td class="exit-state">AL</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">33.5210, -86.8288</td>
+          <td class="exit-num">757</td>
+          <td class="exit-name">QuikTrip</td>
+          <td class="exit-state">GA</td>
+          <td><span class="type-badge type-badge--plaza">Service Plaza</span></td>
+          <td class="exit-coords">34.3796, -84.9076</td>
         </tr>
         </tbody>
       </table>

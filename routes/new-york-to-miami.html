@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Best Stops: New York, NY to Miami, FL | Kibi</title>
-  <meta name="description" content="Planning a drive from New York, NY to Miami, FL on I-95? Kibi scored 20 highway exits along this route. Find the best stop for gas, food, and a bathroom — before you leave home." />
+  <meta name="description" content="Planning a drive from New York, NY to Miami, FL on I-95? Kibi scored 16 highway exits along this 1280-mile route. Find the best stop for gas, food, and a bathroom — before you leave home." />
   <link rel="canonical" href="https://drivekibi.com/routes/new-york-to-miami.html" />
   <meta name="robots" content="index, follow" />
 
@@ -12,13 +12,13 @@
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://drivekibi.com/routes/new-york-to-miami.html" />
   <meta property="og:title" content="Best Stops: New York, NY to Miami, FL | Kibi" />
-  <meta property="og:description" content="Planning a drive from New York, NY to Miami, FL on I-95? Kibi scored 20 highway exits along this route. Find the best stop for gas, food, and a bathroom — before you leave home." />
+  <meta property="og:description" content="Planning a drive from New York, NY to Miami, FL on I-95? Kibi scored 16 highway exits along this 1280-mile route. Find the best stop for gas, food, and a bathroom — before you leave home." />
   <meta property="og:image" content="https://drivekibi.com/og-image.png" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Best Stops: New York, NY to Miami, FL | Kibi" />
-  <meta name="twitter:description" content="Planning a drive from New York, NY to Miami, FL on I-95? Kibi scored 20 highway exits along this route. Find the best stop for gas, food, and a bathroom — before you leave home." />
+  <meta name="twitter:description" content="Planning a drive from New York, NY to Miami, FL on I-95? Kibi scored 16 highway exits along this 1280-mile route. Find the best stop for gas, food, and a bathroom — before you leave home." />
   <meta name="twitter:image" content="https://drivekibi.com/og-image.png" />
 
   <!-- Fonts -->
@@ -36,7 +36,7 @@
         {
             "@type": "Article",
             "headline": "Best Highway Stops: New York, NY to Miami, FL",
-            "description": "Planning a drive from New York, NY to Miami, FL on I-95? Kibi scored 20 highway exits along this route. Find the best stop for gas, food, and a bathroom \u2014 before you leave home.",
+            "description": "Planning a drive from New York, NY to Miami, FL on I-95? Kibi scored 16 highway exits along this 1280-mile route. Find the best stop for gas, food, and a bathroom \u2014 before you leave home.",
             "author": {
                 "@type": "Organization",
                 "name": "Kibitzer, Inc."
@@ -85,7 +85,7 @@
 
     h1, h2, h3 { font-family: 'Lora', Georgia, serif; }
 
-    /* ── NAV ── */
+    /* -- NAV -- */
     nav#main-nav {
       position: sticky;
       top: 0;
@@ -157,7 +157,7 @@
       padding: 14px 36px; border-radius: 14px; font-size: 18px;
     }
 
-    /* ── HERO ── */
+    /* -- HERO -- */
     .route-hero {
       background: var(--surface);
       border-bottom: 1px solid var(--border-subtle);
@@ -188,7 +188,7 @@
       padding: 6px 16px; font-size: .78rem; font-weight: 600;
     }
 
-    /* ── EXIT TABLE ── */
+    /* -- EXIT TABLE -- */
     .exit-section {
       background: var(--bg);
       padding: 64px 80px;
@@ -241,13 +241,21 @@
       padding: 2px 10px; font-size: .68rem; font-weight: 600;
       white-space: nowrap;
     }
+    .type-badge--rest {
+      background: rgba(139,92,246,0.12);
+      color: #A78BFA;
+    }
+    .type-badge--plaza {
+      background: rgba(251,191,36,0.12);
+      color: #FBBF24;
+    }
     .exit-coords {
       color: var(--text-muted); font-size: .78rem;
       font-family: 'SF Mono', 'Fira Code', monospace;
       white-space: nowrap;
     }
 
-    /* ── CTA ── */
+    /* -- CTA -- */
     .route-cta {
       background: var(--surface);
       border-top: 1px solid var(--border-subtle);
@@ -274,7 +282,7 @@
       font-size: .78rem; color: var(--text-muted);
     }
 
-    /* ── BACK LINK ── */
+    /* -- BACK LINK -- */
     .back-link {
       text-align: center; padding: 32px;
       border-top: 1px solid var(--border-subtle);
@@ -285,7 +293,7 @@
     }
     .back-link a:hover { color: var(--text-secondary); }
 
-    /* ── FOOTER ── */
+    /* -- FOOTER -- */
     footer {
       background: #060F0B;
       border-top: 1px solid rgba(46,189,122,0.08);
@@ -311,7 +319,7 @@
     .footer-osm { font-size: .7rem; color: var(--text-muted); opacity: .5; margin-top: 8px; }
     .footer-osm a { color: inherit; }
 
-    /* ── RESPONSIVE ── */
+    /* -- RESPONSIVE -- */
     @media (max-width: 960px) {
       .route-hero { padding: 64px 40px 48px; }
       .exit-section { padding: 48px 40px; }
@@ -343,7 +351,7 @@
     <div class="nav-right">
       <a href="../#how-it-works" class="nav-how">How It Works</a>
       <a href="index.html" class="nav-how">Route Guide</a>
-      <a href="../#waitlist" class="nav-cta">Join the Waitlist →</a>
+      <a href="../#waitlist" class="nav-cta">Join the Waitlist &rarr;</a>
       <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
@@ -352,7 +360,7 @@
   <div id="nav-drawer" class="nav-drawer" aria-hidden="true">
     <a href="../#how-it-works">How It Works</a>
     <a href="index.html">Route Guide</a>
-    <a href="../#waitlist" class="nav-cta-drawer">Join the Waitlist →</a>
+    <a href="../#waitlist" class="nav-cta-drawer">Join the Waitlist &rarr;</a>
   </div>
 
   <!-- HERO -->
@@ -362,20 +370,21 @@
     </p>
     <h1>Best Stops: New York, NY to Miami, FL</h1>
     <p class="route-subhead">
-      20 highway exits scored along I-95 &middot;
+      16 highway exits scored along I-95 &middot;
       Kibi finds the best stop for gas, food, and a bathroom &mdash;
       so you never settle for a bad exit.
     </p>
     <div class="stat-pills">
-      <span class="stat-pill">20 Exits Scored</span>
+      <span class="stat-pill">16 Exits Scored</span>
       <span class="stat-pill">I-95</span>
+      <span class="stat-pill">~1280 mi</span>
     </div>
   </section>
 
   <!-- EXIT TABLE -->
   <section class="exit-section">
-    <p class="section-label">Highway Exits</p>
-    <h2>Exits Along This Route</h2>
+    <p class="section-label">Recommended Stops</p>
+    <h2>Stops Along This Route</h2>
     <div class="exit-table-wrap">
       <table>
         <thead>
@@ -389,144 +398,116 @@
         </thead>
         <tbody>
         <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">FL</td>
+          <td class="exit-num">344</td>
+          <td class="exit-name">Exit 344</td>
+          <td class="exit-state">PA</td>
           <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">25.7061, -80.3177</td>
+          <td class="exit-coords">39.9564, -75.1805</td>
+        </tr>
+        <tr>
+          <td class="exit-num">85</td>
+          <td class="exit-name">Exit 85</td>
+          <td class="exit-state">MD</td>
+          <td><span class="type-badge">Exit</span></td>
+          <td class="exit-coords">39.5194, -76.1999</td>
+        </tr>
+        <tr>
+          <td class="exit-num">75</td>
+          <td class="exit-name">Exit 75</td>
+          <td class="exit-state">VA</td>
+          <td><span class="type-badge">Exit</span></td>
+          <td class="exit-coords">38.8944, -77.0678</td>
         </tr>
         <tr>
           <td class="exit-num">—</td>
           <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">FL</td>
+          <td class="exit-state">VA</td>
           <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">25.7121, -80.3178</td>
+          <td class="exit-coords">38.2373, -77.3967</td>
+        </tr>
+        <tr>
+          <td class="exit-num">74B</td>
+          <td class="exit-name">Exit 74B</td>
+          <td class="exit-state">VA</td>
+          <td><span class="type-badge">Exit</span></td>
+          <td class="exit-coords">37.5370, -77.4290</td>
+        </tr>
+        <tr>
+          <td class="exit-num">12A</td>
+          <td class="exit-name">Exit 12A</td>
+          <td class="exit-state">VA</td>
+          <td><span class="type-badge">Exit</span></td>
+          <td class="exit-coords">36.7092, -78.1150</td>
         </tr>
         <tr>
           <td class="exit-num">—</td>
           <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">FL</td>
+          <td class="exit-state">NC</td>
           <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">25.7157, -80.3181</td>
+          <td class="exit-coords">35.7860, -78.6427</td>
         </tr>
         <tr>
           <td class="exit-num">—</td>
           <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">FL</td>
+          <td class="exit-state">NC</td>
           <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">25.7199, -80.3213</td>
+          <td class="exit-coords">35.1732, -79.4044</td>
         </tr>
         <tr>
-          <td class="exit-num">23</td>
-          <td class="exit-name">Exit 23</td>
-          <td class="exit-state">FL</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">25.7205, -80.3837</td>
+          <td class="exit-num">—</td>
+          <td class="exit-name">Love's Travel Stop</td>
+          <td class="exit-state">SC</td>
+          <td><span class="type-badge type-badge--plaza">Service Plaza</span></td>
+          <td class="exit-coords">34.7986, -80.4053</td>
         </tr>
         <tr>
           <td class="exit-num">—</td>
           <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">FL</td>
+          <td class="exit-state">SC</td>
           <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">25.7208, -80.3190</td>
+          <td class="exit-coords">34.0082, -81.0495</td>
         </tr>
         <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">FL</td>
+          <td class="exit-num">167A</td>
+          <td class="exit-name">Exit 167A</td>
+          <td class="exit-state">GA</td>
           <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">25.7234, -80.3180</td>
+          <td class="exit-coords">32.0718, -81.1028</td>
         </tr>
         <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">FL</td>
+          <td class="exit-num">38</td>
+          <td class="exit-name">Exit 38</td>
+          <td class="exit-state">GA</td>
           <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">25.7265, -80.3188</td>
+          <td class="exit-coords">31.2484, -81.4996</td>
         </tr>
         <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
+          <td class="exit-num">353C</td>
+          <td class="exit-name">Exit 353C</td>
           <td class="exit-state">FL</td>
           <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">25.7279, -80.3185</td>
+          <td class="exit-coords">30.3345, -81.6700</td>
         </tr>
         <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
+          <td class="exit-num">1-B-A</td>
+          <td class="exit-name">Exit 1-B-A</td>
           <td class="exit-state">FL</td>
           <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">25.7316, -80.3186</td>
+          <td class="exit-coords">28.5385, -81.3812</td>
         </tr>
         <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
+          <td class="exit-num">193</td>
+          <td class="exit-name">Exit 193</td>
           <td class="exit-state">FL</td>
           <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">25.7391, -80.3197</td>
+          <td class="exit-coords">27.6970, -80.8950</td>
         </tr>
         <tr>
-          <td class="exit-num">23</td>
-          <td class="exit-name">Exit 23</td>
+          <td class="exit-num">70</td>
+          <td class="exit-name">Exit 70</td>
           <td class="exit-state">FL</td>
           <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">25.7393, -80.3847</td>
-        </tr>
-        <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">FL</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">25.7453, -80.3197</td>
-        </tr>
-        <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">FL</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">25.7492, -80.2123</td>
-        </tr>
-        <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">FL</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">25.7510, -80.2040</td>
-        </tr>
-        <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">FL</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">25.7521, -80.3201</td>
-        </tr>
-        <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">FL</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">25.7550, -80.2019</td>
-        </tr>
-        <tr>
-          <td class="exit-num">25</td>
-          <td class="exit-name">Exit 25</td>
-          <td class="exit-state">FL</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">25.7555, -80.3850</td>
-        </tr>
-        <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">FL</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">25.7565, -80.3203</td>
-        </tr>
-        <tr>
-          <td class="exit-num">25B</td>
-          <td class="exit-name">Exit 25B</td>
-          <td class="exit-state">FL</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">25.7611, -80.3855</td>
+          <td class="exit-coords">26.7023, -80.0728</td>
         </tr>
         </tbody>
       </table>

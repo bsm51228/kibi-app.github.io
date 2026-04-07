@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Best Stops: Dallas, TX to Houston, TX | Kibi</title>
-  <meta name="description" content="Planning a drive from Dallas, TX to Houston, TX on I-45? Kibi scored 20 highway exits along this route. Find the best stop for gas, food, and a bathroom — before you leave home." />
+  <meta name="description" content="Planning a drive from Dallas, TX to Houston, TX on I-45? Kibi scored 3 highway exits along this 239-mile route. Find the best stop for gas, food, and a bathroom — before you leave home." />
   <link rel="canonical" href="https://drivekibi.com/routes/dallas-to-houston.html" />
   <meta name="robots" content="index, follow" />
 
@@ -12,13 +12,13 @@
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://drivekibi.com/routes/dallas-to-houston.html" />
   <meta property="og:title" content="Best Stops: Dallas, TX to Houston, TX | Kibi" />
-  <meta property="og:description" content="Planning a drive from Dallas, TX to Houston, TX on I-45? Kibi scored 20 highway exits along this route. Find the best stop for gas, food, and a bathroom — before you leave home." />
+  <meta property="og:description" content="Planning a drive from Dallas, TX to Houston, TX on I-45? Kibi scored 3 highway exits along this 239-mile route. Find the best stop for gas, food, and a bathroom — before you leave home." />
   <meta property="og:image" content="https://drivekibi.com/og-image.png" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Best Stops: Dallas, TX to Houston, TX | Kibi" />
-  <meta name="twitter:description" content="Planning a drive from Dallas, TX to Houston, TX on I-45? Kibi scored 20 highway exits along this route. Find the best stop for gas, food, and a bathroom — before you leave home." />
+  <meta name="twitter:description" content="Planning a drive from Dallas, TX to Houston, TX on I-45? Kibi scored 3 highway exits along this 239-mile route. Find the best stop for gas, food, and a bathroom — before you leave home." />
   <meta name="twitter:image" content="https://drivekibi.com/og-image.png" />
 
   <!-- Fonts -->
@@ -36,7 +36,7 @@
         {
             "@type": "Article",
             "headline": "Best Highway Stops: Dallas, TX to Houston, TX",
-            "description": "Planning a drive from Dallas, TX to Houston, TX on I-45? Kibi scored 20 highway exits along this route. Find the best stop for gas, food, and a bathroom \u2014 before you leave home.",
+            "description": "Planning a drive from Dallas, TX to Houston, TX on I-45? Kibi scored 3 highway exits along this 239-mile route. Find the best stop for gas, food, and a bathroom \u2014 before you leave home.",
             "author": {
                 "@type": "Organization",
                 "name": "Kibitzer, Inc."
@@ -85,7 +85,7 @@
 
     h1, h2, h3 { font-family: 'Lora', Georgia, serif; }
 
-    /* ── NAV ── */
+    /* -- NAV -- */
     nav#main-nav {
       position: sticky;
       top: 0;
@@ -157,7 +157,7 @@
       padding: 14px 36px; border-radius: 14px; font-size: 18px;
     }
 
-    /* ── HERO ── */
+    /* -- HERO -- */
     .route-hero {
       background: var(--surface);
       border-bottom: 1px solid var(--border-subtle);
@@ -188,7 +188,7 @@
       padding: 6px 16px; font-size: .78rem; font-weight: 600;
     }
 
-    /* ── EXIT TABLE ── */
+    /* -- EXIT TABLE -- */
     .exit-section {
       background: var(--bg);
       padding: 64px 80px;
@@ -241,13 +241,21 @@
       padding: 2px 10px; font-size: .68rem; font-weight: 600;
       white-space: nowrap;
     }
+    .type-badge--rest {
+      background: rgba(139,92,246,0.12);
+      color: #A78BFA;
+    }
+    .type-badge--plaza {
+      background: rgba(251,191,36,0.12);
+      color: #FBBF24;
+    }
     .exit-coords {
       color: var(--text-muted); font-size: .78rem;
       font-family: 'SF Mono', 'Fira Code', monospace;
       white-space: nowrap;
     }
 
-    /* ── CTA ── */
+    /* -- CTA -- */
     .route-cta {
       background: var(--surface);
       border-top: 1px solid var(--border-subtle);
@@ -274,7 +282,7 @@
       font-size: .78rem; color: var(--text-muted);
     }
 
-    /* ── BACK LINK ── */
+    /* -- BACK LINK -- */
     .back-link {
       text-align: center; padding: 32px;
       border-top: 1px solid var(--border-subtle);
@@ -285,7 +293,7 @@
     }
     .back-link a:hover { color: var(--text-secondary); }
 
-    /* ── FOOTER ── */
+    /* -- FOOTER -- */
     footer {
       background: #060F0B;
       border-top: 1px solid rgba(46,189,122,0.08);
@@ -311,7 +319,7 @@
     .footer-osm { font-size: .7rem; color: var(--text-muted); opacity: .5; margin-top: 8px; }
     .footer-osm a { color: inherit; }
 
-    /* ── RESPONSIVE ── */
+    /* -- RESPONSIVE -- */
     @media (max-width: 960px) {
       .route-hero { padding: 64px 40px 48px; }
       .exit-section { padding: 48px 40px; }
@@ -343,7 +351,7 @@
     <div class="nav-right">
       <a href="../#how-it-works" class="nav-how">How It Works</a>
       <a href="index.html" class="nav-how">Route Guide</a>
-      <a href="../#waitlist" class="nav-cta">Join the Waitlist →</a>
+      <a href="../#waitlist" class="nav-cta">Join the Waitlist &rarr;</a>
       <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
@@ -352,7 +360,7 @@
   <div id="nav-drawer" class="nav-drawer" aria-hidden="true">
     <a href="../#how-it-works">How It Works</a>
     <a href="index.html">Route Guide</a>
-    <a href="../#waitlist" class="nav-cta-drawer">Join the Waitlist →</a>
+    <a href="../#waitlist" class="nav-cta-drawer">Join the Waitlist &rarr;</a>
   </div>
 
   <!-- HERO -->
@@ -362,20 +370,21 @@
     </p>
     <h1>Best Stops: Dallas, TX to Houston, TX</h1>
     <p class="route-subhead">
-      20 highway exits scored along I-45 &middot;
+      3 highway exits scored along I-45 &middot;
       Kibi finds the best stop for gas, food, and a bathroom &mdash;
       so you never settle for a bad exit.
     </p>
     <div class="stat-pills">
-      <span class="stat-pill">20 Exits Scored</span>
+      <span class="stat-pill">3 Exits Scored</span>
       <span class="stat-pill">I-45</span>
+      <span class="stat-pill">~239 mi</span>
     </div>
   </section>
 
   <!-- EXIT TABLE -->
   <section class="exit-section">
-    <p class="section-label">Highway Exits</p>
-    <h2>Exits Along This Route</h2>
+    <p class="section-label">Recommended Stops</p>
+    <h2>Stops Along This Route</h2>
     <div class="exit-table-wrap">
       <table>
         <thead>
@@ -389,144 +398,25 @@
         </thead>
         <tbody>
         <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
+          <td class="exit-num">1923</td>
+          <td class="exit-name">QuikTrip</td>
           <td class="exit-state">TX</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">29.7006, -95.7771</td>
+          <td><span class="type-badge type-badge--plaza">Service Plaza</span></td>
+          <td class="exit-coords">32.0757, -96.4476</td>
         </tr>
         <tr>
-          <td class="exit-num">6</td>
-          <td class="exit-name">Exit 6</td>
+          <td class="exit-num">164</td>
+          <td class="exit-name">Exit 164</td>
           <td class="exit-state">TX</td>
           <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">29.7007, -95.4590</td>
+          <td class="exit-coords">31.2621, -95.9877</td>
         </tr>
         <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
+          <td class="exit-num">103</td>
+          <td class="exit-name">Exit 103</td>
           <td class="exit-state">TX</td>
           <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">29.7015, -95.7622</td>
-        </tr>
-        <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">TX</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">29.7022, -95.7533</td>
-        </tr>
-        <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">TX</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">29.7025, -95.3549</td>
-        </tr>
-        <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">TX</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">29.7025, -95.7481</td>
-        </tr>
-        <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">TX</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">29.7027, -96.5764</td>
-        </tr>
-        <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">TX</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">29.7037, -95.3498</td>
-        </tr>
-        <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">TX</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">29.7039, -95.7322</td>
-        </tr>
-        <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">TX</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">29.7042, -95.4028</td>
-        </tr>
-        <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">TX</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">29.7045, -95.3752</td>
-        </tr>
-        <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">TX</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">29.7046, -95.4063</td>
-        </tr>
-        <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">TX</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">29.7053, -95.7761</td>
-        </tr>
-        <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">TX</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">29.7055, -95.7132</td>
-        </tr>
-        <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">TX</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">29.7063, -95.7763</td>
-        </tr>
-        <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">TX</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">29.7064, -95.6439</td>
-        </tr>
-        <tr>
-          <td class="exit-num">121A</td>
-          <td class="exit-name">Exit 121A</td>
-          <td class="exit-state">TX</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">29.7064, -95.5107</td>
-        </tr>
-        <tr>
-          <td class="exit-num">—</td>
-          <td class="exit-name">Highway Exit</td>
-          <td class="exit-state">TX</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">29.7065, -95.7009</td>
-        </tr>
-        <tr>
-          <td class="exit-num">41B</td>
-          <td class="exit-name">Exit 41B</td>
-          <td class="exit-state">TX</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">29.7065, -95.3023</td>
-        </tr>
-        <tr>
-          <td class="exit-num">698</td>
-          <td class="exit-name">Exit 698</td>
-          <td class="exit-state">TX</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td class="exit-coords">29.7073, -96.5080</td>
+          <td class="exit-coords">30.5530, -95.4992</td>
         </tr>
         </tbody>
       </table>

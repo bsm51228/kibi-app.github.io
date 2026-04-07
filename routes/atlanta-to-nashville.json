@@ -2,188 +2,35 @@
   "route_slug": "atlanta-to-nashville",
   "origin": "Atlanta, GA",
   "destination": "Nashville, TN",
-  "highway": "I-24",
-  "filter_method": "bbox+state (fallback \u2014 highway col sparse)",
-  "exit_count": 20,
+  "highway": "I-75, I-24",
+  "miles": 249,
+  "exit_count": 3,
   "exits": [
     {
-      "exit_id": "osm_n_69101165",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
+      "exit_id": "osm_n_331022466",
+      "exit_number": "333",
+      "exit_name": "Exit 333",
       "state": "GA",
-      "lat": 33.701278,
-      "lng": -84.404534,
+      "lat": 34.7582,
+      "lng": -85.00203,
       "stop_type": "exit_ramp"
     },
     {
-      "exit_id": "osm_n_69120962",
-      "exit_number": "243",
-      "exit_name": "Exit 243",
-      "state": "GA",
-      "lat": 33.704481,
-      "lng": -84.404035,
+      "exit_id": "osm_n_202581505",
+      "exit_number": "1B",
+      "exit_name": "Exit 1B",
+      "state": "TN",
+      "lat": 35.046957,
+      "lng": -85.314292,
       "stop_type": "exit_ramp"
     },
     {
-      "exit_id": "osm_n_68378281",
-      "exit_number": "63",
-      "exit_name": "Exit 63",
-      "state": "GA",
-      "lat": 33.715273,
-      "lng": -84.301495,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_66864204",
-      "exit_number": "19",
-      "exit_name": "Exit 19",
-      "state": "GA",
-      "lat": 33.715806,
-      "lng": -85.033205,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_66843386",
-      "exit_number": "19",
-      "exit_name": "Exit 19",
-      "state": "GA",
-      "lat": 33.717502,
-      "lng": -85.020745,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_68378978",
-      "exit_number": "63",
-      "exit_name": "Exit 63",
-      "state": "GA",
-      "lat": 33.718117,
-      "lng": -84.315337,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_68398723",
-      "exit_number": "30",
-      "exit_name": "Exit 30",
-      "state": "GA",
-      "lat": 33.718532,
-      "lng": -84.827341,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_w_221378544",
-      "exit_number": "",
-      "exit_name": "Pilot Travel Center",
-      "state": "GA",
-      "lat": 33.718712,
-      "lng": -85.030063,
-      "stop_type": "service_plaza"
-    },
-    {
-      "exit_id": "osm_w_221377658",
-      "exit_number": "",
-      "exit_name": "Flying J Travel Center",
-      "state": "GA",
-      "lat": 33.719147,
-      "lng": -85.025101,
-      "stop_type": "service_plaza"
-    },
-    {
-      "exit_id": "osm_n_69124349",
-      "exit_number": "244",
-      "exit_name": "Exit 244",
-      "state": "GA",
-      "lat": 33.719214,
-      "lng": -84.396771,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_68394057",
-      "exit_number": "30",
-      "exit_name": "Exit 30",
-      "state": "GA",
-      "lat": 33.719488,
-      "lng": -84.838437,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_69505557",
-      "exit_number": "7",
-      "exit_name": "Exit 7",
-      "state": "GA",
-      "lat": 33.720308,
-      "lng": -84.50255,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_w_1306985668",
-      "exit_number": "",
-      "exit_name": "Pilot Travel Center",
-      "state": "GA",
-      "lat": 33.721155,
-      "lng": -84.903882,
-      "stop_type": "service_plaza"
-    },
-    {
-      "exit_id": "osm_n_66852238",
-      "exit_number": "24",
-      "exit_name": "Exit 24",
-      "state": "GA",
-      "lat": 33.721975,
-      "lng": -84.945753,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_66833535",
-      "exit_number": "24",
-      "exit_name": "Exit 24",
-      "state": "GA",
-      "lat": 33.722555,
-      "lng": -84.93237,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_68396428",
-      "exit_number": "26",
-      "exit_name": "Exit 26",
-      "state": "GA",
-      "lat": 33.724014,
-      "lng": -84.895399,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_69103508",
-      "exit_number": "244",
-      "exit_name": "Exit 244",
-      "state": "GA",
-      "lat": 33.724959,
-      "lng": -84.393961,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_68396395",
-      "exit_number": "26",
-      "exit_name": "Exit 26",
-      "state": "GA",
-      "lat": 33.725259,
-      "lng": -84.906989,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_69139511",
-      "exit_number": "7",
-      "exit_name": "Exit 7",
-      "state": "GA",
-      "lat": 33.726551,
-      "lng": -84.502768,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_68394581",
-      "exit_number": "34",
-      "exit_name": "Exit 34",
-      "state": "GA",
-      "lat": 33.726865,
-      "lng": -84.766648,
+      "exit_id": "osm_n_497400127",
+      "exit_number": "110",
+      "exit_name": "Exit 110",
+      "state": "TN",
+      "lat": 35.501075,
+      "lng": -86.089817,
       "stop_type": "exit_ramp"
     }
   ]

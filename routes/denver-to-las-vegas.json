@@ -2,188 +2,98 @@
   "route_slug": "denver-to-las-vegas",
   "origin": "Denver, CO",
   "destination": "Las Vegas, NV",
-  "highway": "I-70",
-  "filter_method": "bbox+state (fallback \u2014 highway col sparse)",
-  "exit_count": 20,
+  "highway": "I-70, I-15",
+  "miles": 749,
+  "exit_count": 10,
   "exits": [
     {
-      "exit_id": "osm_n_3153623661",
+      "exit_id": "osm_n_103626441",
+      "exit_number": "195",
+      "exit_name": "Exit 195",
+      "state": "CO",
+      "lat": 39.511347,
+      "lng": -106.144499,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_177057133",
+      "exit_number": "116",
+      "exit_name": "Exit 116",
+      "state": "CO",
+      "lat": 39.548901,
+      "lng": -107.325319,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_n_176134722",
+      "exit_number": "31",
+      "exit_name": "Exit 31",
+      "state": "CO",
+      "lat": 39.108484,
+      "lng": -108.537196,
+      "stop_type": "exit_ramp"
+    },
+    {
+      "exit_id": "osm_w_206347757",
       "exit_number": "",
-      "exit_name": "Highway Exit",
-      "state": "NV",
-      "lat": 36.100194,
-      "lng": -115.084263,
+      "exit_name": "Kane Springs Rest Area",
+      "state": "UT",
+      "lat": 38.393862,
+      "lng": -109.452289,
+      "stop_type": "rest_area"
+    },
+    {
+      "exit_id": "osm_n_356261591",
+      "exit_number": "131",
+      "exit_name": "Exit 131",
+      "state": "UT",
+      "lat": 38.878106,
+      "lng": -110.662838,
       "stop_type": "exit_ramp"
     },
     {
-      "exit_id": "osm_n_12651124073",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
-      "state": "NV",
-      "lat": 36.100218,
-      "lng": -115.180014,
+      "exit_id": "osm_n_83795000",
+      "exit_number": "56",
+      "exit_name": "Exit 56",
+      "state": "UT",
+      "lat": 38.932866,
+      "lng": -111.846846,
       "stop_type": "exit_ramp"
     },
     {
-      "exit_id": "osm_n_3153623652",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
-      "state": "NV",
-      "lat": 36.100351,
-      "lng": -115.079868,
+      "exit_id": "osm_n_419636725",
+      "exit_number": "135",
+      "exit_name": "Exit 135",
+      "state": "UT",
+      "lat": 38.611252,
+      "lng": -112.609229,
       "stop_type": "exit_ramp"
     },
     {
-      "exit_id": "osm_n_137050680",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
-      "state": "NV",
-      "lat": 36.100929,
-      "lng": -115.083117,
+      "exit_id": "osm_w_225054739",
+      "exit_number": "335",
+      "exit_name": "Love's Travel Stop",
+      "state": "UT",
+      "lat": 37.725713,
+      "lng": -113.052054,
+      "stop_type": "service_plaza"
+    },
+    {
+      "exit_id": "osm_n_84310248",
+      "exit_number": "5",
+      "exit_name": "Exit 5",
+      "state": "UT",
+      "lat": 37.084772,
+      "lng": -113.582317,
       "stop_type": "exit_ramp"
     },
     {
-      "exit_id": "osm_n_137189353",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
+      "exit_id": "osm_n_137641457",
+      "exit_number": "93",
+      "exit_name": "Exit 93",
       "state": "NV",
-      "lat": 36.102909,
-      "lng": -115.181101,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_137167665",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
-      "state": "NV",
-      "lat": 36.105088,
-      "lng": -115.180478,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_305571665",
-      "exit_number": "37",
-      "exit_name": "Exit 37",
-      "state": "NV",
-      "lat": 36.105285,
-      "lng": -115.180858,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_137050726",
-      "exit_number": "68",
-      "exit_name": "Exit 68",
-      "state": "NV",
-      "lat": 36.105309,
-      "lng": -115.08242,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_8462318154",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
-      "state": "NV",
-      "lat": 36.106512,
-      "lng": -115.189674,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_8790830915",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
-      "state": "NV",
-      "lat": 36.108063,
-      "lng": -115.179984,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_8462318113",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
-      "state": "NV",
-      "lat": 36.108429,
-      "lng": -115.186682,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_3153308089",
-      "exit_number": "69",
-      "exit_name": "Exit 69",
-      "state": "NV",
-      "lat": 36.10886,
-      "lng": -115.082343,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_8790850953",
-      "exit_number": "",
-      "exit_name": "Harmon West Exit",
-      "state": "NV",
-      "lat": 36.108943,
-      "lng": -115.177976,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_8462318181",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
-      "state": "NV",
-      "lat": 36.109098,
-      "lng": -115.188337,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_8790851037",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
-      "state": "NV",
-      "lat": 36.109127,
-      "lng": -115.176752,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_137095034",
-      "exit_number": "38",
-      "exit_name": "Exit 38",
-      "state": "NV",
-      "lat": 36.109389,
-      "lng": -115.18046,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_8462272599",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
-      "state": "NV",
-      "lat": 36.110084,
-      "lng": -115.189663,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_967222906",
-      "exit_number": "39",
-      "exit_name": "Exit 39",
-      "state": "NV",
-      "lat": 36.114002,
-      "lng": -115.180509,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_1690213836",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
-      "state": "NV",
-      "lat": 36.114098,
-      "lng": -115.179818,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_305572641",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
-      "state": "NV",
-      "lat": 36.114686,
-      "lng": -115.179483,
+      "lat": 36.675349,
+      "lng": -114.515622,
       "stop_type": "exit_ramp"
     }
   ]

@@ -1,0 +1,146 @@
+[
+  {
+    "slug": "chicago-to-atlanta",
+    "origin": "Chicago, IL",
+    "destination": "Atlanta, GA",
+    "origin_lat": 41.8781,
+    "origin_lng": -87.6298,
+    "destination_lat": 33.7490,
+    "destination_lng": -84.3880,
+    "highways": ["I-65", "I-24", "I-75"],
+    "miles": 716,
+    "waypoints": [
+      [39.7684, -86.1581],
+      [38.2527, -85.7585],
+      [36.1627, -86.7816],
+      [35.0456, -85.3097]
+    ]
+  },
+  {
+    "slug": "new-york-to-miami",
+    "origin": "New York, NY",
+    "destination": "Miami, FL",
+    "origin_lat": 40.7128,
+    "origin_lng": -74.0060,
+    "destination_lat": 25.7617,
+    "destination_lng": -80.1918,
+    "highways": ["I-95"],
+    "miles": 1280,
+    "waypoints": [
+      [39.9526, -75.1652],
+      [38.9072, -77.0369],
+      [37.5407, -77.4360],
+      [35.7796, -78.6382],
+      [34.0007, -81.0348],
+      [32.0809, -81.0912],
+      [30.3322, -81.6557],
+      [28.5383, -81.3792],
+      [26.7153, -80.0534]
+    ]
+  },
+  {
+    "slug": "los-angeles-to-las-vegas",
+    "origin": "Los Angeles, CA",
+    "destination": "Las Vegas, NV",
+    "origin_lat": 34.0522,
+    "origin_lng": -118.2437,
+    "destination_lat": 36.1699,
+    "destination_lng": -115.1398,
+    "highways": ["I-15"],
+    "miles": 270
+  },
+  {
+    "slug": "dallas-to-houston",
+    "origin": "Dallas, TX",
+    "destination": "Houston, TX",
+    "origin_lat": 32.7767,
+    "origin_lng": -96.7970,
+    "destination_lat": 29.7604,
+    "destination_lng": -95.3698,
+    "highways": ["I-45"],
+    "miles": 239
+  },
+  {
+    "slug": "atlanta-to-nashville",
+    "origin": "Atlanta, GA",
+    "destination": "Nashville, TN",
+    "origin_lat": 33.7490,
+    "origin_lng": -84.3880,
+    "destination_lat": 36.1627,
+    "destination_lng": -86.7816,
+    "highways": ["I-75", "I-24"],
+    "miles": 249,
+    "waypoints": [
+      [34.7304, -84.9702],
+      [35.0456, -85.3097]
+    ]
+  },
+  {
+    "slug": "chicago-to-nashville",
+    "origin": "Chicago, IL",
+    "destination": "Nashville, TN",
+    "origin_lat": 41.8781,
+    "origin_lng": -87.6298,
+    "destination_lat": 36.1627,
+    "destination_lng": -86.7816,
+    "highways": ["I-65"],
+    "miles": 473
+  },
+  {
+    "slug": "new-york-to-washington-dc",
+    "origin": "New York, NY",
+    "destination": "Washington, DC",
+    "origin_lat": 40.7128,
+    "origin_lng": -74.0060,
+    "destination_lat": 38.9072,
+    "destination_lng": -77.0369,
+    "highways": ["I-95"],
+    "miles": 225
+  },
+  {
+    "slug": "los-angeles-to-san-francisco",
+    "origin": "Los Angeles, CA",
+    "destination": "San Francisco, CA",
+    "origin_lat": 34.0522,
+    "origin_lng": -118.2437,
+    "destination_lat": 37.7749,
+    "destination_lng": -122.4194,
+    "highways": ["US-101", "I-5"],
+    "miles": 382
+  },
+  {
+    "slug": "denver-to-las-vegas",
+    "origin": "Denver, CO",
+    "destination": "Las Vegas, NV",
+    "origin_lat": 39.7392,
+    "origin_lng": -104.9903,
+    "destination_lat": 36.1699,
+    "destination_lng": -115.1398,
+    "highways": ["I-70", "I-15"],
+    "miles": 749,
+    "waypoints": [
+      [39.0639, -108.5506],
+      [38.5733, -109.5498],
+      [38.9717, -111.8378],
+      [38.5764, -112.8882],
+      [37.6775, -113.0619]
+    ]
+  },
+  {
+    "slug": "atlanta-to-orlando",
+    "origin": "Atlanta, GA",
+    "destination": "Orlando, FL",
+    "origin_lat": 33.7490,
+    "origin_lng": -84.3880,
+    "destination_lat": 28.5383,
+    "destination_lng": -81.3792,
+    "highways": ["I-75", "Florida's Turnpike"],
+    "miles": 438,
+    "waypoints": [
+      [32.4609, -83.5085],
+      [31.5493, -83.2516],
+      [30.4383, -82.9377],
+      [29.6516, -82.3248]
+    ]
+  }
+]

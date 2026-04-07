@@ -2,189 +2,54 @@
   "route_slug": "atlanta-to-orlando",
   "origin": "Atlanta, GA",
   "destination": "Orlando, FL",
-  "highway": "I-75",
-  "filter_method": "bbox+state (fallback \u2014 highway col sparse)",
-  "exit_count": 20,
+  "highway": "I-75, Florida's Turnpike",
+  "miles": 438,
+  "exit_count": 5,
   "exits": [
     {
-      "exit_id": "osm_n_470099360",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
-      "state": "FL",
-      "lat": 28.502101,
-      "lng": -81.614635,
+      "exit_id": "osm_n_71479464",
+      "exit_number": "193",
+      "exit_name": "Exit 193",
+      "state": "GA",
+      "lat": 33.109369,
+      "lng": -84.002247,
       "stop_type": "exit_ramp"
     },
     {
-      "exit_id": "osm_n_54237070",
-      "exit_number": "79",
-      "exit_name": "Exit 79",
-      "state": "FL",
-      "lat": 28.505165,
-      "lng": -81.422694,
+      "exit_id": "osm_n_70420472",
+      "exit_number": "136",
+      "exit_name": "Exit 136",
+      "state": "GA",
+      "lat": 32.475151,
+      "lng": -83.74303,
       "stop_type": "exit_ramp"
     },
     {
-      "exit_id": "osm_n_5274457377",
-      "exit_number": "301",
-      "exit_name": "Exit 301",
-      "state": "FL",
-      "lat": 28.506538,
-      "lng": -82.243992,
+      "exit_id": "osm_n_4341645761",
+      "exit_number": "66",
+      "exit_name": "Exit 66",
+      "state": "GA",
+      "lat": 31.50562,
+      "lng": -83.515372,
       "stop_type": "exit_ramp"
     },
     {
-      "exit_id": "osm_n_2225420099",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
+      "exit_id": "osm_n_97559335",
+      "exit_number": "451",
+      "exit_name": "Exit 451",
       "state": "FL",
-      "lat": 28.509152,
-      "lng": -81.400384,
+      "lat": 30.448421,
+      "lng": -82.932741,
       "stop_type": "exit_ramp"
     },
     {
-      "exit_id": "osm_n_6534374152",
-      "exit_number": "80",
-      "exit_name": "Exit 80",
+      "exit_id": "osm_w_696478391",
+      "exit_number": "20171",
+      "exit_name": "Alachua County Rest Area (I-75 northbound)",
       "state": "FL",
-      "lat": 28.509221,
-      "lng": -81.402325,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_12350432675",
-      "exit_number": "79",
-      "exit_name": "Exit 79",
-      "state": "FL",
-      "lat": 28.509636,
-      "lng": -81.415881,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_2225420107",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
-      "state": "FL",
-      "lat": 28.509774,
-      "lng": -81.398573,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_494607368",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
-      "state": "FL",
-      "lat": 28.510749,
-      "lng": -81.493883,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_360063811",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
-      "state": "FL",
-      "lat": 28.512029,
-      "lng": -81.421346,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_360064384",
-      "exit_number": "80",
-      "exit_name": "Exit 80",
-      "state": "FL",
-      "lat": 28.51287,
-      "lng": -81.393119,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_w_865642828",
-      "exit_number": "",
-      "exit_name": "Service Plaza",
-      "state": "FL",
-      "lat": 28.514345,
-      "lng": -81.498996,
-      "stop_type": "service_plaza"
-    },
-    {
-      "exit_id": "osm_n_8820393075",
-      "exit_number": "18",
-      "exit_name": "Exit 18",
-      "state": "FL",
-      "lat": 28.514615,
-      "lng": -81.600019,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_582598092",
-      "exit_number": "",
-      "exit_name": "Turkey Lake Service Plaza",
-      "state": "FL",
-      "lat": 28.514805,
-      "lng": -81.499568,
-      "stop_type": "service_plaza"
-    },
-    {
-      "exit_id": "osm_n_360202438",
-      "exit_number": "81",
-      "exit_name": "Exit 81",
-      "state": "FL",
-      "lat": 28.514921,
-      "lng": -81.389333,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_470095778",
-      "exit_number": "19",
-      "exit_name": "Exit 19",
-      "state": "FL",
-      "lat": 28.51527,
-      "lng": -81.59378,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_494661527",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
-      "state": "FL",
-      "lat": 28.518406,
-      "lng": -81.50487,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_2225486464",
-      "exit_number": "81",
-      "exit_name": "Exit 81",
-      "state": "FL",
-      "lat": 28.521152,
-      "lng": -81.386505,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_w_1369924612",
-      "exit_number": "",
-      "exit_name": "Service Plaza",
-      "state": "FL",
-      "lat": 28.521783,
-      "lng": -82.234682,
-      "stop_type": "service_plaza"
-    },
-    {
-      "exit_id": "osm_n_470099323",
-      "exit_number": "19",
-      "exit_name": "Exit 19",
-      "state": "FL",
-      "lat": 28.522693,
-      "lng": -81.578893,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_2225486470",
-      "exit_number": "82",
-      "exit_name": "Exit 82",
-      "state": "FL",
-      "lat": 28.525564,
-      "lng": -81.385998,
-      "stop_type": "exit_ramp"
+      "lat": 29.5904,
+      "lng": -82.36208,
+      "stop_type": "rest_area"
     }
   ]
 }

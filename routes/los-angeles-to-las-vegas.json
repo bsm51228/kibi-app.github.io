@@ -3,187 +3,34 @@
   "origin": "Los Angeles, CA",
   "destination": "Las Vegas, NV",
   "highway": "I-15",
-  "filter_method": "bbox+state (fallback \u2014 highway col sparse)",
-  "exit_count": 20,
+  "miles": 270,
+  "exit_count": 3,
   "exits": [
     {
-      "exit_id": "osm_n_418140705",
-      "exit_number": "87",
-      "exit_name": "Exit 87",
+      "exit_id": "osm_n_60006618",
+      "exit_number": "151B",
+      "exit_name": "Exit 151B",
       "state": "CA",
-      "lat": 34.00058,
-      "lng": -117.063075,
+      "lat": 34.532535,
+      "lng": -117.314047,
       "stop_type": "exit_ramp"
     },
     {
-      "exit_id": "osm_n_412263459",
-      "exit_number": "34B",
-      "exit_name": "Exit 34B",
+      "exit_id": "osm_n_54279965",
+      "exit_number": "206",
+      "exit_name": "Exit 206",
       "state": "CA",
-      "lat": 34.000673,
-      "lng": -117.352524,
+      "lat": 34.966269,
+      "lng": -116.639256,
       "stop_type": "exit_ramp"
     },
     {
-      "exit_id": "osm_n_412214255",
-      "exit_number": "52A",
-      "exit_name": "Exit 52A",
+      "exit_id": "osm_n_1834571655",
+      "exit_number": "265",
+      "exit_name": "Exit 265",
       "state": "CA",
-      "lat": 34.002504,
-      "lng": -117.37939,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_412214295",
-      "exit_number": "50",
-      "exit_name": "Exit 50",
-      "state": "CA",
-      "lat": 34.004132,
-      "lng": -117.405179,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_54644795",
-      "exit_number": "35",
-      "exit_name": "Exit 35",
-      "state": "CA",
-      "lat": 34.004523,
-      "lng": -117.34996,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_412214323",
-      "exit_number": "50",
-      "exit_name": "Exit 50",
-      "state": "CA",
-      "lat": 34.005113,
-      "lng": -117.394887,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_418142093",
-      "exit_number": "87",
-      "exit_name": "Exit 87",
-      "state": "CA",
-      "lat": 34.006854,
-      "lng": -117.066738,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_412214818",
-      "exit_number": "48",
-      "exit_name": "Exit 48",
-      "state": "CA",
-      "lat": 34.010793,
-      "lng": -117.430254,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_w_96680767",
-      "exit_number": "",
-      "exit_name": "Wildwood Rest Area",
-      "state": "CA",
-      "lat": 34.012571,
-      "lng": -117.077183,
-      "stop_type": "rest_area"
-    },
-    {
-      "exit_id": "osm_n_412049577",
-      "exit_number": "36",
-      "exit_name": "Exit 36",
-      "state": "CA",
-      "lat": 34.012737,
-      "lng": -117.344231,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_412216378",
-      "exit_number": "",
-      "exit_name": "Highway Exit",
-      "state": "CA",
-      "lat": 34.012911,
-      "lng": -117.440283,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_412216436",
-      "exit_number": "48",
-      "exit_name": "Exit 48",
-      "state": "CA",
-      "lat": 34.013641,
-      "lng": -117.446461,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_w_96680766",
-      "exit_number": "",
-      "exit_name": "Wildwood Rest Area",
-      "state": "CA",
-      "lat": 34.013937,
-      "lng": -117.077585,
-      "stop_type": "rest_area"
-    },
-    {
-      "exit_id": "osm_n_2434004851",
-      "exit_number": "86",
-      "exit_name": "Exit 86",
-      "state": "CA",
-      "lat": 34.013998,
-      "lng": -117.081671,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_144672186",
-      "exit_number": "85",
-      "exit_name": "Exit 85",
-      "state": "CA",
-      "lat": 34.015533,
-      "lng": -117.092564,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_412222802",
-      "exit_number": "46",
-      "exit_name": "Exit 46",
-      "state": "CA",
-      "lat": 34.015549,
-      "lng": -117.45773,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_54644781",
-      "exit_number": "36",
-      "exit_name": "Exit 36",
-      "state": "CA",
-      "lat": 34.016109,
-      "lng": -117.342203,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_412222798",
-      "exit_number": "46",
-      "exit_name": "Exit 46",
-      "state": "CA",
-      "lat": 34.016973,
-      "lng": -117.467598,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_412222791",
-      "exit_number": "45",
-      "exit_name": "Exit 45",
-      "state": "CA",
-      "lat": 34.018546,
-      "lng": -117.476036,
-      "stop_type": "exit_ramp"
-    },
-    {
-      "exit_id": "osm_n_418133317",
-      "exit_number": "85",
-      "exit_name": "Exit 85",
-      "state": "CA",
-      "lat": 34.018896,
-      "lng": -117.099682,
+      "lat": 35.401263,
+      "lng": -115.796175,
       "stop_type": "exit_ramp"
     }
   ]
