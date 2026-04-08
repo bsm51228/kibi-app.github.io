@@ -1238,22 +1238,24 @@
       .quote-strip { padding: 48px 0; }
       .quote-strip .section-label, .quote-strip h2 { padding: 0 24px; }
       .quote-carousel {
-        animation: none;
+        animation: none !important;
+        transform: none !important;
         width: 100%;
         overflow-x: auto;
         scroll-snap-type: x mandatory;
         -webkit-overflow-scrolling: touch;
         scrollbar-width: none;
-        padding: 8px 24px 20px;
-        gap: 16px;
+        padding: 8px 0 20px;
+        gap: 0;
       }
       .quote-carousel::-webkit-scrollbar { display: none; }
       .quote-card {
-        width: calc(100vw - 64px);
-        min-width: calc(100vw - 64px);
-        scroll-snap-align: center;
+        width: 100vw;
+        min-width: 100vw;
+        scroll-snap-align: start;
+        padding: 0 24px;
       }
-      .quote-card.duplicate { display: none; }
+      .quote-card.duplicate { display: none !important; }
       .quote-dots { display: flex; }
       .pull-quote-strip { padding: 60px 24px; }
       #waitlist { padding: 60px 20px; }
