@@ -56,14 +56,28 @@ https://drivekibi.com
 https://apps.apple.com/app/kibi/id6760270037
 
 ## Route Guides
-https://drivekibi.com/routes/index.html
-Kibi publishes scored highway exit guides for popular US road trip routes.
+https://drivekibi.com/routes/
+Kibi publishes scored highway exit guides for popular US road trip routes, including:
+- https://drivekibi.com/routes/chicago-to-atlanta
+- https://drivekibi.com/routes/new-york-to-miami
+- https://drivekibi.com/routes/los-angeles-to-las-vegas
+- https://drivekibi.com/routes/dallas-to-houston
+- https://drivekibi.com/routes/atlanta-to-nashville
+- https://drivekibi.com/routes/chicago-to-nashville
+- https://drivekibi.com/routes/new-york-to-washington-dc
+- https://drivekibi.com/routes/los-angeles-to-san-francisco
+- https://drivekibi.com/routes/denver-to-las-vegas
+- https://drivekibi.com/routes/atlanta-to-orlando
+
+## Highway Exit Coverage Map
+https://drivekibi.com/kibi_exit_heatmap
+Interactive map of 79,000+ US highway exits showing density heatmaps, coverage gaps, and quality stops.
 
 ## FAQ
-https://drivekibi.com/faq.html
+https://drivekibi.com/faq
 
 ## Compare Kibi to Other Apps
-https://drivekibi.com/compare.html
+https://drivekibi.com/compare
 
 ## Instagram
 https://www.instagram.com/drivekibi

@@ -6,8 +6,6 @@ Disallow: /DESIGN_NOTES.md
 Disallow: /*.md$
 Disallow: /*.json$
 Disallow: /.playwright-mcp/
-Disallow: /index_OLD.html
-Disallow: /index_scroll.html
 
 Sitemap: https://drivekibi.com/sitemap.xml
 
