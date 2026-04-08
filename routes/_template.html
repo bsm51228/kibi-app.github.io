@@ -353,6 +353,62 @@
       .route-cta { padding: 56px 24px; }
       footer { padding: 40px 24px; flex-direction: column; align-items: flex-start; }
       .stat-pills { flex-wrap: wrap; }
+
+      /* Responsive table → card layout */
+      .exit-table-wrap { overflow-x: visible; }
+      table, thead, tbody, tr, th, td { display: block; }
+      thead { display: none; }
+      tbody { display: flex; flex-direction: column; gap: 16px; }
+      tbody tr {
+        background: var(--surface-mid) !important;
+        border: 1px solid var(--border-subtle);
+        border-radius: 14px;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px 16px;
+        align-items: center;
+      }
+      tbody td {
+        padding: 0;
+        border: none;
+      }
+      tbody td::before {
+        content: attr(data-label);
+        display: block;
+        font-size: .62rem;
+        font-weight: 700;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+        color: var(--text-muted);
+        margin-bottom: 2px;
+      }
+      tbody td.exit-num {
+        font-size: 1.3rem;
+        margin-right: auto;
+      }
+      tbody td.exit-num::before { display: none; }
+      tbody td.exit-name {
+        font-size: 1rem;
+        flex-basis: 100%;
+        order: -1;
+      }
+      tbody td.exit-name::before { display: none; }
+      tbody td.exit-state { order: 1; }
+      tbody td.exit-state::before { display: none; }
+      tbody td[data-label="Type"] { order: 2; }
+      tbody td[data-label="Type"]::before { display: none; }
+      tbody td[data-label="What's Here"] {
+        flex-basis: 100%;
+        order: 3;
+        margin-top: 8px;
+      }
+      tbody td[data-label="What's Here"] .poi-list { max-width: 100%; }
+      tbody td.exit-coords {
+        flex-basis: 100%;
+        order: 4;
+        margin-top: 4px;
+      }
     }
 
   </style>

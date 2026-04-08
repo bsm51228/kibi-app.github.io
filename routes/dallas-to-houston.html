@@ -353,6 +353,62 @@
       .route-cta { padding: 56px 24px; }
       footer { padding: 40px 24px; flex-direction: column; align-items: flex-start; }
       .stat-pills { flex-wrap: wrap; }
+
+      /* Responsive table → card layout */
+      .exit-table-wrap { overflow-x: visible; }
+      table, thead, tbody, tr, th, td { display: block; }
+      thead { display: none; }
+      tbody { display: flex; flex-direction: column; gap: 16px; }
+      tbody tr {
+        background: var(--surface-mid) !important;
+        border: 1px solid var(--border-subtle);
+        border-radius: 14px;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px 16px;
+        align-items: center;
+      }
+      tbody td {
+        padding: 0;
+        border: none;
+      }
+      tbody td::before {
+        content: attr(data-label);
+        display: block;
+        font-size: .62rem;
+        font-weight: 700;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+        color: var(--text-muted);
+        margin-bottom: 2px;
+      }
+      tbody td.exit-num {
+        font-size: 1.3rem;
+        margin-right: auto;
+      }
+      tbody td.exit-num::before { display: none; }
+      tbody td.exit-name {
+        font-size: 1rem;
+        flex-basis: 100%;
+        order: -1;
+      }
+      tbody td.exit-name::before { display: none; }
+      tbody td.exit-state { order: 1; }
+      tbody td.exit-state::before { display: none; }
+      tbody td[data-label="Type"] { order: 2; }
+      tbody td[data-label="Type"]::before { display: none; }
+      tbody td[data-label="What's Here"] {
+        flex-basis: 100%;
+        order: 3;
+        margin-top: 8px;
+      }
+      tbody td[data-label="What's Here"] .poi-list { max-width: 100%; }
+      tbody td.exit-coords {
+        flex-basis: 100%;
+        order: 4;
+        margin-top: 4px;
+      }
     }
 
   </style>
@@ -418,28 +474,28 @@
         </thead>
         <tbody>
         <tr>
-          <td class="exit-num">1923</td>
-          <td class="exit-name">QuikTrip</td>
-          <td class="exit-state">TX</td>
-          <td><span class="type-badge type-badge--plaza">Service Plaza</span></td>
-          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">⛽</span>QuikTrip <span class="poi-rating">3.8★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Chick-fil-A <span class="poi-rating">4.6★</span></span><span class="poi-chip"><span class="poi-icon">☕</span>Collin Street Bakery - I-45 Corsicana <span class="poi-rating">4.5★</span></span><span class="poi-chip"><span class="poi-icon">☕</span>Starbucks <span class="poi-rating">4.1★</span></span></div></td>
-          <td class="exit-coords">32.0757, -96.4476</td>
+          <td class="exit-num" data-label="Exit">1923</td>
+          <td class="exit-name" data-label="Location">QuikTrip</td>
+          <td class="exit-state" data-label="State">TX</td>
+          <td data-label="Type"><span class="type-badge type-badge--plaza">Service Plaza</span></td>
+          <td data-label="What's Here"><div class="poi-list"><span class="poi-chip"><span class="poi-icon">⛽</span>QuikTrip <span class="poi-rating">3.8★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Chick-fil-A <span class="poi-rating">4.6★</span></span><span class="poi-chip"><span class="poi-icon">☕</span>Collin Street Bakery - I-45 Corsicana <span class="poi-rating">4.5★</span></span><span class="poi-chip"><span class="poi-icon">☕</span>Starbucks <span class="poi-rating">4.1★</span></span></div></td>
+          <td class="exit-coords" data-label="Coordinates">32.0757, -96.4476</td>
         </tr>
         <tr>
-          <td class="exit-num">164</td>
-          <td class="exit-name">Exit 164</td>
-          <td class="exit-state">TX</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">🍔</span>Woody's Smokehouse Northbound <span class="poi-rating">4.4★</span></span><span class="poi-chip"><span class="poi-icon">⛽</span>Woody's Smokehouse Southbound <span class="poi-rating">4.5★</span></span><span class="poi-chip"><span class="poi-icon">⛽</span>Exxon <span class="poi-rating">4.2★</span></span><span class="poi-chip"><span class="poi-icon">⛽</span>Shell <span class="poi-rating">4.2★</span></span></div></td>
-          <td class="exit-coords">31.2621, -95.9877</td>
+          <td class="exit-num" data-label="Exit">164</td>
+          <td class="exit-name" data-label="Location">Exit 164</td>
+          <td class="exit-state" data-label="State">TX</td>
+          <td data-label="Type"><span class="type-badge">Exit</span></td>
+          <td data-label="What's Here"><div class="poi-list"><span class="poi-chip"><span class="poi-icon">🍔</span>Woody's Smokehouse Northbound <span class="poi-rating">4.4★</span></span><span class="poi-chip"><span class="poi-icon">⛽</span>Woody's Smokehouse Southbound <span class="poi-rating">4.5★</span></span><span class="poi-chip"><span class="poi-icon">⛽</span>Exxon <span class="poi-rating">4.2★</span></span><span class="poi-chip"><span class="poi-icon">⛽</span>Shell <span class="poi-rating">4.2★</span></span></div></td>
+          <td class="exit-coords" data-label="Coordinates">31.2621, -95.9877</td>
         </tr>
         <tr>
-          <td class="exit-num">103</td>
-          <td class="exit-name">Exit 103</td>
-          <td class="exit-state">TX</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">⛽</span>Chevron <span class="poi-rating">2.3★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Burger King <span class="poi-rating">3.5★</span></span><span class="poi-chip"><span class="poi-icon">🏪</span>Star Stop 95 <span class="poi-rating">3.1★</span></span></div></td>
-          <td class="exit-coords">30.5530, -95.4992</td>
+          <td class="exit-num" data-label="Exit">103</td>
+          <td class="exit-name" data-label="Location">Exit 103</td>
+          <td class="exit-state" data-label="State">TX</td>
+          <td data-label="Type"><span class="type-badge">Exit</span></td>
+          <td data-label="What's Here"><div class="poi-list"><span class="poi-chip"><span class="poi-icon">⛽</span>Chevron <span class="poi-rating">2.3★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Burger King <span class="poi-rating">3.5★</span></span><span class="poi-chip"><span class="poi-icon">🏪</span>Star Stop 95 <span class="poi-rating">3.1★</span></span></div></td>
+          <td class="exit-coords" data-label="Coordinates">30.5530, -95.4992</td>
         </tr>
         </tbody>
       </table>

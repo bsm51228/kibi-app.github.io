@@ -353,6 +353,62 @@
       .route-cta { padding: 56px 24px; }
       footer { padding: 40px 24px; flex-direction: column; align-items: flex-start; }
       .stat-pills { flex-wrap: wrap; }
+
+      /* Responsive table → card layout */
+      .exit-table-wrap { overflow-x: visible; }
+      table, thead, tbody, tr, th, td { display: block; }
+      thead { display: none; }
+      tbody { display: flex; flex-direction: column; gap: 16px; }
+      tbody tr {
+        background: var(--surface-mid) !important;
+        border: 1px solid var(--border-subtle);
+        border-radius: 14px;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px 16px;
+        align-items: center;
+      }
+      tbody td {
+        padding: 0;
+        border: none;
+      }
+      tbody td::before {
+        content: attr(data-label);
+        display: block;
+        font-size: .62rem;
+        font-weight: 700;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+        color: var(--text-muted);
+        margin-bottom: 2px;
+      }
+      tbody td.exit-num {
+        font-size: 1.3rem;
+        margin-right: auto;
+      }
+      tbody td.exit-num::before { display: none; }
+      tbody td.exit-name {
+        font-size: 1rem;
+        flex-basis: 100%;
+        order: -1;
+      }
+      tbody td.exit-name::before { display: none; }
+      tbody td.exit-state { order: 1; }
+      tbody td.exit-state::before { display: none; }
+      tbody td[data-label="Type"] { order: 2; }
+      tbody td[data-label="Type"]::before { display: none; }
+      tbody td[data-label="What's Here"] {
+        flex-basis: 100%;
+        order: 3;
+        margin-top: 8px;
+      }
+      tbody td[data-label="What's Here"] .poi-list { max-width: 100%; }
+      tbody td.exit-coords {
+        flex-basis: 100%;
+        order: 4;
+        margin-top: 4px;
+      }
     }
 
   </style>
@@ -418,28 +474,28 @@
         </thead>
         <tbody>
         <tr>
-          <td class="exit-num">151B</td>
-          <td class="exit-name">Exit 151B</td>
-          <td class="exit-state">CA</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">🍔</span>In-N-Out Burger <span class="poi-rating">4.7★</span></span><span class="poi-chip"><span class="poi-icon">☕</span>McDonald's <span class="poi-rating">3.7★</span></span><span class="poi-chip"><span class="poi-icon">⛽</span>Circle K <span class="poi-rating">4.0★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Apollo Restaurant <span class="poi-rating">4.5★</span></span></div></td>
-          <td class="exit-coords">34.5325, -117.3140</td>
+          <td class="exit-num" data-label="Exit">151B</td>
+          <td class="exit-name" data-label="Location">Exit 151B</td>
+          <td class="exit-state" data-label="State">CA</td>
+          <td data-label="Type"><span class="type-badge">Exit</span></td>
+          <td data-label="What's Here"><div class="poi-list"><span class="poi-chip"><span class="poi-icon">🍔</span>In-N-Out Burger <span class="poi-rating">4.7★</span></span><span class="poi-chip"><span class="poi-icon">☕</span>McDonald's <span class="poi-rating">3.7★</span></span><span class="poi-chip"><span class="poi-icon">⛽</span>Circle K <span class="poi-rating">4.0★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Apollo Restaurant <span class="poi-rating">4.5★</span></span></div></td>
+          <td class="exit-coords" data-label="Coordinates">34.5325, -117.3140</td>
         </tr>
         <tr>
-          <td class="exit-num">206</td>
-          <td class="exit-name">Exit 206</td>
-          <td class="exit-state">CA</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">⛽</span>Circle K <span class="poi-rating">3.7★</span></span><span class="poi-chip"><span class="poi-icon">⛽</span>Mobil <span class="poi-rating">4.3★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>A&amp;W Restaurant <span class="poi-rating">3.5★</span></span><span class="poi-chip"><span class="poi-icon">⛽</span>76 <span class="poi-rating">3.7★</span></span></div></td>
-          <td class="exit-coords">34.9663, -116.6393</td>
+          <td class="exit-num" data-label="Exit">206</td>
+          <td class="exit-name" data-label="Location">Exit 206</td>
+          <td class="exit-state" data-label="State">CA</td>
+          <td data-label="Type"><span class="type-badge">Exit</span></td>
+          <td data-label="What's Here"><div class="poi-list"><span class="poi-chip"><span class="poi-icon">⛽</span>Circle K <span class="poi-rating">3.7★</span></span><span class="poi-chip"><span class="poi-icon">⛽</span>Mobil <span class="poi-rating">4.3★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>A&amp;W Restaurant <span class="poi-rating">3.5★</span></span><span class="poi-chip"><span class="poi-icon">⛽</span>76 <span class="poi-rating">3.7★</span></span></div></td>
+          <td class="exit-coords" data-label="Coordinates">34.9663, -116.6393</td>
         </tr>
         <tr>
-          <td class="exit-num">265</td>
-          <td class="exit-name">Exit 265</td>
-          <td class="exit-state">CA</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td><span style="color:var(--text-muted);font-size:.75rem;">—</span></td>
-          <td class="exit-coords">35.4013, -115.7962</td>
+          <td class="exit-num" data-label="Exit">265</td>
+          <td class="exit-name" data-label="Location">Exit 265</td>
+          <td class="exit-state" data-label="State">CA</td>
+          <td data-label="Type"><span class="type-badge">Exit</span></td>
+          <td data-label="What's Here"><span style="color:var(--text-muted);font-size:.75rem;">—</span></td>
+          <td class="exit-coords" data-label="Coordinates">35.4013, -115.7962</td>
         </tr>
         </tbody>
       </table>

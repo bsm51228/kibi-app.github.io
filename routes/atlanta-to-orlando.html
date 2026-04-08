@@ -353,6 +353,62 @@
       .route-cta { padding: 56px 24px; }
       footer { padding: 40px 24px; flex-direction: column; align-items: flex-start; }
       .stat-pills { flex-wrap: wrap; }
+
+      /* Responsive table → card layout */
+      .exit-table-wrap { overflow-x: visible; }
+      table, thead, tbody, tr, th, td { display: block; }
+      thead { display: none; }
+      tbody { display: flex; flex-direction: column; gap: 16px; }
+      tbody tr {
+        background: var(--surface-mid) !important;
+        border: 1px solid var(--border-subtle);
+        border-radius: 14px;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px 16px;
+        align-items: center;
+      }
+      tbody td {
+        padding: 0;
+        border: none;
+      }
+      tbody td::before {
+        content: attr(data-label);
+        display: block;
+        font-size: .62rem;
+        font-weight: 700;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+        color: var(--text-muted);
+        margin-bottom: 2px;
+      }
+      tbody td.exit-num {
+        font-size: 1.3rem;
+        margin-right: auto;
+      }
+      tbody td.exit-num::before { display: none; }
+      tbody td.exit-name {
+        font-size: 1rem;
+        flex-basis: 100%;
+        order: -1;
+      }
+      tbody td.exit-name::before { display: none; }
+      tbody td.exit-state { order: 1; }
+      tbody td.exit-state::before { display: none; }
+      tbody td[data-label="Type"] { order: 2; }
+      tbody td[data-label="Type"]::before { display: none; }
+      tbody td[data-label="What's Here"] {
+        flex-basis: 100%;
+        order: 3;
+        margin-top: 8px;
+      }
+      tbody td[data-label="What's Here"] .poi-list { max-width: 100%; }
+      tbody td.exit-coords {
+        flex-basis: 100%;
+        order: 4;
+        margin-top: 4px;
+      }
     }
 
   </style>
@@ -418,44 +474,44 @@
         </thead>
         <tbody>
         <tr>
-          <td class="exit-num">193</td>
-          <td class="exit-name">Exit 193</td>
-          <td class="exit-state">GA</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">⛽</span>Marathon Gas <span class="poi-rating">3.4★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Hunt Brothers Pizza</span></div></td>
-          <td class="exit-coords">33.1094, -84.0022</td>
+          <td class="exit-num" data-label="Exit">193</td>
+          <td class="exit-name" data-label="Location">Exit 193</td>
+          <td class="exit-state" data-label="State">GA</td>
+          <td data-label="Type"><span class="type-badge">Exit</span></td>
+          <td data-label="What's Here"><div class="poi-list"><span class="poi-chip"><span class="poi-icon">⛽</span>Marathon Gas <span class="poi-rating">3.4★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Hunt Brothers Pizza</span></div></td>
+          <td class="exit-coords" data-label="Coordinates">33.1094, -84.0022</td>
         </tr>
         <tr>
-          <td class="exit-num">136</td>
-          <td class="exit-name">Exit 136</td>
-          <td class="exit-state">GA</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">🍔</span>Chick-fil-A <span class="poi-rating">4.3★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>LongHorn Steakhouse <span class="poi-rating">4.2★</span></span><span class="poi-chip"><span class="poi-icon">☕</span>McDonald's <span class="poi-rating">3.5★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Sonny's BBQ <span class="poi-rating">4.1★</span></span></div></td>
-          <td class="exit-coords">32.4752, -83.7430</td>
+          <td class="exit-num" data-label="Exit">136</td>
+          <td class="exit-name" data-label="Location">Exit 136</td>
+          <td class="exit-state" data-label="State">GA</td>
+          <td data-label="Type"><span class="type-badge">Exit</span></td>
+          <td data-label="What's Here"><div class="poi-list"><span class="poi-chip"><span class="poi-icon">🍔</span>Chick-fil-A <span class="poi-rating">4.3★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>LongHorn Steakhouse <span class="poi-rating">4.2★</span></span><span class="poi-chip"><span class="poi-icon">☕</span>McDonald's <span class="poi-rating">3.5★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Sonny's BBQ <span class="poi-rating">4.1★</span></span></div></td>
+          <td class="exit-coords" data-label="Coordinates">32.4752, -83.7430</td>
         </tr>
         <tr>
-          <td class="exit-num">66</td>
-          <td class="exit-name">Exit 66</td>
-          <td class="exit-state">GA</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">⛽</span>Chevron <span class="poi-rating">3.0★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Hunt Brothers Pizza</span><span class="poi-chip"><span class="poi-icon">🏪</span>Blue Devils Corner # 2 (Chevron Gas Station) <span class="poi-rating">5.0★</span></span></div></td>
-          <td class="exit-coords">31.5056, -83.5154</td>
+          <td class="exit-num" data-label="Exit">66</td>
+          <td class="exit-name" data-label="Location">Exit 66</td>
+          <td class="exit-state" data-label="State">GA</td>
+          <td data-label="Type"><span class="type-badge">Exit</span></td>
+          <td data-label="What's Here"><div class="poi-list"><span class="poi-chip"><span class="poi-icon">⛽</span>Chevron <span class="poi-rating">3.0★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Hunt Brothers Pizza</span><span class="poi-chip"><span class="poi-icon">🏪</span>Blue Devils Corner # 2 (Chevron Gas Station) <span class="poi-rating">5.0★</span></span></div></td>
+          <td class="exit-coords" data-label="Coordinates">31.5056, -83.5154</td>
         </tr>
         <tr>
-          <td class="exit-num">451</td>
-          <td class="exit-name">Exit 451</td>
-          <td class="exit-state">FL</td>
-          <td><span class="type-badge">Exit</span></td>
-          <td><div class="poi-list"><span class="poi-chip"><span class="poi-icon">⛽</span>Love's Travel Stop <span class="poi-rating">4.1★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Wendy's <span class="poi-rating">3.9★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Arby's <span class="poi-rating">4.0★</span></span><span class="poi-chip"><span class="poi-icon">⛽</span>Shell <span class="poi-rating">3.8★</span></span></div></td>
-          <td class="exit-coords">30.4484, -82.9327</td>
+          <td class="exit-num" data-label="Exit">451</td>
+          <td class="exit-name" data-label="Location">Exit 451</td>
+          <td class="exit-state" data-label="State">FL</td>
+          <td data-label="Type"><span class="type-badge">Exit</span></td>
+          <td data-label="What's Here"><div class="poi-list"><span class="poi-chip"><span class="poi-icon">⛽</span>Love's Travel Stop <span class="poi-rating">4.1★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Wendy's <span class="poi-rating">3.9★</span></span><span class="poi-chip"><span class="poi-icon">🍔</span>Arby's <span class="poi-rating">4.0★</span></span><span class="poi-chip"><span class="poi-icon">⛽</span>Shell <span class="poi-rating">3.8★</span></span></div></td>
+          <td class="exit-coords" data-label="Coordinates">30.4484, -82.9327</td>
         </tr>
         <tr>
-          <td class="exit-num">20171</td>
-          <td class="exit-name">Alachua County Rest Area (I-75 northbound)</td>
-          <td class="exit-state">FL</td>
-          <td><span class="type-badge type-badge--rest">Rest Area</span></td>
-          <td><span style="color:var(--text-muted);font-size:.75rem;">—</span></td>
-          <td class="exit-coords">29.5904, -82.3621</td>
+          <td class="exit-num" data-label="Exit">20171</td>
+          <td class="exit-name" data-label="Location">Alachua County Rest Area (I-75 northbound)</td>
+          <td class="exit-state" data-label="State">FL</td>
+          <td data-label="Type"><span class="type-badge type-badge--rest">Rest Area</span></td>
+          <td data-label="What's Here"><span style="color:var(--text-muted);font-size:.75rem;">—</span></td>
+          <td class="exit-coords" data-label="Coordinates">29.5904, -82.3621</td>
         </tr>
         </tbody>
       </table>

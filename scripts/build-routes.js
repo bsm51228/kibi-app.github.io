@@ -62,12 +62,12 @@ function buildExitRow(exit) {
   const pois = buildPoiChips(exit.places);
 
   return `        <tr>
-          <td class="exit-num">${escapeHtml(num)}</td>
-          <td class="exit-name">${name}</td>
-          <td class="exit-state">${state}</td>
-          <td><span class="${type.cssClass}">${type.label}</span></td>
-          <td>${pois}</td>
-          <td class="exit-coords">${coords}</td>
+          <td class="exit-num" data-label="Exit">${escapeHtml(num)}</td>
+          <td class="exit-name" data-label="Location">${name}</td>
+          <td class="exit-state" data-label="State">${state}</td>
+          <td data-label="Type"><span class="${type.cssClass}">${type.label}</span></td>
+          <td data-label="What's Here">${pois}</td>
+          <td class="exit-coords" data-label="Coordinates">${coords}</td>
         </tr>`;
 }
 
