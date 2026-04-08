@@ -1,6 +1,9 @@
 # Environment secrets
 .env
 
+# Playwright test artifacts
+.playwright-mcp/
+
 # Mac system files
 .DS_Store
 .DS_Store?
