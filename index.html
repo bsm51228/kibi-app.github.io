@@ -873,6 +873,62 @@
     }
 
     /* ════════════════════════════════════
+       SHARE CTA
+    ════════════════════════════════════ */
+    .share-section {
+      background: var(--bg);
+      border-top: 1px solid var(--border-subtle);
+      border-bottom: 1px solid var(--border-subtle);
+      padding: 72px 56px;
+      text-align: center;
+    }
+    .share-section .section-label { margin-bottom: 16px; }
+    .share-section h2 {
+      font-family: 'Lora', Georgia, serif;
+      font-size: clamp(1.4rem, 3vw, 2rem);
+      font-weight: 700; font-style: italic;
+      color: var(--text-primary);
+      margin-bottom: 12px;
+    }
+    .share-section p {
+      font-size: .95rem; font-weight: 300;
+      color: var(--text-secondary); line-height: 1.7;
+      max-width: 480px; margin: 0 auto 32px;
+    }
+    .share-preview {
+      max-width: 520px; width: 100%;
+      border-radius: 16px;
+      border: 1px solid rgba(46,189,122,0.12);
+      margin: 0 auto 28px;
+      display: block;
+    }
+    .share-btn-row {
+      display: flex; gap: 12px;
+      justify-content: center; flex-wrap: wrap;
+    }
+    .share-btn {
+      background: rgba(46,189,122,0.1);
+      border: 1px solid rgba(46,189,122,0.25);
+      color: var(--green); border-radius: 100px;
+      padding: 10px 24px; font-size: .85rem; font-weight: 600;
+      text-decoration: none; cursor: pointer;
+      transition: background 0.2s, transform 0.2s;
+    }
+    .share-btn:hover {
+      background: rgba(46,189,122,0.18);
+      transform: translateY(-1px);
+    }
+    .share-copied {
+      font-size: .78rem; color: var(--green);
+      margin-top: 12px; opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .share-copied.show { opacity: 1; }
+    @media (max-width: 768px) {
+      .share-section { padding: 56px 24px; }
+    }
+
+    /* ════════════════════════════════════
        WAITLIST MILESTONE BLOCK
     ════════════════════════════════════ */
     .milestone-block { margin-bottom: 24px; }
@@ -1959,6 +2015,19 @@
     </div>
   </div>
 
+  <!-- ══════════════ SHARE CTA ══════════════ -->
+  <section class="share-section">
+    <p class="section-label">Share Kibi</p>
+    <h2>Know someone who hates bad exits?</h2>
+    <p>Send them Kibi. Here's what it looks like when you share the link.</p>
+    <img src="og-image.png" alt="Kibi link preview — Your Smart Co-Pilot for Every Drive" class="share-preview" />
+    <div class="share-btn-row">
+      <button class="share-btn" onclick="copyShareLink()">Copy Link</button>
+      <a class="share-btn" href="https://twitter.com/intent/tweet?text=Found%20this%20app%20that%20finds%20the%20best%20highway%20exit%20for%20gas%2C%20food%2C%20and%20a%20bathroom%20%E2%80%94%20all%20at%20one%20stop.&url=https%3A%2F%2Fdrivekibi.com" target="_blank" rel="noopener noreferrer">Share on X</a>
+    </div>
+    <p class="share-copied" id="share-copied">Link copied!</p>
+  </section>
+
   <!-- ══════════════ WAITLIST ══════════════ -->
   <section id="waitlist" class="parallax-section">
     <div class="waitlist-overlay"></div>
@@ -2220,6 +2289,15 @@
     }, { threshold: 0.3 });
     const waitlistSection = document.getElementById('waitlist');
     if (waitlistSection) milestoneObs.observe(waitlistSection);
+
+    // ── Share link copy ──
+    function copyShareLink() {
+      navigator.clipboard.writeText('https://drivekibi.com').then(function() {
+        var el = document.getElementById('share-copied');
+        el.classList.add('show');
+        setTimeout(function() { el.classList.remove('show'); }, 2000);
+      });
+    }
 
     // ── Mailchimp waitlist submission — DO NOT MODIFY ──
     function submitWaitlist(e) {
