@@ -717,7 +717,7 @@
       margin-bottom: 40px;
     }
 
-    /* Carousel track */
+    /* Carousel track — desktop: auto-scroll */
     .quote-carousel {
       display: flex;
       gap: 24px;
@@ -737,6 +737,8 @@
       flex-shrink: 0;
       width: 340px;
       position: relative;
+      display: flex;
+      flex-direction: column;
     }
     .quote-bubble {
       background: rgba(13,31,23,0.85);
@@ -745,6 +747,9 @@
       padding: 28px 26px 24px;
       position: relative;
       transition: border-color 0.3s, box-shadow 0.3s;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
     }
     .quote-card:hover .quote-bubble {
       border-color: rgba(46,189,122,0.4);
@@ -773,6 +778,7 @@
       color: var(--text-primary);
       line-height: 1.55;
       font-style: italic;
+      flex: 1;
     }
 
     /* Attribution below bubble */
@@ -802,6 +808,29 @@
       font-size: 12px; color: var(--text-muted);
       margin-top: 2px; display: block;
     }
+
+    /* Dot indicators — hidden on desktop */
+    .quote-dots {
+      display: none;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 24px;
+    }
+    .quote-dot {
+      width: 10px; height: 10px;
+      border-radius: 50%;
+      background: rgba(46,189,122,0.2);
+      border: none; cursor: pointer;
+      padding: 0;
+      transition: background 0.3s, transform 0.3s;
+    }
+    .quote-dot.active {
+      background: var(--green);
+      transform: scale(1.2);
+    }
+
+    /* Duplicate cards hidden on mobile */
+    .quote-card.duplicate { display: flex; }
 
     /* ════════════════════════════════════
        FOUNDER PULL QUOTE
@@ -1208,7 +1237,24 @@
       .hero-route { max-width: 100%; }
       .quote-strip { padding: 48px 0; }
       .quote-strip .section-label, .quote-strip h2 { padding: 0 24px; }
-      .quote-card { width: 290px; }
+      .quote-carousel {
+        animation: none;
+        width: 100%;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        padding: 8px 24px 20px;
+        gap: 16px;
+      }
+      .quote-carousel::-webkit-scrollbar { display: none; }
+      .quote-card {
+        width: calc(100vw - 64px);
+        min-width: calc(100vw - 64px);
+        scroll-snap-align: center;
+      }
+      .quote-card.duplicate { display: none; }
+      .quote-dots { display: flex; }
       .pull-quote-strip { padding: 60px 24px; }
       #waitlist { padding: 60px 20px; }
       .waitlist-card { padding: 36px 24px; margin: 0 0px; }
@@ -1649,8 +1695,8 @@
         </div>
       </div>
 
-      <!-- Duplicated set for seamless infinite scroll -->
-      <div class="quote-card">
+      <!-- Duplicated set for seamless infinite scroll (desktop only) -->
+      <div class="quote-card duplicate">
         <div class="quote-bubble">
           <div class="quote-stars"><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span></div>
           <p class="quote-text">It's basically doing the work for me...Kibi FTW!</p>
@@ -1664,7 +1710,7 @@
         </div>
       </div>
 
-      <div class="quote-card">
+      <div class="quote-card duplicate">
         <div class="quote-bubble">
           <div class="quote-stars"><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span></div>
           <p class="quote-text">Such a great idea for an app!!!!</p>
@@ -1678,7 +1724,7 @@
         </div>
       </div>
 
-      <div class="quote-card">
+      <div class="quote-card duplicate">
         <div class="quote-bubble">
           <div class="quote-stars"><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span></div>
           <p class="quote-text">KIBI KIBI KIBI KIBI ROCKIN EVERYWHERE</p>
@@ -1692,7 +1738,7 @@
         </div>
       </div>
 
-      <div class="quote-card">
+      <div class="quote-card duplicate">
         <div class="quote-bubble">
           <div class="quote-stars"><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span></div>
           <p class="quote-text">Thank you Kibi for helping us find our gas/lunch/potty stop</p>
@@ -1706,6 +1752,12 @@
         </div>
       </div>
 
+    </div>
+    <div class="quote-dots" id="quote-dots">
+      <button class="quote-dot active" data-index="0"></button>
+      <button class="quote-dot" data-index="1"></button>
+      <button class="quote-dot" data-index="2"></button>
+      <button class="quote-dot" data-index="3"></button>
     </div>
   </div>
 
@@ -2188,6 +2240,34 @@
         success.classList.add('visible');
       }, 800);
     }
+
+    // ── Quote carousel dots (mobile) ──
+    (function() {
+      const carousel = document.getElementById('quote-carousel');
+      const dots = document.querySelectorAll('.quote-dot');
+      if (!carousel || !dots.length) return;
+
+      function updateDots() {
+        const cards = carousel.querySelectorAll('.quote-card:not(.duplicate)');
+        if (!cards.length) return;
+        const scrollLeft = carousel.scrollLeft;
+        const cardWidth = cards[0].offsetWidth + 16; // card width + gap
+        const idx = Math.round(scrollLeft / cardWidth);
+        dots.forEach((d, i) => d.classList.toggle('active', i === idx));
+      }
+
+      carousel.addEventListener('scroll', updateDots, { passive: true });
+
+      dots.forEach(dot => {
+        dot.addEventListener('click', () => {
+          const idx = parseInt(dot.dataset.index);
+          const cards = carousel.querySelectorAll('.quote-card:not(.duplicate)');
+          if (cards[idx]) {
+            cards[idx].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+          }
+        });
+      });
+    })();
   </script>
 
 </body>
