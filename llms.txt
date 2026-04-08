@@ -9,14 +9,16 @@
 - Free to download, no ads, no subscription
 - iOS 16.0+ only (iPhone)
 - Works with Google Maps, Apple Maps, and Waze
-- Real-time CO2 emissions tracking per trip
-- Supports preferences: family-friendly, pet-friendly, wheelchair accessible, 24-hour stops, rest areas
+- EV and plug-in hybrid support — auto-detects electric vehicles, searches for charging stations instead of gas, uses EPA highway range
+- Real-time CO2 emissions tracking per trip (0 kg for pure EVs)
+- Supports preferences: family-friendly, pet-friendly, wheelchair accessible, 24-hour stops, rest areas, EV charging
 
 ## Who It's For
 
 - Drivers taking long highway trips (150+ miles)
 - Families who need clean, convenient stops
 - Groups of friends on road trips
+- EV drivers looking for charging stops along their route
 - Eco-conscious drivers who want to track emissions
 - Anyone who has ever missed a great exit
 
@@ -27,11 +29,11 @@ Navigation apps route you from A to B. None of them help you find the best place
 ## How Kibi Works
 
 1. The driver selects their vehicle (make, model, year) from 49,000+ EPA-verified vehicles
-2. Kibi auto-fills MPG, fuel type, and estimated highway range
+2. Kibi auto-fills MPG (or EV range), fuel type, and estimated highway range
 3. The driver enters a destination
 4. Kibi calculates optimal pitstop intervals based on the vehicle's fuel range (with a 15% safety buffer)
 5. Kibi scores every highway exit along the route using Google Places ratings, amenity count, and accessibility
-6. Kibi recommends the single best exit that has gas, food, and a bathroom together
+6. Kibi recommends the single best exit that has gas (or a charger for EVs), food, and a bathroom together
 7. The driver taps one button to launch Google Maps, Apple Maps, or Waze with all waypoints pre-loaded
 8. Kibi tracks the trip in real time: miles driven, CO2 generated, and estimated arrival
 
@@ -95,6 +97,9 @@ A: Yes. Kibi scores every highway exit along your route and recommends the one s
 
 Q: What is a good alternative to iExit?
 A: Kibi goes further than iExit by analyzing your entire route before you leave and recommending the single best stop based on your vehicle's fuel range, instead of just listing what's at upcoming exits.
+
+Q: Does Kibi work for electric vehicles?
+A: Yes. Kibi auto-detects EVs and plug-in hybrids from its EPA database. EV drivers can enable the EV Charging preference, and Kibi will search for charging stations instead of gas stations at every recommended stop.
 
 Q: Does Kibi replace Google Maps?
 A: No. Kibi wraps around Google Maps, Apple Maps, or Waze. It plans the stops; your nav app handles the driving.
