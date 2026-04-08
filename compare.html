@@ -137,15 +137,92 @@
     .cross { color: var(--text-muted); }
     .partial { color: #F59E0B; }
 
-    /* COMPARISON CARDS */
+    /* COMPARISON CARDS — side-by-side */
     .compare-cards { padding: 32px 80px 64px; }
     .compare-card {
-      background: rgba(13,31,23,0.6); border: 1px solid rgba(46,189,122,0.08);
-      border-radius: 16px; padding: 36px 32px; margin-bottom: 24px;
+      background: rgba(13,31,23,0.4);
+      border: 1px solid rgba(46,189,122,0.08);
+      border-radius: 20px;
+      margin-bottom: 28px;
+      overflow: hidden;
     }
-    .compare-card h3 { font-size: 1.2rem; font-weight: 700; color: var(--text-primary); margin-bottom: 12px; }
-    .compare-card p { font-size: .95rem; color: var(--text-secondary); line-height: 1.7; margin-bottom: 8px; }
-    .compare-card strong { color: var(--green); }
+    .compare-card-header {
+      display: flex; align-items: center; gap: 12px;
+      padding: 20px 28px;
+      border-bottom: 1px solid rgba(46,189,122,0.08);
+      background: rgba(6,15,11,0.5);
+    }
+    .compare-card-header h3 {
+      font-size: 1.15rem; font-weight: 700;
+      color: var(--text-primary); margin: 0;
+    }
+    .compare-vs-badge {
+      font-size: .65rem; font-weight: 700;
+      letter-spacing: .1em; text-transform: uppercase;
+      color: var(--green);
+      background: rgba(46,189,122,0.1);
+      border: 1px solid rgba(46,189,122,0.2);
+      border-radius: 100px;
+      padding: 3px 10px;
+      flex-shrink: 0;
+    }
+    .compare-columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .compare-col {
+      padding: 24px 28px;
+    }
+    .compare-col-them {
+      border-right: 1px solid rgba(46,189,122,0.08);
+    }
+    .compare-col-label {
+      font-size: .68rem; font-weight: 700;
+      letter-spacing: .12em; text-transform: uppercase;
+      margin-bottom: 14px; display: block;
+    }
+    .compare-col-them .compare-col-label { color: var(--text-muted); }
+    .compare-col-kibi .compare-col-label { color: var(--green); }
+    .compare-col ul {
+      list-style: none; padding: 0; margin: 0;
+      display: flex; flex-direction: column; gap: 10px;
+    }
+    .compare-col li {
+      font-size: .9rem; line-height: 1.55;
+      padding-left: 22px;
+      position: relative;
+    }
+    .compare-col-them li {
+      color: var(--text-muted);
+    }
+    .compare-col-them li::before {
+      content: '\2013';
+      position: absolute; left: 0;
+      color: rgba(255,255,255,0.25);
+      font-weight: 700;
+    }
+    .compare-col-kibi li {
+      color: var(--text-secondary);
+    }
+    .compare-col-kibi li::before {
+      content: '\2713';
+      position: absolute; left: 0;
+      color: var(--green);
+      font-weight: 700;
+    }
+    .compare-col-kibi { background: rgba(46,189,122,0.03); }
+    .compare-tldr {
+      font-size: .8rem;
+      color: var(--green);
+      font-weight: 600;
+      padding: 12px 28px 16px;
+      border-top: 1px solid rgba(46,189,122,0.08);
+      background: rgba(46,189,122,0.04);
+    }
+    @media (max-width: 768px) {
+      .compare-columns { grid-template-columns: 1fr; }
+      .compare-col-them { border-right: none; border-bottom: 1px solid rgba(46,189,122,0.08); }
+    }
 
     /* CTA */
     .page-cta {
@@ -185,7 +262,10 @@
       .nav-drawer { display: flex; }
       .page-hero { padding: 48px 24px 40px; }
       .table-section { padding: 40px 24px; }
-      .compare-cards { padding: 24px 24px 48px; }
+      .compare-cards { padding: 24px 16px 48px; }
+      .compare-card-header { padding: 16px 20px; }
+      .compare-col { padding: 20px; }
+      .compare-tldr { padding: 12px 20px 16px; }
       .page-cta { padding: 56px 24px; }
       footer { padding: 40px 24px; flex-direction: column; align-items: flex-start; }
     }
@@ -323,39 +403,175 @@
   <section class="compare-cards">
 
     <div class="compare-card" id="vs-iexit">
-      <h3>Kibi vs. iExit &amp; NexIT</h3>
-      <p>iExit and NexIT are highway exit guides — they tell you what's at upcoming exits while you're already on the road. They're useful for quick lookups, but they don't plan your trip ahead of time.</p>
-      <p><strong>What Kibi does differently:</strong> Kibi analyzes your entire route <em>before you leave</em>, scores every exit using Google Places data, and recommends the single best stop that combines gas, food, and a bathroom — timed to when your vehicle actually needs to refuel. No scrolling, no guessing. One recommendation, every time.</p>
+      <div class="compare-card-header">
+        <span class="compare-vs-badge">VS</span>
+        <h3>iExit &amp; NexIT</h3>
+      </div>
+      <div class="compare-columns">
+        <div class="compare-col compare-col-them">
+          <span class="compare-col-label">iExit / NexIT</span>
+          <ul>
+            <li>Lists what's at upcoming exits in real time</li>
+            <li>Useful for quick lookups while driving</li>
+            <li>No pre-trip planning</li>
+            <li>You scroll through exits yourself</li>
+            <li>No vehicle fuel range awareness</li>
+          </ul>
+        </div>
+        <div class="compare-col compare-col-kibi">
+          <span class="compare-col-label">Kibi</span>
+          <ul>
+            <li>Analyzes your entire route before you leave</li>
+            <li>Scores every exit using Google Places data</li>
+            <li>One recommendation: gas + food + bathroom</li>
+            <li>Timed to your vehicle's fuel range</li>
+            <li>No scrolling, no guessing</li>
+          </ul>
+        </div>
+      </div>
+      <div class="compare-tldr">TL;DR — They list exits. Kibi picks the best one for you.</div>
     </div>
 
     <div class="compare-card" id="vs-roadtrippers">
-      <h3>Kibi vs. Roadtrippers</h3>
-      <p>Roadtrippers excels at road trip discovery — finding quirky attractions, scenic routes, and multi-day itineraries. It's built for the journey, not the logistics.</p>
-      <p><strong>What Kibi does differently:</strong> Kibi is built for highway efficiency. When you're driving 4+ hours on the interstate and just need one great stop for gas, food, and a bathroom, Kibi finds it. It calculates when you need to stop based on your vehicle's fuel range and picks the exit that has everything in one place.</p>
+      <div class="compare-card-header">
+        <span class="compare-vs-badge">VS</span>
+        <h3>Roadtrippers</h3>
+      </div>
+      <div class="compare-columns">
+        <div class="compare-col compare-col-them">
+          <span class="compare-col-label">Roadtrippers</span>
+          <ul>
+            <li>Built for road trip discovery</li>
+            <li>Quirky attractions, scenic routes, multi-day itineraries</li>
+            <li>Great for planning the experience</li>
+            <li>Not focused on highway pitstop logistics</li>
+            <li>Freemium model</li>
+          </ul>
+        </div>
+        <div class="compare-col compare-col-kibi">
+          <span class="compare-col-label">Kibi</span>
+          <ul>
+            <li>Built for highway efficiency</li>
+            <li>Finds the best exit for gas, food, and a bathroom</li>
+            <li>Calculates stops based on your vehicle's range</li>
+            <li>One-tap handoff to your nav app</li>
+            <li>Free, no ads</li>
+          </ul>
+        </div>
+      </div>
+      <div class="compare-tldr">TL;DR — Roadtrippers plans the adventure. Kibi handles the logistics.</div>
     </div>
 
     <div class="compare-card" id="vs-gasbuddy">
-      <h3>Kibi vs. GasBuddy</h3>
-      <p>GasBuddy is the go-to for finding cheap gas prices. It's great at one thing: saving money on fuel.</p>
-      <p><strong>What Kibi does differently:</strong> Kibi isn't just about gas — it finds highway exits where you can get gas, food, AND a bathroom together, scored by quality and convenience. It plans your stops around your vehicle's range so you never pull off at a bad exit out of desperation. Gas is part of the equation, but Kibi optimizes the whole pitstop.</p>
+      <div class="compare-card-header">
+        <span class="compare-vs-badge">VS</span>
+        <h3>GasBuddy</h3>
+      </div>
+      <div class="compare-columns">
+        <div class="compare-col compare-col-them">
+          <span class="compare-col-label">GasBuddy</span>
+          <ul>
+            <li>Finds the cheapest gas near you</li>
+            <li>Great at one thing: saving money on fuel</li>
+            <li>Gas-only focus</li>
+            <li>No food, bathroom, or quality scoring</li>
+            <li>No route-based planning</li>
+          </ul>
+        </div>
+        <div class="compare-col compare-col-kibi">
+          <span class="compare-col-label">Kibi</span>
+          <ul>
+            <li>Finds exits with gas, food, AND a bathroom together</li>
+            <li>Scored by quality and convenience</li>
+            <li>Stops timed to your vehicle's range</li>
+            <li>No desperate pulls at bad exits</li>
+            <li>Gas is part of the equation; Kibi optimizes the whole stop</li>
+          </ul>
+        </div>
+      </div>
+      <div class="compare-tldr">TL;DR — GasBuddy finds cheap gas. Kibi finds the perfect pitstop.</div>
     </div>
 
     <div class="compare-card" id="vs-google-maps">
-      <h3>Kibi vs. Google Maps</h3>
-      <p>Google Maps is the world's most popular navigation app. It routes you from A to B with incredible accuracy — but it doesn't help you find the best place to stop along the way.</p>
-      <p><strong>What Kibi does differently:</strong> Kibi is a pitstop planning layer that works WITH Google Maps. It analyzes your route, finds the best exit for gas, food, and a bathroom, and then deep-links directly into Google Maps with all your waypoints pre-loaded. Kibi handles the planning; Google Maps handles the navigation.</p>
+      <div class="compare-card-header">
+        <span class="compare-vs-badge">VS</span>
+        <h3>Google Maps</h3>
+      </div>
+      <div class="compare-columns">
+        <div class="compare-col compare-col-them">
+          <span class="compare-col-label">Google Maps</span>
+          <ul>
+            <li>World's most popular navigation app</li>
+            <li>Routes you from A to B with incredible accuracy</li>
+            <li>Doesn't help you find the best place to stop</li>
+            <li>No pitstop planning or exit scoring</li>
+          </ul>
+        </div>
+        <div class="compare-col compare-col-kibi">
+          <span class="compare-col-label">Kibi</span>
+          <ul>
+            <li>A pitstop planning layer that works WITH Google Maps</li>
+            <li>Analyzes your route and scores every exit</li>
+            <li>Deep-links into Google Maps with waypoints pre-loaded</li>
+            <li>Kibi plans the stops; Google Maps handles the driving</li>
+          </ul>
+        </div>
+      </div>
+      <div class="compare-tldr">TL;DR — Google Maps gets you there. Kibi tells you where to stop.</div>
     </div>
 
     <div class="compare-card" id="vs-waze">
-      <h3>Kibi vs. Waze</h3>
-      <p>Waze is great for real-time traffic and community-reported road conditions. Like Google Maps, it's a navigation app — not a pitstop planner.</p>
-      <p><strong>What Kibi does differently:</strong> Kibi plans your pitstops before you start driving and deep-links into Waze with all waypoints pre-loaded. Waze gets you there; Kibi tells you where to stop.</p>
+      <div class="compare-card-header">
+        <span class="compare-vs-badge">VS</span>
+        <h3>Waze</h3>
+      </div>
+      <div class="compare-columns">
+        <div class="compare-col compare-col-them">
+          <span class="compare-col-label">Waze</span>
+          <ul>
+            <li>Real-time traffic and community road reports</li>
+            <li>Great at avoiding delays</li>
+            <li>Navigation app, not a pitstop planner</li>
+          </ul>
+        </div>
+        <div class="compare-col compare-col-kibi">
+          <span class="compare-col-label">Kibi</span>
+          <ul>
+            <li>Plans pitstops before you start driving</li>
+            <li>Deep-links into Waze with all waypoints pre-loaded</li>
+            <li>Waze gets you there; Kibi tells you where to stop</li>
+          </ul>
+        </div>
+      </div>
+      <div class="compare-tldr">TL;DR — Waze navigates. Kibi picks the stops.</div>
     </div>
 
     <div class="compare-card" id="vs-apple-maps">
-      <h3>Kibi vs. Apple Maps</h3>
-      <p>Apple Maps provides smooth, privacy-focused navigation integrated into the Apple ecosystem. It gives turn-by-turn directions but doesn't plan your road trip pitstops.</p>
-      <p><strong>What Kibi does differently:</strong> Kibi analyzes your vehicle's fuel range, scores every highway exit on your route, and finds the one stop where you can get gas, food, and a bathroom. It then launches Apple Maps with all your waypoints ready to go. Apple Maps navigates; Kibi plans the stops.</p>
+      <div class="compare-card-header">
+        <span class="compare-vs-badge">VS</span>
+        <h3>Apple Maps</h3>
+      </div>
+      <div class="compare-columns">
+        <div class="compare-col compare-col-them">
+          <span class="compare-col-label">Apple Maps</span>
+          <ul>
+            <li>Smooth, privacy-focused navigation</li>
+            <li>Integrated into the Apple ecosystem</li>
+            <li>Turn-by-turn directions</li>
+            <li>Doesn't plan road trip pitstops</li>
+          </ul>
+        </div>
+        <div class="compare-col compare-col-kibi">
+          <span class="compare-col-label">Kibi</span>
+          <ul>
+            <li>Scores every highway exit on your route</li>
+            <li>Finds the one stop with gas, food, and a bathroom</li>
+            <li>Launches Apple Maps with all waypoints ready to go</li>
+            <li>Apple Maps navigates; Kibi plans the stops</li>
+          </ul>
+        </div>
+      </div>
+      <div class="compare-tldr">TL;DR — Apple Maps drives. Kibi plans the stops.</div>
     </div>
 
   </section>
