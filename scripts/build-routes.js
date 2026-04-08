@@ -115,7 +115,7 @@ function buildIndexPage(routes) {
 
   const cards = sorted.map(r => {
     const hw = escapeHtml(r.highway.split(',')[0].trim());
-    return `      <a href="${r.route_slug}.html" class="route-card">
+    return `      <a href="${r.route_slug}" class="route-card">
         <span class="route-card-hw">${hw}</span>
         <h3>${escapeHtml(r.origin)} &rarr; ${escapeHtml(r.destination)}</h3>
         <p class="route-card-meta">${r.exit_count} exits scored &middot; ~${r.miles} mi</p>
@@ -124,7 +124,7 @@ function buildIndexPage(routes) {
   }).join('\n');
 
   const listItems = sorted.map((r, i) =>
-    `          {"@type": "ListItem", "position": ${i + 1}, "name": "${r.origin} to ${r.destination}", "url": "https://drivekibi.com/routes/${r.route_slug}.html"}`
+    `          {"@type": "ListItem", "position": ${i + 1}, "name": "${r.origin} to ${r.destination}", "url": "https://drivekibi.com/routes/${r.route_slug}"}`
   ).join(',\n');
 
   // Read existing index and replace the dynamic sections
@@ -168,7 +168,7 @@ function updateSitemap(routes) {
     // Index page
     `  <!-- Route guide pages -->
   <url>
-    <loc>https://drivekibi.com/routes/index.html</loc>
+    <loc>https://drivekibi.com/routes/</loc>
     <lastmod>${TODAY}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -178,7 +178,7 @@ function updateSitemap(routes) {
   const sorted = [...routes].sort((a, b) => a.route_slug.localeCompare(b.route_slug));
   for (const r of sorted) {
     routeEntries.push(`  <url>
-    <loc>https://drivekibi.com/routes/${r.route_slug}.html</loc>
+    <loc>https://drivekibi.com/routes/${r.route_slug}</loc>
     <lastmod>${TODAY}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
