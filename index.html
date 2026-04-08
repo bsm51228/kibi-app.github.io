@@ -704,54 +704,90 @@
       background: var(--surface);
       border-top: 1px solid rgba(46,189,122,0.08);
       border-bottom: 1px solid rgba(46,189,122,0.08);
-      padding: 64px 80px;
+      padding: 64px 0;
       overflow: hidden;
     }
-    .quote-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 16px;
-      margin-top: 40px;
-    }
-    .quote-card {
-      background: rgba(6,15,11,0.6);
-      border: 1px solid rgba(46,189,122,0.12);
-      border-radius: 20px;
-      padding: 32px 28px;
-      position: relative;
-      transition: border-color 0.25s, transform 0.25s;
-    }
-    .quote-card:hover {
-      border-color: rgba(46,189,122,0.3);
-      transform: translateY(-4px);
-    }
-    .quote-mark {
+    .quote-strip .section-label { text-align: center; padding: 0 80px; }
+    .quote-strip h2 {
       font-family: 'Lora', serif;
-      font-size: 72px;
-      line-height: 0.8;
-      color: rgba(46,189,122,0.15);
-      display: block;
-      margin-bottom: 16px;
+      font-size: clamp(1.6rem, 3vw, 2.2rem);
+      font-weight: 700; font-style: italic;
+      color: var(--text-primary);
+      text-align: center; padding: 0 80px;
+      margin-bottom: 40px;
     }
+
+    /* Carousel track */
+    .quote-carousel {
+      display: flex;
+      gap: 24px;
+      animation: scroll-quotes 30s linear infinite;
+      width: max-content;
+      padding: 8px 0 20px;
+    }
+    .quote-carousel:hover { animation-play-state: paused; }
+
+    @keyframes scroll-quotes {
+      0%   { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    /* Speech bubble card */
+    .quote-card {
+      flex-shrink: 0;
+      width: 340px;
+      position: relative;
+    }
+    .quote-bubble {
+      background: rgba(13,31,23,0.85);
+      border: 1px solid rgba(46,189,122,0.18);
+      border-radius: 24px 24px 24px 4px;
+      padding: 28px 26px 24px;
+      position: relative;
+      transition: border-color 0.3s, box-shadow 0.3s;
+    }
+    .quote-card:hover .quote-bubble {
+      border-color: rgba(46,189,122,0.4);
+      box-shadow: 0 8px 32px rgba(46,189,122,0.08);
+    }
+    .quote-bubble::after {
+      content: '';
+      position: absolute;
+      bottom: -12px; left: 28px;
+      width: 0; height: 0;
+      border-left: 14px solid rgba(13,31,23,0.85);
+      border-right: 14px solid transparent;
+      border-top: 12px solid rgba(13,31,23,0.85);
+      border-bottom: 12px solid transparent;
+    }
+    .quote-stars {
+      display: flex; gap: 2px;
+      margin-bottom: 12px;
+      font-size: 14px;
+    }
+    .quote-star { color: #FBBF24; }
     .quote-text {
       font-family: 'Lora', serif;
-      font-size: 19px;
+      font-size: 17px;
       font-weight: 600;
       color: var(--text-primary);
-      line-height: 1.5;
+      line-height: 1.55;
       font-style: italic;
     }
+
+    /* Attribution below bubble */
     .quote-attribution {
       display: flex;
       align-items: center;
       gap: 10px;
       margin-top: 20px;
+      padding-left: 8px;
     }
     .quote-avatar {
-      width: 36px; height: 36px;
+      width: 40px; height: 40px;
       border-radius: 50%;
-      background: rgba(46,189,122,0.12);
-      border: 1px solid rgba(46,189,122,0.25);
+      background: linear-gradient(135deg, rgba(46,189,122,0.2), rgba(46,189,122,0.05));
+      border: 2px solid rgba(46,189,122,0.3);
       display: flex; align-items: center; justify-content: center;
       font-size: 13px; font-weight: 700;
       color: var(--green);
@@ -1170,8 +1206,9 @@
       .hero-route-desktop { display: none; }
       .hero-route-mobile  { display: block; }
       .hero-route { max-width: 100%; }
-      .quote-strip { padding: 48px 24px; }
-      .quote-grid  { grid-template-columns: 1fr; }
+      .quote-strip { padding: 48px 0; }
+      .quote-strip .section-label, .quote-strip h2 { padding: 0 24px; }
+      .quote-card { width: 290px; }
       .pull-quote-strip { padding: 60px 24px; }
       #waitlist { padding: 60px 20px; }
       .waitlist-card { padding: 36px 24px; margin: 0 0px; }
@@ -1553,11 +1590,14 @@
   <!-- ══════════════ QUOTE STRIP ══════════════ -->
   <div class="quote-strip">
     <p class="section-label">What People Are Saying</p>
-    <div class="quote-grid fade-in">
+    <h2>Real feedback from real road trippers.</h2>
+    <div class="quote-carousel" id="quote-carousel">
 
       <div class="quote-card">
-        <span class="quote-mark">"</span>
-        <p class="quote-text">It's basically doing the work for me...Kibi FTW!</p>
+        <div class="quote-bubble">
+          <div class="quote-stars"><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span></div>
+          <p class="quote-text">It's basically doing the work for me...Kibi FTW!</p>
+        </div>
         <div class="quote-attribution">
           <div class="quote-avatar">CB</div>
           <div>
@@ -1568,8 +1608,10 @@
       </div>
 
       <div class="quote-card">
-        <span class="quote-mark">"</span>
-        <p class="quote-text">Such a great idea for an app!!!!</p>
+        <div class="quote-bubble">
+          <div class="quote-stars"><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span></div>
+          <p class="quote-text">Such a great idea for an app!!!!</p>
+        </div>
         <div class="quote-attribution">
           <div class="quote-avatar">KM</div>
           <div>
@@ -1580,8 +1622,10 @@
       </div>
 
       <div class="quote-card">
-        <span class="quote-mark">"</span>
-        <p class="quote-text">KIBI KIBI KIBI KIBI ROCKIN EVERYWHERE</p>
+        <div class="quote-bubble">
+          <div class="quote-stars"><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span></div>
+          <p class="quote-text">KIBI KIBI KIBI KIBI ROCKIN EVERYWHERE</p>
+        </div>
         <div class="quote-attribution">
           <div class="quote-avatar">BP</div>
           <div>
@@ -1592,8 +1636,67 @@
       </div>
 
       <div class="quote-card">
-        <span class="quote-mark">"</span>
-        <p class="quote-text">Thank you Kibi for helping us find our gas/lunch/potty stop</p>
+        <div class="quote-bubble">
+          <div class="quote-stars"><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span></div>
+          <p class="quote-text">Thank you Kibi for helping us find our gas/lunch/potty stop</p>
+        </div>
+        <div class="quote-attribution">
+          <div class="quote-avatar">JB</div>
+          <div>
+            <span class="quote-name">Jenna B.</span>
+            <span class="quote-role">Mother of 2</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Duplicated set for seamless infinite scroll -->
+      <div class="quote-card">
+        <div class="quote-bubble">
+          <div class="quote-stars"><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span></div>
+          <p class="quote-text">It's basically doing the work for me...Kibi FTW!</p>
+        </div>
+        <div class="quote-attribution">
+          <div class="quote-avatar">CB</div>
+          <div>
+            <span class="quote-name">Corey B.</span>
+            <span class="quote-role">Beta Tester</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="quote-card">
+        <div class="quote-bubble">
+          <div class="quote-stars"><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span></div>
+          <p class="quote-text">Such a great idea for an app!!!!</p>
+        </div>
+        <div class="quote-attribution">
+          <div class="quote-avatar">KM</div>
+          <div>
+            <span class="quote-name">Kylie M.</span>
+            <span class="quote-role">Beta Tester</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="quote-card">
+        <div class="quote-bubble">
+          <div class="quote-stars"><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span></div>
+          <p class="quote-text">KIBI KIBI KIBI KIBI ROCKIN EVERYWHERE</p>
+        </div>
+        <div class="quote-attribution">
+          <div class="quote-avatar">BP</div>
+          <div>
+            <span class="quote-name">Braelyn P.</span>
+            <span class="quote-role">Beta Tester</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="quote-card">
+        <div class="quote-bubble">
+          <div class="quote-stars"><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span></div>
+          <p class="quote-text">Thank you Kibi for helping us find our gas/lunch/potty stop</p>
+        </div>
         <div class="quote-attribution">
           <div class="quote-avatar">JB</div>
           <div>
