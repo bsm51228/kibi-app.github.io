@@ -280,9 +280,8 @@
 
 <!-- Nav -->
 <nav id="nav">
-  <a class="nav-logo" href="#">
-    <div class="nav-logo-mark">🐦</div>
-    <span class="nav-wordmark">kibi</span>
+  <a class="nav-logo" href="./">
+    <img src="Kibi_Logo_Horizontal_White.png" alt="Kibi" style="height:24px;display:block;" />
   </a>
   <div class="nav-sep"></div>
   <span class="nav-subtitle">Highway Exit Coverage Map</span>
@@ -384,7 +383,7 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
 // ── LAYER CONFIGS ──────────────────────────────────────────────────────────
 const LAYER_CFG = {
   density: {
-    heat: { radius:18, blur:22, maxZoom:11, minOpacity:0.3,
+    heat: { radius:14, blur:16, maxZoom:12, minOpacity:0.3,
       gradient:{0:'rgba(0,40,20,0)',0.1:'rgba(15,70,40,0.5)',
                 0.3:'rgba(46,189,122,0.75)',0.55:'rgba(150,185,61,0.9)',
                 0.75:'rgba(245,158,11,1)',0.9:'rgba(239,68,68,1)',1:'rgba(255,80,40,1)'} },
@@ -395,7 +394,7 @@ const LAYER_CFG = {
     }
   },
   gaps: {
-    heat: { radius:32, blur:38, maxZoom:8, minOpacity:0.45,
+    heat: { radius:20, blur:22, maxZoom:10, minOpacity:0.4,
       gradient:{0:'rgba(239,68,68,0)',0.3:'rgba(239,68,68,0.4)',
                 0.6:'rgba(239,68,68,0.75)',0.85:'rgba(239,68,68,0.95)',1:'rgba(255,60,40,1)'} },
     legend:{
@@ -405,7 +404,7 @@ const LAYER_CFG = {
     }
   },
   good: {
-    heat: { radius:16, blur:18, maxZoom:13, minOpacity:0.4,
+    heat: { radius:12, blur:14, maxZoom:14, minOpacity:0.4,
       gradient:{0:'rgba(62,107,180,0)',0.25:'rgba(62,107,180,0.45)',
                 0.6:'rgba(62,107,180,0.8)',0.85:'rgba(100,160,240,0.9)',1:'rgba(160,210,255,1)'} },
     legend:{
@@ -421,6 +420,35 @@ let heatLayers   = {};
 let allExits     = [];
 let currentLayer = 'density';
 
+// ── US LAND BOUNDARY (simplified polygon) ─────────────────────────────────
+// Rough outline of continental US to exclude ocean/Canada/Mexico gap points.
+const US_BOUNDARY = [
+  [48.5,-124.5],[48.5,-123],[49,-122.5],[49,-117],[49,-116.5],[49,-104.5],
+  [49,-100],[49,-97],[49,-95.2],[48,-89.5],[46.5,-84.5],[45.5,-83.5],
+  [43,-82.5],[42,-83],[41.5,-82.5],[42,-81],[42.5,-79],[43,-78.5],
+  [44,-76],[44.5,-75.5],[45,-74.5],[45,-73.5],[44.5,-72],[44,-70],
+  [43.5,-70],[42,-70],[41.5,-71.5],[41,-72],[40.5,-74],[39.5,-75],
+  [38.5,-75.5],[37,-76],[35.5,-75.5],[34.5,-77],[33,-79.5],[31,-81],
+  [30,-81.5],[28.5,-80.5],[25.5,-80],[25,-81],[26,-82],[28,-82.5],
+  [29,-85],[30,-88],[30,-89.5],[29,-90],[29.5,-93],[29.5,-94],
+  [27,-97],[26,-97.5],[26,-99],[29,-104],[31.5,-106.5],[32,-108.5],
+  [31.5,-111],[32,-114.5],[33,-117],[34,-120],[35,-121],[37,-122.5],
+  [38.5,-123],[40,-124],[42,-124.5],[46,-124],[48.5,-124.5]
+];
+
+function pointInUS(lat, lng) {
+  // Ray-casting algorithm
+  let inside = false;
+  for (let i = 0, j = US_BOUNDARY.length - 1; i < US_BOUNDARY.length; j = i++) {
+    const yi = US_BOUNDARY[i][0], xi = US_BOUNDARY[i][1];
+    const yj = US_BOUNDARY[j][0], xj = US_BOUNDARY[j][1];
+    if (((yi > lat) !== (yj > lat)) &&
+        (lng < (xj - xi) * (lat - yi) / (yj - yi) + xi))
+      inside = !inside;
+  }
+  return inside;
+}
+
 // ── GAP POINT BUILDER ──────────────────────────────────────────────────────
 function buildGapPoints(pts) {
   const G = 0.5;
@@ -429,8 +457,9 @@ function buildGapPoints(pts) {
   const gaps = [];
   for (let lat = 25; lat < 49; lat += G) {
     for (let lng = -124; lng < -67; lng += G) {
-      if (!covered.has(`${Math.floor(lat/G)},${Math.floor(lng/G)}`))
-        gaps.push([lat + G/2, lng + G/2, 1.0]);
+      const cLat = lat + G/2, cLng = lng + G/2;
+      if (!covered.has(`${Math.floor(lat/G)},${Math.floor(lng/G)}`) && pointInUS(cLat, cLng))
+        gaps.push([cLat, cLng, 1.0]);
     }
   }
   return gaps;
