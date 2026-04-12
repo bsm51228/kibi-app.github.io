@@ -1767,6 +1767,20 @@
         </div>
       </div>
 
+      <div class="quote-card">
+        <div class="quote-bubble">
+          <div class="quote-stars"><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span></div>
+          <p class="quote-text">SUPER COOOL</p>
+        </div>
+        <div class="quote-attribution">
+          <div class="quote-avatar">RU</div>
+          <div>
+            <span class="quote-name">Reddit User</span>
+            <span class="quote-role">r/roadtrip</span>
+          </div>
+        </div>
+      </div>
+
       <!-- Duplicated set for seamless infinite scroll (desktop only) -->
       <div class="quote-card duplicate">
         <div class="quote-bubble">
@@ -1838,6 +1852,20 @@
         </div>
       </div>
 
+      <div class="quote-card duplicate">
+        <div class="quote-bubble">
+          <div class="quote-stars"><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span><span class="quote-star">&#9733;</span></div>
+          <p class="quote-text">SUPER COOOL</p>
+        </div>
+        <div class="quote-attribution">
+          <div class="quote-avatar">RU</div>
+          <div>
+            <span class="quote-name">Reddit User</span>
+            <span class="quote-role">r/roadtrip</span>
+          </div>
+        </div>
+      </div>
+
     </div>
     <div class="quote-dots" id="quote-dots">
       <button class="quote-dot active" data-index="0"></button>
@@ -1845,6 +1873,7 @@
       <button class="quote-dot" data-index="2"></button>
       <button class="quote-dot" data-index="3"></button>
       <button class="quote-dot" data-index="4"></button>
+      <button class="quote-dot" data-index="5"></button>
     </div>
   </div>
 
@@ -2042,7 +2071,7 @@
       <div class="milestone-block" id="milestone-block">
         <div class="milestone-top">
           <span class="milestone-label">Join the first 500</span>
-          <span class="milestone-count">41 / 500</span>
+          <span class="milestone-count">50 / 500</span>
         </div>
         <div class="milestone-track">
           <div class="milestone-fill" id="milestone-fill"></div>
@@ -2283,7 +2312,7 @@
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           const fill = document.getElementById('milestone-fill');
-          if (fill) fill.style.width = '8.2%';
+          if (fill) fill.style.width = '10%';
           milestoneObs.unobserve(entry.target);
         }
       });
