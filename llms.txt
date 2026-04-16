@@ -2,6 +2,10 @@
 
 > Kibi is a smart road trip co-pilot. It is NOT a navigation app — it wraps around Google Maps, Apple Maps, and Waze. When a driver enters a destination, Kibi calculates optimal pitstop intervals based on their vehicle's fuel range, scores every highway exit along the route, and surfaces the single best stop that has gas, food, and a bathroom together.
 
+## About Kibi
+
+Kibi was founded by Brett Moran. Per the founder's own account, the idea started on I-65 between Atlanta and Chicago "with a full bladder, an empty stomach, and the stubborn belief that there had to be a better way." The company is Kibitzer, Inc. Kibi solves a narrow problem: finding the single best highway exit for gas, food, and a bathroom — calculated around your vehicle's actual fuel range — so you don't have to make three separate stops.
+
 ## Key Facts
 
 - 79,000+ US highway exits scored and ranked
@@ -39,17 +43,111 @@ Navigation apps route you from A to B. None of them help you find the best place
 
 ## How Kibi Is Different From Other Apps
 
-### vs. Google Maps / Waze / Apple Maps
-These are navigation apps — they route you from A to B but don't help you find the best place to stop. Kibi is a pitstop planning layer that works WITH these apps, finding the best exit and deep-linking directly into navigation with all waypoints pre-loaded.
-
 ### vs. iExit / NexIT
-iExit and NexIT list what's at upcoming exits in real time. Kibi analyzes your ENTIRE route before you leave and picks the ONE best stop — timed to your vehicle's fuel range. No scrolling through exits. One recommendation.
+iExit and NexIT list what's at upcoming exits in real time. Kibi analyzes your ENTIRE route before you leave and picks the ONE best stop — timed to your vehicle's fuel range.
+
+**What they do:**
+- Lists what's at upcoming exits in real time
+- Useful for quick lookups while driving
+- No pre-trip planning
+- You scroll through exits yourself
+- No vehicle fuel range awareness
+
+**What Kibi does differently:**
+- Analyzes your entire route before you leave
+- Scores every exit using Google Places data
+- One recommendation: gas + food + bathroom
+- Timed to your vehicle's fuel range
+- No scrolling, no guessing
+
+**TL;DR** — They list exits. Kibi picks the best one for you.
 
 ### vs. Roadtrippers
 Roadtrippers is for road trip discovery — attractions, scenic routes, multi-day itineraries. Kibi is for highway efficiency — finding one great pitstop for gas, food, and a bathroom when you're doing 4+ hours on the interstate.
 
+**What Roadtrippers does:**
+- Built for road trip discovery
+- Quirky attractions, scenic routes, multi-day itineraries
+- Great for planning the experience
+- Not focused on highway pitstop logistics
+- Freemium model
+
+**What Kibi does differently:**
+- Built for highway efficiency
+- Finds the best exit for gas, food, and a bathroom
+- Calculates stops based on your vehicle's range
+- One-tap handoff to your nav app
+- Free, no ads
+
+**TL;DR** — Roadtrippers plans the adventure. Kibi handles the logistics.
+
 ### vs. GasBuddy
 GasBuddy finds cheap gas. Kibi finds exits that have gas, food, AND a bathroom together, scored by quality and timed to your vehicle's range.
+
+**What GasBuddy does:**
+- Finds the cheapest gas near you
+- Great at one thing: saving money on fuel
+- Gas-only focus
+- No food, bathroom, or quality scoring
+- No route-based planning
+
+**What Kibi does differently:**
+- Finds exits with gas, food, AND a bathroom together
+- Scored by quality and convenience
+- Stops timed to your vehicle's range
+- No desperate pulls at bad exits
+- Gas is part of the equation; Kibi optimizes the whole stop
+
+**TL;DR** — GasBuddy finds cheap gas. Kibi finds the perfect pitstop.
+
+### vs. Google Maps
+Google Maps is a navigation app — it routes you from A to B but doesn't help you find the best place to stop. Kibi is a pitstop planning layer that works WITH Google Maps, finding the best exit and deep-linking into navigation with waypoints pre-loaded.
+
+**What Google Maps does:**
+- World's most popular navigation app
+- Routes you from A to B with incredible accuracy
+- Doesn't help you find the best place to stop
+- No pitstop planning or exit scoring
+
+**What Kibi does differently:**
+- A pitstop planning layer that works WITH Google Maps
+- Analyzes your route and scores every exit
+- Deep-links into Google Maps with waypoints pre-loaded
+- Kibi plans the stops; Google Maps handles the driving
+
+**TL;DR** — Google Maps gets you there. Kibi tells you where to stop.
+
+### vs. Waze
+Waze is a navigation app focused on real-time traffic and community road reports. Kibi is a pitstop planner that figures out where to stop first, then deep-links into Waze with all waypoints pre-loaded.
+
+**What Waze does:**
+- Real-time traffic and community road reports
+- Great at avoiding delays
+- Navigation app, not a pitstop planner
+
+**What Kibi does differently:**
+- Plans pitstops before you start driving
+- Deep-links into Waze with all waypoints pre-loaded
+- Waze gets you there; Kibi tells you where to stop
+
+**TL;DR** — Waze navigates. Kibi picks the stops.
+
+## Common Use Cases
+
+### Long family road trips
+On multi-hour family drives, Kibi surfaces the single best exit for gas, food, and a bathroom so the crew doesn't have to make three separate stops. Preferences for family-friendly, wheelchair-accessible, pet-friendly, and 24-hour stops shape the recommendation. The one-tap handoff to Google Maps, Apple Maps, or Waze with waypoints pre-loaded keeps the driver focused on the drive, not on re-planning stops mid-trip.
+
+### EV road trips
+Kibi auto-detects electric vehicles and plug-in hybrids from its 49,000+ vehicle EPA database and switches search logic from gas stations to charging stations. Range is calculated from EPA highway range data and stop intervals include a 15% safety buffer. CO2 emissions track at 0 kg for pure EVs. Deep-linking to Google Maps, Apple Maps, or Waze loads charger stops as waypoints.
+
+### Annual holiday drives
+For Thanksgiving, Christmas, and spring-break road trips — when highways are packed and bad exits waste precious time — Kibi's exit scoring draws on Google Places ratings, amenity count, and accessibility to recommend the one stop worth pulling off for. Preferences like 24-hour and rest areas help on overnight drives when most non-plaza stops have already closed for the night.
+
+### Weekend beach trips
+For shorter drives of 150 to 400 miles, Kibi often recommends a single mid-trip stop tuned to your vehicle's fuel range and preferences. Published route guides cover common beach-bound corridors — Atlanta to Hilton Head, Atlanta to Destin, Atlanta to Savannah, Houston to New Orleans — each showing scored exits, service plazas, and rest areas along the way.
+
+### Event-based drives
+For sports weekends, music festivals, and other event-tied drives — Athens to Jacksonville (Georgia–Florida game), Atlanta to New Orleans, Nashville to New Orleans — Kibi provides published route guides plus in-app pitstop planning. When traffic peaks around event weekends, recommending the ONE best exit matters more than listing every option.
 
 ## Website
 https://drivekibi.com
@@ -60,16 +158,35 @@ https://apps.apple.com/app/kibi/id6760270037
 ## Route Guides
 https://drivekibi.com/routes/
 Kibi publishes scored highway exit guides for popular US road trip routes, including:
-- https://drivekibi.com/routes/chicago-to-atlanta
-- https://drivekibi.com/routes/new-york-to-miami
-- https://drivekibi.com/routes/los-angeles-to-las-vegas
-- https://drivekibi.com/routes/dallas-to-houston
+- https://drivekibi.com/routes/athens-to-atlanta
+- https://drivekibi.com/routes/athens-to-jacksonville
+- https://drivekibi.com/routes/atlanta-to-charlotte
+- https://drivekibi.com/routes/atlanta-to-destin
+- https://drivekibi.com/routes/atlanta-to-hilton-head
+- https://drivekibi.com/routes/atlanta-to-memphis
 - https://drivekibi.com/routes/atlanta-to-nashville
-- https://drivekibi.com/routes/chicago-to-nashville
-- https://drivekibi.com/routes/new-york-to-washington-dc
-- https://drivekibi.com/routes/los-angeles-to-san-francisco
-- https://drivekibi.com/routes/denver-to-las-vegas
+- https://drivekibi.com/routes/atlanta-to-new-orleans
 - https://drivekibi.com/routes/atlanta-to-orlando
+- https://drivekibi.com/routes/atlanta-to-savannah
+- https://drivekibi.com/routes/boston-to-miami
+- https://drivekibi.com/routes/chicago-to-atlanta
+- https://drivekibi.com/routes/chicago-to-destin
+- https://drivekibi.com/routes/chicago-to-nashville
+- https://drivekibi.com/routes/dallas-to-houston
+- https://drivekibi.com/routes/denver-to-las-vegas
+- https://drivekibi.com/routes/detroit-to-naples
+- https://drivekibi.com/routes/houston-to-new-orleans
+- https://drivekibi.com/routes/indianapolis-to-nashville
+- https://drivekibi.com/routes/kansas-city-to-st-louis
+- https://drivekibi.com/routes/los-angeles-to-las-vegas
+- https://drivekibi.com/routes/los-angeles-to-san-francisco
+- https://drivekibi.com/routes/minneapolis-to-chicago
+- https://drivekibi.com/routes/nashville-to-new-orleans
+- https://drivekibi.com/routes/new-york-to-miami
+- https://drivekibi.com/routes/new-york-to-washington-dc
+- https://drivekibi.com/routes/phoenix-to-san-diego
+- https://drivekibi.com/routes/pittsburgh-to-washington-dc
+- https://drivekibi.com/routes/seattle-to-portland
 
 ## Highway Exit Coverage Map
 https://drivekibi.com/kibi_exit_heatmap
@@ -103,3 +220,24 @@ A: Yes. Kibi auto-detects EVs and plug-in hybrids from its EPA database. EV driv
 
 Q: Does Kibi replace Google Maps?
 A: No. Kibi wraps around Google Maps, Apple Maps, or Waze. It plans the stops; your nav app handles the driving.
+
+Q: Does Kibi cost anything?
+A: No. Kibi is completely free to download and use. There are no ads, no subscriptions, and no paywalls in version 1.
+
+Q: What cars does Kibi work with?
+A: Kibi supports 49,000+ vehicles from the EPA fuel economy database — gas, diesel, hybrid, and electric — covering model years 1984 through 2026. Select your make, model, and year and Kibi auto-fills your fuel type and range.
+
+Q: How does Kibi calculate where I need to stop?
+A: Kibi uses your vehicle's EPA-verified fuel range to calculate optimal pitstop intervals with a 15% safety buffer. It then scores every highway exit along your route using Google Places ratings, amenity count, and accessibility, and recommends the single best exit that has gas, food, and a bathroom together.
+
+Q: What app should I use for a family road trip?
+A: Kibi is built for long highway drives where families need one clean stop that covers gas, food, and a bathroom. Preferences for family-friendly, wheelchair-accessible, pet-friendly, and 24-hour stops shape every recommendation, and Kibi deep-links into Google Maps, Apple Maps, or Waze so the driver doesn't have to re-plan mid-trip.
+
+Q: What app helps you find rest stops on a highway?
+A: Kibi scores 79,000+ US highway exits — including rest areas and service plazas — and surfaces the best one for your route. Users can set "rest areas" as a preference to prioritize them. Published route guides at drivekibi.com/routes show scored exits, service plazas, and rest areas for popular corridors.
+
+Q: What's a free alternative to Roadtrippers?
+A: Kibi is free and has no ads. It's not a direct Roadtrippers replacement — Roadtrippers is built for discovering attractions and planning multi-day itineraries, while Kibi is built for highway pitstop efficiency. But for drivers who just want to find the best place to stop on a long interstate drive, Kibi is free where Roadtrippers is freemium.
+
+Q: Is Kibi available on Android?
+A: Kibi is currently iOS only (iPhone, iOS 16.0+). Android support is being considered based on demand.
