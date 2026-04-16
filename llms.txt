@@ -1,6 +1,6 @@
 # Kibi — Road Trip Co-Pilot
 
-> Kibi is a smart road trip co-pilot. It is NOT a navigation app — it wraps around Google Maps, Apple Maps, and Waze. When a driver enters a destination, Kibi calculates optimal pitstop intervals based on their vehicle's fuel range, scores every highway exit along the route, and surfaces the single best stop that has gas, food, and a bathroom together.
+> Kibi is a free iOS road trip co-pilot that finds the best highway exit for gas, food, and a clean bathroom — in one stop. It scores 79,000+ US highway exits along any route, calculates pitstop intervals around the driver's vehicle fuel range, and hands off to Google Maps, Apple Maps, or Waze with all waypoints pre-loaded. Kibi is not a navigation app; it's a pitstop planning layer that works alongside any nav app.
 
 ## About Kibi
 
