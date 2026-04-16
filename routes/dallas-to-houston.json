@@ -23,7 +23,7 @@
             "convenience"
           ],
           "rating": 3.8,
-          "review_count": 124,
+          "review_count": 127,
           "address": "2000 US-287, Corsicana, TX 75110, USA",
           "phone": "(903) 602-7832",
           "open_now": true
@@ -34,7 +34,7 @@
             "food"
           ],
           "rating": 4.6,
-          "review_count": 1259,
+          "review_count": 1263,
           "address": "1903 US-287, Corsicana, TX 75110, USA",
           "phone": "(430) 222-3171",
           "open_now": true
@@ -45,7 +45,7 @@
             "coffee"
           ],
           "rating": 4.5,
-          "review_count": 2243,
+          "review_count": 2246,
           "address": "2035 I-45, Corsicana, TX 75109, USA",
           "phone": "(903) 872-2157",
           "open_now": true
@@ -57,7 +57,7 @@
             "coffee"
           ],
           "rating": 4.1,
-          "review_count": 671,
+          "review_count": 672,
           "address": "2004 US-287, Corsicana, TX 75110, USA",
           "phone": "(430) 236-6074",
           "open_now": true
@@ -79,7 +79,7 @@
             "food"
           ],
           "rating": 4.1,
-          "review_count": 1631,
+          "review_count": 1633,
           "address": "2201 I-45, Corsicana, TX 75110, USA",
           "phone": "(903) 641-0552",
           "open_now": true
@@ -90,7 +90,7 @@
             "food"
           ],
           "rating": 4.1,
-          "review_count": 1930,
+          "review_count": 1932,
           "address": "2001 S INTERSTATE HIGHWAY 45, Corsicana, TX 75109, USA",
           "phone": "(903) 874-6403",
           "open_now": true
@@ -101,7 +101,7 @@
             "food"
           ],
           "rating": 4.5,
-          "review_count": 669,
+          "review_count": 671,
           "address": "2951 US-287, Corsicana, TX 75109, USA",
           "phone": "(430) 775-9672",
           "open_now": true
@@ -112,7 +112,7 @@
             "food"
           ],
           "rating": 3.5,
-          "review_count": 621,
+          "review_count": 622,
           "address": "2015 So Dr #45, Corsicana, TX 75110, USA",
           "phone": "(903) 641-0369",
           "open_now": true
@@ -123,7 +123,7 @@
             "food"
           ],
           "rating": 3.9,
-          "review_count": 1677,
+          "review_count": 1679,
           "address": "2801 US-287, Corsicana, TX 75110, USA",
           "phone": "(903) 874-8920",
           "open_now": true
@@ -146,7 +146,7 @@
             "convenience"
           ],
           "rating": 4.4,
-          "review_count": 3127,
+          "review_count": 3137,
           "address": "947 W St Marys St, Centerville, TX 75833, USA",
           "phone": "(903) 536-9663",
           "open_now": true
@@ -159,7 +159,7 @@
             "convenience"
           ],
           "rating": 4.5,
-          "review_count": 779,
+          "review_count": 789,
           "address": "1021 W St Marys St, Centerville, TX 75833, USA",
           "phone": "(903) 536-2434",
           "open_now": true
@@ -183,7 +183,7 @@
             "convenience"
           ],
           "rating": 4.2,
-          "review_count": 56,
+          "review_count": 57,
           "address": "1021 W St Marys St, Centerville, TX 75833, USA",
           "phone": "(903) 536-2434",
           "open_now": true
@@ -196,7 +196,7 @@
             "convenience"
           ],
           "rating": 3.9,
-          "review_count": 56,
+          "review_count": 61,
           "address": "947 W St Marys St, Centerville, TX 75833, USA",
           "phone": "(903) 536-9663",
           "open_now": true
@@ -207,7 +207,7 @@
             "food"
           ],
           "rating": 4.1,
-          "review_count": 915,
+          "review_count": 916,
           "address": "921 W St Marys St, Centerville, TX 75833, USA",
           "phone": "(903) 322-7160",
           "open_now": true
@@ -218,7 +218,7 @@
             "food"
           ],
           "rating": 3.9,
-          "review_count": 811,
+          "review_count": 813,
           "address": "1120 W St Marys St, Centerville, TX 75833, USA",
           "phone": "(903) 536-2861",
           "open_now": true
@@ -229,10 +229,10 @@
             "food"
           ],
           "rating": 4.4,
-          "review_count": 590,
+          "review_count": 592,
           "address": "930 W St Marys St, Centerville, TX 75833, USA",
           "phone": "(903) 536-3271",
-          "open_now": false
+          "open_now": true
         },
         {
           "name": "Checkers",
@@ -251,7 +251,7 @@
             "gas"
           ],
           "rating": 4.3,
-          "review_count": 51,
+          "review_count": 52,
           "address": "950 W St Marys St, Centerville, TX 75833, USA",
           "phone": "(903) 536-8075",
           "open_now": true
@@ -285,7 +285,7 @@
             "food"
           ],
           "rating": 3.5,
-          "review_count": 417,
+          "review_count": 419,
           "address": "6505D FM1374, New Waverly, TX 77358, USA",
           "phone": "(346) 299-9338",
           "open_now": true

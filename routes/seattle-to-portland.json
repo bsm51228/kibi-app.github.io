@@ -4,7 +4,89 @@
   "destination": "Portland, OR",
   "highway": "I-5",
   "miles": 175,
-  "exit_count": 0,
+  "exit_count": 1,
   "has_tolls": null,
-  "exits": []
+  "exits": [
+    {
+      "exit_id": "osm_n_48832521",
+      "exit_number": "68",
+      "exit_name": "Exit 68",
+      "state": "WA",
+      "lat": 46.553082,
+      "lng": -122.876761,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Arco",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.2,
+          "review_count": 479,
+          "address": "116 US-12, Chehalis, WA 98532, USA",
+          "phone": "(360) 262-0045",
+          "open_now": true
+        },
+        {
+          "name": "ampm",
+          "types": [
+            "gas",
+            "food",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 3.9,
+          "review_count": 40,
+          "address": "116 US-12, Chehalis, WA 98532, USA",
+          "phone": "(360) 262-0045",
+          "open_now": true
+        },
+        {
+          "name": "Petro America",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.5,
+          "review_count": 26,
+          "address": "118 US-12, Chehalis, WA 98532, USA",
+          "phone": "(360) 262-9991",
+          "open_now": true
+        },
+        {
+          "name": "76",
+          "types": [
+            "gas"
+          ],
+          "rating": 3.9,
+          "review_count": 183,
+          "address": "110 E Avery Rd, Chehalis, WA 98532, USA",
+          "phone": "(360) 266-8105",
+          "open_now": true
+        },
+        {
+          "name": "Texaco",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.5,
+          "review_count": 16,
+          "address": "118 US-12, Chehalis, WA 98532, USA",
+          "phone": "(360) 262-9991",
+          "open_now": true
+        },
+        {
+          "name": "Chester's Chicken",
+          "types": [
+            "food"
+          ],
+          "rating": 4.8,
+          "review_count": 8,
+          "address": "104 W Avery Rd, Chehalis, WA 98532, USA",
+          "phone": "(360) 266-8105"
+        }
+      ]
+    }
+  ]
 }

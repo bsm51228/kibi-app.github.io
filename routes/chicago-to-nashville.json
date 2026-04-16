@@ -23,7 +23,7 @@
             "convenience"
           ],
           "rating": 4.1,
-          "review_count": 969,
+          "review_count": 978,
           "address": "11207 IN-10, De Motte, IN 46310, USA",
           "phone": "(219) 987-2202",
           "open_now": true
@@ -35,7 +35,7 @@
             "convenience"
           ],
           "rating": 3.7,
-          "review_count": 896,
+          "review_count": 898,
           "address": "11166 IN-10, De Motte, IN 46310, USA",
           "phone": "(219) 507-7013",
           "open_now": true
@@ -47,7 +47,7 @@
             "coffee"
           ],
           "rating": 4.1,
-          "review_count": 343,
+          "review_count": 345,
           "address": "11781 IN-10, De Motte, IN 46310, USA",
           "phone": "(219) 246-2300",
           "open_now": true
@@ -58,7 +58,7 @@
             "food"
           ],
           "rating": 4.2,
-          "review_count": 493,
+          "review_count": 498,
           "address": "11747 IN-10, De Motte, IN 46310, USA",
           "phone": "(219) 209-5258",
           "open_now": true
@@ -69,7 +69,7 @@
             "food"
           ],
           "rating": 4.4,
-          "review_count": 495,
+          "review_count": 496,
           "address": "9031 N 1200 W, De Motte, IN 46310, USA",
           "phone": "(219) 345-7687",
           "open_now": true
@@ -80,7 +80,7 @@
             "food"
           ],
           "rating": 4.2,
-          "review_count": 727,
+          "review_count": 730,
           "address": "11920 IN-10, De Motte, IN 46310, USA",
           "phone": "(219) 345-5511",
           "open_now": true
@@ -147,7 +147,7 @@
             "food"
           ],
           "rating": 4.7,
-          "review_count": 519,
+          "review_count": 520,
           "address": "147 S Stringtown Rd, Covington, IN 47932, USA",
           "phone": "(765) 793-4377",
           "open_now": true
@@ -158,8 +158,8 @@
             "gas",
             "convenience"
           ],
-          "rating": 2.5,
-          "review_count": 42,
+          "rating": 2.6,
+          "review_count": 43,
           "address": "188 S Stringtown Rd, Covington, IN 47932, USA",
           "phone": "(765) 793-2799",
           "open_now": true
@@ -193,7 +193,7 @@
             "convenience"
           ],
           "rating": 4.1,
-          "review_count": 1125,
+          "review_count": 1127,
           "address": "5555 E Margaret Ave, Terre Haute, IN 47803, USA",
           "phone": "(812) 877-9977",
           "open_now": true
@@ -204,7 +204,7 @@
             "food"
           ],
           "rating": 3.1,
-          "review_count": 144,
+          "review_count": 145,
           "address": "2499 IN-46, Terre Haute, IN 47803, USA",
           "phone": "(812) 990-4024",
           "open_now": true
@@ -216,7 +216,7 @@
             "coffee"
           ],
           "rating": 3.4,
-          "review_count": 1714,
+          "review_count": 1719,
           "address": "2633 IN-46, Terre Haute, IN 47803, USA",
           "phone": "(812) 877-6440",
           "open_now": true
@@ -227,7 +227,7 @@
             "food"
           ],
           "rating": 4,
-          "review_count": 1479,
+          "review_count": 1483,
           "address": "2149 IN-46, Terre Haute, IN 47803, USA",
           "phone": "(812) 877-2200",
           "open_now": true
@@ -240,8 +240,8 @@
             "coffee",
             "convenience"
           ],
-          "rating": 3.8,
-          "review_count": 53,
+          "rating": 3.9,
+          "review_count": 54,
           "address": "2665 IN-46, Terre Haute, IN 47803, USA",
           "phone": "(812) 877-6260",
           "open_now": true
@@ -252,7 +252,7 @@
             "food"
           ],
           "rating": 3.8,
-          "review_count": 926,
+          "review_count": 927,
           "address": "2319 IN-46, Terre Haute, IN 47803, USA",
           "phone": "(812) 234-6386",
           "open_now": true
@@ -274,7 +274,7 @@
             "food"
           ],
           "rating": 3.8,
-          "review_count": 689,
+          "review_count": 690,
           "address": "2575 IN-46, Terre Haute, IN 47803, USA",
           "phone": "(812) 877-6619",
           "open_now": true
@@ -284,8 +284,8 @@
           "types": [
             "food"
           ],
-          "rating": 4,
-          "review_count": 192,
+          "rating": 4.1,
+          "review_count": 193,
           "address": "5555 E Margaret Dr, Terre Haute, IN 47803, USA",
           "phone": "(812) 877-1879",
           "open_now": true
@@ -296,7 +296,7 @@
             "food"
           ],
           "rating": 5,
-          "review_count": 103,
+          "review_count": 104,
           "address": "2499 IN-46, Terre Haute, IN 47803, USA",
           "phone": "(812) 460-7856",
           "open_now": true
@@ -366,7 +366,7 @@
           "review_count": 18,
           "address": "4010 E 4th St, Owensboro, KY 42303, USA",
           "phone": "(270) 684-0262",
-          "open_now": false
+          "open_now": true
         }
       ]
     }

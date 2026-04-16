@@ -4,7 +4,272 @@
   "destination": "Washington, DC",
   "highway": "I-70, I-270",
   "miles": 245,
-  "exit_count": 0,
+  "exit_count": 3,
   "has_tolls": null,
-  "exits": []
+  "exits": [
+    {
+      "exit_id": "osm_n_801073652",
+      "exit_number": "110",
+      "exit_name": "Somerset",
+      "state": "PA",
+      "lat": 40.021444,
+      "lng": -79.084171,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Sheetz",
+          "types": [
+            "food",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 3.6,
+          "review_count": 103,
+          "address": "1189 N Ctr Ave, Somerset, PA 15501, USA",
+          "phone": "(814) 417-0133",
+          "open_now": true
+        },
+        {
+          "name": "Summit Diner",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 2153,
+          "address": "791 N Ctr Ave, Somerset, PA 15501, USA",
+          "phone": "(814) 445-7154",
+          "open_now": false
+        },
+        {
+          "name": "Eat'n Park",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 2436,
+          "address": "926 N Ctr Ave, Somerset, PA 15501, USA",
+          "phone": "(814) 443-4579",
+          "open_now": true
+        },
+        {
+          "name": "Ruby Tuesday",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 2688,
+          "address": "1019 N Ctr Ave, Somerset, PA 15501, USA",
+          "phone": "(814) 445-3934",
+          "open_now": true
+        },
+        {
+          "name": "Starbucks Coffee Company",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.3,
+          "review_count": 623,
+          "address": "1033 N Ctr Ave, Somerset, PA 15501, USA",
+          "phone": "(814) 443-3962",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.7,
+          "review_count": 1805,
+          "address": "937 N Ctr Ave, Somerset, PA 15501, USA",
+          "phone": "(814) 444-0059",
+          "open_now": true
+        },
+        {
+          "name": "Pine Grill Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 1576,
+          "address": "800 N Ctr Ave, Somerset, PA 15501, USA",
+          "phone": "(814) 445-2102",
+          "open_now": true
+        },
+        {
+          "name": "Chipotle Mexican Grill",
+          "types": [
+            "food"
+          ],
+          "rating": 3.6,
+          "review_count": 109,
+          "address": "1180 N Ctr Ave, Somerset, PA 15501, USA",
+          "phone": "(814) 701-3979",
+          "open_now": true
+        },
+        {
+          "name": "Rey Azteca Mexican Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 1246,
+          "address": "780 N Ctr Ave, Somerset, PA 15501, USA",
+          "phone": "(814) 443-2329",
+          "open_now": true
+        },
+        {
+          "name": "Sheetz",
+          "types": [
+            "food",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 4.2,
+          "review_count": 65,
+          "address": "118 S Rosina Ave, Somerset, PA 15501, USA",
+          "phone": "(814) 417-0081",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_148586063",
+      "exit_number": "163",
+      "exit_name": "Exit 163",
+      "state": "PA",
+      "lat": 39.799109,
+      "lng": -78.249313,
+      "stop_type": "exit_ramp",
+      "places": []
+    },
+    {
+      "exit_id": "osm_n_618111462",
+      "exit_number": "54",
+      "exit_name": "Exit 54",
+      "state": "MD",
+      "lat": 39.399955,
+      "lng": -77.408786,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Cafe Nola",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.3,
+          "review_count": 1989,
+          "address": "4 E Patrick St, Frederick, MD 21701, USA",
+          "phone": "(301) 694-6652",
+          "open_now": true
+        },
+        {
+          "name": "Costco Gas Station",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.7,
+          "review_count": 496,
+          "address": "10 Monocacy Blvd, Frederick, MD 21704, USA",
+          "phone": "(301) 644-1483",
+          "open_now": true
+        },
+        {
+          "name": "Sheetz",
+          "types": [
+            "food",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 3.7,
+          "review_count": 135,
+          "address": "6050 Buckeystown Pike, Frederick, MD 21704, USA",
+          "phone": "(240) 971-0850",
+          "open_now": true
+        },
+        {
+          "name": "the Wine Kitchen on the Creek",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 1441,
+          "address": "50 Carroll Creek Way #160, Frederick, MD 21701, USA",
+          "phone": "(301) 663-6968",
+          "open_now": true
+        },
+        {
+          "name": "Hootch and Banter",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 1605,
+          "address": "49 S Market St, Frederick, MD 21701, USA",
+          "phone": "(301) 732-4971",
+          "open_now": true
+        },
+        {
+          "name": "JoJo's Restaurant & Tap House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 1552,
+          "address": "16-18 E Patrick St, Frederick, MD 21701, USA",
+          "phone": "(301) 732-5197",
+          "open_now": true
+        },
+        {
+          "name": "The Common Market",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4.7,
+          "review_count": 1322,
+          "address": "5728 Buckeystown Pike B1, Frederick, MD 21704, USA",
+          "phone": "(301) 663-3416",
+          "open_now": true
+        },
+        {
+          "name": "Bentztown",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 263,
+          "address": "6 S Bentz St, Frederick, MD 21701, USA",
+          "phone": "(301) 301-8430",
+          "open_now": true
+        },
+        {
+          "name": "Sheetz",
+          "types": [
+            "food",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 3.7,
+          "review_count": 179,
+          "address": "5601 Buckeystown Pike, Frederick, MD 21701, USA",
+          "phone": "(240) 971-0008",
+          "open_now": true
+        },
+        {
+          "name": "Frederick Social",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.4,
+          "review_count": 518,
+          "address": "50 Citizen's Way, Frederick, MD 21701, USA",
+          "phone": "(240) 629-8525",
+          "open_now": true
+        }
+      ]
+    }
+  ]
 }

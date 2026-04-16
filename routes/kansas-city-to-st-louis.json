@@ -4,7 +4,333 @@
   "destination": "St. Louis, MO",
   "highway": "I-70",
   "miles": 250,
-  "exit_count": 0,
+  "exit_count": 3,
   "has_tolls": null,
-  "exits": []
+  "exits": [
+    {
+      "exit_id": "osm_w_229564062",
+      "exit_number": "0018",
+      "exit_name": "TA",
+      "state": "MO",
+      "lat": 38.994803,
+      "lng": -93.567455,
+      "stop_type": "service_plaza",
+      "places": [
+        {
+          "name": "TA Travel Center",
+          "types": [
+            "convenience"
+          ],
+          "rating": 3.8,
+          "review_count": 1220,
+          "address": "102 NW 4th St, Concordia, MO 64020, USA",
+          "phone": "(660) 463-2001",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.6,
+          "review_count": 1306,
+          "address": "101 NW 4th St, Concordia, MO 64020, USA",
+          "phone": "(660) 463-2921",
+          "open_now": true
+        },
+        {
+          "name": "Dempsey's BBQ",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 1086,
+          "address": "103 NE 2nd St, Concordia, MO 64020, USA",
+          "phone": "(660) 463-7232",
+          "open_now": true
+        },
+        {
+          "name": "El Patron Mexican Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 653,
+          "address": "202 NW 4th St, Concordia, MO 64020, USA",
+          "phone": "(660) 214-3524",
+          "open_now": true
+        },
+        {
+          "name": "Casey's",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 3.6,
+          "review_count": 181,
+          "address": "101 N Main St, Concordia, MO 64020, USA",
+          "phone": "(660) 717-0182",
+          "open_now": true
+        },
+        {
+          "name": "Seven Days Diner",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 655,
+          "address": "108 NW 4th St, Concordia, MO 64020, USA",
+          "phone": "(660) 463-0422",
+          "open_now": false
+        },
+        {
+          "name": "Dollar General",
+          "types": [
+            "convenience"
+          ],
+          "rating": 4,
+          "review_count": 207,
+          "address": "301 NW 4th St, Concordia, MO 64020, USA",
+          "phone": "(660) 279-0790",
+          "open_now": true
+        },
+        {
+          "name": "7th heaven",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.3,
+          "review_count": 32,
+          "address": "104 N Main St, Concordia, MO 64020, USA",
+          "phone": "(660) 463-0550",
+          "open_now": true
+        },
+        {
+          "name": "Concordia Eagle Stop",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 3.7,
+          "review_count": 23,
+          "address": "201 N Main St, Concordia, MO 64020, USA",
+          "phone": "(660) 463-0140",
+          "open_now": true
+        },
+        {
+          "name": "China Dragon",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 236,
+          "address": "703 S Main St, Concordia, MO 64020, USA",
+          "phone": "(660) 463-7888",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_189093891",
+      "exit_number": "124",
+      "exit_name": "Exit 124",
+      "state": "MO",
+      "lat": 38.967283,
+      "lng": -92.368154,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Chick-fil-A",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 3594,
+          "address": "305 N Stadium Blvd, Columbia, MO 65203, USA",
+          "phone": "(573) 445-6627",
+          "open_now": true
+        },
+        {
+          "name": "Texas Roadhouse",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 4304,
+          "address": "2005 W Worley St, Columbia, MO 65203, USA",
+          "phone": "(573) 445-5910",
+          "open_now": true
+        },
+        {
+          "name": "Olive Garden Italian Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 3653,
+          "address": "1300 Interstate 70 Dr SW, Columbia, MO 65203, USA",
+          "phone": "(573) 443-2082",
+          "open_now": true
+        },
+        {
+          "name": "Cheddar's Scratch Kitchen",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 3544,
+          "address": "1010 Interstate 70 Dr SW, Columbia, MO 65203, USA",
+          "phone": "(573) 441-0617",
+          "open_now": true
+        },
+        {
+          "name": "Culver\u2019s",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 780,
+          "address": "2010 Bernadette Dr, Columbia, MO 65203, USA",
+          "phone": "(573) 447-6847",
+          "open_now": true
+        },
+        {
+          "name": "Barnes & Noble",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4.5,
+          "review_count": 2211,
+          "address": "2208 Bernadette Dr, Columbia, MO 65203, USA",
+          "phone": "(573) 445-4080",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.6,
+          "review_count": 1961,
+          "address": "415 N Stadium Blvd, Columbia, MO 65203, USA",
+          "phone": "(573) 445-6211",
+          "open_now": true
+        },
+        {
+          "name": "First Watch",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 660,
+          "address": "421 N Stadium Blvd Ste 109, Columbia, MO 65203, USA",
+          "phone": "(573) 615-5100",
+          "open_now": false
+        },
+        {
+          "name": "Chipotle Mexican Grill",
+          "types": [
+            "food"
+          ],
+          "rating": 3.2,
+          "review_count": 827,
+          "address": "2020 W Worley St, Columbia, MO 65203, USA",
+          "phone": "(573) 446-2007",
+          "open_now": true
+        },
+        {
+          "name": "Red Lobster",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 2244,
+          "address": "1110 Interstate 70 Dr SW, Columbia, MO 65203, USA",
+          "phone": "(573) 445-8324",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_193784955",
+      "exit_number": "188",
+      "exit_name": "Exit 188",
+      "state": "MO",
+      "lat": 38.836905,
+      "lng": -91.222144,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Flying J Travel Center",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.9,
+          "review_count": 2525,
+          "address": "1 Campbranch Rd, Warrenton, MO 63383, USA",
+          "phone": "(636) 456-2001",
+          "open_now": true
+        },
+        {
+          "name": "Denny's Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 3.7,
+          "review_count": 1055,
+          "address": "1 Campbranch Rd, Warrenton, MO 63383, USA",
+          "phone": "(636) 456-3746",
+          "open_now": true
+        },
+        {
+          "name": "PJ Fresh Marketplace",
+          "types": [
+            "food"
+          ],
+          "rating": 4.8,
+          "review_count": 12,
+          "address": "24004 W Veterans Memorial Pkwy, Warrenton, MO 63383, USA",
+          "phone": "(636) 456-2001",
+          "open_now": true
+        },
+        {
+          "name": "Rails Bar & Grill",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 50,
+          "address": "24152 Kelling Ln, Warrenton, MO 63383, USA",
+          "phone": "(636) 377-1148",
+          "open_now": true
+        },
+        {
+          "name": "Conoco",
+          "types": [
+            "gas"
+          ],
+          "rating": 3,
+          "review_count": 2,
+          "address": "24004 W Veterans Memorial Pkwy, Warrenton, MO 63383, USA",
+          "phone": "(636) 456-2001"
+        },
+        {
+          "name": "The Burger Den",
+          "types": [
+            "food"
+          ],
+          "rating": null,
+          "review_count": null,
+          "address": "1 Campbranch Rd Flying J, Warrenton, MO 63383, USA",
+          "phone": "(636) 456-3746",
+          "open_now": true
+        }
+      ]
+    }
+  ]
 }

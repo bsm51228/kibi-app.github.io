@@ -4,7 +4,63 @@
   "destination": "Nashville, TN",
   "highway": "I-65",
   "miles": 290,
-  "exit_count": 0,
+  "exit_count": 2,
   "has_tolls": null,
-  "exits": []
+  "exits": [
+    {
+      "exit_id": "osm_n_610113021",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "IN",
+      "lat": 38.82679,
+      "lng": -86.510372,
+      "stop_type": "exit_ramp",
+      "places": []
+    },
+    {
+      "exit_id": "osm_n_168589419",
+      "exit_number": "7",
+      "exit_name": "Exit 7",
+      "state": "KY",
+      "lat": 36.992512,
+      "lng": -86.50429,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "231 Bar & Grill",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 243,
+          "address": "1823 Morgantown Rd Ste 2, Bowling Green, KY 42101, USA",
+          "phone": "(270) 495-1117",
+          "open_now": true
+        },
+        {
+          "name": "bp",
+          "types": [
+            "gas"
+          ],
+          "rating": 3.9,
+          "review_count": 203,
+          "address": "1823 Morgantown Rd, Bowling Green, KY 42101, USA",
+          "phone": "(270) 846-0624",
+          "open_now": true
+        },
+        {
+          "name": "231 Food Market",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 4.4,
+          "review_count": 22,
+          "address": "1823 Morgantown Rd Suite #103, Bowling Green, KY 42101, USA",
+          "phone": "(270) 846-0624",
+          "open_now": true
+        }
+      ]
+    }
+  ]
 }

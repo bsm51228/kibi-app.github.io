@@ -4,7 +4,334 @@
   "destination": "Charlotte, NC",
   "highway": "I-85",
   "miles": 245,
-  "exit_count": 0,
+  "exit_count": 3,
   "has_tolls": null,
-  "exits": []
+  "exits": [
+    {
+      "exit_id": "osm_w_1270894172",
+      "exit_number": "737",
+      "exit_name": "QuikTrip",
+      "state": "GA",
+      "lat": 34.153784,
+      "lng": -83.65002,
+      "stop_type": "service_plaza",
+      "places": [
+        {
+          "name": "QuikTrip",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 3.7,
+          "review_count": 238,
+          "address": "5240 US-129, Jefferson, GA 30549, USA",
+          "phone": "(706) 693-4381",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.3,
+          "review_count": 3118,
+          "address": "4875 US-129, Jefferson, GA 30549, USA",
+          "phone": "(706) 693-4320",
+          "open_now": true
+        },
+        {
+          "name": "RaceTrac",
+          "types": [
+            "gas",
+            "food",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 3.2,
+          "review_count": 249,
+          "address": "4752 Hwy 129 N, Jefferson, GA 30549, USA",
+          "phone": "(404) 829-6138",
+          "open_now": true
+        },
+        {
+          "name": "Zaxbys Chicken Fingers & Buffalo Wings",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 1166,
+          "address": "4853 Hwy 129 N #129, Jefferson, GA 30549, USA",
+          "phone": "(706) 693-4917",
+          "open_now": true
+        },
+        {
+          "name": "El Jinete Mexican Restaurant Jefferson",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 2191,
+          "address": "4932 US-129, Jefferson, GA 30549, USA",
+          "phone": "(706) 693-2177",
+          "open_now": true
+        },
+        {
+          "name": "Waffle House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 1511,
+          "address": "4897 US-129, Jefferson, GA 30549, USA",
+          "phone": "(706) 693-4158",
+          "open_now": true
+        },
+        {
+          "name": "Wendy's",
+          "types": [
+            "food"
+          ],
+          "rating": 3.8,
+          "review_count": 1205,
+          "address": "5270 US-129, Jefferson, GA 30549, USA",
+          "phone": "(706) 693-4442",
+          "open_now": true
+        },
+        {
+          "name": "KFC",
+          "types": [
+            "food"
+          ],
+          "rating": 3,
+          "review_count": 759,
+          "address": "4821 US-129, Jefferson, GA 30549, USA",
+          "phone": "(706) 693-0833",
+          "open_now": true
+        },
+        {
+          "name": "Speedway",
+          "types": [
+            "gas"
+          ],
+          "rating": 3.1,
+          "review_count": 120,
+          "address": "115 Speedway Dr, Jefferson, GA 30549, USA",
+          "phone": "(706) 693-4255",
+          "open_now": true
+        },
+        {
+          "name": "Bojangles",
+          "types": [
+            "food"
+          ],
+          "rating": 3.7,
+          "review_count": 967,
+          "address": "4836 Hwy 129 N, Jefferson, GA 30549, USA",
+          "phone": "(706) 367-4300",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_w_1415402264",
+      "exit_number": "1106",
+      "exit_name": "QuikTrip",
+      "state": "SC",
+      "lat": 34.577269,
+      "lng": -82.692198,
+      "stop_type": "service_plaza",
+      "places": [
+        {
+          "name": "QuikTrip",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 4.3,
+          "review_count": 232,
+          "address": "4535 Liberty Hwy, Anderson, SC 29621, USA",
+          "phone": "(864) 224-8645",
+          "open_now": true
+        },
+        {
+          "name": "Cracker Barrel Old Country Store",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 4689,
+          "address": "126 Interstate Blvd, Anderson, SC 29621, USA",
+          "phone": "(864) 225-4566",
+          "open_now": true
+        },
+        {
+          "name": "Burger King",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 815,
+          "address": "4460 Liberty Hwy, Anderson, SC 29621, USA",
+          "phone": "(864) 401-8337",
+          "open_now": true
+        },
+        {
+          "name": "bp",
+          "types": [
+            "gas"
+          ],
+          "rating": 3.1,
+          "review_count": 56,
+          "address": "4536 Liberty Hwy, Anderson, SC 29621, USA",
+          "phone": "(864) 260-9452",
+          "open_now": true
+        },
+        {
+          "name": "Waffle House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 824,
+          "address": "2 Justice Ln, Anderson, SC 29621, USA",
+          "phone": "(864) 222-3834",
+          "open_now": true
+        },
+        {
+          "name": "Liberty Food Mart",
+          "types": [
+            "convenience"
+          ],
+          "rating": 1,
+          "review_count": 1,
+          "address": "4536 Liberty Hwy, Anderson, SC 29621, USA"
+        },
+        {
+          "name": "ENERGY MARKET",
+          "types": [
+            "gas"
+          ],
+          "rating": 3.4,
+          "review_count": 5,
+          "address": "South Carolina 29621, USA",
+          "phone": "(864) 260-9452",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_w_1089762177",
+      "exit_number": "0477",
+      "exit_name": "TA",
+      "state": "SC",
+      "lat": 35.047196,
+      "lng": -81.811786,
+      "stop_type": "service_plaza",
+      "places": [
+        {
+          "name": "TA Travel Center",
+          "types": [
+            "convenience"
+          ],
+          "rating": 3.5,
+          "review_count": 162,
+          "address": "175 Truck Stop Rd, Cowpens, SC 29330, USA",
+          "phone": "(864) 755-4335",
+          "open_now": true
+        },
+        {
+          "name": "HOT SPOT",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 4.2,
+          "review_count": 325,
+          "address": "371 Battleground Rd, Cowpens, SC 29330, USA",
+          "phone": "(864) 463-3205",
+          "open_now": true
+        },
+        {
+          "name": "Shell",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 4.1,
+          "review_count": 7,
+          "address": "371 Battleground Rd, Cowpens, SC 29330, USA",
+          "phone": "(864) 463-3205",
+          "open_now": true
+        },
+        {
+          "name": "Valero",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.1,
+          "review_count": 242,
+          "address": "847 Battleground Rd, Cowpens, SC 29330, USA",
+          "phone": "(864) 463-6882",
+          "open_now": true
+        },
+        {
+          "name": "Amoco",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.7,
+          "review_count": 3,
+          "address": "175 Truck Stop Rd, Cowpens, SC 29330, USA"
+        },
+        {
+          "name": "Sbarro",
+          "types": [
+            "food"
+          ],
+          "rating": 3.7,
+          "review_count": 54,
+          "address": "175 Truck Stop Rd, Cowpens, SC 29330, USA",
+          "phone": "(864) 755-4335",
+          "open_now": true
+        },
+        {
+          "name": "Bluegrass BBQ & Catering",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 500,
+          "address": "385 Battleground Rd, Cowpens, SC 29330, USA",
+          "phone": "(864) 406-0053",
+          "open_now": true
+        },
+        {
+          "name": "Hunt Brothers Pizza",
+          "types": [
+            "food"
+          ],
+          "rating": 5,
+          "review_count": 1,
+          "address": "371 Battleground Rd, Cowpens, SC 29330, USA",
+          "phone": "(864) 463-3205",
+          "open_now": true
+        },
+        {
+          "name": "Scotchman",
+          "types": [
+            "gas"
+          ],
+          "rating": null,
+          "review_count": null,
+          "address": "831 Battleground Rd, Cowpens, SC 29330, USA",
+          "phone": "(864) 463-6882"
+        }
+      ]
+    }
+  ]
 }

@@ -4,7 +4,391 @@
   "destination": "New Orleans, LA",
   "highway": "I-65, I-59",
   "miles": 530,
-  "exit_count": 0,
+  "exit_count": 4,
   "has_tolls": null,
-  "exits": []
+  "exits": [
+    {
+      "exit_id": "osm_n_202404242",
+      "exit_number": "22",
+      "exit_name": "Exit 22",
+      "state": "TN",
+      "lat": 35.305267,
+      "lng": -86.882581,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Tennessean Travel Stop",
+          "types": [
+            "gas",
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 5023,
+          "address": "3686 Pulaski Hwy, Cornersville, TN 37047, USA",
+          "phone": "(931) 293-4171",
+          "open_now": true
+        },
+        {
+          "name": "Pilot Travel Center",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.8,
+          "review_count": 1185,
+          "address": "9211 Lewisburg Hwy, Cornersville, TN 37047, USA",
+          "phone": "(931) 363-3290",
+          "open_now": true
+        },
+        {
+          "name": "KidsVille Playground",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4.7,
+          "review_count": 318,
+          "address": "2404 Kidsville Wy, Cornersville, TN 37047, USA",
+          "phone": "(931) 288-8042",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.5,
+          "review_count": 1326,
+          "address": "3685 Pulaski Hwy, Cornersville, TN 37047, USA",
+          "phone": "(931) 293-7800",
+          "open_now": true
+        },
+        {
+          "name": "Pop's Barbeque",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 338,
+          "address": "3609 Sam Davis Hwy, Cornersville, TN 37047, USA",
+          "phone": "(931) 293-4171",
+          "open_now": true
+        },
+        {
+          "name": "Shell",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 3.4,
+          "review_count": 50,
+          "address": "9122 Lewisburg Hwy, Cornersville, TN 37047, USA",
+          "phone": "(931) 363-8112",
+          "open_now": true
+        },
+        {
+          "name": "Exxon",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.1,
+          "review_count": 399,
+          "address": "3686 Pulaski Hwy, Cornersville, TN 37047, USA",
+          "phone": "(931) 293-4171",
+          "open_now": true
+        },
+        {
+          "name": "bp",
+          "types": [
+            "gas"
+          ],
+          "rating": 3.2,
+          "review_count": 59,
+          "address": "3709 Pulaski Hwy, Cornersville, TN 37047, USA",
+          "phone": "(270) 438-9705",
+          "open_now": true
+        },
+        {
+          "name": "Subway",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 707,
+          "address": "3695 Pulaski Hwy, Cornersville, TN 37047, USA",
+          "phone": "(931) 293-2117",
+          "open_now": true
+        },
+        {
+          "name": "Miguel's Bar & Dance",
+          "types": [
+            "food"
+          ],
+          "rating": 5,
+          "review_count": 4,
+          "address": "8998 Lewisburg Hwy, Cornersville, TN 37047, USA",
+          "phone": "(931) 292-2136",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_w_220388751",
+      "exit_number": "381",
+      "exit_name": "Love's Travel Stop",
+      "state": "AL",
+      "lat": 34.366724,
+      "lng": -86.893439,
+      "stop_type": "service_plaza",
+      "places": [
+        {
+          "name": "Love's Travel Stop",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 4.1,
+          "review_count": 1119,
+          "address": "64 E Pike Rd, Falkville, AL 35622, USA",
+          "phone": "(256) 784-6106",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.3,
+          "review_count": 974,
+          "address": "64 E Pike Rd, Falkville, AL 35622, USA",
+          "phone": "(256) 784-9661",
+          "open_now": true
+        },
+        {
+          "name": "Marathon",
+          "types": [
+            "gas"
+          ],
+          "rating": 4,
+          "review_count": 399,
+          "address": "101 Hwy 55 W, Falkville, AL 35622, USA",
+          "phone": "(256) 784-9378",
+          "open_now": true
+        },
+        {
+          "name": "DG Market",
+          "types": [
+            "convenience"
+          ],
+          "rating": 4.3,
+          "review_count": 371,
+          "address": "457 E Pike Rd, Falkville, AL 35622, USA",
+          "phone": "(256) 502-4016",
+          "open_now": true
+        },
+        {
+          "name": "Cross Ties Coffee Company",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4.9,
+          "review_count": 144,
+          "address": "46 Railroad Ave, Falkville, AL 35622, USA",
+          "phone": "(256) 965-5033",
+          "open_now": true
+        },
+        {
+          "name": "Chevron Falkville",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.7,
+          "review_count": 18,
+          "address": "380 Buster Rd, Falkville, AL 35622, USA",
+          "phone": "(256) 784-6200",
+          "open_now": true
+        },
+        {
+          "name": "Subway",
+          "types": [
+            "food"
+          ],
+          "rating": 3.7,
+          "review_count": 185,
+          "address": "64 E Pike Rd, Falkville, AL 35622, USA",
+          "phone": "(256) 784-6109",
+          "open_now": true
+        },
+        {
+          "name": "Mr Quick Store",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 4,
+          "review_count": 24,
+          "address": "4696 US-31, Falkville, AL 35622, USA",
+          "phone": "(256) 784-5260",
+          "open_now": true
+        },
+        {
+          "name": "El Portal Food Truck",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 33,
+          "address": "59 Douglas Rd, Falkville, AL 35622, USA",
+          "phone": "(256) 387-0599",
+          "open_now": true
+        },
+        {
+          "name": "Falkville Food Mart",
+          "types": [
+            "convenience"
+          ],
+          "rating": null,
+          "review_count": null,
+          "address": "380 Buster Rd, Falkville, AL 35622, USA",
+          "phone": "(256) 784-6200",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_968204567",
+      "exit_number": "126A",
+      "exit_name": "Exit 126A",
+      "state": "AL",
+      "lat": 33.523917,
+      "lng": -86.808523,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Topgolf Birmingham",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 1667,
+          "address": "1111 24th St N, Birmingham, AL 35234, USA",
+          "phone": "(205) 847-5757",
+          "open_now": true
+        },
+        {
+          "name": "The Southern Kitchen And Bar",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 3021,
+          "address": "2301 Richard Arrington Jr Blvd N #300, Birmingham, AL 35203, USA",
+          "phone": "(205) 278-7280",
+          "open_now": true
+        },
+        {
+          "name": "K & J's Elegant Pastries",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 747,
+          "address": "2260 9th Ave N, Birmingham, AL 35203, USA",
+          "phone": "(205) 306-2407",
+          "open_now": true
+        },
+        {
+          "name": "El Barrio - Downtown Birmingham",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 2134,
+          "address": "2211 2nd Ave N, Birmingham, AL 35203, USA",
+          "phone": "(205) 868-3737",
+          "open_now": true
+        },
+        {
+          "name": "The Essential",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 865,
+          "address": "2215 1st Ave N, Birmingham, AL 35203, USA",
+          "phone": "(205) 718-7612",
+          "open_now": true
+        },
+        {
+          "name": "Frothy Monkey",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.3,
+          "review_count": 624,
+          "address": "2320 2nd Ave N, Birmingham, AL 35203, USA",
+          "phone": "(205) 974-3600",
+          "open_now": true
+        },
+        {
+          "name": "Paramount - Downtown Birmingham",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 2195,
+          "address": "200 20th St N, Birmingham, AL 35203, USA",
+          "phone": "(205) 320-2824",
+          "open_now": true
+        },
+        {
+          "name": "Texas de Brazil - Birmingham",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 3355,
+          "address": "2301 Richard Arrington Jr Blvd N, Birmingham, AL 35203, USA",
+          "phone": "(205) 588-1547",
+          "open_now": false
+        },
+        {
+          "name": "June Coffee",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4.8,
+          "review_count": 388,
+          "address": "213 25th St N Suite C, Birmingham, AL 35203, USA",
+          "open_now": true
+        },
+        {
+          "name": "Yo' Mama's",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 1800,
+          "address": "2024 4th Ave N, Birmingham, AL 35203, USA",
+          "phone": "(205) 957-6545",
+          "open_now": false
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_126077242",
+      "exit_number": "19",
+      "exit_name": "Exit 19",
+      "state": "MS",
+      "lat": 30.715561,
+      "lng": -89.555425,
+      "stop_type": "exit_ramp",
+      "places": []
+    }
+  ]
 }

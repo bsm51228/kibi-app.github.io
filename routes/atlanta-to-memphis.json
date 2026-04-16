@@ -2,9 +2,421 @@
   "route_slug": "atlanta-to-memphis",
   "origin": "Atlanta, GA",
   "destination": "Memphis, TN",
-  "highway": "I-22",
+  "highway": "I-20, I-22",
   "miles": 390,
-  "exit_count": 0,
+  "exit_count": 5,
   "has_tolls": null,
-  "exits": []
+  "exits": [
+    {
+      "exit_id": "osm_n_52866157",
+      "exit_number": "199",
+      "exit_name": "Exit 199",
+      "state": "AL",
+      "lat": 33.621999,
+      "lng": -85.598871,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.7,
+          "review_count": 1567,
+          "address": "1816 Almon St, Heflin, AL 36264, USA",
+          "phone": "(256) 463-8888",
+          "open_now": true
+        },
+        {
+          "name": "DamnYankees",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 1077,
+          "address": "2190 Almon St, Heflin, AL 36264, USA",
+          "phone": "(256) 463-5050",
+          "open_now": false
+        },
+        {
+          "name": "Vallarta Mexican Restaurant & Taco",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 839,
+          "address": "1921 Almon St, Heflin, AL 36264, USA",
+          "phone": "(256) 463-7868",
+          "open_now": true
+        },
+        {
+          "name": "Marie's BBQ House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 699,
+          "address": "1414 Almon St, Heflin, AL 36264, USA",
+          "phone": "(256) 463-3636",
+          "open_now": true
+        },
+        {
+          "name": "Chevron",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 4.3,
+          "review_count": 41,
+          "address": "2216 Almon St, Heflin, AL 36264, USA",
+          "phone": "(256) 463-1833",
+          "open_now": true
+        },
+        {
+          "name": "Shell",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.8,
+          "review_count": 68,
+          "address": "1945 Almon St, Heflin, AL 36264, USA",
+          "phone": "(256) 463-2500",
+          "open_now": true
+        },
+        {
+          "name": "Rhythm Cafe Heflin",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.9,
+          "review_count": 130,
+          "address": "1221 Almon St, Heflin, AL 36264, USA",
+          "phone": "(256) 357-6774",
+          "open_now": true
+        },
+        {
+          "name": "Subway",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 189,
+          "address": "1945 Almon St, Heflin, AL 36264, USA",
+          "phone": "(256) 294-3338",
+          "open_now": true
+        },
+        {
+          "name": "Dollar General",
+          "types": [
+            "convenience"
+          ],
+          "rating": 2,
+          "review_count": 5,
+          "address": "1663 Almon St, Heflin, AL 36264, USA",
+          "phone": "(938) 526-0080",
+          "open_now": true
+        },
+        {
+          "name": "Supermart",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.6,
+          "review_count": 9,
+          "address": "2252 Almon St, Heflin, AL 36264, USA",
+          "phone": "(256) 463-5605",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_968204567",
+      "exit_number": "126A",
+      "exit_name": "Exit 126A",
+      "state": "AL",
+      "lat": 33.523917,
+      "lng": -86.808523,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Topgolf Birmingham",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 1667,
+          "address": "1111 24th St N, Birmingham, AL 35234, USA",
+          "phone": "(205) 847-5757",
+          "open_now": true
+        },
+        {
+          "name": "The Southern Kitchen And Bar",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 3021,
+          "address": "2301 Richard Arrington Jr Blvd N #300, Birmingham, AL 35203, USA",
+          "phone": "(205) 278-7280",
+          "open_now": true
+        },
+        {
+          "name": "K & J's Elegant Pastries",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 747,
+          "address": "2260 9th Ave N, Birmingham, AL 35203, USA",
+          "phone": "(205) 306-2407",
+          "open_now": true
+        },
+        {
+          "name": "El Barrio - Downtown Birmingham",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 2134,
+          "address": "2211 2nd Ave N, Birmingham, AL 35203, USA",
+          "phone": "(205) 868-3737",
+          "open_now": true
+        },
+        {
+          "name": "The Essential",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 865,
+          "address": "2215 1st Ave N, Birmingham, AL 35203, USA",
+          "phone": "(205) 718-7612",
+          "open_now": true
+        },
+        {
+          "name": "Frothy Monkey",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.3,
+          "review_count": 624,
+          "address": "2320 2nd Ave N, Birmingham, AL 35203, USA",
+          "phone": "(205) 974-3600",
+          "open_now": true
+        },
+        {
+          "name": "Paramount - Downtown Birmingham",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 2195,
+          "address": "200 20th St N, Birmingham, AL 35203, USA",
+          "phone": "(205) 320-2824",
+          "open_now": true
+        },
+        {
+          "name": "Texas de Brazil - Birmingham",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 3355,
+          "address": "2301 Richard Arrington Jr Blvd N, Birmingham, AL 35203, USA",
+          "phone": "(205) 588-1547",
+          "open_now": false
+        },
+        {
+          "name": "June Coffee",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4.8,
+          "review_count": 388,
+          "address": "213 25th St N Suite C, Birmingham, AL 35203, USA",
+          "open_now": true
+        },
+        {
+          "name": "Yo' Mama's",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 1800,
+          "address": "2024 4th Ave N, Birmingham, AL 35203, USA",
+          "phone": "(205) 957-6545",
+          "open_now": false
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_372431558",
+      "exit_number": "39",
+      "exit_name": "Exit 39",
+      "state": "AL",
+      "lat": 33.950853,
+      "lng": -87.610324,
+      "stop_type": "exit_ramp",
+      "places": []
+    },
+    {
+      "exit_id": "osm_n_277329093",
+      "exit_number": "101",
+      "exit_name": "Exit 101",
+      "state": "MS",
+      "lat": 34.256633,
+      "lng": -88.465336,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Peppertown Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 345,
+          "address": "21 MS-363, Mantachie, MS 38855, USA",
+          "phone": "(662) 862-2588",
+          "open_now": true
+        },
+        {
+          "name": "Marathon",
+          "types": [
+            "gas"
+          ],
+          "rating": 3.8,
+          "review_count": 81,
+          "address": "5341 MS-178 W, Fulton, MS 38843, USA",
+          "phone": "(662) 862-9998",
+          "open_now": true
+        },
+        {
+          "name": "Dynasty 78 Fish And Steakhouse",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 78,
+          "address": "Mantachie, MS 38855, USA",
+          "phone": "(662) 231-5796"
+        },
+        {
+          "name": "Bill's Food Mart Inc",
+          "types": [
+            "convenience"
+          ],
+          "rating": 3.8,
+          "review_count": 20,
+          "address": "5341 MS-178, Fulton, MS 38843, USA",
+          "phone": "(662) 862-9998",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_372271076",
+      "exit_number": "41",
+      "exit_name": "Exit 41",
+      "state": "MS",
+      "lat": 34.658593,
+      "lng": -89.307723,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Flick's Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 211,
+          "address": "6594 Church Ave, Potts Camp, MS 38659, USA",
+          "phone": "(662) 333-6345",
+          "open_now": true
+        },
+        {
+          "name": "bp",
+          "types": [
+            "gas"
+          ],
+          "rating": 5,
+          "review_count": 1,
+          "address": "6594 Church Ave, Potts Camp, MS 38659, USA",
+          "phone": "(662) 333-6345",
+          "open_now": true
+        },
+        {
+          "name": "Dollar General",
+          "types": [
+            "convenience"
+          ],
+          "rating": 3.7,
+          "review_count": 152,
+          "address": "21 Homan Rd, Potts Camp, MS 38659, USA",
+          "phone": "(662) 333-5909",
+          "open_now": true
+        },
+        {
+          "name": "Potts Camp Food Mart (old spiders)",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.2,
+          "review_count": 100,
+          "address": "6769 Church Ave, Potts Camp, MS 38659, USA",
+          "phone": "(662) 333-7713",
+          "open_now": true
+        },
+        {
+          "name": "Corner Quick Stop",
+          "types": [
+            "gas"
+          ],
+          "rating": 3.8,
+          "review_count": 49,
+          "address": "6918 Church St, Potts Camp, MS 38659, USA",
+          "phone": "(662) 333-7654"
+        },
+        {
+          "name": "Flick's Local Express",
+          "types": [
+            "gas",
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 94,
+          "address": "6495 Church Ave, Potts Camp, MS 38659, USA",
+          "phone": "(662) 333-6345",
+          "open_now": true
+        },
+        {
+          "name": "Sunoco",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": null,
+          "review_count": null,
+          "address": "6769 Church Ave, Potts Camp, MS 38659, USA",
+          "phone": "(662) 333-7713",
+          "open_now": true
+        },
+        {
+          "name": "EL ALAZAN MEXICAN RESTURANT",
+          "types": [
+            "food"
+          ],
+          "rating": 4.8,
+          "review_count": 15,
+          "address": "6786 Church Ave, Potts Camp, MS 38659, USA",
+          "phone": "(662) 333-1391",
+          "open_now": true
+        }
+      ]
+    }
+  ]
 }

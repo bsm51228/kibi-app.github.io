@@ -21,7 +21,7 @@
             "food"
           ],
           "rating": 4.7,
-          "review_count": 7013,
+          "review_count": 7018,
           "address": "15290 Civic Dr, Victorville, CA 92394, USA",
           "phone": "(800) 786-1000",
           "open_now": true
@@ -33,7 +33,7 @@
             "coffee"
           ],
           "rating": 3.7,
-          "review_count": 3393,
+          "review_count": 3395,
           "address": "14860 la Paz Pl, Victorville, CA 92392, USA",
           "phone": "(760) 243-4032",
           "open_now": true
@@ -46,7 +46,7 @@
             "convenience"
           ],
           "rating": 4,
-          "review_count": 568,
+          "review_count": 570,
           "address": "15825 Mojave Dr, Victorville, CA 92394, USA",
           "phone": "(760) 843-7224",
           "open_now": true
@@ -57,7 +57,7 @@
             "food"
           ],
           "rating": 4.5,
-          "review_count": 3051,
+          "review_count": 3054,
           "address": "3943 14950 7th St, Victorville, CA 92395, USA",
           "phone": "(760) 245-4900",
           "open_now": true
@@ -81,10 +81,10 @@
             "coffee"
           ],
           "rating": 4.7,
-          "review_count": 1433,
+          "review_count": 1435,
           "address": "15775 Mojave Dr, Victorville, CA 92394, USA",
           "phone": "(760) 241-4900",
-          "open_now": false
+          "open_now": true
         },
         {
           "name": "Panda Express",
@@ -92,7 +92,7 @@
             "food"
           ],
           "rating": 4,
-          "review_count": 1040,
+          "review_count": 1042,
           "address": "15270 Civic Dr, Victorville, CA 92394, USA",
           "phone": "(760) 951-1612",
           "open_now": true
@@ -103,7 +103,7 @@
             "food"
           ],
           "rating": 4.2,
-          "review_count": 2243,
+          "review_count": 2254,
           "address": "14794 La Paz Dr, Victorville, CA 92395, USA",
           "phone": "(760) 214-9260",
           "open_now": true
@@ -114,7 +114,7 @@
             "food"
           ],
           "rating": 3.8,
-          "review_count": 1256,
+          "review_count": 1257,
           "address": "15770 Mojave Dr, Victorville, CA 92394, USA",
           "phone": "(760) 843-7375",
           "open_now": true
@@ -125,7 +125,7 @@
             "food"
           ],
           "rating": 4,
-          "review_count": 1848,
+          "review_count": 1851,
           "address": "14798 La Paz Dr, Victorville, CA 92395, USA",
           "phone": "(760) 241-0699",
           "open_now": true
@@ -148,7 +148,7 @@
             "convenience"
           ],
           "rating": 3.7,
-          "review_count": 82,
+          "review_count": 83,
           "address": "39281 Harvard Rd, Newberry Springs, CA 92365, USA",
           "phone": "(760) 257-5069",
           "open_now": true
@@ -159,7 +159,7 @@
             "gas"
           ],
           "rating": 4.3,
-          "review_count": 176,
+          "review_count": 177,
           "address": "39281 Harvard Rd, Newberry Springs, CA 92365, USA",
           "open_now": true
         },
@@ -180,7 +180,7 @@
             "gas"
           ],
           "rating": 3.7,
-          "review_count": 147,
+          "review_count": 148,
           "address": "39263 Harvard Rd, Newberry Springs, CA 92365, USA",
           "phone": "(760) 441-7129"
         },

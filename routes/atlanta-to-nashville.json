@@ -32,7 +32,7 @@
             "food"
           ],
           "rating": 4.1,
-          "review_count": 2470,
+          "review_count": 2471,
           "address": "881 Holiday Inn Drive, Dalton, GA 30720, USA",
           "phone": "(706) 226-1011",
           "open_now": true
@@ -43,7 +43,7 @@
             "food"
           ],
           "rating": 4.4,
-          "review_count": 636,
+          "review_count": 639,
           "address": "1430 W Walnut Ave, Dalton, GA 30720, USA",
           "phone": "(706) 459-3304",
           "open_now": true
@@ -55,7 +55,7 @@
             "coffee"
           ],
           "rating": 3.8,
-          "review_count": 197,
+          "review_count": 200,
           "address": "1302 W Walnut Ave, Dalton, GA 30720, USA",
           "phone": "(762) 344-3329",
           "open_now": true
@@ -66,7 +66,7 @@
             "food"
           ],
           "rating": 4.2,
-          "review_count": 1613,
+          "review_count": 1617,
           "address": "955 Market St, Dalton, GA 30720, USA",
           "phone": "(706) 277-9600",
           "open_now": true
@@ -78,7 +78,7 @@
             "coffee"
           ],
           "rating": 4.2,
-          "review_count": 1220,
+          "review_count": 1222,
           "address": "1500 W Walnut Ave, Dalton, GA 30720, USA",
           "phone": "(706) 226-0110",
           "open_now": true
@@ -89,7 +89,7 @@
             "food"
           ],
           "rating": 4.4,
-          "review_count": 1434,
+          "review_count": 1439,
           "address": "1315 W Walnut Ave, Dalton, GA 30720, USA",
           "phone": "(706) 281-1568",
           "open_now": true
@@ -101,7 +101,7 @@
             "coffee"
           ],
           "rating": 3.5,
-          "review_count": 2751,
+          "review_count": 2757,
           "address": "1523 Walnut Ave, Dalton, GA 30720, USA",
           "phone": "(706) 226-4825",
           "open_now": true
@@ -124,7 +124,7 @@
             "food"
           ],
           "rating": 4.1,
-          "review_count": 2943,
+          "review_count": 2945,
           "address": "1250 W Walnut Ave, Dalton, GA 30720, USA",
           "phone": "(706) 272-3300",
           "open_now": true
@@ -146,7 +146,7 @@
             "food"
           ],
           "rating": 4.6,
-          "review_count": 4458,
+          "review_count": 4470,
           "address": "201 W Main St, Chattanooga, TN 37402, USA",
           "phone": "(423) 708-8500",
           "open_now": true
@@ -157,7 +157,7 @@
             "food"
           ],
           "rating": 4.8,
-          "review_count": 2562,
+          "review_count": 2579,
           "address": "818 Georgia Ave UNIT 118, Chattanooga, TN 37402, USA",
           "phone": "(423) 531-4208",
           "open_now": true
@@ -169,7 +169,7 @@
             "coffee"
           ],
           "rating": 4.4,
-          "review_count": 7433,
+          "review_count": 7467,
           "address": "511 Broad St, Chattanooga, TN 37402, USA",
           "phone": "(423) 634-9191",
           "open_now": true
@@ -180,7 +180,7 @@
             "food"
           ],
           "rating": 4.6,
-          "review_count": 4386,
+          "review_count": 4404,
           "address": "212 High St, Chattanooga, TN 37403, USA",
           "phone": "(423) 321-0235 ext. 1",
           "open_now": true
@@ -191,7 +191,7 @@
             "food"
           ],
           "rating": 4.6,
-          "review_count": 4067,
+          "review_count": 4080,
           "address": "1444 Market St, Chattanooga, TN 37402, USA",
           "phone": "(423) 531-7847",
           "open_now": true
@@ -202,7 +202,7 @@
             "food"
           ],
           "rating": 4.2,
-          "review_count": 3242,
+          "review_count": 3249,
           "address": "491 Riverfront Pkwy, Chattanooga, TN 37402, USA",
           "phone": "(423) 269-7487",
           "open_now": true
@@ -214,10 +214,10 @@
             "coffee"
           ],
           "rating": 4.8,
-          "review_count": 1747,
+          "review_count": 1752,
           "address": "215 E Main St, Chattanooga, TN 37408, USA",
           "phone": "(423) 756-0303",
-          "open_now": false
+          "open_now": true
         },
         {
           "name": "Rembrandt's Coffee House",
@@ -225,7 +225,7 @@
             "coffee"
           ],
           "rating": 4.5,
-          "review_count": 2402,
+          "review_count": 2407,
           "address": "204 High St, Chattanooga, TN 37403, USA",
           "phone": "(423) 321-0235 ext. 1",
           "open_now": true
@@ -236,7 +236,7 @@
             "food"
           ],
           "rating": 4.7,
-          "review_count": 1369,
+          "review_count": 1379,
           "address": "1705 Market St Suite 105, Chattanooga, TN 37408, USA",
           "phone": "(423) 521-7333",
           "open_now": true
@@ -247,7 +247,7 @@
             "food"
           ],
           "rating": 4.4,
-          "review_count": 3409,
+          "review_count": 3416,
           "address": "1110 Market St, Chattanooga, TN 37402, USA",
           "phone": "(423) 779-0400",
           "open_now": true
@@ -269,7 +269,7 @@
             "food"
           ],
           "rating": 4.1,
-          "review_count": 4936,
+          "review_count": 4941,
           "address": "103 Paradise St, Manchester, TN 37355, USA",
           "phone": "(931) 723-1358",
           "open_now": true
@@ -281,10 +281,10 @@
             "coffee"
           ],
           "rating": 4.9,
-          "review_count": 449,
+          "review_count": 451,
           "address": "210 Woodbury Hwy, Manchester, TN 37355, USA",
           "phone": "(931) 954-5387",
-          "open_now": false
+          "open_now": true
         },
         {
           "name": "Emma's Family Restaurant",
@@ -292,7 +292,7 @@
             "food"
           ],
           "rating": 4.4,
-          "review_count": 2486,
+          "review_count": 2491,
           "address": "82 Paradise St, Manchester, TN 37355, USA",
           "phone": "(931) 723-4701",
           "open_now": true
@@ -303,7 +303,7 @@
             "food"
           ],
           "rating": 4.3,
-          "review_count": 1008,
+          "review_count": 1011,
           "address": "629 Woodbury Hwy, Manchester, TN 37355, USA",
           "phone": "(931) 723-0490",
           "open_now": true
@@ -324,7 +324,7 @@
             "food"
           ],
           "rating": 4.3,
-          "review_count": 1090,
+          "review_count": 1091,
           "address": "1165 Woodbury Hwy, Manchester, TN 37355, USA",
           "phone": "(931) 728-5000",
           "open_now": true
@@ -335,7 +335,7 @@
             "food"
           ],
           "rating": 4.6,
-          "review_count": 376,
+          "review_count": 377,
           "address": "1500 Murfreesboro Hwy, Manchester, TN 37355, USA",
           "phone": "(931) 728-9212",
           "open_now": false
@@ -347,7 +347,7 @@
             "convenience"
           ],
           "rating": 3.3,
-          "review_count": 83,
+          "review_count": 84,
           "address": "617 Woodbury Hwy, Manchester, TN 37355, USA",
           "phone": "(931) 728-0240",
           "open_now": true
@@ -358,7 +358,7 @@
             "food"
           ],
           "rating": 4.3,
-          "review_count": 1062,
+          "review_count": 1065,
           "address": "425 Woodbury Hwy, Manchester, TN 37355, USA",
           "phone": "(931) 728-7332",
           "open_now": true
@@ -372,7 +372,7 @@
           "review_count": 88,
           "address": "947 Interstate Dr, Manchester, TN 37355, USA",
           "phone": "(931) 728-5777",
-          "open_now": false
+          "open_now": true
         }
       ]
     }

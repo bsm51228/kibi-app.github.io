@@ -4,7 +4,1953 @@
   "destination": "Miami, FL",
   "highway": "I-95",
   "miles": 1500,
-  "exit_count": 0,
+  "exit_count": 19,
   "has_tolls": null,
-  "exits": []
+  "exits": [
+    {
+      "exit_id": "osm_n_254028537",
+      "exit_number": "43",
+      "exit_name": "Attawaugan/Ballouville",
+      "state": "CT",
+      "lat": 41.869675,
+      "lng": -71.891337,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Golden Greek Restaurant & Pub",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 1363,
+          "address": "474 Putnam Pike, Dayville, CT 06241, USA",
+          "phone": "(860) 774-0167",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_w_220525828",
+      "exit_number": "0171",
+      "exit_name": "TA",
+      "state": "CT",
+      "lat": 41.296891,
+      "lng": -72.760953,
+      "stop_type": "service_plaza",
+      "places": [
+        {
+          "name": "TA Express Travel Center",
+          "types": [
+            "convenience"
+          ],
+          "rating": 4.1,
+          "review_count": 791,
+          "address": "3 E Industrial Rd, Branford, CT 06405, USA",
+          "phone": "(203) 481-0301",
+          "open_now": true
+        },
+        {
+          "name": "Cafe Fiore",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 1066,
+          "address": "420 E Main St, Branford, CT 06405, USA",
+          "phone": "(203) 208-4690",
+          "open_now": true
+        },
+        {
+          "name": "Arturo's Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 242,
+          "address": "53 School Ground Rd, Branford, CT 06405, USA",
+          "phone": "(203) 208-4106",
+          "open_now": true
+        },
+        {
+          "name": "Starbucks Coffee Company",
+          "types": [
+            "coffee"
+          ],
+          "rating": 3.6,
+          "review_count": 196,
+          "address": "3 E Industrial Rd, Branford, CT 06405, USA",
+          "phone": "(203) 481-0301",
+          "open_now": true
+        },
+        {
+          "name": "Sky Diner Restaurant & Pizza",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 491,
+          "address": "30 Leetes Island Rd, Branford, CT 06405, USA",
+          "phone": "(203) 208-1096",
+          "open_now": true
+        },
+        {
+          "name": "Popeyes Louisiana Kitchen",
+          "types": [
+            "food"
+          ],
+          "rating": 2.7,
+          "review_count": 245,
+          "address": "3 E Industrial Rd, Branford, CT 06405, USA",
+          "phone": "(203) 481-0301",
+          "open_now": true
+        },
+        {
+          "name": "Nonna Gina's Prepared Foods & Gelateria",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 162,
+          "address": "750 E Main St, Branford, CT 06405, USA",
+          "phone": "(203) 896-5700",
+          "open_now": true
+        },
+        {
+          "name": "Willoughby's Coffee & Tea",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4.8,
+          "review_count": 53,
+          "address": "550 E Main St, Branford, CT 06405, USA",
+          "phone": "(203) 481-1700",
+          "open_now": true
+        },
+        {
+          "name": "Dunkin'",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.3,
+          "review_count": 318,
+          "address": "33 Leetes Island Rd, Branford, CT 06405, USA",
+          "phone": "(203) 315-1155",
+          "open_now": true
+        },
+        {
+          "name": "Pizza Hut Express",
+          "types": [
+            "food"
+          ],
+          "rating": 3.2,
+          "review_count": 24,
+          "address": "Ta Express New Haven, 3 E Industrial Rd, Branford, CT 06405, USA",
+          "phone": "(800) 948-8488"
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_534977014",
+      "exit_number": "38",
+      "exit_name": "Exit 38",
+      "state": "NY",
+      "lat": 40.784439,
+      "lng": -73.632421,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Kitchen Kabaret",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 896,
+          "address": "409 Glen Cove Rd, Roslyn Heights, NY 11577, USA",
+          "phone": "(516) 484-3320",
+          "open_now": true
+        },
+        {
+          "name": "Starbucks Coffee Company",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.2,
+          "review_count": 542,
+          "address": "373 Willis Ave, Roslyn Heights, NY 11577, USA",
+          "phone": "(516) 625-7390",
+          "open_now": true
+        },
+        {
+          "name": "CVS",
+          "types": [
+            "convenience"
+          ],
+          "rating": 3.1,
+          "review_count": 129,
+          "address": "373 Willis Ave, Roslyn Heights, NY 11577, USA",
+          "phone": "(516) 484-3425",
+          "open_now": true
+        },
+        {
+          "name": "Ravagh Persian Grill",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 1618,
+          "address": "210 Mineola Ave, Roslyn Heights, NY 11577, USA",
+          "phone": "(516) 484-7100",
+          "open_now": true
+        },
+        {
+          "name": "388",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 637,
+          "address": "388 Willis Ave, Roslyn Heights, NY 11577, USA",
+          "phone": "(516) 621-3888",
+          "open_now": false
+        },
+        {
+          "name": "7-Eleven",
+          "types": [
+            "food",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 2.9,
+          "review_count": 64,
+          "address": "3 Railroad Ave, Roslyn, NY 11576, USA",
+          "phone": "(516) 621-4008",
+          "open_now": true
+        },
+        {
+          "name": "Mim's Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 1154,
+          "address": "235 Roslyn Rd, Roslyn Heights, NY 11577, USA",
+          "phone": "(516) 625-7305",
+          "open_now": true
+        },
+        {
+          "name": "Mobil",
+          "types": [
+            "gas"
+          ],
+          "rating": 4,
+          "review_count": 302,
+          "address": "449 Glen Cove Rd, Roslyn Heights, NY 11577, USA",
+          "phone": "(516) 621-7821",
+          "open_now": true
+        },
+        {
+          "name": "Holiday Farms Supermarket",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 267,
+          "address": "374 Roslyn Rd, Roslyn Heights, NY 11577, USA",
+          "phone": "(516) 621-6420",
+          "open_now": true
+        },
+        {
+          "name": "Chopt Creative Salad Co.",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 774,
+          "address": "383 Willis Ave, Roslyn Heights, NY 11577, USA",
+          "phone": "(516) 464-5111",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_533819103",
+      "exit_number": "8A",
+      "exit_name": "Exit 8A",
+      "state": "NJ",
+      "lat": 40.356258,
+      "lng": -74.471058,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Monroe Sports Tavern",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 198,
+          "address": "390 Forsgate Drive Double Tree by Hilton Monroe Township Cranbury, 390 Forsgate Dr, Monroe Township, NJ 08831, USA",
+          "phone": "(609) 662-3272",
+          "open_now": false
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_109856596",
+      "exit_number": "8",
+      "exit_name": "Exit 8",
+      "state": "PA",
+      "lat": 39.870936,
+      "lng": -75.319238,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Stinger's Waterfront",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 2959,
+          "address": "401 S Swarthmore Ave, Ridley Park, PA 19078, USA",
+          "phone": "(484) 540-7868",
+          "open_now": true
+        },
+        {
+          "name": "Cracker Barrel Old Country Store",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 5948,
+          "address": "125 S Stewart Ave, Ridley Park, PA 19078, USA",
+          "phone": "(610) 521-1567",
+          "open_now": true
+        },
+        {
+          "name": "Denny's Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 3.6,
+          "review_count": 3590,
+          "address": "47 Industrial Hwy, Essington, PA 19029, USA",
+          "phone": "(215) 475-5645",
+          "open_now": true
+        },
+        {
+          "name": "Royal Farms",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 3.4,
+          "review_count": 378,
+          "address": "105 Stewart Ave, Ridley Park, PA 19078, USA",
+          "phone": "(484) 754-7685",
+          "open_now": true
+        },
+        {
+          "name": "Wawa",
+          "types": [
+            "gas",
+            "food",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 4,
+          "review_count": 107,
+          "address": "390 E Chester Pike, Ridley Park, PA 19078, USA",
+          "phone": "(484) 324-6066",
+          "open_now": true
+        },
+        {
+          "name": "The BrickHaus",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.8,
+          "review_count": 679,
+          "address": "13 E Hinckley Ave, Ridley Park, PA 19078, USA",
+          "phone": "(610) 537-7351",
+          "open_now": false
+        },
+        {
+          "name": "Stargate Diner",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 2086,
+          "address": "240 W Chester Pike, Ridley Park, PA 19078, USA",
+          "phone": "(610) 521-1886",
+          "open_now": true
+        },
+        {
+          "name": "Ardour Bakery+Coffee",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4.6,
+          "review_count": 336,
+          "address": "119 E Sellers Ave, Ridley Park, PA 19078, USA",
+          "phone": "(610) 521-0450",
+          "open_now": true
+        },
+        {
+          "name": "Sunoco",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.6,
+          "review_count": 43,
+          "address": "15 Industrial Hwy, Essington, PA 19029, USA",
+          "phone": "(610) 521-5020",
+          "open_now": true
+        },
+        {
+          "name": "Rosemary",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 322,
+          "address": "25 E Hinckley Ave, Ridley Park, PA 19078, USA",
+          "phone": "(610) 671-3770",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_182661431",
+      "exit_number": "80",
+      "exit_name": "Exit 80",
+      "state": "MD",
+      "lat": 39.487235,
+      "lng": -76.244418,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Cracker Barrel Old Country Store",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 5943,
+          "address": "1440 Handlir Dr, Bel Air, MD 21015, USA",
+          "phone": "(410) 272-4778",
+          "open_now": true
+        },
+        {
+          "name": "Chipotle Mexican Grill",
+          "types": [
+            "food"
+          ],
+          "rating": 3.5,
+          "review_count": 215,
+          "address": "2699 Tobin Crse, Bel Air, MD 21015, USA",
+          "phone": "(667) 315-2101",
+          "open_now": true
+        },
+        {
+          "name": "Plaza M\u00e9xico Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 833,
+          "address": "1341 James Way, Bel Air, MD 21015, USA",
+          "phone": "(410) 914-5674",
+          "open_now": true
+        },
+        {
+          "name": "Olive Garden Italian Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 207,
+          "address": "2690 Compromise St, Bel Air, MD 21014, USA",
+          "phone": "(443) 567-7192",
+          "open_now": true
+        },
+        {
+          "name": "Riverside Pub & Grille",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 1119,
+          "address": "1402 Handlir Dr, Bel Air, MD 21015, USA",
+          "phone": "(410) 272-1486",
+          "open_now": true
+        },
+        {
+          "name": "LongHorn Steakhouse",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 275,
+          "address": "2697 Compromise St, Bel Air, MD 21014, USA",
+          "phone": "(443) 390-3920",
+          "open_now": true
+        },
+        {
+          "name": "Waffle House",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 1520,
+          "address": "1323 Riverside Pkwy, Belcamp, MD 21017, USA",
+          "phone": "(410) 272-5202",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.3,
+          "review_count": 1890,
+          "address": "1325 Riverside Pkwy, Belcamp, MD 21017, USA",
+          "phone": "(410) 272-9033",
+          "open_now": true
+        },
+        {
+          "name": "Starbucks",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4.3,
+          "review_count": 74,
+          "address": "2698 Admiral Ln, Bel Air, MD 21015, USA",
+          "phone": "(667) 454-2988",
+          "open_now": true
+        },
+        {
+          "name": "Royal Farms",
+          "types": [
+            "gas",
+            "food",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 4.2,
+          "review_count": 168,
+          "address": "2692 Tobin Xing, Bel Air, MD 21015, USA",
+          "phone": "(667) 276-9640",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_262089444",
+      "exit_number": "75",
+      "exit_name": "Exit 75",
+      "state": "VA",
+      "lat": 38.894419,
+      "lng": -77.067839,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "The Watergate Hotel",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 3040,
+          "address": "2650 Virginia Ave NW, Washington, DC 20037, USA",
+          "phone": "(844) 617-1972",
+          "open_now": true
+        },
+        {
+          "name": "Filomena Ristorante",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 5725,
+          "address": "1063 Wisconsin Ave NW, Washington, DC 20007, USA",
+          "phone": "(202) 338-8800",
+          "open_now": true
+        },
+        {
+          "name": "Founding Farmers Fishers & Bakers",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 6625,
+          "address": "The Washington, Harbour at The Georgetown Waterfront, 3000 K St NW, Washington, DC 20007, USA",
+          "phone": "(202) 298-8783",
+          "open_now": true
+        },
+        {
+          "name": "Pho 75",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 2677,
+          "address": "1721 Wilson Blvd, Arlington, VA 22209, USA",
+          "phone": "(703) 525-7355",
+          "open_now": true
+        },
+        {
+          "name": "Baked & Wired",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4.5,
+          "review_count": 3768,
+          "address": "1052 Thomas Jefferson St NW, Washington, DC 20007, USA",
+          "phone": "(703) 663-8727",
+          "open_now": false
+        },
+        {
+          "name": "maman",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.8,
+          "review_count": 4624,
+          "address": "1353 Wisconsin Ave NW, Washington, DC 20007, USA",
+          "phone": "(202) 506-3372",
+          "open_now": true
+        },
+        {
+          "name": "Osteria Mozza DC",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 688,
+          "address": "3276 M St NW, Washington, DC 20007, USA",
+          "phone": "(202) 292-4800",
+          "open_now": true
+        },
+        {
+          "name": "Barnes & Noble",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4.6,
+          "review_count": 276,
+          "address": "3040 M St NW, Washington, DC 20007, USA",
+          "phone": "(202) 963-1779",
+          "open_now": true
+        },
+        {
+          "name": "George's King of Falafel and Cheesesteak",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 3329,
+          "address": "1205 28th St NW, Washington, DC 20007, USA",
+          "phone": "(202) 342-2278",
+          "open_now": true
+        },
+        {
+          "name": "Martin's Tavern",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 3221,
+          "address": "1264 Wisconsin Ave NW, Washington, DC 20007, USA",
+          "phone": "(202) 333-7370",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_219586484",
+      "exit_number": "118",
+      "exit_name": "Exit 118",
+      "state": "VA",
+      "lat": 38.136427,
+      "lng": -77.509389,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Sheetz",
+          "types": [
+            "convenience"
+          ],
+          "rating": 3.2,
+          "review_count": 345,
+          "address": "5015 Mudd Tavern Rd, Woodford, VA 22580, USA",
+          "phone": "(540) 507-8420",
+          "open_now": true
+        },
+        {
+          "name": "Angela's Italian Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 1459,
+          "address": "6336 Patriot Hwy, Spotsylvania Courthouse, VA 22551, USA",
+          "phone": "(540) 582-5250",
+          "open_now": true
+        },
+        {
+          "name": "Poco Loco",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 1676,
+          "address": "5414 Mudd Tavern Rd, Woodford, VA 22580, USA",
+          "phone": "(540) 582-5084",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.5,
+          "review_count": 2869,
+          "address": "5205 Mudd Tavern Rd, Thornburg, VA 22565, USA",
+          "phone": "(540) 582-2070",
+          "open_now": true
+        },
+        {
+          "name": "Sheetz",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.4,
+          "review_count": 12,
+          "address": "6209 Mallard Rd, Woodford, VA 22580, USA",
+          "phone": "(540) 507-8420",
+          "open_now": true
+        },
+        {
+          "name": "Dairy Queen Grill & Chill - Woodford, VA",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 1011,
+          "address": "5115 Mudd Tavern Rd, Woodford, VA 22580, USA",
+          "phone": "(540) 582-3555",
+          "open_now": true
+        },
+        {
+          "name": "Starbucks Coffee Company",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.8,
+          "review_count": 34,
+          "address": "5210 Mudd Tavern Rd, Woodford, VA 22580, USA",
+          "phone": "(804) 478-9304",
+          "open_now": true
+        },
+        {
+          "name": "Taco Bell",
+          "types": [
+            "food"
+          ],
+          "rating": 3.8,
+          "review_count": 1000,
+          "address": "5217 Mudd Tavern Rd, Woodford, VA 22580, USA",
+          "phone": "(540) 805-5913",
+          "open_now": true
+        },
+        {
+          "name": "Exxon",
+          "types": [
+            "gas"
+          ],
+          "rating": 3.9,
+          "review_count": 251,
+          "address": "5123 Mudd Tavern Rd, Thornburg, VA 22565, USA",
+          "phone": "(540) 582-5150",
+          "open_now": true
+        },
+        {
+          "name": "Shell",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 2.5,
+          "review_count": 46,
+          "address": "5117 Mudd Tavern Rd, Thornburg, VA 22565, USA",
+          "phone": "(540) 582-5072",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_205929629",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "VA",
+      "lat": 37.357253,
+      "lng": -77.963617,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.4,
+          "review_count": 1661,
+          "address": "15175 Patrick Henry Hwy, Amelia Court House, VA 23002, USA",
+          "phone": "(804) 561-5544",
+          "open_now": true
+        },
+        {
+          "name": "Hardee's",
+          "types": [
+            "food"
+          ],
+          "rating": 3.4,
+          "review_count": 783,
+          "address": "10151 Superior Way, Amelia Court House, VA 23002, USA",
+          "phone": "(804) 561-2489",
+          "open_now": true
+        },
+        {
+          "name": "7-Eleven",
+          "types": [
+            "food",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 2.9,
+          "review_count": 20,
+          "address": "15418 Patrick Henry Hwy, Amelia Court House, VA 23002, USA",
+          "phone": "(804) 561-7331",
+          "open_now": true
+        },
+        {
+          "name": "Amelia's Kitchen",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 156,
+          "address": "15415 Patrick Henry Hwy, Amelia Court House, VA 23002, USA",
+          "phone": "(804) 561-6100",
+          "open_now": true
+        },
+        {
+          "name": "Walgreens",
+          "types": [
+            "convenience"
+          ],
+          "rating": 3.8,
+          "review_count": 29,
+          "address": "15105 Patrick Henry Hwy, Amelia Court House, VA 23002, USA",
+          "phone": "(804) 561-2691",
+          "open_now": true
+        },
+        {
+          "name": "Pizza Hut",
+          "types": [
+            "food"
+          ],
+          "rating": 3.7,
+          "review_count": 196,
+          "address": "15071 Patrick Henry Hwy, Amelia Court House, VA 23002, USA",
+          "phone": "(804) 561-1908",
+          "open_now": true
+        },
+        {
+          "name": "Ji Xiang Chinese Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 49,
+          "address": "15135 Patrick Henry Hwy, Amelia Court House, VA 23002, USA",
+          "phone": "(804) 561-0534",
+          "open_now": true
+        },
+        {
+          "name": "Sunoco",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.8,
+          "review_count": 94,
+          "address": "15418 Patrick Henry Hwy, Amelia Court House, VA 23002, USA",
+          "phone": "(804) 561-7331",
+          "open_now": true
+        },
+        {
+          "name": "Subway",
+          "types": [
+            "food"
+          ],
+          "rating": 3.8,
+          "review_count": 176,
+          "address": "15418 Patrick Henry Hwy, Amelia Court House, VA 23002, USA",
+          "phone": "(804) 561-7742",
+          "open_now": true
+        },
+        {
+          "name": "VDOT Amelia.",
+          "types": [
+            "gas"
+          ],
+          "rating": 3.3,
+          "review_count": 6,
+          "address": "16130 Goodes Bridge Rd, Amelia Court House, VA 23002, USA",
+          "phone": "(804) 561-2411"
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_488244985",
+      "exit_number": "233",
+      "exit_name": "Exit 233",
+      "state": "NC",
+      "lat": 36.537232,
+      "lng": -78.189302,
+      "stop_type": "exit_ramp",
+      "places": []
+    },
+    {
+      "exit_id": "osm_n_170506789",
+      "exit_number": "283",
+      "exit_name": "Exit 283",
+      "state": "NC",
+      "lat": 35.878309,
+      "lng": -78.836234,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Topgolf",
+          "types": [
+            "food"
+          ],
+          "rating": 3.7,
+          "review_count": 664,
+          "address": "4901 Topgolf Wy, Durham, NC 27703, USA",
+          "phone": "(984) 666-4096",
+          "open_now": true
+        },
+        {
+          "name": "Farmside Kitchen - Durham RTP",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 1322,
+          "address": "5431 Page Rd #110, Durham, NC 27703, USA",
+          "phone": "(984) 219-2739",
+          "open_now": true
+        },
+        {
+          "name": "Lulu Bang Bang",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 920,
+          "address": "5418 Page Rd, Durham, NC 27703, USA",
+          "phone": "(919) 908-1851",
+          "open_now": true
+        },
+        {
+          "name": "Chipotle Mexican Grill",
+          "types": [
+            "food"
+          ],
+          "rating": 3.6,
+          "review_count": 1616,
+          "address": "5431 Page Rd, Durham, NC 27703, USA",
+          "phone": "(919) 941-0059",
+          "open_now": true
+        },
+        {
+          "name": "Page Road Grill",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 2255,
+          "address": "5416 Page Rd, Durham, NC 27703, USA",
+          "phone": "(919) 908-8900",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 2.8,
+          "review_count": 2624,
+          "address": "5507 S Miami Blvd, Durham, NC 27703, USA",
+          "phone": "(919) 475-2849",
+          "open_now": true
+        },
+        {
+          "name": "Starbucks Coffee Company",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.3,
+          "review_count": 959,
+          "address": "Imperial Center, 1119 Slater Rd, Durham, NC 27703, USA",
+          "phone": "(919) 941-0482",
+          "open_now": true
+        },
+        {
+          "name": "Mez Contemporary Mexican",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 2319,
+          "address": "5410 Page Rd, Durham, NC 27703, USA",
+          "phone": "(919) 941-1630",
+          "open_now": true
+        },
+        {
+          "name": "Bojangles",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 1459,
+          "address": "5425 S Miami Blvd, Durham, NC 27703, USA",
+          "phone": "(919) 941-5620",
+          "open_now": true
+        },
+        {
+          "name": "First Watch",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 1663,
+          "address": "5419 Page Rd, Durham, NC 27703, USA",
+          "phone": "(919) 897-5801",
+          "open_now": false
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_172320131",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "NC",
+      "lat": 35.19145,
+      "lng": -79.383737,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Mid Pines Inn & Golf Club",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 641,
+          "address": "1010 Midland Rd, Southern Pines, NC 28387, USA",
+          "phone": "(910) 692-2114",
+          "open_now": true
+        },
+        {
+          "name": "Brad Halling American Whiskey Ko.",
+          "types": [
+            "food"
+          ],
+          "rating": 4.9,
+          "review_count": 404,
+          "address": "175 Yadkin Rd, Southern Pines, NC 28387, USA",
+          "phone": "(910) 725-6479",
+          "open_now": true
+        },
+        {
+          "name": "Mid Pines Inn And Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 97,
+          "address": "1010 Midland Rd, Southern Pines, NC 28387, USA",
+          "phone": "(910) 692-2114",
+          "open_now": true
+        },
+        {
+          "name": "Sweet Feed NC",
+          "types": [
+            "coffee"
+          ],
+          "rating": 5,
+          "review_count": 15,
+          "address": "1020 N May St, Southern Pines, NC 28387, USA",
+          "phone": "(910) 315-5452",
+          "open_now": false
+        },
+        {
+          "name": "Greek Sombrero Truck",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 5,
+          "address": "1010 N May St, Southern Pines, NC 28387, USA",
+          "phone": "(910) 747-4976"
+        },
+        {
+          "name": "Pinewurst Food Truck",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 7,
+          "address": "1010 N May St, Southern Pines, NC 28387, USA",
+          "phone": "(470) 483-7359",
+          "open_now": false
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_w_219309489",
+      "exit_number": "0393",
+      "exit_name": "Petro Stopping Centers",
+      "state": "SC",
+      "lat": 34.267488,
+      "lng": -79.733173,
+      "stop_type": "service_plaza",
+      "places": [
+        {
+          "name": "Petro Travel Center",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 4,
+          "review_count": 1420,
+          "address": "3001 TV Rd, Florence, SC 29501, USA",
+          "phone": "(843) 669-5736",
+          "open_now": true
+        },
+        {
+          "name": "Iron Skillet",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 1561,
+          "address": "3001 TV Rd, Florence, SC 29501, USA",
+          "phone": "(843) 669-5736",
+          "open_now": true
+        },
+        {
+          "name": "bp",
+          "types": [
+            "gas"
+          ],
+          "rating": 2.6,
+          "review_count": 19,
+          "address": "3021 TV Rd, Florence, SC 29501, USA",
+          "phone": "(843) 536-0523",
+          "open_now": true
+        },
+        {
+          "name": "Amoco",
+          "types": [
+            "gas"
+          ],
+          "rating": 3.7,
+          "review_count": 3,
+          "address": "3001 TV Rd, Florence, SC 29501, USA",
+          "phone": "(843) 669-5736"
+        },
+        {
+          "name": "Smartstop Inc",
+          "types": [
+            "convenience"
+          ],
+          "rating": 3,
+          "review_count": 3,
+          "address": "3001 TV Rd, Florence, SC 29501, USA",
+          "phone": "(843) 661-5868",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_w_225350674",
+      "exit_number": "0179",
+      "exit_name": "TA",
+      "state": "SC",
+      "lat": 33.704719,
+      "lng": -80.241654,
+      "stop_type": "service_plaza",
+      "places": [
+        {
+          "name": "TA Travel Center",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.8,
+          "review_count": 1257,
+          "address": "3014 Paxville Hwy, Manning, SC 29102, USA",
+          "phone": "(803) 791-9095",
+          "open_now": true
+        },
+        {
+          "name": "Chick-fil-A",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 674,
+          "address": "2931 Paxville Hwy, Manning, SC 29102, USA",
+          "phone": "(803) 473-2323",
+          "open_now": true
+        },
+        {
+          "name": "Jalisco Mexican Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 1625,
+          "address": "2167 A M Nash Rd, Manning, SC 29102, USA",
+          "phone": "(803) 505-6552",
+          "open_now": true
+        },
+        {
+          "name": "Shoney's",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 2426,
+          "address": "2742 Paxville Hwy, Manning, SC 29102, USA",
+          "phone": "(803) 696-4481",
+          "open_now": true
+        },
+        {
+          "name": "Cook Out",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 1888,
+          "address": "2821 Paxville Hwy, Manning, SC 29102, USA",
+          "phone": "(866) 547-0011",
+          "open_now": true
+        },
+        {
+          "name": "QuikTrip",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 4,
+          "review_count": 27,
+          "address": "2840 Paxville Hwy, Manning, SC 29102, USA",
+          "phone": "(803) 825-3025",
+          "open_now": true
+        },
+        {
+          "name": "Zaxbys Chicken Fingers & Buffalo Wings",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 1131,
+          "address": "2819 Paxville Hwy, Manning, SC 29102, USA",
+          "phone": "(803) 505-6777",
+          "open_now": true
+        },
+        {
+          "name": "Waffle House",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 1127,
+          "address": "3021 Paxville Hwy, Manning, SC 29102, USA",
+          "phone": "(803) 580-5050",
+          "open_now": true
+        },
+        {
+          "name": "Wendy's",
+          "types": [
+            "food"
+          ],
+          "rating": 3.5,
+          "review_count": 1174,
+          "address": "2780 Paxville Hwy, Manning, SC 29102, USA",
+          "phone": "(803) 410-3263",
+          "open_now": true
+        },
+        {
+          "name": "Shell",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.7,
+          "review_count": 55,
+          "address": "2965 Paxville Hwy, Manning, SC 29102, USA",
+          "phone": "(803) 254-4806",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_1694009987",
+      "exit_number": "53",
+      "exit_name": "Walterboro",
+      "state": "SC",
+      "lat": 32.875864,
+      "lng": -80.717665,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Cracker Barrel Old Country Store",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 6156,
+          "address": "59 Cane Branch Rd, Walterboro, SC 29488, USA",
+          "phone": "(843) 538-7800",
+          "open_now": true
+        },
+        {
+          "name": "Ruby Tuesday",
+          "types": [
+            "food"
+          ],
+          "rating": 3.6,
+          "review_count": 3260,
+          "address": "1480 Sniders Hwy, Walterboro, SC 29488, USA",
+          "phone": "(843) 539-1227",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 2.9,
+          "review_count": 2758,
+          "address": "1404 Sniders Hwy, Walterboro, SC 29488, USA",
+          "phone": "(843) 538-1120",
+          "open_now": true
+        },
+        {
+          "name": "Waffle House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 1307,
+          "address": "1326 Sniders Hwy, Walterboro, SC 29488, USA",
+          "phone": "(843) 535-8182",
+          "open_now": true
+        },
+        {
+          "name": "Marvin's Pizza",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 548,
+          "address": "1383 Sniders Hwy, Walterboro, SC 29488, USA",
+          "phone": "(843) 538-5005",
+          "open_now": true
+        },
+        {
+          "name": "bp",
+          "types": [
+            "gas"
+          ],
+          "rating": 3.3,
+          "review_count": 139,
+          "address": "1404 Sniders Hwy, Walterboro, SC 29488, USA",
+          "phone": "(843) 538-3730",
+          "open_now": true
+        },
+        {
+          "name": "Shell",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.5,
+          "review_count": 107,
+          "address": "1373 Sniders Hwy, Walterboro, SC 29488, USA",
+          "phone": "(843) 538-3076",
+          "open_now": true
+        },
+        {
+          "name": "Enmarket",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 4.1,
+          "review_count": 36,
+          "address": "1796 Sniders Hwy, Walterboro, SC 29488, USA",
+          "phone": "(843) 538-5101",
+          "open_now": true
+        },
+        {
+          "name": "Marathon Pump Market",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 4.1,
+          "review_count": 75,
+          "address": "1122 Sniders Hwy, Walterboro, SC 29488, USA",
+          "phone": "(843) 739-2815",
+          "open_now": true
+        },
+        {
+          "name": "Stuckey's",
+          "types": [
+            "convenience"
+          ],
+          "rating": 1.6,
+          "review_count": 25,
+          "address": "1404 Sniders Hwy, Walterboro, SC 29488, USA",
+          "phone": "(843) 538-3730",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_67060609",
+      "exit_number": "167A",
+      "exit_name": "Exit 167A",
+      "state": "GA",
+      "lat": 32.071824,
+      "lng": -81.102754,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "The Olde Pink House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 10225,
+          "address": "23 Abercorn St, Savannah, GA 31401, USA",
+          "phone": "(912) 232-4286",
+          "open_now": false
+        },
+        {
+          "name": "Leopold's Ice Cream",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.7,
+          "review_count": 14031,
+          "address": "212 E Broughton St, Savannah, GA 31401, USA",
+          "phone": "(912) 234-4442",
+          "open_now": true
+        },
+        {
+          "name": "The Collins Quarter",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.7,
+          "review_count": 4773,
+          "address": "151 Bull St, Savannah, GA 31401, USA",
+          "phone": "(912) 777-4147",
+          "open_now": false
+        },
+        {
+          "name": "Vic's On the River",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 6099,
+          "address": "26 E Bay St, Savannah, GA 31401, USA",
+          "phone": "(912) 721-1000",
+          "open_now": true
+        },
+        {
+          "name": "Treylor Park",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 6799,
+          "address": "115 E Bay St, Savannah, GA 31401, USA",
+          "phone": "(912) 495-5557",
+          "open_now": true
+        },
+        {
+          "name": "Crystal Beer Parlor",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 6771,
+          "address": "301 W Jones St, Savannah, GA 31401, USA",
+          "phone": "(912) 349-1000",
+          "open_now": true
+        },
+        {
+          "name": "Toast! All Day",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 5740,
+          "address": "1 W Broughton St, Savannah, GA 31401, USA",
+          "phone": "(912) 421-3973",
+          "open_now": true
+        },
+        {
+          "name": "Collins Quarter at Forsyth",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.7,
+          "review_count": 3881,
+          "address": "621 Drayton St, Savannah, GA 31401, USA",
+          "phone": "(912) 298-6674",
+          "open_now": false
+        },
+        {
+          "name": "CVS",
+          "types": [
+            "convenience"
+          ],
+          "rating": 3,
+          "review_count": 139,
+          "address": "119 Bull St, Savannah, GA 31401, USA",
+          "phone": "(912) 232-1129",
+          "open_now": true
+        },
+        {
+          "name": "The Public Kitchen & Bar",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 2975,
+          "address": "1 W Liberty St, Savannah, GA 31401, USA",
+          "phone": "(912) 200-4045",
+          "open_now": false
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_485552067",
+      "exit_number": "54B",
+      "exit_name": "Exit 54B",
+      "state": "FL",
+      "lat": 28.405559,
+      "lng": -80.62211,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Grills Seafood Deck & Tiki Bar",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 11333,
+          "address": "500 Glen Cheek Dr, Cape Canaveral, FL 32920, USA",
+          "phone": "(321) 868-2226",
+          "open_now": true
+        },
+        {
+          "name": "Fishlips Waterfront Bar & Grill",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 8945,
+          "address": "610 Glen Cheek Dr, Port Canaveral, FL 32920, USA",
+          "phone": "(321) 784-4533",
+          "open_now": true
+        },
+        {
+          "name": "Rusty's Seafood and Oyster Bar",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 6897,
+          "address": "628 Glen Cheek Dr, Cape Canaveral, FL 32920, USA",
+          "phone": "(321) 783-2033",
+          "open_now": true
+        },
+        {
+          "name": "TownePlace Suites by Marriott Cape Canaveral Cocoa Beach",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 337,
+          "address": "605 W Central Blvd, Cape Canaveral, FL 32920, USA",
+          "phone": "(321) 335-6800"
+        },
+        {
+          "name": "Rising Tide Tap & Table",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 2138,
+          "address": "523 Glen Cheek Dr, Port Canaveral, FL 32920, USA",
+          "phone": "(321) 576-0676",
+          "open_now": true
+        },
+        {
+          "name": "RaceTrac",
+          "types": [
+            "gas",
+            "food",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 3.7,
+          "review_count": 338,
+          "address": "8899 Astronaut Blvd, Cape Canaveral, FL 32920, USA",
+          "phone": "(404) 829-6396",
+          "open_now": true
+        },
+        {
+          "name": "Zarrella's Italian & Wood Fired Pizza",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 3471,
+          "address": "8801 Astronaut Blvd, Cape Canaveral, FL 32920, USA",
+          "phone": "(321) 613-3008",
+          "open_now": true
+        },
+        {
+          "name": "Gator's Portside Port Canaveral",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 2625,
+          "address": "683 Dave Nisbet Dr, Port Canaveral, FL 32920, USA",
+          "phone": "(321) 783-5136",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.4,
+          "review_count": 3137,
+          "address": "8780 Astronaut Blvd, Cape Canaveral, FL 32920, USA",
+          "phone": "(321) 784-9944",
+          "open_now": true
+        },
+        {
+          "name": "Thai Thai III Sushi, Thai, Japanese Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 1921,
+          "address": "8660 Astronaut Blvd #108, Cape Canaveral, FL 32920, USA",
+          "phone": "(321) 784-1561",
+          "open_now": false
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_w_226886445",
+      "exit_number": "197",
+      "exit_name": "TA",
+      "state": "FL",
+      "lat": 27.637193,
+      "lng": -80.511178,
+      "stop_type": "service_plaza",
+      "places": [
+        {
+          "name": "TA Travel Center",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.9,
+          "review_count": 1217,
+          "address": "8909 20th St, Vero Beach, FL 32966, USA",
+          "phone": "(772) 562-1791",
+          "open_now": true
+        },
+        {
+          "name": "Wawa",
+          "types": [
+            "gas",
+            "food",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 4,
+          "review_count": 301,
+          "address": "9050 20th St, Vero Beach, FL 32966, USA",
+          "phone": "(772) 453-4096",
+          "open_now": true
+        },
+        {
+          "name": "Cracker Barrel Old Country Store",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 5002,
+          "address": "9380 19th Ln, Vero Beach, FL 32966, USA",
+          "phone": "(772) 563-0066",
+          "open_now": true
+        },
+        {
+          "name": "RaceTrac",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.1,
+          "review_count": 138,
+          "address": "8980 20th St, Vero Beach, FL 32966, USA",
+          "phone": "(770) 431-7600",
+          "open_now": true
+        },
+        {
+          "name": "Steak 'n Shake",
+          "types": [
+            "food"
+          ],
+          "rating": 3.6,
+          "review_count": 2848,
+          "address": "1940 94th Court, Vero Beach, FL 32966, USA",
+          "phone": "(772) 794-0095",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.7,
+          "review_count": 2100,
+          "address": "9080 20th St, Vero Beach, FL 32966, USA",
+          "phone": "(772) 563-2555",
+          "open_now": true
+        },
+        {
+          "name": "Shell",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 3.8,
+          "review_count": 110,
+          "address": "9520 20th St, Vero Beach, FL 32966, USA",
+          "phone": "(772) 999-5109",
+          "open_now": true
+        },
+        {
+          "name": "IHOP",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 2260,
+          "address": "8800 20th St, Vero Beach, FL 32966, USA",
+          "phone": "(772) 257-8208",
+          "open_now": true
+        },
+        {
+          "name": "Dunkin'",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.7,
+          "review_count": 783,
+          "address": "9009 20th St, Vero Beach, FL 32966, USA",
+          "phone": "(772) 770-5662",
+          "open_now": true
+        },
+        {
+          "name": "Sunoco",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.4,
+          "review_count": 79,
+          "address": "8418 20th St, Vero Beach, FL 32966, USA",
+          "phone": "(772) 778-5609",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_4512117057",
+      "exit_number": "93",
+      "exit_name": "Exit 93",
+      "state": "FL",
+      "lat": 26.618326,
+      "lng": -80.173867,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Mom's Kitchen",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 1769,
+          "address": "7478 Lake Worth Rd, Greenacres, FL 33467, USA",
+          "phone": "(561) 964-4931",
+          "open_now": true
+        },
+        {
+          "name": "Toreros Mexican Grill",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 846,
+          "address": "7757 Lake Worth Rd, Greenacres, FL 33467, USA",
+          "phone": "(561) 335-5840",
+          "open_now": true
+        },
+        {
+          "name": "Y\u1ebfn",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 574,
+          "address": "7364 Lake Worth Rd, Greenacres, FL 33467, USA",
+          "phone": "(561) 619-8255",
+          "open_now": false
+        },
+        {
+          "name": "Racetrac",
+          "types": [
+            "gas",
+            "food",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 3.7,
+          "review_count": 66,
+          "address": "8630 Lake Worth Rd, Wellington, FL 33467, USA",
+          "phone": "(404) 829-6170",
+          "open_now": true
+        },
+        {
+          "name": "Shell",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 4,
+          "review_count": 306,
+          "address": "Mile Marker, 94 Florida's Tpke #94, Wellington, FL 33467, USA",
+          "phone": "(561) 968-8558",
+          "open_now": true
+        },
+        {
+          "name": "Brass Monkey Sports Bar & Grill",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 854,
+          "address": "7781 Lake Worth Rd, Greenacres, FL 33467, USA",
+          "phone": "(561) 968-9559",
+          "open_now": true
+        },
+        {
+          "name": "Gourmet Deli House - Restaurant and Deli, Take-Out, Catering and Delivery",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 2463,
+          "address": "7117 Lake Worth Rd, Greenacres, FL 33467, USA",
+          "phone": "(561) 965-1605",
+          "open_now": true
+        },
+        {
+          "name": "Chipotle Mexican Grill",
+          "types": [
+            "food"
+          ],
+          "rating": 3.7,
+          "review_count": 304,
+          "address": "8746 Lake Worth Rd Bay #300, Wellington, FL 33467, USA",
+          "phone": "(561) 249-8103",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.5,
+          "review_count": 928,
+          "address": "7793 Lake Worth Rd, Greenacres, FL 33467, USA",
+          "phone": "(561) 721-1565",
+          "open_now": true
+        },
+        {
+          "name": "Dunkin'",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.3,
+          "review_count": 134,
+          "address": "8221 Lake Worth Rd, Wellington, FL 33467, USA",
+          "phone": "(561) 557-1661",
+          "open_now": true
+        }
+      ]
+    }
+  ]
 }

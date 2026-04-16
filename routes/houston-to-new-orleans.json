@@ -4,7 +4,253 @@
   "destination": "New Orleans, LA",
   "highway": "I-10",
   "miles": 350,
-  "exit_count": 0,
+  "exit_count": 2,
   "has_tolls": null,
-  "exits": []
+  "exits": [
+    {
+      "exit_id": "osm_n_305004003",
+      "exit_number": "829",
+      "exit_name": "Exit 829",
+      "state": "TX",
+      "lat": 29.838297,
+      "lng": -94.379816,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Desi Dhaba",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 898,
+          "address": "45785 I-10, Winnie, TX 77665, USA",
+          "phone": "(713) 340-9040",
+          "open_now": true
+        },
+        {
+          "name": "Tia Juanita's Fish Camp",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 1635,
+          "address": "244 Spur 5, Winnie, TX 77665, USA",
+          "phone": "(409) 400-4016",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.6,
+          "review_count": 1939,
+          "address": "45951 I-10, Winnie, TX 77665, USA",
+          "phone": "(409) 296-9107",
+          "open_now": true
+        },
+        {
+          "name": "Whataburger",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 2311,
+          "address": "14935 F.M. 1663, Winnie, TX 77665, USA",
+          "phone": "(409) 240-2731",
+          "open_now": true
+        },
+        {
+          "name": "JP Truck Stop",
+          "types": [
+            "gas"
+          ],
+          "rating": 3.6,
+          "review_count": 474,
+          "address": "45950 LA-10, Winnie, TX 77665, USA",
+          "phone": "(409) 296-2183",
+          "open_now": true
+        },
+        {
+          "name": "Waffle House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 1134,
+          "address": "243 Spur 5, Winnie, TX 77665, USA",
+          "phone": "(409) 299-8323",
+          "open_now": true
+        },
+        {
+          "name": "Chevron LANDMARK",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.4,
+          "review_count": 37,
+          "address": "46002 I-10, Winnie, TX 77665, USA",
+          "phone": "(409) 296-4773",
+          "open_now": true
+        },
+        {
+          "name": "Jack in the Box",
+          "types": [
+            "food"
+          ],
+          "rating": 3.8,
+          "review_count": 910,
+          "address": "350 Spur 5, Winnie, TX 77665, USA",
+          "phone": "(409) 220-1079",
+          "open_now": true
+        },
+        {
+          "name": "Burger King",
+          "types": [
+            "food"
+          ],
+          "rating": 3.8,
+          "review_count": 481,
+          "address": "46135 Interstate Hwy 10 West, Winnie, TX 77665, USA",
+          "phone": "(409) 296-4944"
+        },
+        {
+          "name": "Shell",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.8,
+          "review_count": 36,
+          "address": "FM1663, Winnie, TX 77665, USA",
+          "phone": "(409) 234-7717",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_123836752",
+      "exit_number": "176",
+      "exit_name": "Exit 176",
+      "state": "LA",
+      "lat": 29.700874,
+      "lng": -91.18542,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Shoney's",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 1139,
+          "address": "1011 Greenwood St, Morgan City, LA 70380, USA",
+          "phone": "(985) 384-5767",
+          "open_now": true
+        },
+        {
+          "name": "The Galley",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 657,
+          "address": "7409 LA-182, Morgan City, LA 70380, USA",
+          "phone": "(985) 354-6439",
+          "open_now": true
+        },
+        {
+          "name": "Don Jose\u2019s Grill",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 212,
+          "address": "605 M.L.K. Jr Blvd, Morgan City, LA 70380, USA",
+          "phone": "(985) 255-4114",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.8,
+          "review_count": 715,
+          "address": "6387 US-90, Morgan City, LA 70380, USA",
+          "phone": "(985) 385-5002",
+          "open_now": true
+        },
+        {
+          "name": "Atchafalaya Cafe",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 609,
+          "address": "7310 LA-182, Morgan City, LA 70380, USA",
+          "phone": "(985) 384-2707",
+          "open_now": false
+        },
+        {
+          "name": "Morgan's Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 463,
+          "address": "520 Roderick St Building A, Morgan City, LA 70380, USA",
+          "phone": "(985) 329-2798",
+          "open_now": false
+        },
+        {
+          "name": "SushiRo Steak House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 321,
+          "address": "6214 LA-182 E, Morgan City, LA 70380, USA",
+          "phone": "(985) 354-6061",
+          "open_now": true
+        },
+        {
+          "name": "Waffle House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 626,
+          "address": "6371 LA-182, Morgan City, LA 70380, USA",
+          "phone": "(985) 385-1503",
+          "open_now": true
+        },
+        {
+          "name": "china king buffet",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 310,
+          "address": "6509 LA-182, Morgan City, LA 70380, USA",
+          "phone": "(985) 385-1388",
+          "open_now": true
+        },
+        {
+          "name": "Wendy's",
+          "types": [
+            "food"
+          ],
+          "rating": 3.8,
+          "review_count": 531,
+          "address": "7305 LA-182, Morgan City, LA 70380, USA",
+          "phone": "(985) 384-3382",
+          "open_now": true
+        }
+      ]
+    }
+  ]
 }

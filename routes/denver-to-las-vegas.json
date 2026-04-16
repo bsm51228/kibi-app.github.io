@@ -33,7 +33,7 @@
           "review_count": 442,
           "address": "102 Wheeler Cir, Frisco, CO 80443, USA",
           "phone": "(970) 968-3062",
-          "open_now": false
+          "open_now": true
         },
         {
           "name": "Ten Mile Tavern",
@@ -41,10 +41,10 @@
             "food"
           ],
           "rating": 4,
-          "review_count": 461,
+          "review_count": 460,
           "address": "209 Ten Mile Cir, Frisco, CO 80443, USA",
           "phone": "(970) 968-3070",
-          "open_now": false
+          "open_now": true
         },
         {
           "name": "Nowhere Pizza & Pub \u2022 Copper",
@@ -52,10 +52,10 @@
             "food"
           ],
           "rating": 4.4,
-          "review_count": 109,
-          "address": "760 Copper Rd, Copper Mountain, CO 80443, USA",
+          "review_count": 111,
+          "address": "760 Copper Rd, Frisco, CO 80443, USA",
           "phone": "(970) 475-4373",
-          "open_now": true
+          "open_now": false
         },
         {
           "name": "Eagle BBQ",
@@ -73,11 +73,11 @@
           "types": [
             "food"
           ],
-          "rating": 4.2,
-          "review_count": 140,
+          "rating": 4.1,
+          "review_count": 142,
           "address": "910 Copper Rd, Frisco, CO 80443, USA",
           "phone": "(970) 368-2292",
-          "open_now": true
+          "open_now": false
         },
         {
           "name": "Sawmill Pizza & Taphouse",
@@ -88,7 +88,7 @@
           "review_count": 222,
           "address": "176 Copper Cir, Frisco, CO 80443, USA",
           "phone": "(970) 968-3085",
-          "open_now": true
+          "open_now": false
         },
         {
           "name": "Sweet Soy",
@@ -96,10 +96,10 @@
             "food"
           ],
           "rating": 4.4,
-          "review_count": 93,
+          "review_count": 94,
           "address": "239 Ten Mile Cir, Frisco, CO 80443, USA",
           "phone": "(970) 258-3063",
-          "open_now": true
+          "open_now": false
         },
         {
           "name": "Mulligans Irish Pub",
@@ -110,7 +110,7 @@
           "review_count": 190,
           "address": "231 Ten Mile Cir, Frisco, CO 80443, USA",
           "phone": "(970) 968-2084",
-          "open_now": true
+          "open_now": false
         },
         {
           "name": "El Zacatecano Mexican Restaurant",
@@ -119,9 +119,9 @@
           ],
           "rating": 3.8,
           "review_count": 260,
-          "address": "189 Ten Mile Cir, Copper Mountain, CO 80443, USA",
+          "address": "189 Ten Mile Cir, Frisco, CO 80443, USA",
           "phone": "(970) 368-2963",
-          "open_now": true
+          "open_now": false
         }
       ]
     },
@@ -140,7 +140,7 @@
             "coffee"
           ],
           "rating": 4.6,
-          "review_count": 7570,
+          "review_count": 7601,
           "address": "281 Centennial St, Glenwood Springs, CO 81601, USA",
           "phone": "(970) 945-4766",
           "open_now": true
@@ -152,7 +152,7 @@
             "coffee"
           ],
           "rating": 4.2,
-          "review_count": 3649,
+          "review_count": 3654,
           "address": "526 Pine St, Glenwood Springs, CO 81601, USA",
           "phone": "(970) 945-6511",
           "open_now": true
@@ -163,7 +163,7 @@
             "food"
           ],
           "rating": 4.7,
-          "review_count": 2591,
+          "review_count": 2598,
           "address": "208 7th St, Glenwood Springs, CO 81601, USA",
           "phone": "(970) 230-9652",
           "open_now": true
@@ -174,7 +174,7 @@
             "food"
           ],
           "rating": 4.5,
-          "review_count": 3564,
+          "review_count": 3568,
           "address": "402 7th St, Glenwood Springs, CO 81601, USA",
           "phone": "(970) 464-3420",
           "open_now": true
@@ -201,7 +201,7 @@
           "review_count": 197,
           "address": "402 7th St # 120, Glenwood Springs, CO 81601, USA",
           "phone": "(970) 230-9632",
-          "open_now": false
+          "open_now": true
         },
         {
           "name": "Daily Bread",
@@ -209,7 +209,7 @@
             "food"
           ],
           "rating": 4.5,
-          "review_count": 1511,
+          "review_count": 1518,
           "address": "729 Grand Ave, Glenwood Springs, CO 81601, USA",
           "phone": "(970) 945-6253",
           "open_now": false
@@ -220,7 +220,7 @@
             "food"
           ],
           "rating": 4.5,
-          "review_count": 1767,
+          "review_count": 1771,
           "address": "205 8th St, Glenwood Springs, CO 81601, USA",
           "phone": "(970) 230-9695",
           "open_now": true
@@ -231,10 +231,10 @@
             "food"
           ],
           "rating": 4.6,
-          "review_count": 1650,
+          "review_count": 1651,
           "address": "704 Grand Ave, Glenwood Springs, CO 81601, USA",
           "phone": "(970) 945-9059",
-          "open_now": false
+          "open_now": true
         },
         {
           "name": "The Pullman",
@@ -242,10 +242,10 @@
             "food"
           ],
           "rating": 4.5,
-          "review_count": 2056,
+          "review_count": 2060,
           "address": "330 7th St, Glenwood Springs, CO 81601, USA",
           "phone": "(970) 230-9234",
-          "open_now": true
+          "open_now": false
         }
       ]
     },
@@ -264,7 +264,7 @@
             "food"
           ],
           "rating": 3.8,
-          "review_count": 3154,
+          "review_count": 3159,
           "address": "2790 Crossroads Blvd, Grand Junction, CO 81506, USA",
           "phone": "(970) 241-8411",
           "open_now": true
@@ -275,7 +275,7 @@
             "food"
           ],
           "rating": 4.1,
-          "review_count": 2560,
+          "review_count": 2559,
           "address": "711 Horizon Dr, Grand Junction, CO 81506, USA",
           "phone": "(970) 256-0022",
           "open_now": true
@@ -298,7 +298,7 @@
             "food"
           ],
           "rating": 4,
-          "review_count": 2553,
+          "review_count": 2556,
           "address": "710 Horizon Dr, Grand Junction, CO 81506, USA",
           "phone": "(970) 243-5030",
           "open_now": true
@@ -321,7 +321,7 @@
             "food"
           ],
           "rating": 4.7,
-          "review_count": 468,
+          "review_count": 478,
           "address": "757 Horizon Dr, Grand Junction, CO 81506, USA",
           "phone": "(970) 985-4015",
           "open_now": true
@@ -332,10 +332,10 @@
             "food"
           ],
           "rating": 4.3,
-          "review_count": 1445,
+          "review_count": 1447,
           "address": "707 Horizon Dr, Grand Junction, CO 81506, USA",
           "phone": "(970) 255-8500",
-          "open_now": true
+          "open_now": false
         },
         {
           "name": "Freddy's Frozen Custard & Steakburgers",
@@ -343,7 +343,7 @@
             "food"
           ],
           "rating": 4.1,
-          "review_count": 2007,
+          "review_count": 2006,
           "address": "737 Horizon Dr, Grand Junction, CO 81506, USA",
           "phone": "(970) 433-7112",
           "open_now": true
@@ -357,7 +357,7 @@
           "review_count": 216,
           "address": "759 Horizon Dr STE A, Grand Junction, CO 81506, USA",
           "phone": "(970) 433-7544",
-          "open_now": false
+          "open_now": true
         },
         {
           "name": "Tepanyaki Japanese Steakhouse & Sushi Bar",
@@ -409,7 +409,7 @@
             "convenience"
           ],
           "rating": 4.3,
-          "review_count": 332,
+          "review_count": 336,
           "address": "1915 S State St, Salina, UT 84654, USA",
           "phone": "(435) 287-0460",
           "open_now": true
@@ -442,7 +442,7 @@
             "food"
           ],
           "rating": 4.6,
-          "review_count": 4750,
+          "review_count": 4768,
           "address": "1602 S State St, Salina, UT 84654, USA",
           "phone": "(435) 529-2150",
           "open_now": true
@@ -453,7 +453,7 @@
             "food"
           ],
           "rating": 4.1,
-          "review_count": 1476,
+          "review_count": 1475,
           "address": "1535 S State St, Salina, UT 84654, USA",
           "phone": "(435) 529-2132",
           "open_now": true
@@ -476,7 +476,7 @@
             "food"
           ],
           "rating": 3.9,
-          "review_count": 696,
+          "review_count": 697,
           "address": "1659 S State St, Salina, UT 84654, USA",
           "phone": "(435) 529-2048",
           "open_now": true
@@ -487,7 +487,7 @@
             "food"
           ],
           "rating": 4.6,
-          "review_count": 226,
+          "review_count": 224,
           "address": "1225 S State St, Salina, UT 84654, USA",
           "phone": "(435) 529-9816"
         },
@@ -500,7 +500,7 @@
           "review_count": 78,
           "address": "1050 S State St, Salina, UT 84654, USA",
           "phone": "(435) 529-7400",
-          "open_now": true
+          "open_now": false
         },
         {
           "name": "Arby's",
@@ -508,7 +508,7 @@
             "food"
           ],
           "rating": 3.9,
-          "review_count": 815,
+          "review_count": 816,
           "address": "1895 S State St, Salina, UT 84654, USA",
           "phone": "(435) 287-0464",
           "open_now": true
@@ -541,7 +541,7 @@
             "gas"
           ],
           "rating": 4.5,
-          "review_count": 182,
+          "review_count": 184,
           "address": "10950 Black Rock Rd, Beaver, UT 84713, USA",
           "phone": "(385) 222-7766",
           "open_now": true
@@ -564,8 +564,8 @@
             "food",
             "convenience"
           ],
-          "rating": 4.1,
-          "review_count": 794,
+          "rating": 4.2,
+          "review_count": 802,
           "address": "2645 Canyon Ranch Dr, Cedar City, UT 84721, USA",
           "phone": "(435) 867-9888",
           "open_now": true
@@ -578,7 +578,7 @@
             "convenience"
           ],
           "rating": 4,
-          "review_count": 123,
+          "review_count": 126,
           "address": "444 N Old Hwy 91, Cedar City, UT 84721, USA",
           "phone": "(435) 867-1187",
           "open_now": true
@@ -589,7 +589,7 @@
             "food"
           ],
           "rating": 4.7,
-          "review_count": 1872,
+          "review_count": 1912,
           "address": "2107 N Main St, Cedar City, UT 84721, USA",
           "phone": "(435) 523-9920",
           "open_now": true
@@ -600,8 +600,8 @@
             "gas",
             "convenience"
           ],
-          "rating": 4.4,
-          "review_count": 87,
+          "rating": 4.3,
+          "review_count": 88,
           "address": "2635 Freeway Dr, Cedar City, UT 84721, USA",
           "phone": "(435) 586-0498",
           "open_now": true
@@ -612,7 +612,7 @@
             "food"
           ],
           "rating": 4.2,
-          "review_count": 509,
+          "review_count": 517,
           "address": "686 Canyon Ranch Dr, Cedar City, UT 84721, USA",
           "phone": "(435) 708-0233",
           "open_now": true
@@ -623,7 +623,7 @@
             "food"
           ],
           "rating": 3.8,
-          "review_count": 864,
+          "review_count": 869,
           "address": "2645 Canyon Ranch Dr, Cedar City, UT 84721, USA",
           "phone": "(435) 865-7407",
           "open_now": true
@@ -634,13 +634,13 @@
             "food"
           ],
           "rating": 4.7,
-          "review_count": 681,
+          "review_count": 684,
           "address": "2002 N Main St #5, Cedar City, UT 84721, USA",
           "phone": "(435) 263-0120",
           "open_now": true
         },
         {
-          "name": "Alfredo\u2019s Mexican food",
+          "name": "Alfredo\u2019s A Mexican food",
           "types": [
             "food"
           ],
@@ -655,8 +655,8 @@
           "types": [
             "gas"
           ],
-          "rating": 3.4,
-          "review_count": 13,
+          "rating": 3.5,
+          "review_count": 14,
           "address": "2645 Canyon Ranch Dr, Cedar City, UT 84721, USA",
           "phone": "(435) 867-9888",
           "open_now": true
@@ -667,7 +667,7 @@
             "food"
           ],
           "rating": 4.6,
-          "review_count": 287,
+          "review_count": 297,
           "address": "2605 N Main St, Cedar City, UT 84721, USA",
           "phone": "(435) 708-0220",
           "open_now": true
@@ -689,7 +689,7 @@
             "food"
           ],
           "rating": 4.3,
-          "review_count": 3365,
+          "review_count": 3373,
           "address": "171 E 1160 S, St. George, UT 84770, USA",
           "phone": "(435) 628-1818",
           "open_now": true
@@ -700,7 +700,7 @@
             "food"
           ],
           "rating": 4.2,
-          "review_count": 5172,
+          "review_count": 5181,
           "address": "1736 S Convention Center Dr, St. George, UT 84790, USA",
           "phone": "(435) 688-1200",
           "open_now": true
@@ -711,7 +711,7 @@
             "food"
           ],
           "rating": 4.6,
-          "review_count": 911,
+          "review_count": 921,
           "address": "1333 S Auto Mall Dr Bldg 200, St. George, UT 84770, USA",
           "phone": "(435) 922-0777",
           "open_now": true
@@ -722,7 +722,7 @@
             "food"
           ],
           "rating": 4.2,
-          "review_count": 3482,
+          "review_count": 3484,
           "address": "1586 S 270 E, St. George, UT 84790, USA",
           "phone": "(435) 656-5300",
           "open_now": true
@@ -733,7 +733,7 @@
             "food"
           ],
           "rating": 4.4,
-          "review_count": 6412,
+          "review_count": 6418,
           "address": "1245 S Main St, St. George, UT 84770, USA",
           "phone": "(435) 656-2327",
           "open_now": true
@@ -744,7 +744,7 @@
             "food"
           ],
           "rating": 4.4,
-          "review_count": 1216,
+          "review_count": 1221,
           "address": "1333 S Auto Mall Dr Building 400, St. George, UT 84770, USA",
           "phone": "(435) 705-7617",
           "open_now": true
@@ -755,7 +755,7 @@
             "food"
           ],
           "rating": 4.6,
-          "review_count": 606,
+          "review_count": 615,
           "address": "987 S Bluff St, St. George, UT 84770, USA",
           "phone": "(435) 652-1693",
           "open_now": true
@@ -767,8 +767,8 @@
             "food",
             "convenience"
           ],
-          "rating": 3.9,
-          "review_count": 110,
+          "rating": 3.8,
+          "review_count": 112,
           "address": "1216 S Bluff St, St. George, UT 84770, USA",
           "phone": "(435) 628-1078",
           "open_now": true
@@ -780,7 +780,7 @@
             "coffee"
           ],
           "rating": 4.5,
-          "review_count": 1010,
+          "review_count": 1016,
           "address": "558 E Riverside Dr #208, St. George, UT 84790, USA",
           "phone": "(435) 922-1717",
           "open_now": true
@@ -791,7 +791,7 @@
             "food"
           ],
           "rating": 4.3,
-          "review_count": 3238,
+          "review_count": 3244,
           "address": "1676 S Convention Center Dr, St. George, UT 84790, USA",
           "phone": "(435) 674-1900",
           "open_now": true

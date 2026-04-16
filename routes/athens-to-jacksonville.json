@@ -4,7 +4,256 @@
   "destination": "Jacksonville, FL",
   "highway": "I-75, I-10",
   "miles": 325,
-  "exit_count": 0,
+  "exit_count": 2,
   "has_tolls": null,
-  "exits": []
+  "exits": [
+    {
+      "exit_id": "osm_n_9642028380",
+      "exit_number": "2",
+      "exit_name": "Exit 2",
+      "state": "GA",
+      "lat": 32.842844,
+      "lng": -83.623699,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "The Rookery",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 5365,
+          "address": "543 Cherry St, Macon, GA 31201, USA",
+          "phone": "(478) 746-8658",
+          "open_now": true
+        },
+        {
+          "name": "Piedmont Brewery and Kitchen",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 1958,
+          "address": "450-B 3rd St, Macon, GA 31201, USA",
+          "phone": "(478) 254-2337",
+          "open_now": true
+        },
+        {
+          "name": "H&H Soul Food Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 2063,
+          "address": "807 Forsyth St, Macon, GA 31201, USA",
+          "phone": "(478) 621-7044",
+          "open_now": false
+        },
+        {
+          "name": "Ocmulgee Brewpub",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 1075,
+          "address": "484 2nd St, Macon, GA 31201, USA",
+          "phone": "(478) 254-2848",
+          "open_now": true
+        },
+        {
+          "name": "QuikTrip",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 3.7,
+          "review_count": 27,
+          "address": "519 North Ave, Macon, GA 31201, USA",
+          "phone": "(478) 583-6597",
+          "open_now": true
+        },
+        {
+          "name": "Kudzu Seafood Company",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 2006,
+          "address": "512 Poplar St, Macon, GA 31201, USA",
+          "phone": "(478) 292-2085",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.3,
+          "review_count": 2137,
+          "address": "550 Gray Hwy, Macon, GA 31201, USA",
+          "phone": "(478) 745-6324",
+          "open_now": true
+        },
+        {
+          "name": "Zaxbys Chicken Fingers & Buffalo Wings",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 1554,
+          "address": "910 Riverside Dr, Macon, GA 31201, USA",
+          "phone": "(478) 750-1199",
+          "open_now": true
+        },
+        {
+          "name": "Oliver's Corner Bistro",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 727,
+          "address": "496 2nd St, Macon, GA 31201, USA",
+          "phone": "(478) 305-7475",
+          "open_now": false
+        },
+        {
+          "name": "3rd & Cherry Steak and Seafood and Bar",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 314,
+          "address": "379 3rd St, Macon, GA 31201, USA",
+          "phone": "(478) 216-5200",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_w_1001797821",
+      "exit_number": "",
+      "exit_name": "Service Plaza",
+      "state": "GA",
+      "lat": 31.209855,
+      "lng": -82.382573,
+      "stop_type": "service_plaza",
+      "places": [
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.5,
+          "review_count": 2797,
+          "address": "1738 S Georgia Pkwy W, Waycross, GA 31503, USA",
+          "phone": "(912) 548-0715",
+          "open_now": true
+        },
+        {
+          "name": "Circle K",
+          "types": [
+            "convenience"
+          ],
+          "rating": 3.2,
+          "review_count": 96,
+          "address": "1736 S Georgia Pkwy W, Waycross, GA 31503, USA",
+          "phone": "(912) 283-3429",
+          "open_now": true
+        },
+        {
+          "name": "Wawa",
+          "types": [
+            "gas",
+            "food",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 4.1,
+          "review_count": 51,
+          "address": "1810 S Georgia Pkwy W, Waycross, GA 31503, USA",
+          "phone": "(912) 550-4456",
+          "open_now": true
+        },
+        {
+          "name": "Taqueria Pancho Villa",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 965,
+          "address": "229 S Augusta Ave, Waycross, GA 31503, USA",
+          "phone": "(912) 338-8818",
+          "open_now": true
+        },
+        {
+          "name": "Friendly Express",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.3,
+          "review_count": 437,
+          "address": "1811 S Georgia Pkwy W, Waycross, GA 31503, USA",
+          "phone": "(912) 283-0998",
+          "open_now": true
+        },
+        {
+          "name": "Nana's Country Buffet",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 500,
+          "address": "1625 Albany Ave, Waycross, GA 31503, USA",
+          "phone": "(912) 285-8864",
+          "open_now": false
+        },
+        {
+          "name": "Jerry J's South Ga. Pkwy",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 605,
+          "address": "1920 S Georgia Pkwy W, Waycross, GA 31503, USA",
+          "phone": "(912) 285-4144",
+          "open_now": false
+        },
+        {
+          "name": "Uncle Wayne\u2019s Steak and BBQ Shack",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 63,
+          "address": "485 S Augusta Ave, Waycross, GA 31503, USA",
+          "phone": "(912) 300-1171"
+        },
+        {
+          "name": "Subway",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 308,
+          "address": "1727 S Georgia Pkwy W, Waycross, GA 31501, USA",
+          "phone": "(912) 283-6030",
+          "open_now": true
+        },
+        {
+          "name": "Fuji Westside",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 150,
+          "address": "1832 S Georgia Pkwy W W, Waycross, GA 31503, USA",
+          "phone": "(912) 283-6600",
+          "open_now": true
+        }
+      ]
+    }
+  ]
 }

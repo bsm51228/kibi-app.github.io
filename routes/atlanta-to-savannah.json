@@ -4,7 +4,260 @@
   "destination": "Savannah, GA",
   "highway": "I-75, I-16",
   "miles": 250,
-  "exit_count": 0,
+  "exit_count": 3,
   "has_tolls": null,
-  "exits": []
+  "exits": [
+    {
+      "exit_id": "osm_n_9642028380",
+      "exit_number": "2",
+      "exit_name": "Exit 2",
+      "state": "GA",
+      "lat": 32.842844,
+      "lng": -83.623699,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "The Rookery",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 5365,
+          "address": "543 Cherry St, Macon, GA 31201, USA",
+          "phone": "(478) 746-8658",
+          "open_now": true
+        },
+        {
+          "name": "Piedmont Brewery and Kitchen",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 1958,
+          "address": "450-B 3rd St, Macon, GA 31201, USA",
+          "phone": "(478) 254-2337",
+          "open_now": true
+        },
+        {
+          "name": "H&H Soul Food Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 2063,
+          "address": "807 Forsyth St, Macon, GA 31201, USA",
+          "phone": "(478) 621-7044",
+          "open_now": false
+        },
+        {
+          "name": "Ocmulgee Brewpub",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 1075,
+          "address": "484 2nd St, Macon, GA 31201, USA",
+          "phone": "(478) 254-2848",
+          "open_now": true
+        },
+        {
+          "name": "QuikTrip",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 3.7,
+          "review_count": 27,
+          "address": "519 North Ave, Macon, GA 31201, USA",
+          "phone": "(478) 583-6597",
+          "open_now": true
+        },
+        {
+          "name": "Kudzu Seafood Company",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 2006,
+          "address": "512 Poplar St, Macon, GA 31201, USA",
+          "phone": "(478) 292-2085",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.3,
+          "review_count": 2137,
+          "address": "550 Gray Hwy, Macon, GA 31201, USA",
+          "phone": "(478) 745-6324",
+          "open_now": true
+        },
+        {
+          "name": "Zaxbys Chicken Fingers & Buffalo Wings",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 1554,
+          "address": "910 Riverside Dr, Macon, GA 31201, USA",
+          "phone": "(478) 750-1199",
+          "open_now": true
+        },
+        {
+          "name": "Oliver's Corner Bistro",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 727,
+          "address": "496 2nd St, Macon, GA 31201, USA",
+          "phone": "(478) 305-7475",
+          "open_now": false
+        },
+        {
+          "name": "3rd & Cherry Steak and Seafood and Bar",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 314,
+          "address": "379 3rd St, Macon, GA 31201, USA",
+          "phone": "(478) 216-5200",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_70855788",
+      "exit_number": "58",
+      "exit_name": "Exit 58",
+      "state": "GA",
+      "lat": 32.472896,
+      "lng": -82.819688,
+      "stop_type": "exit_ramp",
+      "places": []
+    },
+    {
+      "exit_id": "osm_w_1331887152",
+      "exit_number": "0418",
+      "exit_name": "TA Express",
+      "state": "GA",
+      "lat": 32.30398,
+      "lng": -81.870353,
+      "stop_type": "service_plaza",
+      "places": [
+        {
+          "name": "TA Travel Center",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.2,
+          "review_count": 562,
+          "address": "2930 Highway 301 South Statesboro, Register, GA 30452, USA",
+          "phone": "(912) 480-0102",
+          "open_now": true
+        },
+        {
+          "name": "Po Jo Travel Center",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.3,
+          "review_count": 65,
+          "address": "3575 US-301, Register, GA 30452, USA",
+          "phone": "(912) 852-5441",
+          "open_now": true
+        },
+        {
+          "name": "Shell",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 4,
+          "review_count": 146,
+          "address": "2925 US-301 S, Register, GA 30452, USA",
+          "phone": "(912) 852-5001",
+          "open_now": true
+        },
+        {
+          "name": "Burger King",
+          "types": [
+            "food"
+          ],
+          "rating": 2.8,
+          "review_count": 90,
+          "address": "2925 US-301, Register, GA 30452, USA",
+          "phone": "(912) 480-0102",
+          "open_now": true
+        },
+        {
+          "name": "Chevron",
+          "types": [
+            "gas"
+          ],
+          "rating": 3.5,
+          "review_count": 78,
+          "address": "3575 US-301 S, Register, GA 30452, USA",
+          "phone": "(912) 852-5441",
+          "open_now": true
+        },
+        {
+          "name": "Amoco",
+          "types": [
+            "gas"
+          ],
+          "rating": 5,
+          "review_count": 1,
+          "address": "2930 US-301, Register, GA 30452, USA",
+          "phone": "(912) 480-0102",
+          "open_now": true
+        },
+        {
+          "name": "Subway",
+          "types": [
+            "food"
+          ],
+          "rating": 2.4,
+          "review_count": 19,
+          "address": "2925 US-301, Register, GA 30452, USA",
+          "phone": "(912) 852-5001",
+          "open_now": true
+        },
+        {
+          "name": "PO JO'S GAS N GO 1",
+          "types": [
+            "gas"
+          ],
+          "rating": null,
+          "review_count": null,
+          "address": "3575 US-301 S, Register, GA 30452, USA"
+        },
+        {
+          "name": "Shell Food Mart",
+          "types": [
+            "convenience"
+          ],
+          "rating": null,
+          "review_count": null,
+          "address": "Georgia 30452, USA",
+          "open_now": true
+        },
+        {
+          "name": "Food Mart",
+          "types": [
+            "convenience"
+          ],
+          "rating": null,
+          "review_count": null,
+          "address": "Georgia 30452, USA"
+        }
+      ]
+    }
+  ]
 }

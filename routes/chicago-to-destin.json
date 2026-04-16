@@ -2,9 +2,935 @@
   "route_slug": "chicago-to-destin",
   "origin": "Chicago, IL",
   "destination": "Destin, FL",
-  "highway": "I-65",
+  "highway": "I-65, I-10, US-98",
   "miles": 960,
-  "exit_count": 0,
+  "exit_count": 11,
   "has_tolls": null,
-  "exits": []
+  "exits": [
+    {
+      "exit_id": "osm_n_180051588",
+      "exit_number": "220",
+      "exit_name": "Exit 220",
+      "state": "IN",
+      "lat": 41.006295,
+      "lng": -87.269973,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Fair Oaks Farms",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4.3,
+          "review_count": 4753,
+          "address": "856 N 600 E, Fair Oaks, IN 47943, USA",
+          "phone": "(219) 394-2025"
+        },
+        {
+          "name": "Farmhouse Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 3189,
+          "address": "754 N 600 E, Fair Oaks, IN 47943, USA",
+          "phone": "(219) 394-3663",
+          "open_now": false
+        },
+        {
+          "name": "bp",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.1,
+          "review_count": 133,
+          "address": "964 N 600 E, Fair Oaks, IN 47943, USA",
+          "phone": "(219) 394-2012",
+          "open_now": true
+        },
+        {
+          "name": "Beyond6 CNG Fuel Station",
+          "types": [
+            "gas"
+          ],
+          "rating": 3.4,
+          "review_count": 7,
+          "address": "201 County Line Rd, Fair Oaks, IN 47943, USA",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_181874213",
+      "exit_number": "4",
+      "exit_name": "Exit 4",
+      "state": "IN",
+      "lat": 40.119322,
+      "lng": -87.462136,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "The Beef House Restaurant & Dinner Theatre",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 4736,
+          "address": "16501 IN-63, Covington, IN 47932, USA",
+          "phone": "(765) 793-3947",
+          "open_now": true
+        },
+        {
+          "name": "ONE9 Travel Center",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 4,
+          "review_count": 1424,
+          "address": "16502 IN-63, Covington, IN 47932, USA",
+          "phone": "(765) 793-7307",
+          "open_now": true
+        },
+        {
+          "name": "Arby's",
+          "types": [
+            "food"
+          ],
+          "rating": 3.8,
+          "review_count": 1565,
+          "address": "16502 IN-63, Covington, IN 47932, USA",
+          "phone": "(765) 793-7287",
+          "open_now": true
+        },
+        {
+          "name": "Dunkin'",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.8,
+          "review_count": 15,
+          "address": "16502 IN-63, Covington, IN 47932, USA",
+          "phone": "(765) 793-7307",
+          "open_now": true
+        },
+        {
+          "name": "That BBQ Place",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 6,
+          "address": "1278 E County Rd 1550 N, Covington, IN 47932, USA",
+          "phone": "(682) 842-8227"
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_1142886640",
+      "exit_number": "11A-B",
+      "exit_name": "Exit 11A-B",
+      "state": "IN",
+      "lat": 39.430578,
+      "lng": -87.344038,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Terre Haute Casino Resort",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 1601,
+          "address": "4500 E Margaret Dr, Terre Haute, IN 47803, USA",
+          "phone": "(812) 233-6777",
+          "open_now": true
+        },
+        {
+          "name": "ONE9 Travel Center",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 4.1,
+          "review_count": 1127,
+          "address": "5555 E Margaret Ave, Terre Haute, IN 47803, USA",
+          "phone": "(812) 877-9977",
+          "open_now": true
+        },
+        {
+          "name": "Chipotle Mexican Grill",
+          "types": [
+            "food"
+          ],
+          "rating": 3.1,
+          "review_count": 145,
+          "address": "2499 IN-46, Terre Haute, IN 47803, USA",
+          "phone": "(812) 990-4024",
+          "open_now": true
+        },
+        {
+          "name": "Starbucks Coffee Company",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.3,
+          "review_count": 395,
+          "address": "5510 New Margaret Drive, Terre Haute, IN 47803, USA",
+          "phone": "(812) 872-2284",
+          "open_now": true
+        },
+        {
+          "name": "Sonic Drive-In",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 1483,
+          "address": "2149 IN-46, Terre Haute, IN 47803, USA",
+          "phone": "(812) 877-2200",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.4,
+          "review_count": 1719,
+          "address": "2633 IN-46, Terre Haute, IN 47803, USA",
+          "phone": "(812) 877-6440",
+          "open_now": true
+        },
+        {
+          "name": "Thorntons",
+          "types": [
+            "gas",
+            "food",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 3.9,
+          "review_count": 54,
+          "address": "2665 IN-46, Terre Haute, IN 47803, USA",
+          "phone": "(812) 877-6260",
+          "open_now": true
+        },
+        {
+          "name": "Monical's Pizza of Terre Haute - Sycamore Terrace",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 782,
+          "address": "2147 IN-46, Terre Haute, IN 47803, USA",
+          "phone": "(812) 877-2959",
+          "open_now": true
+        },
+        {
+          "name": "Taco Bell",
+          "types": [
+            "food"
+          ],
+          "rating": 3.8,
+          "review_count": 927,
+          "address": "2319 IN-46, Terre Haute, IN 47803, USA",
+          "phone": "(812) 234-6386",
+          "open_now": true
+        },
+        {
+          "name": "Real Hacienda#3",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 712,
+          "address": "2141 IN-46, Terre Haute, IN 47803, USA",
+          "phone": "(812) 877-2690",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_809998836",
+      "exit_number": "33",
+      "exit_name": "Exit 33",
+      "state": "IN",
+      "lat": 38.332587,
+      "lng": -87.396847,
+      "stop_type": "exit_ramp",
+      "places": []
+    },
+    {
+      "exit_id": "osm_n_167282063",
+      "exit_number": "58",
+      "exit_name": "Exit 58",
+      "state": "KY",
+      "lat": 37.281922,
+      "lng": -87.109642,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Casey's",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 4,
+          "review_count": 147,
+          "address": "645 S 2nd St, Central City, KY 42330, USA",
+          "phone": "(270) 754-4875",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.6,
+          "review_count": 1203,
+          "address": "402 S 2nd St, Central City, KY 42330, USA",
+          "phone": "(270) 757-1400",
+          "open_now": true
+        },
+        {
+          "name": "El Bracero of Central City",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 1057,
+          "address": "609 S 2nd St, Central City, KY 42330, USA",
+          "phone": "(270) 757-9461",
+          "open_now": true
+        },
+        {
+          "name": "Huddle House",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 1034,
+          "address": "629 S 2nd St, Central City, KY 42330, USA",
+          "phone": "(270) 754-3663",
+          "open_now": true
+        },
+        {
+          "name": "Lucky Garden Buffet",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 505,
+          "address": "110 W Everly Brothers Blvd, Central City, KY 42330, USA",
+          "phone": "(270) 754-5888",
+          "open_now": true
+        },
+        {
+          "name": "Wendy's",
+          "types": [
+            "food"
+          ],
+          "rating": 3.7,
+          "review_count": 590,
+          "address": "400 S 2nd St, Central City, KY 42330, USA",
+          "phone": "(270) 754-5507",
+          "open_now": true
+        },
+        {
+          "name": "Arby's",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 511,
+          "address": "637 S 2nd St, Central City, KY 42330, USA",
+          "phone": "(270) 754-4400",
+          "open_now": true
+        },
+        {
+          "name": "Dairy Queen Grill & Chill",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 393,
+          "address": "201 S 2nd St, Central City, KY 42330, USA",
+          "phone": "(270) 754-3800",
+          "open_now": true
+        },
+        {
+          "name": "KFC",
+          "types": [
+            "food"
+          ],
+          "rating": 3.6,
+          "review_count": 137,
+          "address": "647 S 2nd St, Central City, KY 42330, USA",
+          "phone": "(270) 977-8807",
+          "open_now": true
+        },
+        {
+          "name": "Dollar General",
+          "types": [
+            "convenience"
+          ],
+          "rating": 4.2,
+          "review_count": 265,
+          "address": "218 S 2nd St, Central City, KY 42330, USA",
+          "phone": "(502) 785-0271",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_203149923",
+      "exit_number": "11",
+      "exit_name": "Exit 11",
+      "state": "TN",
+      "lat": 36.521563,
+      "lng": -87.215711,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "El Rancho Grande",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 1341,
+          "address": "1104 TN-76, Clarksville, TN 37043, USA",
+          "phone": "(931) 358-5877",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.3,
+          "review_count": 2956,
+          "address": "724 Sango Rd, Clarksville, TN 37043, USA",
+          "phone": "(931) 358-0259",
+          "open_now": true
+        },
+        {
+          "name": "Camacho\u2019s Famous - Pizzeria and Tavern",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 654,
+          "address": "1021 TN-76 Suite 106, Clarksville, TN 37043, USA",
+          "phone": "(931) 538-1693",
+          "open_now": true
+        },
+        {
+          "name": "Zen Garden",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 208,
+          "address": "1021 TN-76 #104, Clarksville, TN 37043, USA",
+          "phone": "(931) 919-2451",
+          "open_now": true
+        },
+        {
+          "name": "Waffle House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 1175,
+          "address": "1114 TN-76, Clarksville, TN 37043, USA",
+          "phone": "(931) 358-3404",
+          "open_now": true
+        },
+        {
+          "name": "Shell",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 3.6,
+          "review_count": 73,
+          "address": "601 Hornbuckle Rd, Clarksville, TN 37043, USA",
+          "phone": "(931) 358-9447",
+          "open_now": true
+        },
+        {
+          "name": "The Peach Cobbler Factory",
+          "types": [
+            "food"
+          ],
+          "rating": 3.8,
+          "review_count": 217,
+          "address": "1021 TN-76 suite 108, Clarksville, TN 37043, USA",
+          "phone": "(931) 919-2510",
+          "open_now": true
+        },
+        {
+          "name": "Exxon",
+          "types": [
+            "gas"
+          ],
+          "rating": 4,
+          "review_count": 539,
+          "address": "1115 TN-76, Clarksville, TN 37043, USA",
+          "phone": "(931) 358-9221",
+          "open_now": true
+        },
+        {
+          "name": "DOZO JAPANESE CUISINE",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 241,
+          "address": "625 Huntco Dr, Clarksville, TN 37043, USA",
+          "phone": "(931) 368-9087",
+          "open_now": true
+        },
+        {
+          "name": "Official Wings",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 135,
+          "address": "1021 TN-76 Suite 110, Clarksville, TN 37043, USA",
+          "phone": "(615) 604-5761",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_2622713778",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "TN",
+      "lat": 35.715194,
+      "lng": -86.97184,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Embers Tavern & Grille",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 1342,
+          "address": "2513 Hospitality Dr, Columbia, TN 38401, USA",
+          "phone": "(931) 489-0027",
+          "open_now": true
+        },
+        {
+          "name": "Peppercorn Scratch Kitchen",
+          "types": [
+            "food"
+          ],
+          "rating": 4.8,
+          "review_count": 552,
+          "address": "2563 Nashville Hwy Suite 5, Columbia, TN 38401, USA",
+          "phone": "(931) 901-0279",
+          "open_now": true
+        },
+        {
+          "name": "Mirinae Korean Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 184,
+          "address": "2500 Cayer Ln, Columbia, TN 38401, USA",
+          "phone": "(931) 674-2007",
+          "open_now": true
+        },
+        {
+          "name": "Mezcal Cocina Mexicana",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 218,
+          "address": "2504 Cayer Ln, Columbia, TN 38401, USA",
+          "phone": "(931) 223-5744",
+          "open_now": true
+        },
+        {
+          "name": "Legacy Coffee Co.",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4.9,
+          "review_count": 358,
+          "address": "2549 Nashville Hwy B, Columbia, TN 38401, USA",
+          "phone": "(931) 451-5163",
+          "open_now": true
+        },
+        {
+          "name": "Shell",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 3.3,
+          "review_count": 60,
+          "address": "2577 Nashville Hwy, Columbia, TN 38401, USA",
+          "phone": "(931) 486-1752",
+          "open_now": true
+        },
+        {
+          "name": "Dollar General",
+          "types": [
+            "convenience"
+          ],
+          "rating": 4.2,
+          "review_count": 325,
+          "address": "2490 Nashville Hwy, Columbia, TN 38401, USA",
+          "phone": "(931) 398-3853",
+          "open_now": true
+        },
+        {
+          "name": "Burger King",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 670,
+          "address": "2540 Nashville Hwy, Columbia, TN 38401, USA",
+          "phone": "(931) 486-1941",
+          "open_now": true
+        },
+        {
+          "name": "Twice Daily",
+          "types": [
+            "convenience"
+          ],
+          "rating": 4.1,
+          "review_count": 25,
+          "address": "2536 Nashville Hwy, Columbia, TN 38401, USA",
+          "phone": "(931) 486-2802",
+          "open_now": true
+        },
+        {
+          "name": "Marathon Gas",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 2.8,
+          "review_count": 18,
+          "address": "2585 Nashville Hwy, Columbia, TN 38401, USA",
+          "phone": "(931) 486-1982",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_56936411",
+      "exit_number": "354",
+      "exit_name": "Exit 354",
+      "state": "AL",
+      "lat": 34.831003,
+      "lng": -86.938773,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Shell",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 3.7,
+          "review_count": 3,
+          "address": "1721 Trigreen Dr, Athens, AL 35613, USA",
+          "phone": "(256) 203-9790",
+          "open_now": true
+        },
+        {
+          "name": "Chevron",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.8,
+          "review_count": 28,
+          "address": "1514 E Elm St, Athens, AL 35611, USA",
+          "phone": "(855) 285-9595",
+          "open_now": true
+        },
+        {
+          "name": "Twice Daily",
+          "types": [
+            "convenience"
+          ],
+          "rating": 3.1,
+          "review_count": 15,
+          "address": "1721 Trigreen Dr, Athens, AL 35611, USA",
+          "phone": "(256) 203-9790",
+          "open_now": true
+        },
+        {
+          "name": "WHITE BISON COFFEE",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4.3,
+          "review_count": 6,
+          "address": "Athens, AL 35613, USA"
+        },
+        {
+          "name": "Cafe Chisme",
+          "types": [
+            "coffee"
+          ],
+          "rating": null,
+          "review_count": null,
+          "address": "1819 Lindsay Ln N, Athens, AL 35613, USA",
+          "phone": "(256) 444-5600"
+        },
+        {
+          "name": "Twice Daily",
+          "types": [
+            "gas"
+          ],
+          "rating": 3.9,
+          "review_count": 12,
+          "address": "1721 Trigreen Dr, Athens, AL 35611, USA",
+          "phone": "(256) 203-9790",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_52171796",
+      "exit_number": "289",
+      "exit_name": "Exit 289",
+      "state": "AL",
+      "lat": 33.914186,
+      "lng": -86.865612,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Stuckey's Hayden",
+          "types": [
+            "convenience"
+          ],
+          "rating": 4.1,
+          "review_count": 28,
+          "address": "7600 County Hwy 5, Hayden, AL 35079, USA",
+          "phone": "(205) 647-7043",
+          "open_now": true
+        },
+        {
+          "name": "Chevron",
+          "types": [
+            "gas"
+          ],
+          "rating": 5,
+          "review_count": 1,
+          "address": "7600 County Hwy 5, Hayden, AL 35079, USA",
+          "phone": "(855) 285-9595"
+        },
+        {
+          "name": "Texaco",
+          "types": [
+            "gas"
+          ],
+          "rating": 5,
+          "review_count": 1,
+          "address": "7600 County Hwy 5, Hayden, AL 35079, USA",
+          "phone": "(205) 647-9856"
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_w_1415396230",
+      "exit_number": "7171",
+      "exit_name": "QuikTrip",
+      "state": "AL",
+      "lat": 33.140086,
+      "lng": -86.751944,
+      "stop_type": "service_plaza",
+      "places": [
+        {
+          "name": "QuikTrip",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 4.1,
+          "review_count": 182,
+          "address": "2220 Co Rd 84, Calera, AL 35040, USA",
+          "phone": "(205) 690-9484",
+          "open_now": true
+        },
+        {
+          "name": "Chick-fil-A",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 2209,
+          "address": "64 Co Rd 304, Calera, AL 35040, USA",
+          "phone": "(205) 668-7483",
+          "open_now": true
+        },
+        {
+          "name": "Cracker Barrel Old Country Store",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 3520,
+          "address": "199 Supercenter Dr, Calera, AL 35040, USA",
+          "phone": "(205) 668-2027",
+          "open_now": true
+        },
+        {
+          "name": "7 Brew Coffee",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4.7,
+          "review_count": 434,
+          "address": "5065 US-31, Calera, AL 35040, USA",
+          "phone": "(479) 358-9274",
+          "open_now": true
+        },
+        {
+          "name": "Bertolone's Classic Italian Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 1407,
+          "address": "209 Supercenter Dr, Calera, AL 35040, USA",
+          "phone": "(205) 644-8780",
+          "open_now": true
+        },
+        {
+          "name": "Las Mesas Mexican Grill",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 1026,
+          "address": "291 Supercenter Dr Suite A3, Calera, AL 35040, USA",
+          "phone": "(205) 542-7058",
+          "open_now": true
+        },
+        {
+          "name": "Zapopan Mexican Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 1124,
+          "address": "45 Beverly Dr, Calera, AL 35040, USA",
+          "phone": "(205) 668-4008",
+          "open_now": true
+        },
+        {
+          "name": "Domino's pizza",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 66,
+          "address": "44 Beverly Dr, Calera, AL 35040, USA",
+          "phone": "(205) 690-8484",
+          "open_now": true
+        },
+        {
+          "name": "Sage Bar & Grill",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 541,
+          "address": "4979 US-31, Calera, AL 35040, USA",
+          "open_now": true
+        },
+        {
+          "name": "Zaxbys Chicken Fingers & Buffalo Wings",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 962,
+          "address": "102 Limestone Pkwy, Calera, AL 35040, USA",
+          "phone": "(205) 668-9886",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_56968689",
+      "exit_number": "151",
+      "exit_name": "Exit 151",
+      "state": "AL",
+      "lat": 32.106741,
+      "lng": -86.464075,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Marathon Gas",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 2,
+          "review_count": 54,
+          "address": "8436 AL-97, Letohatchee, AL 36047, USA",
+          "phone": "(334) 227-3217",
+          "open_now": true
+        },
+        {
+          "name": "Choo Choo's Burgers & BBQ LLC.",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 22,
+          "address": "8415 AL-97, Letohatchee, AL 36047, USA",
+          "phone": "(334) 301-9469",
+          "open_now": false
+        },
+        {
+          "name": "LINK",
+          "types": [
+            "gas"
+          ],
+          "rating": 3.4,
+          "review_count": 106,
+          "address": "8039 AL-97, Letohatchee, AL 36047, USA",
+          "phone": "(334) 227-8556"
+        },
+        {
+          "name": "Reddy Holding LLC",
+          "types": [
+            "gas"
+          ],
+          "rating": null,
+          "review_count": null,
+          "address": "8346 AL-97 South, Letohatchee, AL 36047, USA",
+          "phone": "(334) 227-3217",
+          "open_now": true
+        }
+      ]
+    }
+  ]
 }

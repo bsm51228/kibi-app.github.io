@@ -55,7 +55,7 @@
             "food"
           ],
           "rating": 4.3,
-          "review_count": 972,
+          "review_count": 979,
           "address": "1600 Sam Nunn Blvd, Perry, GA 31069, USA",
           "phone": "(478) 988-8188",
           "open_now": true
@@ -66,7 +66,7 @@
             "food"
           ],
           "rating": 4.2,
-          "review_count": 2384,
+          "review_count": 2387,
           "address": "100 Hampton Ct, Perry, GA 31069, USA",
           "phone": "(478) 988-1500",
           "open_now": true
@@ -89,7 +89,7 @@
             "food"
           ],
           "rating": 4.1,
-          "review_count": 2437,
+          "review_count": 2440,
           "address": "1001 St Patricks Dr, Perry, GA 31069, USA",
           "phone": "(478) 218-2100",
           "open_now": true
@@ -101,7 +101,7 @@
             "coffee"
           ],
           "rating": 3.4,
-          "review_count": 269,
+          "review_count": 270,
           "address": "1506 Sam Nunn Blvd, Perry, GA 31069, USA",
           "phone": "(478) 313-5227",
           "open_now": true
@@ -123,7 +123,7 @@
             "food"
           ],
           "rating": 3.8,
-          "review_count": 868,
+          "review_count": 871,
           "address": "101 Hampton Ct, Perry, GA 31069, USA",
           "phone": "(478) 987-1020",
           "open_now": true
@@ -134,7 +134,7 @@
             "food"
           ],
           "rating": 3.9,
-          "review_count": 2146,
+          "review_count": 2149,
           "address": "1359 Sam Nunn Blvd, Perry, GA 31069, USA",
           "phone": "(478) 988-8612",
           "open_now": true
@@ -145,7 +145,7 @@
             "food"
           ],
           "rating": 3.4,
-          "review_count": 927,
+          "review_count": 929,
           "address": "1500 Sam Nunn Blvd, Perry, GA 31069, USA",
           "phone": "(478) 987-7365",
           "open_now": true
@@ -156,7 +156,7 @@
             "food"
           ],
           "rating": 4.1,
-          "review_count": 682,
+          "review_count": 685,
           "address": "1406 Sam Nunn Blvd, Perry, GA 31069, USA",
           "phone": "(478) 224-0356",
           "open_now": true
@@ -177,8 +177,8 @@
           "types": [
             "gas"
           ],
-          "rating": 3,
-          "review_count": 2,
+          "rating": 3.7,
+          "review_count": 3,
           "address": "4310 GA-125, Tifton, GA 31794, USA",
           "open_now": true
         },
@@ -223,7 +223,7 @@
             "convenience"
           ],
           "rating": 4.1,
-          "review_count": 1470,
+          "review_count": 1486,
           "address": "11459 SW 61st Ave, Jasper, FL 32052, USA",
           "phone": "(386) 792-3095",
           "open_now": true
@@ -234,7 +234,7 @@
             "food"
           ],
           "rating": 3.9,
-          "review_count": 1354,
+          "review_count": 1358,
           "address": "6723 US-129, Jasper, FL 32052, USA",
           "phone": "(386) 792-1080",
           "open_now": true
@@ -245,7 +245,7 @@
             "food"
           ],
           "rating": 4,
-          "review_count": 2571,
+          "review_count": 2575,
           "address": "11459 SW 61st Wy, Jasper, FL 32052, USA",
           "phone": "(386) 792-3095",
           "open_now": true
@@ -257,7 +257,7 @@
             "convenience"
           ],
           "rating": 3.8,
-          "review_count": 31,
+          "review_count": 32,
           "address": "6723 US-129, Jasper, FL 32052, USA",
           "phone": "(386) 792-1898",
           "open_now": true
@@ -291,7 +291,7 @@
             "food"
           ],
           "rating": 3.3,
-          "review_count": 342,
+          "review_count": 344,
           "address": "6580 US Highway 129 S I-75 & US 129 (Exit 85, Jasper, FL 32052, USA",
           "phone": "(386) 792-2679",
           "open_now": true
@@ -312,8 +312,8 @@
             "gas",
             "convenience"
           ],
-          "rating": 3.4,
-          "review_count": 19,
+          "rating": 3.5,
+          "review_count": 20,
           "address": "6723 US-129, Jasper, FL 32052, USA",
           "phone": "(386) 792-1898",
           "open_now": true

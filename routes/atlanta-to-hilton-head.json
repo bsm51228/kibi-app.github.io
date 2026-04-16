@@ -4,7 +4,256 @@
   "destination": "Hilton Head, SC",
   "highway": "I-20, I-95",
   "miles": 290,
-  "exit_count": 0,
+  "exit_count": 2,
   "has_tolls": null,
-  "exits": []
+  "exits": [
+    {
+      "exit_id": "osm_n_69661141",
+      "exit_number": "130",
+      "exit_name": "Exit 130",
+      "state": "GA",
+      "lat": 33.546206,
+      "lng": -83.199659,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Chick-fil-A",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 1224,
+          "address": "2521 Towne Center Pkwy, Greensboro, GA 30642, USA",
+          "phone": "(706) 454-1470",
+          "open_now": true
+        },
+        {
+          "name": "Starbucks Coffee Company",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.1,
+          "review_count": 112,
+          "address": "2481 Towne Center Pkwy, Greensboro, GA 30642, USA",
+          "phone": "(762) 445-9033",
+          "open_now": true
+        },
+        {
+          "name": "Racetrac",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.3,
+          "review_count": 103,
+          "address": "2670 Lake Oconee Pkwy, Greensboro, GA 30642, USA",
+          "phone": "(770) 431-7600",
+          "open_now": true
+        },
+        {
+          "name": "LongHorn Steakhouse",
+          "types": [
+            "food"
+          ],
+          "rating": 3.8,
+          "review_count": 292,
+          "address": "2680 Lake Oconee Pkwy, Greensboro, GA 30642, USA",
+          "phone": "(706) 999-6053",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.5,
+          "review_count": 1919,
+          "address": "2331 S Main St, Greensboro, GA 30642, USA",
+          "phone": "(706) 453-0099",
+          "open_now": true
+        },
+        {
+          "name": "Zaxbys Chicken Fingers & Buffalo Wings",
+          "types": [
+            "food"
+          ],
+          "rating": 3.8,
+          "review_count": 814,
+          "address": "2301 S Main St, Greensboro, GA 30642, USA",
+          "phone": "(706) 453-1355",
+          "open_now": true
+        },
+        {
+          "name": "Waffle House",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 568,
+          "address": "2250 S Main St, Greensboro, GA 30642, USA",
+          "phone": "(706) 453-7049",
+          "open_now": true
+        },
+        {
+          "name": "Pizza Hut",
+          "types": [
+            "food"
+          ],
+          "rating": 3.6,
+          "review_count": 517,
+          "address": "2270 S Main St, Greensboro, GA 30642, USA",
+          "phone": "(706) 453-2920",
+          "open_now": true
+        },
+        {
+          "name": "Jersey Mike's Subs",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 86,
+          "address": "2485 Towne Center Pkwy Suite 103, Greensboro, GA 30642, USA",
+          "phone": "(706) 999-5098",
+          "open_now": true
+        },
+        {
+          "name": "Taco Bell",
+          "types": [
+            "food"
+          ],
+          "rating": 2.2,
+          "review_count": 112,
+          "address": "1155 Interstate Blvd, Greensboro, GA 30642, USA",
+          "phone": "(762) 815-4553",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_1596695576",
+      "exit_number": "",
+      "exit_name": "Highway Exit",
+      "state": "GA",
+      "lat": 33.485303,
+      "lng": -82.002069,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Trellis Coffee Bar",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4.8,
+          "review_count": 849,
+          "address": "1902 Walton Wy, Augusta, GA 30904, USA",
+          "phone": "(706) 496-7035",
+          "open_now": true
+        },
+        {
+          "name": "Starbucks Coffee Company",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4,
+          "review_count": 192,
+          "address": "1531 Walton Wy, Augusta, GA 30904, USA",
+          "phone": "(762) 775-0100",
+          "open_now": true
+        },
+        {
+          "name": "Cook Out",
+          "types": [
+            "food"
+          ],
+          "rating": 3.8,
+          "review_count": 1529,
+          "address": "1801 Walton Wy, Augusta, GA 30904, USA",
+          "phone": "(866) 547-0011",
+          "open_now": true
+        },
+        {
+          "name": "Zaxbys Chicken Fingers & Buffalo Wings",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 1031,
+          "address": "1702 Walton Wy, Augusta, GA 30904, USA",
+          "phone": "(706) 481-0717",
+          "open_now": true
+        },
+        {
+          "name": "S & S Cafeteria",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 3050,
+          "address": "1616 Walton Wy, Augusta, GA 30904, USA",
+          "phone": "(706) 736-2972",
+          "open_now": true
+        },
+        {
+          "name": "Dunkin'",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4,
+          "review_count": 517,
+          "address": "1640 Walton Wy, Augusta, GA 30904, USA",
+          "phone": "(706) 496-8343",
+          "open_now": true
+        },
+        {
+          "name": "Hooks & Cook Fish and Chicken",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 514,
+          "address": "1820 Walton Wy, Augusta, GA 30904, USA",
+          "phone": "(706) 955-8003",
+          "open_now": true
+        },
+        {
+          "name": "Los Cabos",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 1061,
+          "address": "920 Baker Ave, Augusta, GA 30904, USA",
+          "phone": "(706) 922-1797",
+          "open_now": true
+        },
+        {
+          "name": "Waffle House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 695,
+          "address": "1627 Walton Wy, Augusta, GA 30904, USA",
+          "phone": "(706) 434-9134",
+          "open_now": true
+        },
+        {
+          "name": "Circle K",
+          "types": [
+            "food",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 3.7,
+          "review_count": 44,
+          "address": "1739 Walton Wy, Augusta, GA 30904, USA",
+          "phone": "(706) 733-6336",
+          "open_now": true
+        }
+      ]
+    }
+  ]
 }

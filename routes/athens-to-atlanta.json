@@ -4,7 +4,253 @@
   "destination": "Atlanta, GA",
   "highway": "GA-316, I-85",
   "miles": 72,
-  "exit_count": 0,
+  "exit_count": 2,
   "has_tolls": null,
-  "exits": []
+  "exits": [
+    {
+      "exit_id": "osm_n_67223385",
+      "exit_number": "8",
+      "exit_name": "Exit 8",
+      "state": "GA",
+      "lat": 33.946206,
+      "lng": -83.357001,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Mama's Boy Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 1892,
+          "address": "197 Oak St, Athens, GA 30601, USA",
+          "phone": "(706) 548-6249",
+          "open_now": false
+        },
+        {
+          "name": "RaceTrac",
+          "types": [
+            "gas",
+            "food",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 3.5,
+          "review_count": 152,
+          "address": "1321 Oconee St, Athens, GA 30605, USA",
+          "phone": "(470) 323-5857",
+          "open_now": true
+        },
+        {
+          "name": "Dairy Queen Grill & Chill",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 670,
+          "address": "376 Oak St, Athens, GA 30601, USA",
+          "phone": "(706) 208-0507",
+          "open_now": true
+        },
+        {
+          "name": "Village Summit Dining Commons",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 165,
+          "address": "80 Carlton St, Athens, GA 30605, USA",
+          "phone": "(706) 542-4386",
+          "open_now": true
+        },
+        {
+          "name": "Waffle House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 670,
+          "address": "1310 Oconee St, Athens, GA 30605, USA",
+          "phone": "(706) 353-2175"
+        },
+        {
+          "name": "Shell",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.9,
+          "review_count": 25,
+          "address": "1290 Oconee St, Athens, GA 30605, USA",
+          "phone": "(706) 546-5999",
+          "open_now": true
+        },
+        {
+          "name": "Dollar General",
+          "types": [
+            "convenience"
+          ],
+          "rating": 3.9,
+          "review_count": 379,
+          "address": "2194 Lexington Rd, Athens, GA 30605, USA",
+          "phone": "(762) 499-6465",
+          "open_now": true
+        },
+        {
+          "name": "Chick-fil-A",
+          "types": [
+            "food"
+          ],
+          "rating": 5,
+          "review_count": 4,
+          "address": "Loading Dock, 280 E Campus Rd Gate 6, Athens, GA 30602, USA",
+          "phone": "(706) 613-7115"
+        },
+        {
+          "name": "Chevron",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.1,
+          "review_count": 129,
+          "address": "1960 Lexington Rd, Athens, GA 30605, USA",
+          "phone": "(706) 549-9425",
+          "open_now": true
+        },
+        {
+          "name": "Rashe's Cuisine",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 121,
+          "address": "585 Vine St Ste 3, Athens, GA 30601, USA",
+          "phone": "(706) 850-4164",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_7426918680",
+      "exit_number": "246",
+      "exit_name": "Exit 246",
+      "state": "GA",
+      "lat": 33.746047,
+      "lng": -84.388989,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Hungry AF Downtown",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 4033,
+          "address": "27 Piedmont Ave NE d1, Atlanta, GA 30303, USA",
+          "phone": "(404) 748-1912",
+          "open_now": true
+        },
+        {
+          "name": "Metro Diner and Bar",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 6209,
+          "address": "229 Peachtree St B17, Atlanta, GA 30303, USA",
+          "phone": "(404) 577-1420",
+          "open_now": true
+        },
+        {
+          "name": "Ted's Montana Grill",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 5694,
+          "address": "133 Luckie St NW, Atlanta, GA 30303, USA",
+          "phone": "(404) 521-9796",
+          "open_now": true
+        },
+        {
+          "name": "No Mas! Cantina",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.4,
+          "review_count": 9106,
+          "address": "180 Walker St SW Ste B, Atlanta, GA 30313, USA",
+          "phone": "(404) 574-5678",
+          "open_now": true
+        },
+        {
+          "name": "By George restaurant and bar",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 1220,
+          "address": "127 Peachtree Rd NE, Atlanta, GA 30303, USA",
+          "phone": "(470) 851-2752",
+          "open_now": false
+        },
+        {
+          "name": "Waffle House",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 4232,
+          "address": "135 ANDREW YOUNG INT'L BLVD NW, Atlanta, GA 30303, USA",
+          "phone": "(404) 522-9873",
+          "open_now": true
+        },
+        {
+          "name": "Amalfi Cucina + Mercato",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 3123,
+          "address": "17 Andrew Young International Blvd NE 2nd Floor, Atlanta, GA 30303, USA",
+          "phone": "(404) 882-1740",
+          "open_now": true
+        },
+        {
+          "name": "Six Feet Under Pub & Fish House - Grant Park",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 9538,
+          "address": "437 Memorial Dr SE Suite #1A, Atlanta, GA 30312, USA",
+          "phone": "(404) 523-6664",
+          "open_now": true
+        },
+        {
+          "name": "Alma Cocina",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 3842,
+          "address": "Peachtree Towers, 191 Peachtree Rd NE, Atlanta, GA 30303, USA",
+          "phone": "(404) 968-9662",
+          "open_now": true
+        },
+        {
+          "name": "CAVA",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 2788,
+          "address": "572 Hank Aaron Dr SE, Atlanta, GA 30315, USA",
+          "phone": "(470) 673-5456",
+          "open_now": true
+        }
+      ]
+    }
+  ]
 }

@@ -4,7 +4,201 @@
   "destination": "Destin, FL",
   "highway": "I-85, US-331",
   "miles": 375,
-  "exit_count": 0,
+  "exit_count": 2,
   "has_tolls": null,
-  "exits": []
+  "exits": [
+    {
+      "exit_id": "osm_w_1330191609",
+      "exit_number": "0283",
+      "exit_name": "TA Express",
+      "state": "GA",
+      "lat": 32.928534,
+      "lng": -85.114469,
+      "stop_type": "service_plaza",
+      "places": [
+        {
+          "name": "TA Express Travel Center",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.4,
+          "review_count": 308,
+          "address": "Exit 6, 300 Kia Blvd I-85, West Point, GA 31833, USA",
+          "phone": "(706) 330-9220",
+          "open_now": true
+        },
+        {
+          "name": "Starbucks Coffee Company",
+          "types": [
+            "coffee"
+          ],
+          "rating": 3.6,
+          "review_count": 51,
+          "address": "3000 Kia Blvd, West Point, GA 31833, USA",
+          "open_now": true
+        },
+        {
+          "name": "Exxon",
+          "types": [
+            "gas"
+          ],
+          "rating": 3.3,
+          "review_count": 3,
+          "address": "3000 Kia Blvd, West Point, GA 31833, USA",
+          "phone": "(770) 355-2175"
+        },
+        {
+          "name": "Cafeteria",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4,
+          "review_count": 2,
+          "address": "West Point, GA 31833, USA"
+        },
+        {
+          "name": "Pizza Hut Express",
+          "types": [
+            "food"
+          ],
+          "rating": null,
+          "review_count": null,
+          "address": "Gas Express, 3000 Kia Blvd #201, West Point, GA 31833, USA",
+          "phone": "(800) 948-8488"
+        },
+        {
+          "name": "Gulf",
+          "types": [
+            "gas"
+          ],
+          "rating": null,
+          "review_count": null,
+          "address": "3000 Kia Blvd, West Point, GA 31833, USA",
+          "phone": "(770) 355-2175"
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_633174921",
+      "exit_number": "1",
+      "exit_name": "Exit 1",
+      "state": "AL",
+      "lat": 32.367624,
+      "lng": -86.311633,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Prevail Union | MGM",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4.7,
+          "review_count": 830,
+          "address": "39 Dexter Ave suite 102, Montgomery, AL 36104, USA",
+          "phone": "(334) 416-8399",
+          "open_now": true
+        },
+        {
+          "name": "Dreamland BBQ",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 3167,
+          "address": "12 W Jefferson St, Montgomery, AL 36104, USA",
+          "phone": "(334) 273-7427",
+          "open_now": true
+        },
+        {
+          "name": "Trilogy Hotel Montgomery, Autograph Collection",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 224,
+          "address": "116 Coosa St, Montgomery, AL 36104, USA",
+          "phone": "(334) 440-3550"
+        },
+        {
+          "name": "Bibb Street Pizza Company",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 2114,
+          "address": "424 Bibb St #100, Montgomery, AL 36104, USA",
+          "phone": "(334) 593-7080",
+          "open_now": true
+        },
+        {
+          "name": "Hilltop Public House",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4.7,
+          "review_count": 252,
+          "address": "3 N Goldthwaite St, Montgomery, AL 36104, USA",
+          "phone": "(334) 239-7752",
+          "open_now": true
+        },
+        {
+          "name": "Vintage Cafe",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.6,
+          "review_count": 605,
+          "address": "416 Cloverdale Rd, Montgomery, AL 36106, USA",
+          "phone": "(334) 356-1944",
+          "open_now": false
+        },
+        {
+          "name": "Wintzell's Oyster House",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 2287,
+          "address": "105 Commerce St, Montgomery, AL 36104, USA",
+          "phone": "(334) 230-9636",
+          "open_now": true
+        },
+        {
+          "name": "Central Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 1291,
+          "address": "129 Coosa St, Montgomery, AL 36104, USA",
+          "phone": "(334) 517-1155",
+          "open_now": false
+        },
+        {
+          "name": "Tower Taproom",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 552,
+          "address": "101 Tallapoosa St, Montgomery, AL 36104, USA",
+          "phone": "(334) 356-5929",
+          "open_now": true
+        },
+        {
+          "name": "Ravello Ristorante",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 543,
+          "address": "36 Commerce St, Montgomery, AL 36104, USA",
+          "phone": "(334) 356-2852",
+          "open_now": false
+        }
+      ]
+    }
+  ]
 }

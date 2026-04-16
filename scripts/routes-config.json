@@ -142,5 +142,258 @@
       [30.4383, -82.9377],
       [29.6516, -82.3248]
     ]
+  },
+  {
+    "slug": "athens-to-jacksonville",
+    "origin": "Athens, GA",
+    "destination": "Jacksonville, FL",
+    "origin_lat": 33.9519,
+    "origin_lng": -83.3576,
+    "destination_lat": 30.3322,
+    "destination_lng": -81.6557,
+    "highways": ["I-75", "I-10"],
+    "miles": 325,
+    "waypoints": [
+      [32.8407, -83.6324]
+    ]
+  },
+  {
+    "slug": "athens-to-atlanta",
+    "origin": "Athens, GA",
+    "destination": "Atlanta, GA",
+    "origin_lat": 33.9519,
+    "origin_lng": -83.3576,
+    "destination_lat": 33.7490,
+    "destination_lng": -84.3880,
+    "highways": ["GA-316", "I-85"],
+    "miles": 72
+  },
+  {
+    "slug": "atlanta-to-destin",
+    "origin": "Atlanta, GA",
+    "destination": "Destin, FL",
+    "origin_lat": 33.7490,
+    "origin_lng": -84.3880,
+    "destination_lat": 30.3935,
+    "destination_lng": -86.4958,
+    "highways": ["I-85", "US-331"],
+    "miles": 375,
+    "waypoints": [
+      [32.3792, -86.3077]
+    ]
+  },
+  {
+    "slug": "atlanta-to-new-orleans",
+    "origin": "Atlanta, GA",
+    "destination": "New Orleans, LA",
+    "origin_lat": 33.7490,
+    "origin_lng": -84.3880,
+    "destination_lat": 29.9511,
+    "destination_lng": -90.0715,
+    "highways": ["I-20", "I-59"],
+    "miles": 470,
+    "waypoints": [
+      [33.5186, -86.8104]
+    ]
+  },
+  {
+    "slug": "houston-to-new-orleans",
+    "origin": "Houston, TX",
+    "destination": "New Orleans, LA",
+    "origin_lat": 29.7604,
+    "origin_lng": -95.3698,
+    "destination_lat": 29.9511,
+    "destination_lng": -90.0715,
+    "highways": ["I-10"],
+    "miles": 350
+  },
+  {
+    "slug": "reno-to-black-rock-city",
+    "origin": "Reno, NV",
+    "destination": "Black Rock City, NV",
+    "origin_lat": 39.5296,
+    "origin_lng": -119.8138,
+    "destination_lat": 40.7864,
+    "destination_lng": -119.2065,
+    "highways": ["I-80", "NV-447"],
+    "miles": 120
+  },
+  {
+    "slug": "atlanta-to-savannah",
+    "origin": "Atlanta, GA",
+    "destination": "Savannah, GA",
+    "origin_lat": 33.7490,
+    "origin_lng": -84.3880,
+    "destination_lat": 32.0809,
+    "destination_lng": -81.0912,
+    "highways": ["I-75", "I-16"],
+    "miles": 250,
+    "waypoints": [
+      [32.8407, -83.6324]
+    ]
+  },
+  {
+    "slug": "nashville-to-new-orleans",
+    "origin": "Nashville, TN",
+    "destination": "New Orleans, LA",
+    "origin_lat": 36.1627,
+    "origin_lng": -86.7816,
+    "destination_lat": 29.9511,
+    "destination_lng": -90.0715,
+    "highways": ["I-65", "I-59"],
+    "miles": 530,
+    "waypoints": [
+      [33.5186, -86.8104]
+    ]
+  },
+  {
+    "slug": "chicago-to-destin",
+    "origin": "Chicago, IL",
+    "destination": "Destin, FL",
+    "origin_lat": 41.8781,
+    "origin_lng": -87.6298,
+    "destination_lat": 30.3935,
+    "destination_lng": -86.4958,
+    "highways": ["I-65", "I-10", "US-98"],
+    "miles": 960
+  },
+  {
+    "slug": "boston-to-miami",
+    "origin": "Boston, MA",
+    "destination": "Miami, FL",
+    "origin_lat": 42.3601,
+    "origin_lng": -71.0589,
+    "destination_lat": 25.7617,
+    "destination_lng": -80.1918,
+    "highways": ["I-95"],
+    "miles": 1500,
+    "waypoints": [
+      [38.9072, -77.0369],
+      [32.0809, -81.0912]
+    ]
+  },
+  {
+    "slug": "detroit-to-naples",
+    "origin": "Detroit, MI",
+    "destination": "Naples, FL",
+    "origin_lat": 42.3314,
+    "origin_lng": -83.0458,
+    "destination_lat": 26.1420,
+    "destination_lng": -81.7948,
+    "highways": ["I-75"],
+    "miles": 1400,
+    "waypoints": [
+      [39.1031, -84.5120],
+      [35.9606, -83.9207],
+      [27.9378, -82.2859]
+    ]
+  },
+  {
+    "slug": "atlanta-to-hilton-head",
+    "origin": "Atlanta, GA",
+    "destination": "Hilton Head, SC",
+    "origin_lat": 33.7490,
+    "origin_lng": -84.3880,
+    "destination_lat": 32.2163,
+    "destination_lng": -80.7526,
+    "highways": ["I-20", "I-95"],
+    "miles": 290,
+    "waypoints": [
+      [33.4735, -82.0105]
+    ]
+  },
+  {
+    "slug": "atlanta-to-charlotte",
+    "origin": "Atlanta, GA",
+    "destination": "Charlotte, NC",
+    "origin_lat": 33.7490,
+    "origin_lng": -84.3880,
+    "destination_lat": 35.2271,
+    "destination_lng": -80.8431,
+    "highways": ["I-85"],
+    "miles": 245
+  },
+  {
+    "slug": "atlanta-to-memphis",
+    "origin": "Atlanta, GA",
+    "destination": "Memphis, TN",
+    "origin_lat": 33.7490,
+    "origin_lng": -84.3880,
+    "destination_lat": 35.1495,
+    "destination_lng": -90.0490,
+    "highways": ["I-20", "I-22"],
+    "miles": 390,
+    "waypoints": [
+      [33.5186, -86.8104]
+    ]
+  },
+  {
+    "slug": "phoenix-to-san-diego",
+    "origin": "Phoenix, AZ",
+    "destination": "San Diego, CA",
+    "origin_lat": 33.4484,
+    "origin_lng": -112.0740,
+    "destination_lat": 32.7157,
+    "destination_lng": -117.1611,
+    "highways": ["I-10", "I-8"],
+    "miles": 355
+  },
+  {
+    "slug": "seattle-to-portland",
+    "origin": "Seattle, WA",
+    "destination": "Portland, OR",
+    "origin_lat": 47.6062,
+    "origin_lng": -122.3321,
+    "destination_lat": 45.5152,
+    "destination_lng": -122.6784,
+    "highways": ["I-5"],
+    "miles": 175
+  },
+  {
+    "slug": "minneapolis-to-chicago",
+    "origin": "Minneapolis, MN",
+    "destination": "Chicago, IL",
+    "origin_lat": 44.9778,
+    "origin_lng": -93.2650,
+    "destination_lat": 41.8781,
+    "destination_lng": -87.6298,
+    "highways": ["I-94"],
+    "miles": 410
+  },
+  {
+    "slug": "indianapolis-to-nashville",
+    "origin": "Indianapolis, IN",
+    "destination": "Nashville, TN",
+    "origin_lat": 39.7684,
+    "origin_lng": -86.1581,
+    "destination_lat": 36.1627,
+    "destination_lng": -86.7816,
+    "highways": ["I-65"],
+    "miles": 290
+  },
+  {
+    "slug": "kansas-city-to-st-louis",
+    "origin": "Kansas City, MO",
+    "destination": "St. Louis, MO",
+    "origin_lat": 39.0997,
+    "origin_lng": -94.5786,
+    "destination_lat": 38.6270,
+    "destination_lng": -90.1994,
+    "highways": ["I-70"],
+    "miles": 250
+  },
+  {
+    "slug": "pittsburgh-to-washington-dc",
+    "origin": "Pittsburgh, PA",
+    "destination": "Washington, DC",
+    "origin_lat": 40.4406,
+    "origin_lng": -79.9959,
+    "destination_lat": 38.9072,
+    "destination_lng": -77.0369,
+    "highways": ["I-70", "I-270"],
+    "miles": 245,
+    "waypoints": [
+      [39.4143, -77.4105]
+    ]
   }
 ]

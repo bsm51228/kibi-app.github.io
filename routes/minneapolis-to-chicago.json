@@ -4,7 +4,148 @@
   "destination": "Chicago, IL",
   "highway": "I-94",
   "miles": 410,
-  "exit_count": 0,
+  "exit_count": 5,
   "has_tolls": null,
-  "exits": []
+  "exits": [
+    {
+      "exit_id": "osm_w_240741248",
+      "exit_number": "",
+      "exit_name": "Lake Pepin Rest Area",
+      "state": "MN",
+      "lat": 44.492451,
+      "lng": -92.312508,
+      "stop_type": "rest_area",
+      "places": []
+    },
+    {
+      "exit_id": "osm_n_188435824",
+      "exit_number": "9",
+      "exit_name": "Exit 9",
+      "state": "MN",
+      "lat": 43.923736,
+      "lng": -91.364232,
+      "stop_type": "exit_ramp",
+      "places": []
+    },
+    {
+      "exit_id": "osm_w_311358913",
+      "exit_number": "",
+      "exit_name": "Rest Area",
+      "state": "WI",
+      "lat": 43.208888,
+      "lng": -90.263967,
+      "stop_type": "rest_area",
+      "places": []
+    },
+    {
+      "exit_id": "osm_n_53334675",
+      "exit_number": "79",
+      "exit_name": "Exit 79",
+      "state": "WI",
+      "lat": 42.973044,
+      "lng": -89.521442,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Sugar River Pizza Co. - Verona",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 2572,
+          "address": "957 Liberty Dr, Verona, WI 53593, USA",
+          "phone": "(608) 497-1800",
+          "open_now": true
+        },
+        {
+          "name": "Stone Porch Alehouse",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 510,
+          "address": "950 Kimball Ln, Verona, WI 53593, USA",
+          "phone": "(608) 497-1176",
+          "open_now": true
+        },
+        {
+          "name": "North and South Seafood & Smokehouse",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 1182,
+          "address": "958 Liberty Dr, Verona, WI 53593, USA",
+          "phone": "(608) 497-0256",
+          "open_now": true
+        },
+        {
+          "name": "Kwik Trip",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 4.4,
+          "review_count": 245,
+          "address": "2145 County Rd PB, Verona, WI 53593, USA",
+          "phone": "(608) 848-9040",
+          "open_now": true
+        },
+        {
+          "name": "Costco Gas Station",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.8,
+          "review_count": 130,
+          "address": "1040 American Way, Verona, WI 53593, USA",
+          "phone": "(608) 497-8355",
+          "open_now": true
+        },
+        {
+          "name": "El Charro Mexican Grill Verona",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 869,
+          "address": "958 Liberty Dr Suite 106, Verona, WI 53593, USA",
+          "phone": "(608) 497-0165",
+          "open_now": true
+        },
+        {
+          "name": "E.H. Wolf & Sons - Verona",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.7,
+          "review_count": 14,
+          "address": "309 Bruce St, Verona, WI 53593, USA",
+          "phone": "(608) 845-6989",
+          "open_now": true
+        },
+        {
+          "name": "The Placery",
+          "types": [
+            "food"
+          ],
+          "rating": 5,
+          "review_count": 1,
+          "address": "846 Liberty Dr, Verona, WI 53593, USA",
+          "phone": "(608) 497-3223",
+          "open_now": false
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_6872447121",
+      "exit_number": "36",
+      "exit_name": "Exit 36",
+      "state": "IL",
+      "lat": 42.177117,
+      "lng": -88.616668,
+      "stop_type": "exit_ramp",
+      "places": []
+    }
+  ]
 }

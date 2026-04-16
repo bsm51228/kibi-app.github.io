@@ -199,6 +199,11 @@ def fetch_route(route, supabase_url, api_key):
         else:
             selected_exits.sort(key=lambda e: e["lng"], reverse=True)
 
+    # Script-owned fields (overwritten on every run): route_slug, origin,
+    # destination, highway, miles, exit_count, exits.
+    # Anything else in an existing JSON file (has_tolls, tolls_summary,
+    # route_narrative, tips_narrative, ev_narrative, top_exits_summary,
+    # any future fields) is preserved by merging.
     route_data = {
         "route_slug": slug,
         "origin": route["origin"],
@@ -210,6 +215,10 @@ def fetch_route(route, supabase_url, api_key):
     }
 
     out_path = ROUTES_DIR / f"{slug}.json"
+    if out_path.exists():
+        existing = json.loads(out_path.read_text())
+        existing.update(route_data)  # script-owned fields overwrite
+        route_data = existing
     out_path.write_text(json.dumps(route_data, indent=2) + "\n")
     print(f"\n  ✓ Wrote {len(selected_exits)} exits → {out_path.name}")
     return route_data

@@ -4,7 +4,1809 @@
   "destination": "Naples, FL",
   "highway": "I-75",
   "miles": 1400,
-  "exit_count": 0,
+  "exit_count": 17,
   "has_tolls": null,
-  "exits": []
+  "exits": [
+    {
+      "exit_id": "osm_w_221633490",
+      "exit_number": "0087",
+      "exit_name": "TA",
+      "state": "OH",
+      "lat": 41.521081,
+      "lng": -83.461245,
+      "stop_type": "service_plaza",
+      "places": [
+        {
+          "name": "CHAYHANA.",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 1603,
+          "address": "3565 Libbey Rd, Perrysburg, OH 43551, USA",
+          "phone": "(419) 603-4800",
+          "open_now": true
+        },
+        {
+          "name": "Pilot Travel Center",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.9,
+          "review_count": 1091,
+          "address": "3430 Libbey Rd, Perrysburg, OH 43551, USA",
+          "phone": "(419) 837-5091",
+          "open_now": true
+        },
+        {
+          "name": "TA Travel Center",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.8,
+          "review_count": 759,
+          "address": "3483 Libbey Rd, Perrysburg, OH 43551, USA",
+          "phone": "(567) 970-3800",
+          "open_now": true
+        },
+        {
+          "name": "Petro Travel Center",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 4,
+          "review_count": 1384,
+          "address": "26416 Baker Rd, Perrysburg, OH 43551, USA",
+          "phone": "(419) 443-1800",
+          "open_now": true
+        },
+        {
+          "name": "Flying J Travel Center",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 4.1,
+          "review_count": 1255,
+          "address": "26415 Warns Dr, Perrysburg, OH 43551, USA",
+          "phone": "(419) 837-2100",
+          "open_now": true
+        },
+        {
+          "name": "Petro Perrysburg 317",
+          "types": [
+            "gas"
+          ],
+          "rating": 4,
+          "review_count": 28,
+          "address": "26416 Baker Rd, Perrysburg, OH 43551, USA"
+        },
+        {
+          "name": "Denny's Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 3.7,
+          "review_count": 1388,
+          "address": "26415 Warns Dr, Perrysburg, OH 43551, USA",
+          "phone": "(419) 484-4520",
+          "open_now": true
+        },
+        {
+          "name": "Fuel Mart",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.9,
+          "review_count": 141,
+          "address": "3654 Libbey Rd, Perrysburg, OH 43551, USA",
+          "phone": "(419) 837-5228",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.2,
+          "review_count": 1821,
+          "address": "3430 Libbey Rd, Perrysburg, OH 43551, USA",
+          "phone": "(419) 837-6300",
+          "open_now": true
+        },
+        {
+          "name": "bp",
+          "types": [
+            "gas"
+          ],
+          "rating": 4,
+          "review_count": 6,
+          "address": "3483 Libbey Rd, Perrysburg, OH 43551, USA",
+          "phone": "(567) 970-3800",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_w_229321018",
+      "exit_number": "695",
+      "exit_name": "Flying J Travel Center",
+      "state": "OH",
+      "lat": 40.83141,
+      "lng": -83.966458,
+      "stop_type": "service_plaza",
+      "places": [
+        {
+          "name": "Flying J Travel Center",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.8,
+          "review_count": 1240,
+          "address": "420 E Main St, Beaverdam, OH 45808, USA",
+          "phone": "(419) 643-8001",
+          "open_now": true
+        },
+        {
+          "name": "Pilot Travel Center",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.9,
+          "review_count": 1577,
+          "address": "427 E Main St, Beaverdam, OH 45808, USA",
+          "phone": "(419) 643-6023",
+          "open_now": true
+        },
+        {
+          "name": "Speedway",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 4.1,
+          "review_count": 861,
+          "address": "7837 E Lincoln Hwy, Lima, OH 45801, USA",
+          "phone": "(419) 643-4465",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.1,
+          "review_count": 2132,
+          "address": "427 E Main St, Beaverdam, OH 45808, USA",
+          "phone": "(419) 643-8500",
+          "open_now": true
+        },
+        {
+          "name": "Thirsty's Food & Spirits - Best Local Pizza",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 584,
+          "address": "317 E Main St #9725, Beaverdam, OH 45808, USA",
+          "phone": "(419) 643-8250",
+          "open_now": true
+        },
+        {
+          "name": "Subway",
+          "types": [
+            "food"
+          ],
+          "rating": 3,
+          "review_count": 167,
+          "address": "427 E Main St, Beaverdam, OH 45808, USA",
+          "phone": "(419) 643-7233",
+          "open_now": true
+        },
+        {
+          "name": "Dollar General",
+          "types": [
+            "convenience"
+          ],
+          "rating": 4.4,
+          "review_count": 182,
+          "address": "417 E Main St, Beaverdam, OH 45808, USA",
+          "phone": "(567) 749-0082",
+          "open_now": true
+        },
+        {
+          "name": "Speedy Cafe",
+          "types": [
+            "food"
+          ],
+          "rating": 1.7,
+          "review_count": 7,
+          "address": "7837 E Lincoln Hwy, Lima, OH 45801, USA",
+          "phone": "(419) 643-4465",
+          "open_now": true
+        },
+        {
+          "name": "Mid-Town Market",
+          "types": [
+            "convenience"
+          ],
+          "rating": 4.8,
+          "review_count": 12,
+          "address": "104 W Main St, Beaverdam, OH 45808, USA",
+          "phone": "(419) 643-4342",
+          "open_now": true
+        },
+        {
+          "name": "Speedway",
+          "types": [
+            "convenience"
+          ],
+          "rating": null,
+          "review_count": null,
+          "address": "7837 Lincoln Hwy, Lima, OH 45801, USA",
+          "phone": "(419) 643-4465",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_w_264992750",
+      "exit_number": "97",
+      "exit_name": "Flying J Travel Center",
+      "state": "OH",
+      "lat": 39.902497,
+      "lng": -84.192689,
+      "stop_type": "service_plaza",
+      "places": [
+        {
+          "name": "Flying J Travel Center",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.7,
+          "review_count": 1677,
+          "address": "175 Northwoods Blvd, Vandalia, OH 45377, USA",
+          "phone": "(937) 264-8520",
+          "open_now": true
+        },
+        {
+          "name": "Bunkers Sports Bar & Grill",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 2312,
+          "address": "893 E National Rd, Vandalia, OH 45377, USA",
+          "phone": "(937) 890-8899",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.6,
+          "review_count": 2046,
+          "address": "530 E National Rd, Vandalia, OH 45377, USA",
+          "phone": "(937) 898-9613",
+          "open_now": true
+        },
+        {
+          "name": "Chipotle Mexican Grill",
+          "types": [
+            "food"
+          ],
+          "rating": 3,
+          "review_count": 503,
+          "address": "275 E National Rd, Vandalia, OH 45377, USA",
+          "phone": "(937) 410-4673",
+          "open_now": true
+        },
+        {
+          "name": "Fricker's Vandalia",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 1054,
+          "address": "22 Foley Dr, Vandalia, OH 45377, USA",
+          "phone": "(937) 454-9464",
+          "open_now": true
+        },
+        {
+          "name": "Waffle House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 1299,
+          "address": "380 E National Rd, Vandalia, OH 45377, USA",
+          "phone": "(937) 890-9632",
+          "open_now": true
+        },
+        {
+          "name": "Wendy's",
+          "types": [
+            "food"
+          ],
+          "rating": 3.2,
+          "review_count": 1142,
+          "address": "383 E National Rd, Vandalia, OH 45377, USA",
+          "phone": "(937) 552-2629",
+          "open_now": true
+        },
+        {
+          "name": "El Toro Mexican Bar & Grill",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 776,
+          "address": "794 Northwoods Blvd, Vandalia, OH 45377, USA",
+          "phone": "(937) 898-6238",
+          "open_now": true
+        },
+        {
+          "name": "Starbucks Coffee Company",
+          "types": [
+            "coffee"
+          ],
+          "rating": 3.5,
+          "review_count": 50,
+          "address": "780 Northwoods Blvd, Vandalia, OH 45377, USA",
+          "phone": "(937) 264-2400",
+          "open_now": true
+        },
+        {
+          "name": "Speedway",
+          "types": [
+            "gas"
+          ],
+          "rating": 3.8,
+          "review_count": 174,
+          "address": "830 E National Rd, Vandalia, OH 45377, USA",
+          "phone": "(937) 890-6070",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_191301275",
+      "exit_number": "1B",
+      "exit_name": "Exit 1B",
+      "state": "OH",
+      "lat": 39.104665,
+      "lng": -84.504615,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Newport on the Levee",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 16679,
+          "address": "One Levee Wy, Newport, KY 41071, USA",
+          "phone": "(859) 291-0550",
+          "open_now": true
+        },
+        {
+          "name": "Hofbr\u00e4uhaus - Newport",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 3931,
+          "address": "200 3rd St, Newport, KY 41071, USA",
+          "phone": "(859) 491-7200",
+          "open_now": true
+        },
+        {
+          "name": "Yard House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 5868,
+          "address": "95 E Freedom Way, Cincinnati, OH 45202, USA",
+          "phone": "(513) 381-4071",
+          "open_now": true
+        },
+        {
+          "name": "Pepp & Dolores",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 2221,
+          "address": "1501 Vine St, Cincinnati, OH 45202, USA",
+          "phone": "(513) 419-1820",
+          "open_now": true
+        },
+        {
+          "name": "Sotto",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 3159,
+          "address": "118 E 6th St, Cincinnati, OH 45202, USA",
+          "phone": "(513) 822-5154",
+          "open_now": true
+        },
+        {
+          "name": "Cincinnati Lager House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 1953,
+          "address": "115 Joe Nuxhall Wy, Cincinnati, OH 45202, USA",
+          "phone": "(513) 421-2337",
+          "open_now": true
+        },
+        {
+          "name": "Montgomery Inn The Boathouse",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 5031,
+          "address": "925 Riverside Dr, Cincinnati, OH 45202, USA",
+          "phone": "(513) 721-7427",
+          "open_now": true
+        },
+        {
+          "name": "The Eagle OTR",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 5438,
+          "address": "1342 Vine St, Cincinnati, OH 45202, USA",
+          "phone": "(513) 802-5007",
+          "open_now": true
+        },
+        {
+          "name": "Maplewood Kitchen and Bar",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 2795,
+          "address": "525 Race St, Cincinnati, OH 45202, USA",
+          "phone": "(513) 421-2100",
+          "open_now": false
+        },
+        {
+          "name": "Goodfellas Pizzeria - OTR",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 2802,
+          "address": "1211 Main St, Cincinnati, OH 45202, USA",
+          "phone": "(513) 381-3625",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_168189370",
+      "exit_number": "129",
+      "exit_name": "Exit 129",
+      "state": "KY",
+      "lat": 38.281,
+      "lng": -84.558725,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Pilot Travel Center",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 4.1,
+          "review_count": 1751,
+          "address": "110 Triport Rd, Georgetown, KY 40324, USA",
+          "phone": "(502) 863-2708",
+          "open_now": true
+        },
+        {
+          "name": "Pilot Travel Center",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 4,
+          "review_count": 1350,
+          "address": "259 Cherry Blossom Way, Georgetown, KY 40324, USA",
+          "phone": "(502) 868-7427",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.4,
+          "review_count": 2806,
+          "address": "259 Cherry Blossom Way, Georgetown, KY 40324, USA",
+          "phone": "(502) 867-4942",
+          "open_now": true
+        },
+        {
+          "name": "Wendy's",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 1519,
+          "address": "110 Triport Rd, Georgetown, KY 40324, USA",
+          "phone": "(502) 570-4638",
+          "open_now": true
+        },
+        {
+          "name": "Waffle House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 891,
+          "address": "405 Cherry Blossom Way, Georgetown, KY 40324, USA",
+          "phone": "(502) 570-9995",
+          "open_now": true
+        },
+        {
+          "name": "Casey's",
+          "types": [
+            "food",
+            "convenience"
+          ],
+          "rating": 3.5,
+          "review_count": 15,
+          "address": "100 Appian Path, Georgetown, KY 40324, USA",
+          "phone": "(502) 206-3776",
+          "open_now": true
+        },
+        {
+          "name": "Clarks Pump-N-Shop",
+          "types": [
+            "convenience"
+          ],
+          "rating": 4,
+          "review_count": 30,
+          "address": "Cherry Blossom Spur, Georgetown, KY 40324, USA",
+          "phone": "(502) 642-4479",
+          "open_now": true
+        },
+        {
+          "name": "Marathon",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.1,
+          "review_count": 14,
+          "address": "381 Cherry Blossom Way, Georgetown, KY 40324, USA",
+          "phone": "(866) 462-7284",
+          "open_now": true
+        },
+        {
+          "name": "Krispy Krunchy Chicken",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 2,
+          "address": "381 Cherry Blossom Spur, Georgetown, KY 40324, USA",
+          "phone": "(502) 642-4479",
+          "open_now": true
+        },
+        {
+          "name": "Beyond6",
+          "types": [
+            "gas"
+          ],
+          "rating": 3.9,
+          "review_count": 8,
+          "address": "445 Cherry Blossom Way, Georgetown, KY 40324, USA",
+          "phone": "(877) 872-3966",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_166467348",
+      "exit_number": "76",
+      "exit_name": "Exit 76",
+      "state": "KY",
+      "lat": 37.564169,
+      "lng": -84.315048,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Cracker Barrel Old Country Store",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 3388,
+          "address": "101 McKinney Dr, Berea, KY 40403, USA",
+          "phone": "(859) 986-0512",
+          "open_now": true
+        },
+        {
+          "name": "Dinner Bell Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 1855,
+          "address": "127 Plaza Dr, Berea, KY 40403, USA",
+          "phone": "(859) 986-2777",
+          "open_now": true
+        },
+        {
+          "name": "Just Love Coffee - Berea, KY",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.7,
+          "review_count": 735,
+          "address": "636 Chestnut St, Berea, KY 40403, USA",
+          "phone": "(859) 756-3089",
+          "open_now": true
+        },
+        {
+          "name": "Starbucks Coffee Company",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.2,
+          "review_count": 83,
+          "address": "102 Jane St, Berea, KY 40403, USA",
+          "phone": "(859) 306-0138",
+          "open_now": true
+        },
+        {
+          "name": "Popeyes Louisiana Kitchen",
+          "types": [
+            "food"
+          ],
+          "rating": 3.8,
+          "review_count": 287,
+          "address": "109 Plaza Dr, Berea, KY 40403, USA",
+          "phone": "(859) 534-8560",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.3,
+          "review_count": 2644,
+          "address": "109 Brenwood St, Berea, KY 40403, USA",
+          "phone": "(859) 986-4206",
+          "open_now": true
+        },
+        {
+          "name": "Native Bagel Company",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.8,
+          "review_count": 527,
+          "address": "436 Chestnut St, Berea, KY 40403, USA",
+          "phone": "(859) 756-6185",
+          "open_now": false
+        },
+        {
+          "name": "Wendy's",
+          "types": [
+            "food"
+          ],
+          "rating": 3.8,
+          "review_count": 1511,
+          "address": "104 Prince Royal Dr, Berea, KY 40403, USA",
+          "phone": "(859) 986-2231",
+          "open_now": true
+        },
+        {
+          "name": "Casa Amigos Mexican Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 603,
+          "address": "400 Paint Lick Rd, Berea, KY 40403, USA",
+          "phone": "(859) 868-1080",
+          "open_now": true
+        },
+        {
+          "name": "Taco Bell",
+          "types": [
+            "food"
+          ],
+          "rating": 3.5,
+          "review_count": 1364,
+          "address": "119 Brentwood, Berea, KY 40403, USA",
+          "phone": "(859) 986-1732",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_1864989077",
+      "exit_number": "11",
+      "exit_name": "Exit 11",
+      "state": "KY",
+      "lat": 36.721894,
+      "lng": -84.163249,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Pilot Travel Center",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 4.1,
+          "review_count": 2336,
+          "address": "481 KY-92, Williamsburg, KY 40769, USA",
+          "phone": "(606) 549-0162",
+          "open_now": true
+        },
+        {
+          "name": "Cook Out",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 531,
+          "address": "510 KY-92, Williamsburg, KY 40769, USA",
+          "phone": "(866) 547-0011",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.6,
+          "review_count": 2227,
+          "address": "700 S 10th St, Williamsburg, KY 40769, USA",
+          "phone": "(606) 549-3920",
+          "open_now": true
+        },
+        {
+          "name": "Torres Mexican Steakhouse",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 1040,
+          "address": "125 Walmart Way, Williamsburg, KY 40769, USA",
+          "phone": "(606) 515-6132",
+          "open_now": true
+        },
+        {
+          "name": "Wendy's",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 1373,
+          "address": "461 E Hwy 92, Williamsburg, KY 40769, USA",
+          "phone": "(606) 549-9770",
+          "open_now": true
+        },
+        {
+          "name": "El Dorados Mexican Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 998,
+          "address": "100 KY-92, Williamsburg, KY 40769, USA",
+          "phone": "(606) 539-0062",
+          "open_now": true
+        },
+        {
+          "name": "Huddle House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 909,
+          "address": "583 KY-92, Williamsburg, KY 40769, USA",
+          "phone": "(606) 549-8904",
+          "open_now": true
+        },
+        {
+          "name": "Taco Bell",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 687,
+          "address": "604 KY-92, Williamsburg, KY 40769, USA",
+          "phone": "(606) 549-0074",
+          "open_now": true
+        },
+        {
+          "name": "Dairy Queen Grill & Chill",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 559,
+          "address": "50 Penny Ln, Williamsburg, KY 40769, USA",
+          "phone": "(606) 549-0007"
+        },
+        {
+          "name": "King Donuts - Williamsburg",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.6,
+          "review_count": 348,
+          "address": "759 S 10th St, Williamsburg, KY 40769, USA",
+          "phone": "(606) 515-6088",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_633086335",
+      "exit_number": "388A",
+      "exit_name": "Exit 388A",
+      "state": "TN",
+      "lat": 35.97039,
+      "lng": -83.923763,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Calhoun's On The River",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 7270,
+          "address": "400 Neyland Dr, Knoxville, TN 37902, USA",
+          "phone": "(865) 673-3355",
+          "open_now": true
+        },
+        {
+          "name": "Stock & Barrel",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 4821,
+          "address": "35 Market Square, Knoxville, TN 37902, USA",
+          "phone": "(865) 766-2075",
+          "open_now": true
+        },
+        {
+          "name": "A Dopo Sourdough Pizza",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 1896,
+          "address": "516 Williams St, Knoxville, TN 37917, USA",
+          "phone": "(865) 321-1297",
+          "open_now": false
+        },
+        {
+          "name": "Schulz Br\u00e4u Brewing Company",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 1161,
+          "address": "126 Bernard Ave, Knoxville, TN 37917, USA",
+          "phone": "(865) 415-3845",
+          "open_now": true
+        },
+        {
+          "name": "THE TENNESSEAN Hotel",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 717,
+          "address": "531 Henley St, Knoxville, TN 37902, USA",
+          "phone": "(865) 232-1800",
+          "open_now": true
+        },
+        {
+          "name": "Tupelo Honey Southern Kitchen & Bar",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 3509,
+          "address": "1 Market Square, Knoxville, TN 37902, USA",
+          "phone": "(865) 522-0004",
+          "open_now": true
+        },
+        {
+          "name": "STIR",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 820,
+          "address": "217 Willow Ave, Knoxville, TN 37915, USA",
+          "phone": "(865) 253-7933",
+          "open_now": true
+        },
+        {
+          "name": "The Kennedy",
+          "types": [
+            "food"
+          ],
+          "rating": 4.8,
+          "review_count": 1306,
+          "address": "430 S Gay St, Knoxville, TN 37902, USA",
+          "phone": "(865) 444-1607",
+          "open_now": true
+        },
+        {
+          "name": "Three Rivers Market",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 1464,
+          "address": "1100 N Central St, Knoxville, TN 37917, USA",
+          "phone": "(865) 525-2069",
+          "open_now": true
+        },
+        {
+          "name": "Potchke Deli",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.8,
+          "review_count": 772,
+          "address": "318 N Gay St #103, Knoxville, TN 37917, USA",
+          "phone": "(865) 343-1402",
+          "open_now": false
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_12769067705",
+      "exit_number": "",
+      "exit_name": "Rest Area",
+      "state": "NC",
+      "lat": 35.205109,
+      "lng": -83.829761,
+      "stop_type": "rest_area",
+      "places": [
+        {
+          "name": "Morning Fog Coffee & Eats",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.9,
+          "review_count": 312,
+          "address": "1219 Main St, Andrews, NC 28901, USA",
+          "phone": "(828) 346-7822",
+          "open_now": false
+        },
+        {
+          "name": "Hoppy Trout Brewing Company",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 401,
+          "address": "889 Main St, Andrews, NC 28901, USA",
+          "phone": "(828) 835-2111",
+          "open_now": true
+        },
+        {
+          "name": "Mariolino's Italian Cuisine",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 582,
+          "address": "14048 US-19, Andrews, NC 28901, USA",
+          "phone": "(828) 321-0002",
+          "open_now": true
+        },
+        {
+          "name": "Monte Alban Mexican Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 880,
+          "address": "498 Main St, Andrews, NC 28901, USA",
+          "phone": "(828) 321-1802",
+          "open_now": true
+        },
+        {
+          "name": "Burger Basket",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 852,
+          "address": "1679 Main St, Andrews, NC 28901, USA",
+          "phone": "(828) 690-0648",
+          "open_now": true
+        },
+        {
+          "name": "Maria's Diner",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 268,
+          "address": "53 Cover Ave, Andrews, NC 28901, USA",
+          "phone": "(828) 644-6551",
+          "open_now": false
+        },
+        {
+          "name": "Dragon Ass Smoked BBQ",
+          "types": [
+            "food"
+          ],
+          "rating": 4.8,
+          "review_count": 71,
+          "address": "Call, look on Facebook, check our website or the event section here on Google to see today's location! (We travel often and don't sit at our base location every day) Base of operation address:, 14660 US-19, Andrews, NC 28901, USA",
+          "phone": "(828) 567-9557",
+          "open_now": true
+        },
+        {
+          "name": "The DogHouse",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 90,
+          "address": "1130 Main St, Andrews, NC 28901, USA",
+          "phone": "(828) 321-4444",
+          "open_now": true
+        },
+        {
+          "name": "Kobe grill",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 317,
+          "address": "114 Main St, Andrews, NC 28901, USA",
+          "phone": "(828) 321-1010",
+          "open_now": true
+        },
+        {
+          "name": "Frannie\u2019s Kitchen",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 41,
+          "address": "75 Wilson St, Andrews, NC 28901, USA",
+          "phone": "(828) 644-8271",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_w_1270894172",
+      "exit_number": "737",
+      "exit_name": "QuikTrip",
+      "state": "GA",
+      "lat": 34.153784,
+      "lng": -83.65002,
+      "stop_type": "service_plaza",
+      "places": [
+        {
+          "name": "QuikTrip",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 3.7,
+          "review_count": 238,
+          "address": "5240 US-129, Jefferson, GA 30549, USA",
+          "phone": "(706) 693-4381",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.3,
+          "review_count": 3118,
+          "address": "4875 US-129, Jefferson, GA 30549, USA",
+          "phone": "(706) 693-4320",
+          "open_now": true
+        },
+        {
+          "name": "RaceTrac",
+          "types": [
+            "gas",
+            "food",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 3.2,
+          "review_count": 249,
+          "address": "4752 Hwy 129 N, Jefferson, GA 30549, USA",
+          "phone": "(404) 829-6138",
+          "open_now": true
+        },
+        {
+          "name": "Zaxbys Chicken Fingers & Buffalo Wings",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 1166,
+          "address": "4853 Hwy 129 N #129, Jefferson, GA 30549, USA",
+          "phone": "(706) 693-4917",
+          "open_now": true
+        },
+        {
+          "name": "El Jinete Mexican Restaurant Jefferson",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 2191,
+          "address": "4932 US-129, Jefferson, GA 30549, USA",
+          "phone": "(706) 693-2177",
+          "open_now": true
+        },
+        {
+          "name": "Waffle House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 1511,
+          "address": "4897 US-129, Jefferson, GA 30549, USA",
+          "phone": "(706) 693-4158",
+          "open_now": true
+        },
+        {
+          "name": "Wendy's",
+          "types": [
+            "food"
+          ],
+          "rating": 3.8,
+          "review_count": 1205,
+          "address": "5270 US-129, Jefferson, GA 30549, USA",
+          "phone": "(706) 693-4442",
+          "open_now": true
+        },
+        {
+          "name": "KFC",
+          "types": [
+            "food"
+          ],
+          "rating": 3,
+          "review_count": 759,
+          "address": "4821 US-129, Jefferson, GA 30549, USA",
+          "phone": "(706) 693-0833",
+          "open_now": true
+        },
+        {
+          "name": "Speedway",
+          "types": [
+            "gas"
+          ],
+          "rating": 3.1,
+          "review_count": 120,
+          "address": "115 Speedway Dr, Jefferson, GA 30549, USA",
+          "phone": "(706) 693-4255",
+          "open_now": true
+        },
+        {
+          "name": "Bojangles",
+          "types": [
+            "food"
+          ],
+          "rating": 3.7,
+          "review_count": 967,
+          "address": "4836 Hwy 129 N, Jefferson, GA 30549, USA",
+          "phone": "(706) 367-4300",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_71538531",
+      "exit_number": "121",
+      "exit_name": "Exit 121",
+      "state": "GA",
+      "lat": 33.54995,
+      "lng": -83.352215,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Exxon",
+          "types": [
+            "gas"
+          ],
+          "rating": 4.8,
+          "review_count": 4,
+          "address": "1740 Seven Islands Rd, Buckhead, GA 30625, USA",
+          "phone": "(706) 343-1951"
+        },
+        {
+          "name": "Seven Islands Mart",
+          "types": [
+            "convenience"
+          ],
+          "rating": null,
+          "review_count": null,
+          "address": "1740 Seven Islands Rd, Buckhead, GA 30625, USA",
+          "phone": "(706) 343-2022",
+          "open_now": true
+        },
+        {
+          "name": "Exxon",
+          "types": [
+            "gas"
+          ],
+          "rating": 1,
+          "review_count": 1,
+          "address": "1740 Seven Islands Rd, Buckhead, GA 30625, USA",
+          "phone": "(706) 343-2022",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_70826401",
+      "exit_number": "39",
+      "exit_name": "Exit 39",
+      "state": "GA",
+      "lat": 32.536024,
+      "lng": -83.134875,
+      "stop_type": "exit_ramp",
+      "places": []
+    },
+    {
+      "exit_id": "osm_n_444985318",
+      "exit_number": "451",
+      "exit_name": "Exit 451",
+      "state": "FL",
+      "lat": 30.449143,
+      "lng": -82.933499,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Love's Travel Stop",
+          "types": [
+            "gas",
+            "food",
+            "convenience"
+          ],
+          "rating": 4.1,
+          "review_count": 1486,
+          "address": "11459 SW 61st Ave, Jasper, FL 32052, USA",
+          "phone": "(386) 792-3095",
+          "open_now": true
+        },
+        {
+          "name": "Wendy's",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 1358,
+          "address": "6723 US-129, Jasper, FL 32052, USA",
+          "phone": "(386) 792-1080",
+          "open_now": true
+        },
+        {
+          "name": "Arby's",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 2575,
+          "address": "11459 SW 61st Wy, Jasper, FL 32052, USA",
+          "phone": "(386) 792-3095",
+          "open_now": true
+        },
+        {
+          "name": "Shell",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.8,
+          "review_count": 32,
+          "address": "6723 US-129, Jasper, FL 32052, USA",
+          "phone": "(386) 792-1898",
+          "open_now": true
+        },
+        {
+          "name": "Mobil",
+          "types": [
+            "gas"
+          ],
+          "rating": 4,
+          "review_count": 240,
+          "address": "6580 US-129, Jasper, FL 32052, USA",
+          "phone": "(386) 792-2182",
+          "open_now": true
+        },
+        {
+          "name": "ONE9 Dealer",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 2.8,
+          "review_count": 5,
+          "address": "6723 US-129, Jasper, FL 32052, USA",
+          "phone": "(386) 792-1898",
+          "open_now": true
+        },
+        {
+          "name": "Dairy Queen Grill & Chill",
+          "types": [
+            "food"
+          ],
+          "rating": 3.3,
+          "review_count": 344,
+          "address": "6580 US Highway 129 S I-75 & US 129 (Exit 85, Jasper, FL 32052, USA",
+          "phone": "(386) 792-2679",
+          "open_now": true
+        },
+        {
+          "name": "One9",
+          "types": [
+            "gas"
+          ],
+          "rating": 2.8,
+          "review_count": 4,
+          "address": "6723 US-129, Jasper, FL 32052, USA",
+          "phone": "(386) 792-1898"
+        },
+        {
+          "name": "SunStop Store #349",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.5,
+          "review_count": 20,
+          "address": "6723 US-129, Jasper, FL 32052, USA",
+          "phone": "(386) 792-1898",
+          "open_now": true
+        },
+        {
+          "name": "Subway",
+          "types": [
+            "food"
+          ],
+          "rating": 3.2,
+          "review_count": 103,
+          "address": "I-75 &, US-129, Jasper, FL 32052, USA",
+          "phone": "(386) 792-2679",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_84815843",
+      "exit_number": "399",
+      "exit_name": "Exit 399",
+      "state": "FL",
+      "lat": 29.802035,
+      "lng": -82.513771,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Mi Apa Latin Cafe Alachua",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 4304,
+          "address": "14829 NW 157th Pl, Alachua, FL 32616, USA",
+          "phone": "(386) 418-0838",
+          "open_now": true
+        },
+        {
+          "name": "Wawa",
+          "types": [
+            "gas",
+            "food",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 3.7,
+          "review_count": 75,
+          "address": "16304 NW US Hwy 441, Alachua, FL 32615, USA",
+          "phone": "(386) 289-2409",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.8,
+          "review_count": 4187,
+          "address": "16018 NW US Hwy 441, Alachua, FL 32615, USA",
+          "phone": "(386) 462-1187",
+          "open_now": true
+        },
+        {
+          "name": "Zaxbys Chicken Fingers & Buffalo Wings",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 1381,
+          "address": "16088 NW US Hwy 441, Alachua, FL 32615, USA",
+          "phone": "(386) 462-2222",
+          "open_now": true
+        },
+        {
+          "name": "Sonny's BBQ",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 3928,
+          "address": "15935 NW US Hwy 441, Alachua, FL 32615, USA",
+          "phone": "(386) 462-3180",
+          "open_now": true
+        },
+        {
+          "name": "New York Pizza Plus",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 1383,
+          "address": "15202 NW 147th Dr #100, Alachua, FL 32615, USA",
+          "phone": "(386) 418-3857",
+          "open_now": true
+        },
+        {
+          "name": "Ellianos Coffee",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.7,
+          "review_count": 1138,
+          "address": "16286 NW US Hwy 441, Alachua, FL 32615, USA",
+          "phone": "(386) 462-0122",
+          "open_now": true
+        },
+        {
+          "name": "Dunkin'",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.7,
+          "review_count": 637,
+          "address": "16091 NW US Hwy 441, Alachua, FL 32615, USA",
+          "phone": "(386) 588-3232",
+          "open_now": true
+        },
+        {
+          "name": "Waffle House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 1384,
+          "address": "15979 NW US Hwy 441, Alachua, FL 32615, USA",
+          "phone": "(386) 462-2201",
+          "open_now": true
+        },
+        {
+          "name": "Cilantro Tacos (Alachua)",
+          "types": [
+            "food"
+          ],
+          "rating": 4.8,
+          "review_count": 775,
+          "address": "15551 NW US Hwy 441 Unit 50, Alachua, FL 32615, USA",
+          "phone": "(352) 660-3262",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_9546558174",
+      "exit_number": "68",
+      "exit_name": "Exit 68",
+      "state": "FL",
+      "lat": 28.860513,
+      "lng": -82.513203,
+      "stop_type": "exit_ramp",
+      "places": []
+    },
+    {
+      "exit_id": "osm_n_9964948644",
+      "exit_number": "256",
+      "exit_name": "Exit 256",
+      "state": "FL",
+      "lat": 27.946431,
+      "lng": -82.328903,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Dave & Buster's Tampa - Brandon",
+          "types": [
+            "food"
+          ],
+          "rating": 4.2,
+          "review_count": 11828,
+          "address": "10209 Estuary Lakes Dr, Tampa, FL 33619, USA",
+          "phone": "(813) 603-9700",
+          "open_now": true
+        },
+        {
+          "name": "Olive Garden Italian Restaurant",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 6606,
+          "address": "2602 W Brandon Blvd, Brandon, FL 33511, USA",
+          "phone": "(813) 685-5900",
+          "open_now": true
+        },
+        {
+          "name": "Sushi Yama",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 2468,
+          "address": "10017 E Adamo Dr, Tampa, FL 33619, USA",
+          "phone": "(813) 665-9888",
+          "open_now": true
+        },
+        {
+          "name": "Twin Peaks",
+          "types": [
+            "food"
+          ],
+          "rating": 4.8,
+          "review_count": 4855,
+          "address": "136 Brandon Town Center Dr, Brandon, FL 33511, USA",
+          "phone": "(813) 776-6005",
+          "open_now": true
+        },
+        {
+          "name": "Kob\u00e9 Japanese Steakhouse - Brandon",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 11188,
+          "address": "2210 W Brandon Blvd, Brandon, FL 33511, USA",
+          "phone": "(813) 653-2171",
+          "open_now": true
+        },
+        {
+          "name": "Hooters",
+          "types": [
+            "food"
+          ],
+          "rating": 4.1,
+          "review_count": 4310,
+          "address": "10023 E Adamo Dr, Tampa, FL 33619, USA",
+          "phone": "(813) 689-1188",
+          "open_now": true
+        },
+        {
+          "name": "CAVA",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 769,
+          "address": "2338 W Brandon Blvd, Brandon, FL 33511, USA",
+          "phone": "(656) 999-5001",
+          "open_now": true
+        },
+        {
+          "name": "Outback Steakhouse",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 5299,
+          "address": "2020 W Brandon Blvd Suite 190, Brandon, FL 33511, USA",
+          "phone": "(813) 684-6283",
+          "open_now": true
+        },
+        {
+          "name": "Starbucks Coffee Company",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.9,
+          "review_count": 1509,
+          "address": "Regency Square Shopping Center, 2350 W Brandon Blvd, Brandon, FL 33511, USA",
+          "phone": "(813) 681-9746",
+          "open_now": true
+        },
+        {
+          "name": "Chipotle Mexican Grill",
+          "types": [
+            "food"
+          ],
+          "rating": 3.7,
+          "review_count": 2481,
+          "address": "103 Brandon Town Center Dr, Brandon, FL 33511, USA",
+          "phone": "(813) 330-3001",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_96116680",
+      "exit_number": "170",
+      "exit_name": "Exit 170",
+      "state": "FL",
+      "lat": 27.024614,
+      "lng": -82.051251,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Cracker Barrel Old Country Store",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 5681,
+          "address": "800 Kings Hwy, Port Charlotte, FL 33980, USA",
+          "phone": "(941) 624-4994",
+          "open_now": true
+        },
+        {
+          "name": "Starbucks Coffee Company",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.1,
+          "review_count": 1136,
+          "address": "925 Kings Hwy, Port Charlotte, FL 33980, USA",
+          "phone": "(941) 743-3834",
+          "open_now": true
+        },
+        {
+          "name": "RaceTrac",
+          "types": [
+            "gas",
+            "food",
+            "coffee",
+            "convenience"
+          ],
+          "rating": 4.1,
+          "review_count": 235,
+          "address": "24401 Sandhill Blvd, Port Charlotte, FL 33983, USA",
+          "phone": "(404) 829-6168",
+          "open_now": true
+        },
+        {
+          "name": "Applebee's Grill + Bar",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 2352,
+          "address": "24467 Sandhill Blvd, Port Charlotte, FL 33983, USA",
+          "phone": "(941) 235-9184",
+          "open_now": true
+        },
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.5,
+          "review_count": 2154,
+          "address": "24133 Peachland Blvd, Port Charlotte, FL 33952, USA",
+          "phone": "(941) 764-0300",
+          "open_now": true
+        },
+        {
+          "name": "Fin Sushi & Grill",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 1755,
+          "address": "24123 Peachland Blvd c3, Port Charlotte, FL 33980, USA",
+          "phone": "(941) 666-6686",
+          "open_now": true
+        },
+        {
+          "name": "Shell Kings Hwy, Port Charlotte FL",
+          "types": [
+            "convenience"
+          ],
+          "rating": 3,
+          "review_count": 17,
+          "address": "900 Kings Hwy, Port Charlotte, FL 33980, USA",
+          "phone": "(941) 391-5843",
+          "open_now": true
+        },
+        {
+          "name": "Culver\u2019s",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 2578,
+          "address": "385 Kings Hwy, Port Charlotte, FL 33983, USA",
+          "phone": "(941) 627-2600",
+          "open_now": true
+        },
+        {
+          "name": "Beef 'O' Brady's",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 865,
+          "address": "24901 Sandhill Blvd UNIT 14, Punta Gorda, FL 33983, USA",
+          "phone": "(941) 732-9464",
+          "open_now": true
+        },
+        {
+          "name": "Taco Bell",
+          "types": [
+            "food"
+          ],
+          "rating": 3.7,
+          "review_count": 1702,
+          "address": "1001 Kings Hwy, Port Charlotte, FL 33980, USA",
+          "phone": "(941) 625-4479",
+          "open_now": true
+        }
+      ]
+    }
+  ]
 }

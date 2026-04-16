@@ -4,7 +4,265 @@
   "destination": "New Orleans, LA",
   "highway": "I-20, I-59",
   "miles": 470,
-  "exit_count": 0,
+  "exit_count": 3,
   "has_tolls": null,
-  "exits": []
+  "exits": [
+    {
+      "exit_id": "osm_n_52866157",
+      "exit_number": "199",
+      "exit_name": "Exit 199",
+      "state": "AL",
+      "lat": 33.621999,
+      "lng": -85.598871,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "McDonald's",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 3.7,
+          "review_count": 1567,
+          "address": "1816 Almon St, Heflin, AL 36264, USA",
+          "phone": "(256) 463-8888",
+          "open_now": true
+        },
+        {
+          "name": "DamnYankees",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 1077,
+          "address": "2190 Almon St, Heflin, AL 36264, USA",
+          "phone": "(256) 463-5050",
+          "open_now": false
+        },
+        {
+          "name": "Vallarta Mexican Restaurant & Taco",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 839,
+          "address": "1921 Almon St, Heflin, AL 36264, USA",
+          "phone": "(256) 463-7868",
+          "open_now": true
+        },
+        {
+          "name": "Marie's BBQ House",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 699,
+          "address": "1414 Almon St, Heflin, AL 36264, USA",
+          "phone": "(256) 463-3636",
+          "open_now": true
+        },
+        {
+          "name": "Chevron",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 4.3,
+          "review_count": 41,
+          "address": "2216 Almon St, Heflin, AL 36264, USA",
+          "phone": "(256) 463-1833",
+          "open_now": true
+        },
+        {
+          "name": "Shell",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.8,
+          "review_count": 68,
+          "address": "1945 Almon St, Heflin, AL 36264, USA",
+          "phone": "(256) 463-2500",
+          "open_now": true
+        },
+        {
+          "name": "Rhythm Cafe Heflin",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.9,
+          "review_count": 130,
+          "address": "1221 Almon St, Heflin, AL 36264, USA",
+          "phone": "(256) 357-6774",
+          "open_now": true
+        },
+        {
+          "name": "Subway",
+          "types": [
+            "food"
+          ],
+          "rating": 3.9,
+          "review_count": 189,
+          "address": "1945 Almon St, Heflin, AL 36264, USA",
+          "phone": "(256) 294-3338",
+          "open_now": true
+        },
+        {
+          "name": "Dollar General",
+          "types": [
+            "convenience"
+          ],
+          "rating": 2,
+          "review_count": 5,
+          "address": "1663 Almon St, Heflin, AL 36264, USA",
+          "phone": "(938) 526-0080",
+          "open_now": true
+        },
+        {
+          "name": "Supermart",
+          "types": [
+            "gas",
+            "convenience"
+          ],
+          "rating": 3.6,
+          "review_count": 9,
+          "address": "2252 Almon St, Heflin, AL 36264, USA",
+          "phone": "(256) 463-5605",
+          "open_now": true
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_968204567",
+      "exit_number": "126A",
+      "exit_name": "Exit 126A",
+      "state": "AL",
+      "lat": 33.523917,
+      "lng": -86.808523,
+      "stop_type": "exit_ramp",
+      "places": [
+        {
+          "name": "Topgolf Birmingham",
+          "types": [
+            "food"
+          ],
+          "rating": 4,
+          "review_count": 1667,
+          "address": "1111 24th St N, Birmingham, AL 35234, USA",
+          "phone": "(205) 847-5757",
+          "open_now": true
+        },
+        {
+          "name": "The Southern Kitchen And Bar",
+          "types": [
+            "food"
+          ],
+          "rating": 4.3,
+          "review_count": 3021,
+          "address": "2301 Richard Arrington Jr Blvd N #300, Birmingham, AL 35203, USA",
+          "phone": "(205) 278-7280",
+          "open_now": true
+        },
+        {
+          "name": "K & J's Elegant Pastries",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 747,
+          "address": "2260 9th Ave N, Birmingham, AL 35203, USA",
+          "phone": "(205) 306-2407",
+          "open_now": true
+        },
+        {
+          "name": "El Barrio - Downtown Birmingham",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 2134,
+          "address": "2211 2nd Ave N, Birmingham, AL 35203, USA",
+          "phone": "(205) 868-3737",
+          "open_now": true
+        },
+        {
+          "name": "The Essential",
+          "types": [
+            "food"
+          ],
+          "rating": 4.6,
+          "review_count": 865,
+          "address": "2215 1st Ave N, Birmingham, AL 35203, USA",
+          "phone": "(205) 718-7612",
+          "open_now": true
+        },
+        {
+          "name": "Frothy Monkey",
+          "types": [
+            "food",
+            "coffee"
+          ],
+          "rating": 4.3,
+          "review_count": 624,
+          "address": "2320 2nd Ave N, Birmingham, AL 35203, USA",
+          "phone": "(205) 974-3600",
+          "open_now": true
+        },
+        {
+          "name": "Paramount - Downtown Birmingham",
+          "types": [
+            "food"
+          ],
+          "rating": 4.5,
+          "review_count": 2195,
+          "address": "200 20th St N, Birmingham, AL 35203, USA",
+          "phone": "(205) 320-2824",
+          "open_now": true
+        },
+        {
+          "name": "Texas de Brazil - Birmingham",
+          "types": [
+            "food"
+          ],
+          "rating": 4.4,
+          "review_count": 3355,
+          "address": "2301 Richard Arrington Jr Blvd N, Birmingham, AL 35203, USA",
+          "phone": "(205) 588-1547",
+          "open_now": false
+        },
+        {
+          "name": "June Coffee",
+          "types": [
+            "coffee"
+          ],
+          "rating": 4.8,
+          "review_count": 388,
+          "address": "213 25th St N Suite C, Birmingham, AL 35203, USA",
+          "open_now": true
+        },
+        {
+          "name": "Yo' Mama's",
+          "types": [
+            "food"
+          ],
+          "rating": 4.7,
+          "review_count": 1800,
+          "address": "2024 4th Ave N, Birmingham, AL 35203, USA",
+          "phone": "(205) 957-6545",
+          "open_now": false
+        }
+      ]
+    },
+    {
+      "exit_id": "osm_n_126077242",
+      "exit_number": "19",
+      "exit_name": "Exit 19",
+      "state": "MS",
+      "lat": 30.715561,
+      "lng": -89.555425,
+      "stop_type": "exit_ramp",
+      "places": []
+    }
+  ]
 }
