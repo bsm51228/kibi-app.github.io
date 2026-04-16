@@ -1,0 +1,10 @@
+{
+  "route_slug": "atlanta-to-memphis",
+  "origin": "Atlanta, GA",
+  "destination": "Memphis, TN",
+  "highway": "I-22",
+  "miles": 390,
+  "exit_count": 0,
+  "has_tolls": null,
+  "exits": []
+}

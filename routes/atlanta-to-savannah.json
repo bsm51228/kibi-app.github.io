@@ -1,0 +1,10 @@
+{
+  "route_slug": "atlanta-to-savannah",
+  "origin": "Atlanta, GA",
+  "destination": "Savannah, GA",
+  "highway": "I-75, I-16",
+  "miles": 250,
+  "exit_count": 0,
+  "has_tolls": null,
+  "exits": []
+}

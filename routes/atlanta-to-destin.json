@@ -1,0 +1,10 @@
+{
+  "route_slug": "atlanta-to-destin",
+  "origin": "Atlanta, GA",
+  "destination": "Destin, FL",
+  "highway": "I-85, US-331",
+  "miles": 375,
+  "exit_count": 0,
+  "has_tolls": null,
+  "exits": []
+}

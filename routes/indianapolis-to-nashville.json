@@ -1,0 +1,10 @@
+{
+  "route_slug": "indianapolis-to-nashville",
+  "origin": "Indianapolis, IN",
+  "destination": "Nashville, TN",
+  "highway": "I-65",
+  "miles": 290,
+  "exit_count": 0,
+  "has_tolls": null,
+  "exits": []
+}

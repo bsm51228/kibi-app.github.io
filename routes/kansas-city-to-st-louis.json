@@ -1,0 +1,10 @@
+{
+  "route_slug": "kansas-city-to-st-louis",
+  "origin": "Kansas City, MO",
+  "destination": "St. Louis, MO",
+  "highway": "I-70",
+  "miles": 250,
+  "exit_count": 0,
+  "has_tolls": null,
+  "exits": []
+}

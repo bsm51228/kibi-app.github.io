@@ -1,0 +1,10 @@
+{
+  "route_slug": "athens-to-jacksonville",
+  "origin": "Athens, GA",
+  "destination": "Jacksonville, FL",
+  "highway": "I-75, I-10",
+  "miles": 325,
+  "exit_count": 0,
+  "has_tolls": null,
+  "exits": []
+}

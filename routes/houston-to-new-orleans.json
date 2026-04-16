@@ -1,0 +1,10 @@
+{
+  "route_slug": "houston-to-new-orleans",
+  "origin": "Houston, TX",
+  "destination": "New Orleans, LA",
+  "highway": "I-10",
+  "miles": 350,
+  "exit_count": 0,
+  "has_tolls": null,
+  "exits": []
+}

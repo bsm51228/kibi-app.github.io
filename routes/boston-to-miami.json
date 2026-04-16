@@ -1,0 +1,10 @@
+{
+  "route_slug": "boston-to-miami",
+  "origin": "Boston, MA",
+  "destination": "Miami, FL",
+  "highway": "I-95",
+  "miles": 1500,
+  "exit_count": 0,
+  "has_tolls": null,
+  "exits": []
+}

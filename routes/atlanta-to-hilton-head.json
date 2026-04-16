@@ -1,0 +1,10 @@
+{
+  "route_slug": "atlanta-to-hilton-head",
+  "origin": "Atlanta, GA",
+  "destination": "Hilton Head, SC",
+  "highway": "I-20, I-95",
+  "miles": 290,
+  "exit_count": 0,
+  "has_tolls": null,
+  "exits": []
+}

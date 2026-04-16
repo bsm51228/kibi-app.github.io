@@ -1,0 +1,10 @@
+{
+  "route_slug": "chicago-to-destin",
+  "origin": "Chicago, IL",
+  "destination": "Destin, FL",
+  "highway": "I-65",
+  "miles": 960,
+  "exit_count": 0,
+  "has_tolls": null,
+  "exits": []
+}

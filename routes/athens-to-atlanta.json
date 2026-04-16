@@ -1,0 +1,10 @@
+{
+  "route_slug": "athens-to-atlanta",
+  "origin": "Athens, GA",
+  "destination": "Atlanta, GA",
+  "highway": "GA-316, I-85",
+  "miles": 72,
+  "exit_count": 0,
+  "has_tolls": null,
+  "exits": []
+}

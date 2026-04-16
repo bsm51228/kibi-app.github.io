@@ -1,0 +1,10 @@
+{
+  "route_slug": "atlanta-to-charlotte",
+  "origin": "Atlanta, GA",
+  "destination": "Charlotte, NC",
+  "highway": "I-85",
+  "miles": 245,
+  "exit_count": 0,
+  "has_tolls": null,
+  "exits": []
+}

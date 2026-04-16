@@ -1,0 +1,10 @@
+{
+  "route_slug": "nashville-to-new-orleans",
+  "origin": "Nashville, TN",
+  "destination": "New Orleans, LA",
+  "highway": "I-65, I-59",
+  "miles": 530,
+  "exit_count": 0,
+  "has_tolls": null,
+  "exits": []
+}

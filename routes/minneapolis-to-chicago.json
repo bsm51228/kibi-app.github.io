@@ -1,0 +1,10 @@
+{
+  "route_slug": "minneapolis-to-chicago",
+  "origin": "Minneapolis, MN",
+  "destination": "Chicago, IL",
+  "highway": "I-94",
+  "miles": 410,
+  "exit_count": 0,
+  "has_tolls": null,
+  "exits": []
+}

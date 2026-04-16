@@ -1,0 +1,10 @@
+{
+  "route_slug": "seattle-to-portland",
+  "origin": "Seattle, WA",
+  "destination": "Portland, OR",
+  "highway": "I-5",
+  "miles": 175,
+  "exit_count": 0,
+  "has_tolls": null,
+  "exits": []
+}

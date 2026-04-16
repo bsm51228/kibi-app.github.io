@@ -14,3 +14,4 @@
 # Internal planning docs
 *.md
 README.md
+!docs/KNOWN_ISSUES.md

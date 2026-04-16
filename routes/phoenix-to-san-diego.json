@@ -1,0 +1,10 @@
+{
+  "route_slug": "phoenix-to-san-diego",
+  "origin": "Phoenix, AZ",
+  "destination": "San Diego, CA",
+  "highway": "I-8",
+  "miles": 355,
+  "exit_count": 0,
+  "has_tolls": null,
+  "exits": []
+}

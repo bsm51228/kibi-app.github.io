@@ -1,0 +1,10 @@
+{
+  "route_slug": "atlanta-to-new-orleans",
+  "origin": "Atlanta, GA",
+  "destination": "New Orleans, LA",
+  "highway": "I-20, I-59",
+  "miles": 470,
+  "exit_count": 0,
+  "has_tolls": null,
+  "exits": []
+}

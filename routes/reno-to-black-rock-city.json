@@ -1,0 +1,10 @@
+{
+  "route_slug": "reno-to-black-rock-city",
+  "origin": "Reno, NV",
+  "destination": "Black Rock City, NV",
+  "highway": "I-80, NV-447",
+  "miles": 120,
+  "exit_count": 0,
+  "has_tolls": null,
+  "exits": []
+}

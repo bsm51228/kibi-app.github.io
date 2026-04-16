@@ -1,0 +1,10 @@
+{
+  "route_slug": "detroit-to-naples",
+  "origin": "Detroit, MI",
+  "destination": "Naples, FL",
+  "highway": "I-75",
+  "miles": 1400,
+  "exit_count": 0,
+  "has_tolls": null,
+  "exits": []
+}

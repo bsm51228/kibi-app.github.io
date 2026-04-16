@@ -301,9 +301,20 @@ function buildRoutePages() {
       .replace(/\{\{UPDATED_DATE\}\}/g, updatedDate)
       .replace(/\{\{EXIT_ROWS\}\}/g, exitRows);
 
+    // Routes with no scored exits get noindex (follow stays — let
+    // PageRank flow through internal links). Sitemap also excludes
+    // these — see updateSitemap().
+    if (data.exit_count === 0) {
+      html = html.replace(
+        /<meta name="robots" content="index, follow" \/>/,
+        '<meta name="robots" content="noindex, follow" />'
+      );
+    }
+
     const outPath = path.join(ROUTES_DIR, `${data.route_slug}.html`);
     fs.writeFileSync(outPath, html);
-    console.log(`  ✓ ${data.route_slug}.html (${data.exit_count} exits, ~${data.miles} mi)`);
+    const noindexFlag = data.exit_count === 0 ? ' [noindex]' : '';
+    console.log(`  ✓ ${data.route_slug}.html (${data.exit_count} exits, ~${data.miles} mi)${noindexFlag}`);
   }
 
   return allRoutes;
@@ -312,7 +323,12 @@ function buildRoutePages() {
 // ── Build routes/index.html ─────────────────────────────────────────────────
 
 function buildIndexPage(routes) {
-  const sorted = [...routes].sort((a, b) =>
+  // Same empty-exit filter as updateSitemap(): hide cards for routes
+  // with no scored exits. Detail pages still exist (noindex, follow)
+  // so external/related-routes links keep working. Cards auto-appear
+  // when exits get populated.
+  const indexable = routes.filter(r => r.exit_count > 0);
+  const sorted = [...indexable].sort((a, b) =>
     `${a.origin} ${a.destination}`.localeCompare(`${b.origin} ${b.destination}`)
   );
 
@@ -348,7 +364,9 @@ function buildIndexPage(routes) {
   );
 
   fs.writeFileSync(path.join(ROUTES_DIR, 'index.html'), indexHtml);
-  console.log(`  ✓ index.html (${sorted.length} route cards)`);
+  const skipped = routes.length - indexable.length;
+  const skipNote = skipped > 0 ? ` (${skipped} empty-exit routes excluded)` : '';
+  console.log(`  ✓ index.html (${sorted.length} route cards)${skipNote}`);
 }
 
 // ── Update sitemap.xml ──────────────────────────────────────────────────────
@@ -371,7 +389,10 @@ function updateSitemap(routes) {
   </url>`
   ];
 
-  const sorted = [...routes].sort((a, b) => a.route_slug.localeCompare(b.route_slug));
+  // Skip routes with no scored exits — they're noindex'd, so excluding
+  // them stops Google from being told to crawl them.
+  const indexable = routes.filter(r => r.exit_count > 0);
+  const sorted = [...indexable].sort((a, b) => a.route_slug.localeCompare(b.route_slug));
   for (const r of sorted) {
     routeEntries.push(`  <url>
     <loc>https://drivekibi.com/routes/${r.route_slug}</loc>
@@ -387,7 +408,9 @@ function updateSitemap(routes) {
   );
 
   fs.writeFileSync(SITEMAP_PATH, sitemap);
-  console.log(`  ✓ sitemap.xml (${routes.length + 1} route URLs)`);
+  const skipped = routes.length - indexable.length;
+  const skipNote = skipped > 0 ? ` (${skipped} empty-exit routes excluded)` : '';
+  console.log(`  ✓ sitemap.xml (${indexable.length + 1} route URLs)${skipNote}`);
 }
 
 // ── Main ────────────────────────────────────────────────────────────────────

@@ -1,0 +1,10 @@
+{
+  "route_slug": "pittsburgh-to-washington-dc",
+  "origin": "Pittsburgh, PA",
+  "destination": "Washington, DC",
+  "highway": "I-70, I-270",
+  "miles": 245,
+  "exit_count": 0,
+  "has_tolls": null,
+  "exits": []
+}
