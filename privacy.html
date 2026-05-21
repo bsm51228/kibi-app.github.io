@@ -20,9 +20,21 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500&family=Lora:wght@600;700&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --green:          #2EBD7A;
+      --bg:             #060F0B;
+      --surface:        #0A1A12;
+      --surface-mid:    #0D1F17;
+      --border-subtle:  rgba(46,189,122,0.08);
+      --border-active:  rgba(46,189,122,0.25);
+      --text-primary:   #E8F0EC;
+      --text-secondary: #C8DDD4;
+      --text-muted:     rgba(255,255,255,0.45);
+    }
 
     body {
       background: #0B0E0C;
@@ -33,18 +45,46 @@
       min-height: 100vh;
     }
 
-    header {
-      padding: 2rem 2rem 1.5rem;
-      border-bottom: 1px solid rgba(46, 189, 122, 0.15);
+    /* NAV */
+    nav#main-nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(6,15,11,0.95);
+      -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border-subtle);
+      height: 64px; padding: 0 56px;
+      display: flex; align-items: center; justify-content: space-between;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      line-height: normal;
     }
-
-    header a {
-      font-family: 'Fraunces', serif;
-      font-size: 1.4rem;
-      color: #2EBD7A;
-      text-decoration: none;
-      letter-spacing: -0.01em;
+    .nav-logo { display: inline-flex; align-items: center; text-decoration: none; }
+    .nav-right { display: flex; align-items: center; gap: 8px; }
+    .nav-how { font-size: 14px; color: var(--text-muted); text-decoration: none; margin-right: 20px; transition: color 0.2s; }
+    .nav-how:hover { color: var(--text-primary); }
+    .nav-cta {
+      background: var(--green); color: #060F0B; font-weight: 700; font-size: 14px;
+      padding: 10px 22px; border-radius: 99px; text-decoration: none; display: inline-block;
+      transition: transform 0.2s, box-shadow 0.2s;
     }
+    .nav-cta:hover { transform: translateY(-1px); box-shadow: 0 8px 24px rgba(46,189,122,0.35); }
+    .hamburger {
+      display: none; flex-direction: column; justify-content: center; gap: 5px;
+      width: 44px; height: 44px; background: none; border: none; cursor: pointer; padding: 8px;
+    }
+    .hamburger span { display: block; width: 22px; height: 2px; background: var(--text-primary); border-radius: 2px; transition: transform 0.3s, opacity 0.3s; transform-origin: center; }
+    .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger.open span:nth-child(2) { opacity: 0; }
+    .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    .nav-drawer {
+      display: none; position: fixed; inset: 0; z-index: 99;
+      background: rgba(6,15,11,0.97); -webkit-backdrop-filter: blur(20px); backdrop-filter: blur(20px);
+      flex-direction: column; align-items: center; justify-content: center; gap: 20px;
+      opacity: 0; pointer-events: none; transition: opacity 0.25s;
+      line-height: normal;
+    }
+    .nav-drawer.open { opacity: 1; pointer-events: all; }
+    .nav-drawer a { font-family: 'Lora', serif; font-size: 24px; font-weight: 700; color: var(--text-primary); text-decoration: none; text-align: center; transition: color 0.2s; }
+    .nav-drawer a:hover { color: var(--green); }
+    .nav-drawer .nav-cta-drawer { background: var(--green); color: #060F0B; padding: 14px 36px; border-radius: 14px; font-size: 18px; }
 
     main {
       max-width: 680px;
@@ -76,34 +116,74 @@
       margin-bottom: 0.6rem;
     }
 
-    p {
+    main p {
       color: rgba(240, 244, 241, 0.8);
       margin-bottom: 1rem;
     }
 
-    a {
+    main a {
       color: #2EBD7A;
       text-decoration: none;
     }
 
-    a:hover {
+    main a:hover {
       text-decoration: underline;
     }
 
+    /* FOOTER */
     footer {
-      text-align: center;
-      padding: 2rem;
-      color: rgba(240, 244, 241, 0.3);
-      font-size: 0.8rem;
-      border-top: 1px solid rgba(46, 189, 122, 0.1);
+      background: #060F0B; border-top: 1px solid rgba(46,189,122,0.08);
+      padding: 48px 80px; display: flex; justify-content: space-between;
+      align-items: center; flex-wrap: wrap; gap: 16px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      line-height: normal;
+    }
+    .footer-left { display: flex; flex-direction: column; gap: 0; }
+    .footer-brand { display: flex; align-items: center; gap: 8px; }
+    .footer-tagline { font-size: 13px; color: rgba(255,255,255,0.2); display: block; margin-top: 5px; }
+    .footer-privacy { font-size: 13px; color: rgba(255,255,255,0.2); margin-top: 4px; text-decoration: none; display: block; }
+    .footer-privacy:hover { color: rgba(255,255,255,0.5); }
+    .footer-links { display: flex; gap: 28px; flex-wrap: wrap; justify-content: center; }
+    .footer-links a { font-size: 13px; color: var(--text-muted); text-decoration: none; transition: color 0.2s; }
+    .footer-links a:hover { color: var(--text-secondary); }
+    .footer-copy { font-size: 12px; color: var(--text-muted); flex-shrink: 0; }
+
+    @media (max-width: 768px) {
+      nav#main-nav { padding: 0 24px; }
+      .nav-right .nav-how { display: none; }
+      .nav-right .nav-cta { display: none; }
+      .hamburger { display: flex; }
+      .nav-drawer { display: flex; }
+      footer { padding: 40px 24px; flex-direction: column; align-items: flex-start; }
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <a href="/">kibi</a>
-  </header>
+  <!-- NAV -->
+  <nav id="main-nav">
+    <a href="/" class="nav-logo">
+      <img src="Kibi_Logo_Horizontal_White.png" alt="Kibi" style="height:28px;display:block;" />
+    </a>
+    <div class="nav-right">
+      <a href="/#how-it-works" class="nav-how">How It Works</a>
+      <a href="/routes/" class="nav-how">Route Guide</a>
+      <a href="/about" class="nav-how">About</a>
+      <a href="/#waitlist" class="nav-cta">Get Beta Access</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div id="nav-drawer" class="nav-drawer" aria-hidden="true">
+    <a href="/#how-it-works">How It Works</a>
+    <a href="/routes/">Route Guide</a>
+    <a href="/kibi_exit_heatmap">Exit Map</a>
+    <a href="/faq">FAQ</a>
+    <a href="/compare">Compare</a>
+    <a href="/about">About</a>
+    <a href="/#waitlist" class="nav-cta-drawer">Get Beta Access &rarr;</a>
+  </div>
 
   <main>
     <h1>Privacy Policy</h1>
@@ -136,9 +216,56 @@
     <p><a href="mailto:support@drivekibi.com">support@drivekibi.com</a></p>
   </main>
 
+  <!-- FOOTER -->
   <footer>
-    &copy; 2026 kibi. All rights reserved.
+    <div class="footer-left">
+      <div class="footer-brand">
+        <img src="Kibi_Logo_Horizontal_White.png" alt="Kibi" style="height:28px;display:block;" />
+      </div>
+      <span class="footer-tagline">drivekibi.com</span>
+      <a href="https://www.instagram.com/drivekibi" target="_blank" rel="noopener noreferrer"
+         aria-label="Kibi on Instagram"
+         style="color:var(--text-muted);font-size:.76rem;text-decoration:none;">
+        Instagram
+      </a>
+      <a href="/privacy" class="footer-privacy">Privacy Policy</a>
+      <span style="font-size:13px;color:var(--text-muted);margin-top:6px;display:block;">Built by <a href="/about" style="color:var(--green);text-decoration:none;">Brett Moran</a> in Jacksonville, FL</span>
+    </div>
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="/#how-it-works">How It Works</a>
+      <a href="/routes/">Route Guides</a>
+      <a href="/kibi_exit_heatmap">Exit Map</a>
+      <a href="/faq">FAQ</a>
+      <a href="/compare">Compare</a>
+      <a href="/about">About</a>
+      <a href="/#waitlist">Get Beta Access</a>
+      <a href="/privacy">Privacy</a>
+    </nav>
+    <p class="footer-copy">&copy; 2026 Kibi. All rights reserved.</p>
   </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const drawer = document.getElementById('nav-drawer');
+    if (hamburger && drawer) {
+      hamburger.addEventListener('click', () => {
+        const isOpen = drawer.classList.toggle('open');
+        hamburger.classList.toggle('open', isOpen);
+        hamburger.setAttribute('aria-expanded', isOpen);
+        drawer.setAttribute('aria-hidden', !isOpen);
+        document.body.style.overflow = isOpen ? 'hidden' : '';
+      });
+      drawer.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          drawer.classList.remove('open');
+          hamburger.classList.remove('open');
+          hamburger.setAttribute('aria-expanded', 'false');
+          drawer.setAttribute('aria-hidden', 'true');
+          document.body.style.overflow = '';
+        });
+      });
+    }
+  </script>
 
 </body>
 </html>

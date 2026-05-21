@@ -301,13 +301,20 @@ function buildRoutePages() {
       .replace(/\{\{UPDATED_DATE\}\}/g, updatedDate)
       .replace(/\{\{EXIT_ROWS\}\}/g, exitRows);
 
-    // Routes with no scored exits get noindex (follow stays — let
-    // PageRank flow through internal links). Sitemap also excludes
-    // these — see updateSitemap().
+    // The template's own robots meta is noindex,nofollow so the raw
+    // _template.html file isn't crawlable. Every generated route page
+    // gets an explicit robots value here. Zero-exit routes get noindex
+    // (follow stays — let PageRank flow through internal links); the
+    // sitemap also excludes those — see updateSitemap().
     if (data.exit_count === 0) {
       html = html.replace(
-        /<meta name="robots" content="index, follow" \/>/,
+        /<meta name="robots" content="[^"]*" \/>/,
         '<meta name="robots" content="noindex, follow" />'
+      );
+    } else {
+      html = html.replace(
+        /<meta name="robots" content="[^"]*" \/>/,
+        '<meta name="robots" content="index, follow" />'
       );
     }
 
