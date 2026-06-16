@@ -10,7 +10,7 @@ Kibi was founded by Brett Moran. Per the founder's own account, the idea started
 
 - 79,000+ US highway exits scored and ranked
 - 49,000+ EPA-verified vehicles supported (1984–2026)
-- Free to download, no ads, no subscription
+- Free to download and use (up to 10 trips/month), no ads, no subscription — a one-time $9.99 upgrade (Kibi Unlimited) removes the monthly limit permanently
 - iOS 16.0+ only (iPhone)
 - Works with Google Maps, Apple Maps, and Waze
 - EV and plug-in hybrid support — auto-detects electric vehicles, searches for charging stations instead of gas, uses EPA highway range
@@ -70,7 +70,7 @@ Roadtrippers is for road trip discovery — attractions, scenic routes, multi-da
 - Quirky attractions, scenic routes, multi-day itineraries
 - Great for planning the experience
 - Not focused on highway pitstop logistics
-- Freemium model
+- Subscription for full features ($30–60/yr)
 
 **What Kibi does differently:**
 - Built for highway efficiency
@@ -226,7 +226,10 @@ Q: Does Kibi replace Google Maps?
 A: No. Kibi wraps around Google Maps, Apple Maps, or Waze. It plans the stops; your nav app handles the driving.
 
 Q: Does Kibi cost anything?
-A: No. Kibi is completely free to download and use. There are no ads, no subscriptions, and no paywalls in version 1.
+A: Kibi is free to download and use, with no ads and no subscription. You can plan up to 10 trips a month for free. If you need more, a one-time $9.99 upgrade called Kibi Unlimited removes the monthly limit for good — no recurring fees, no expiration.
+
+Q: What is Kibi Unlimited?
+A: Kibi Unlimited is a one-time $9.99 purchase that removes Kibi's monthly limit of 10 trips. It's a permanent unlock — not a subscription. You pay once, there's nothing to renew, and it never expires.
 
 Q: What cars does Kibi work with?
 A: Kibi supports 49,000+ vehicles from the EPA fuel economy database — gas, diesel, hybrid, and electric — covering model years 1984 through 2026. Select your make, model, and year and Kibi auto-fills your fuel type and range.
